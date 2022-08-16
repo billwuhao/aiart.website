@@ -4,27 +4,27 @@
     "description": "",
     "tags": null,
     "title": "First Content",
-    "uri": "/aiart.website/"
+    "uri": "/"
   },
   {
     "content": "etwtw3ttwb\n2222222222222222222222222 sghsgssssssssssssssssss zfsfsfs sfdsfs sfsdfsfg sdfsfs sfsfsaf ",
     "description": "",
     "tags": null,
     "title": "First Content",
-    "uri": "/aiart.website/about/"
+    "uri": "/about/"
   },
   {
     "content": "",
     "description": "",
     "tags": null,
     "title": "Categories",
-    "uri": "/aiart.website/categories/"
+    "uri": "/categories/"
   },
   {
     "content": "",
     "description": "",
     "tags": null,
     "title": "Tags",
-    "uri": "/aiart.website/tags/"
+    "uri": "/tags/"
   }
 ]
