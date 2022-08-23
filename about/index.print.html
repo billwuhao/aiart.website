@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -11,19 +11,19 @@
     <link href="/about/" rel="canonical" type="text/html" title="aiart.website">
     <link href="/about/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1660661034" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1660661034" rel="stylesheet"></noscript>
-    <link href="/css/featherlight.min.css?1660661034" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1660661034" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1660661034" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1660661034" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1660661034" rel="stylesheet">
-    <link href="/css/nucleus.css?1660661034" rel="stylesheet">
-    <link href="/css/fonts.css?1660661034" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1660661034" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1660661034" rel="stylesheet">
-    <link href="/css/theme-neon.css?1660661034" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1660661034" rel="stylesheet">
-    <link href="/css/variant.css?1660661034" rel="stylesheet">
-    <link href="/css/print.css?1660661034" rel="stylesheet" media="print">
-    <link href="/css/format-print.css?1660661034" rel="stylesheet">
-    <script src="/js/variant.js?1660661034"></script>
+    <link href="/css/fontawesome-all.min.css?1661239792" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1661239792" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1661239792" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1661239792" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1661239792" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1661239792" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1661239792" rel="stylesheet">
+    <link href="/css/nucleus.css?1661239792" rel="stylesheet">
+    <link href="/css/fonts.css?1661239792" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1661239792" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1661239792" rel="stylesheet">
+    <link href="/css/theme-neon.css?1661239792" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1661239792" rel="stylesheet">
+    <link href="/css/variant.css?1661239792" rel="stylesheet">
+    <link href="/css/print.css?1661239792" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1661239792" rel="stylesheet">
+    <script src="/js/variant.js?1661239792"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -31,15 +31,15 @@
       var root_url="/";
       var baseUri=root_url.replace(/\/$/, '');
       // translations
-      window.T_Copy_to_clipboard = 'Copy to clipboard';
-      window.T_Copied_to_clipboard = 'Copied to clipboard!';
-      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
-      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_Copy_to_clipboard = '复制到剪贴板';
+      window.T_Copied_to_clipboard = '复制到剪贴板！';
+      window.T_Copy_link_to_clipboard = '将链接复制到剪贴板';
+      window.T_Link_copied_to_clipboard = '链接复制到剪贴板！';
       // some further base stuff
       var baseUriFull='/';
       window.variants && variants.init( [ 'neon' ] );
     </script>
-    <script src="/js/jquery.min.js?1660661034" defer></script>
+    <script src="/js/jquery.min.js?1661239792" defer></script>
   </head>
   <body class="mobile-support print" data-url="/about/">
     <div id="body" class="default-animation">
@@ -48,13 +48,13 @@
       <nav id="topbar" class="highlightable">
         <div>
           <div id="top-print-link">
-            <a class="print-link" title='打印预览 (CTRL+ALT+p)' href="/about/index.print.html">
+            <a class="print-link" title='打印整章 (CTRL+ALT+p)' href="/about/index.print.html">
               <i class="fas fa-print fa-fw"></i>
             </a>
           </div>
           <div id="breadcrumbs">
             <span id="sidebar-toggle-span">
-              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+              <a href="#" id="sidebar-toggle" title='导航 (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
             </span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
               <meta itemprop="itemListOrder" content="Descending" />
@@ -80,26 +80,27 @@
         </div>
         <div class="searchbox default-animation">
           <label for="search-by"><i class="fas fa-search"></i></label>
-          <input data-search-input id="search-by" type="search" placeholder="Search...">
+          <input data-search-input id="search-by" type="search" placeholder="搜索...">
           <span data-search-clear=""><i class="fas fa-times"></i></span>
         </div>
         <script>
-          var contentLangs=['en'];
+          var contentLangs=['zh'];
         </script>
-        <script src="/js/auto-complete.js?1660661034" defer></script>
-        <script src="/js/lunr.min.js?1660661034" defer></script>
-        <script src="/js/lunr.stemmer.support.min.js?1660661034" defer></script>
-        <script src="/js/lunr.multi.min.js?1660661034" defer></script>
-        <script src="/js/lunr.en.min.js?1660661034" defer></script>
-        <script src="/js/search.js?1660661034" defer></script>
+        <script src="/js/auto-complete.js?1661239792" defer></script>
+        <script src="/js/lunr.min.js?1661239792" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1661239792" defer></script>
+        <script src="/js/lunr.multi.min.js?1661239792" defer></script>
+        <script src="/js/lunr.zh.min.js?1661239792" defer></script>
+        <script src="/js/search.js?1661239792" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
+          <li data-nav-id="/artists/" title="艺术家" class="dd-item"><a href="/artists/">艺术家</a></li>
+          <li data-nav-id="/prompts/" title="关键词探索" class="dd-item"><a href="/prompts/">关键词探索</a></li>
         </ul>
         <div id="shortcuts">
           <div class="nav-title"></div>
           <ul>
-            <li><a class="padding" href="/https:/billwuhao.com">@billwuhao.com</a></li>
             <li><a class="padding" href="/about">About</a></li>
           </ul>
         </div>
@@ -131,7 +132,7 @@
               </a>
               <script>window.variants && variants.markSelectedVariant();</script>
             </li>
-            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> 清理历史记录</a></li>
           </ul>
         </div>
         <div id="footer" class="footerFooter showFooter">
@@ -139,9 +140,9 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1660661034" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1660661034" defer></script>
-    <script src="/js/featherlight.min.js?1660661034" defer></script>
+    <script src="/js/clipboard.min.js?1661239792" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1661239792" defer></script>
+    <script src="/js/featherlight.min.js?1661239792" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -171,7 +172,7 @@
       useMathJax( JSON.parse("{}") );
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="/js/jquery.svg.pan.zoom.js?1660661034" defer></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1661239792" defer></script>
     <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
@@ -180,6 +181,6 @@
     <script>
       window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
     </script>
-    <script src="/js/theme.js?1660661034" defer></script>
+    <script src="/js/theme.js?1661239792" defer></script>
   </body>
 </html>

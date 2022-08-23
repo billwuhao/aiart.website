@@ -6,5 +6,33 @@
     <description>Recent content in 主页 on aiart.website</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 07 Aug 2022 16:07:59 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>艺术家</title>
+      <link>/artists/</link>
+      <pubDate>Sun, 07 Aug 2022 16:07:59 +0800</pubDate>
+      <guid>/artists/</guid>
+      <description>使用的绘画工具是在 LAION-5B 数据集上训练的 Stable Diffusion，它生成的画作能够比较清晰地呈现一个画家的风格。
+其实随便写个名字，AI 都会根据这个名字匹配一定的风格。
+如果一个艺术家的作品，数据集收集数量太少，艺术家风格呈现就不明显。
+本册子以直观的画面进行粗糙的分类，而不是风格。例如，抽象（看起来不像），形象（外形像，神似，幻想，概念，但非真实），真实（和真的一样，省略，例如，无抽象，形象的风景或人物都是真实），实物（非绘画，如雕刻，摆放），风景，人物，黑白等。并且一个艺术家，根据数据集收集情况，或艺术家主要作品，最多分 3 个类。
+分类并不一定意味着某个类的艺术家生成该类画面的画作更好，创新会有意想不到的惊喜。
+数据集未收集的艺术家都分为一类，期待艺术家和工程师们将其加入数据集，让人类艺术的瑰宝都写入 AI 基因传承下去。
+如果你特别喜欢某个艺术家，或者让 AI 能够生成自己作品的风格，数据集中又没有，可以尝试自己将数据加入，微调自己的扩散模型。
+下面所有生成的画作，提示词都是 “by 艺术家”，为什么要加一个 “by”，移步 关键词探索。
+全部艺术家 点击展开 a j casson(风景，形象) | aaron douglas(抽象，人物) | aaron horkey(异形，黑白) | aaron jasinski(人物，形象) | aaron siskind(抽象，摄影，黑白) | abbott fuller graves(风景，人物) | abbott handerson thayer(人物) | abdel hadi al gazzar(未收集) | abed abdi(未收集) | abigail larson(人物，形象) | abraham mintchine(未收集) | abraham pether(风景) | abraham rattner(未收集) | abram efimovich arkhipov(人物，风景) | adam baines(未收集) | adam elsheimer(风景) | adam hughes(人物，漫画) | adam martinakis(抽象，异形，人物) | adam paquette(未收集) | adi granov(未收集) | adolf hirémy-hirschl(未收集) | adolph gottlieb(抽象) | adolph menzel(风景，人物) | adonna khare(动物，异形，黑白) | adriaen van ostade(人物，建筑) | adriaen van utrecht(未收集) | adrian donoghue(未收集) | adrian ghenie(抽象) | adrian paul allinson(未收集) | adrian smith(异形) | adrian tomine(漫画) | adrianus eversen(建筑) | afarin sajedi(人物，形象) | affandi(人物，抽象) | agnes cecile(人物) | agnes lawrence pelton(人物，抽象，静物) | agnes martin(抽象) | agostino arrivabene(人物，异形) | agostino tassi(未收集) | agustín fernández(未收集) | ahmed morsi(未收集) | ai weiwei(抽象，实物) | ai yazawa(人物，漫画) | akihiko yoshida(游戏，漫画) | akira toriyama(漫画) | akos major(摄影) | akseli gallen-kallela(风景， 人物) | al capp(漫画) | al feldstein(漫画) | al williamson(漫画，黑白) | alain laboile(摄影，黑白) | alan davis(漫画) | alan kenny(未收集) | alan lee(风景，人物，形象) | alan moore(漫画) | alan parry(风景，静物，形象) | alan schaller(摄影，黑白) | alasdair mclellan(摄影，人物，黑白) | alayna lemmer(风景，建筑，形象) | albert benois(风景，建筑) | albert bierstadt(风景) | albert bloch(抽象，人物，风景) | albert dubois-pillet(未收集) | albert eckhout(人物，静物) | albert edelfelt(人物) | albert gleizes(抽象) | albert goodwin(风景) | albert joseph moore(人物)</description>
+    </item>
+    <item>
+      <title>关键词探索</title>
+      <link>/prompts/</link>
+      <pubDate>Sun, 07 Aug 2022 16:07:59 +0800</pubDate>
+      <guid>/prompts/</guid>
+      <description>探索字、词、句以及提示词语句组织的规则和语法，是一个长期的巨大的工程。它就像在与 AI 进行交流对话，你和 AI 聊得越多，你们之间越熟悉，AI 就 “愿意” 给你画更好的作品。
+与 AI 对话是一门艺术，或许在不久的将来，会是一项极重要的技能。这个技能能够让你直接通过人类的语言，掌握很多 AI 工具。例如已经实现的让 AI 给你写一部小说；画一幅画；甚至写个软件…… 与 AI 对话的熟练度、准确度以及艺术技巧，决定着生成的小说，绘画，软件的优劣。
+这不是权威，只是粗略的探索，欢迎指正，或一起探索。现在只是比较零散的发现。
+介词 by 数据集中可能会有大量艺术家本人的照片，在艺术家前面加 by，可以消除艺术家本人肖像的影响
+Salvador Dalí by Salvador Dalí 使用的工具也可以加上 by
+uav 无人机，如果前面加上 by，画面中出现无人机的可能性就很小 如果有明确的主题或风格，就注意用词 初次探索时，喜欢往提示词里加很多元素，但如果你有明确的主题或风格需求，就注意用词，精挑细选。例如我最初提示词里一直保留 painting，使得所有画作中都有颜料和涂料绘画的风格
+去掉 painting 后，就可以去除这个风格</description>
+    </item>
   </channel>
 </rss>
