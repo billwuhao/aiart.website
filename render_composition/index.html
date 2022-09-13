@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.1+tip">
+    <meta name="description" content="">
+    <meta name="author" content="吴明文">
+    <title>渲染和构图 - aiart.website</title>
+    <link href="/render_composition/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website">
+    <link href="/render_composition/index.print.html" rel="alternate" type="text/html" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1663080504" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1663080504" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1663080504" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1663080504" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1663080504" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1663080504" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1663080504" rel="stylesheet">
+    <link href="/css/nucleus.css?1663080504" rel="stylesheet">
+    <link href="/css/fonts.css?1663080504" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1663080504" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1663080504" rel="stylesheet">
+    <link href="/css/theme-neon.css?1663080504" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1663080504" rel="stylesheet">
+    <link href="/css/variant.css?1663080504" rel="stylesheet">
+    <link href="/css/print.css?1663080504" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1663080504"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="/index.json";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = '复制到剪贴板';
+      window.T_Copied_to_clipboard = '复制到剪贴板！';
+      window.T_Copy_link_to_clipboard = '将链接复制到剪贴板';
+      window.T_Link_copied_to_clipboard = '链接复制到剪贴板！';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'neon' ] );
+    </script>
+    <script src="/js/jquery.min.js?1663080504" defer></script>
+  </head>
+  <body class="mobile-support html" data-url="/render_composition/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="top-print-link">
+            <a class="print-link" title='打印整章 (CTRL+ALT+p)' href="/render_composition/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='导航 (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='目录 (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/"><span itemprop="name">主页</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/render_composition/" aria-disabled="true"><span itemprop="name">渲染和构图</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#use-a-macro-lens">use a macro lens</a></li>
+    <li><a href="#friday-vfx-rendering">friday vfx rendering</a></li>
+    <li><a href="#ambient-occlusion">ambient occlusion</a></li>
+    <li><a href="#cryengine">cryengine</a></li>
+    <li><a href="#fisheye-lens">fisheye lens</a></li>
+    <li><a href="#kodak-gold-200">kodak gold 200</a></li>
+    <li><a href="#long-exposure">long exposure</a></li>
+    <li><a href="#multiple-exposure">multiple exposure</a></li>
+    <li><a href="#by-uav">by uav</a></li>
+    <li><a href="#shoot-from-below">shoot from below</a></li>
+    <li><a href="#shoot-from-above">shoot from above</a></li>
+    <li><a href="#aerial-view">aerial view</a></li>
+    <li><a href="#bottom-up-view">bottom up view</a></li>
+    <li><a href="#upward-view">upward view</a></li>
+    <li><a href="#prerendered-graphics">prerendered graphics</a></li>
+    <li><a href="#fujichrome-provia400x">fujichrome provia400x</a></li>
+    <li><a href="#psx-graphics">psx graphics</a></li>
+    <li><a href="#rtx-graphics-card-rendering">RTX graphics card rendering</a></li>
+    <li><a href="#ssao">ssao</a></li>
+    <li><a href="#terragen">terragen</a></li>
+    <li><a href="#unreal-engine">unreal engine</a></li>
+    <li><a href="#scenic-view">scenic view</a></li>
+    <li><a href="#3dfx-voodoo-rendering">3dfx voodoo rendering</a></li>
+    <li><a href="#bokeh">bokeh</a></li>
+    <li><a href="#cel-shading">cel shading</a></li>
+    <li><a href="#close-up">close-up</a></li>
+    <li><a href="#diorama">diorama</a></li>
+    <li><a href="#doom-engine">doom engine</a></li>
+    <li><a href="#large-wide-view">large wide view</a></li>
+    <li><a href="#rander-with-quake-engine">rander with quake engine</a></li>
+    <li><a href="#redscale">redscale</a></li>
+    <li><a href="#rendered-in-corel-painter">rendered in corel painter</a></li>
+    <li><a href="#otoy-octanerender">otoy octanerender</a></li>
+    <li><a href="#rendered-in-pov-ray">rendered in pov-ray</a></li>
+    <li><a href="#rendered-in-v-ray">rendered in v-ray</a></li>
+    <li><a href="#best-minecraft-shaders">best minecraft shaders</a></li>
+    <li><a href="#contre-jour">contre-jour</a></li>
+    <li><a href="#infinity-cove">infinity cove</a></li>
+    <li><a href="#high-contrast">high contrast</a></li>
+    <li><a href="#low-contrast">low contrast</a></li>
+    <li><a href="#composition-of-the-rule-of-thirds">composition of the rule of thirds</a></li>
+    <li><a href="#centered-composition">centered composition</a></li>
+    <li><a href="#symmetry">symmetry</a></li>
+    <li><a href="#foreground-interest">foreground interest</a></li>
+    <li><a href="#frame-within-the-frame">frame within the frame</a></li>
+    <li><a href="#leading-lines-composition">leading lines composition</a></li>
+    <li><a href="#fill-the-frame">fill the frame</a></li>
+    <li><a href="#leave-negative-space">leave negative space</a></li>
+    <li><a href="#black-and-white-composition">black and white composition</a></li>
+    <li><a href="#particular-color">particular color</a></li>
+    <li><a href="#golden-ratio-composition">golden ratio composition</a></li>
+    <li><a href="#layers-in-the-frame">layers in the frame</a></li>
+    <li><a href="#decisive-moment">decisive moment</a></li>
+    <li><a href="#large-depth-of-field">large depth of field</a></li>
+    <li><a href="#shallow-depth-of-field">shallow depth of field</a></li>
+    <li><a href="#high-conceptual-contrast">high conceptual contrast</a></li>
+    <li><a href="#high-color-contrast">high color contrast</a></li>
+    <li><a href="#attractive-focus">attractive focus</a></li>
+    <li><a href="#warm-colors">warm colors</a></li>
+    <li><a href="#cool-colors">cool colors</a></li>
+    <li><a href="#composition-of-odds-rule">composition of odds rule</a></li>
+    <li><a href="#composition-of-space-rule">composition of space rule</a></li>
+    <li><a href="#horizon-composition">horizon composition</a></li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>渲染和构图</h1>
+
+<p>渲染指图像所使用的渲染软件，工具或方式；构图指调节图像的比例，景深，视角等能够产生特别风格的方法。</p>
+<p>直接用关键词生成的图像，不容易展现出渲染和构图的效果，尤其是构图。因此，下面部分关键词添加了主题。</p>
+<p><strong>全部关键词目录</strong><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        点击展开
+    </a>
+    <div class="expand-content" style="display: none;">
+<p><a href="#use-a-macro-lens">use a macro lens</a>(用微距镜头) | <a href="#friday-vfx-rendering">friday vfx rendering</a>(fridayvfx 图像引擎渲染) | <a href="#ambient-occlusion">ambient occlusion</a>(环境光遮挡) | <a href="#cryengine">cryengine</a>(CryEngine 游戏引擎) | <a href="#fisheye-lens">fisheye lens</a>(鱼眼镜头) | <a href="#kodak-gold-200">kodak gold 200</a>(柯达黄金 200) | <a href="#long-exposure">long exposure</a>(长时间曝光) | <a href="#multiple-exposure">multiple exposure</a>(多次曝光) | <a href="#by-uav">by uav</a>(无人机拍摄) | <a href="#shoot-from-below">shoot from below</a>(仰拍) | <a href="#shoot-from-above">shoot from above</a>(俯拍) | <a href="#aerial-view">aerial view</a>(航拍) | <a href="#bottom-up-view">bottom up view</a>(仰视) | <a href="#upward-view">upward view</a>(仰视) | <a href="#prerendered-graphics">prerendered graphics</a>(预渲染图形) | <a href="#fujichrome-provia400x">fujichrome provia400x</a>(普罗维亚) | <a href="#psx-graphics">psx graphics</a>(PSx图形) | <a href="#RTX-graphics-card-rendering">RTX graphics card rendering</a>(RTX显卡渲染) | <a href="#ssao">ssao</a>(屏幕空间环境光遮蔽) | <a href="#terragen">terragen</a>(Terragen 场景产生器) | <a href="#unreal-engine">unreal engine</a>(虚幻引擎) | <a href="#scenic-view">scenic view</a>(全景眺望) | <a href="#3dfx-voodoo-rendering">3dfx voodoo rendering</a>(3dfx voodoo 图形芯片渲染) | <a href="#bokeh">bokeh</a>(散景) | <a href="#cel-shading">cel shading</a>(卡通渲染) | <a href="#close-up">close-up</a>(特写镜头) | <a href="#diorama">diorama</a>(立体透视模型) | <a href="#doom-engine">doom engine</a>(毁灭战士引擎) | <a href="#large-wide-view">large wide view</a>(宽大视野) | <a href="#rander-with-quake-engine">rander with quake engine</a>(雷神之锤引擎) | <a href="#redscale">redscale</a>(红标度) | <a href="#rendered-in-corel-painter">rendered in corel painter</a>(corel painter 中渲染) | <a href="#otoy-octanerender">otoy octanerender</a>(octanerender 渲染) | <a href="#rendered-in-pov-ray">rendered in pov-ray</a>(在 povray 中渲染) | <a href="#rendered-in-v-ray">rendered in v-ray</a>(在 vray 中渲染) | <a href="#best-minecraft-shaders">best minecraft shaders</a>(着色器) | <a href="#contre-jour">contre-jour</a>(逆光拍摄) | <a href="#infinity-cove">infinity cove</a>(无限白区) | <a href="#high-contrast">high contrast</a>(高对比度) | <a href="#low-contrast">low contrast</a>(低对比度) | <a href="#composition-of-the-rule-of-thirds">composition of the rule of thirds</a>(三分法构图) | <a href="#centered-composition">centered composition</a>(中心构图) | <a href="#symmetry">symmetry</a>(对称) | <a href="#foreground-interest">foreground interest</a>(前景兴趣) | <a href="#frame-within-the-frame">frame within the frame</a>(框架内的框架) | <a href="#leading-lines-composition">leading lines composition</a>(引导线构图) | <a href="#fill-the-frame">fill the frame</a>(填充框架) | <a href="#leave-negative-space">leave negative space</a>(留白) | <a href="#black-and-white-composition">black and white composition</a>(黑白构图) | <a href="#particular-color">particular color</a>(特殊颜色) | <a href="#juxtaposition-composition">juxtaposition composition</a>(并列构图) | <a href="#golden-ratio-composition">golden ratio composition</a>(黄金比例构图) | <a href="#layers-in-the-frame">layers in the frame</a>(框架中的层) | <a href="#decisive-moment">decisive moment</a>(决定性时刻) | <a href="#large-depth-of-field">large depth of field</a>(大景深) | <a href="#shallow-depth-of-field">shallow depth of field</a>(浅景深) | <a href="#high-conceptual-contrast">high conceptual contrast</a>(高概念对比度) | <a href="#high-color-contrast">high color contrast</a>(高颜色对比度) | <a href="#attractive-focus">attractive focus</a>(吸引人的焦点) | <a href="#warm-colors">warm colors</a>(暖色) | <a href="#cool-colors">cool colors</a>(冷色) | <a href="#composition-of-odds-rule">composition of odds rule</a>(赔率规则的构图) | <a href="#composition-of-space-rule">composition of space rule</a>(空间规则的构图) | <a href="#horizon-composition">horizon composition</a>(层位构图)</p>
+
+    </div>
+</div>
+<h2 id="use-a-macro-lens">use a macro lens</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>用微距镜头</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-37-22.png" alt=""></p>
+<p>&ldquo;insect, use a macro lens&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-46-46.png" alt=""></p>
+<h2 id="friday-vfx-rendering">friday vfx rendering</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>fridayvfx 图像引擎渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-37-58.png" alt=""></p>
+<p>&ldquo;serene landscape, friday vfx rendering&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-48-12.png" alt=""></p>
+<h2 id="ambient-occlusion">ambient occlusion</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>环境光遮挡</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-38-47.png" alt=""></p>
+<h2 id="cryengine">cryengine</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>CryEngine 游戏引擎</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-39-08.png" alt=""></p>
+<h2 id="fisheye-lens">fisheye lens</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>鱼眼镜头</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-39-25.png" alt=""></p>
+<p>&ldquo;serene landscape, fisheye lens&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-49-02.png" alt=""></p>
+<h2 id="kodak-gold-200">kodak gold 200</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>柯达黄金 200</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-42-22.png" alt=""></p>
+<h2 id="long-exposure">long exposure</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>长时间曝光</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-42-42.png" alt=""></p>
+<h2 id="multiple-exposure">multiple exposure</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>多次曝光</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-42-49.png" alt=""></p>
+<h2 id="by-uav">by uav</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>无人机拍摄</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-43-00.png" alt=""></p>
+<h2 id="shoot-from-below">shoot from below</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>仰拍</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-43-24.png" alt=""></p>
+<h2 id="shoot-from-above">shoot from above</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>俯拍</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-43-34.png" alt=""></p>
+<h2 id="aerial-view">aerial view</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>航拍</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-43-43.png" alt=""></p>
+<h2 id="bottom-up-view">bottom up view</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>仰视</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-43-55.png" alt=""></p>
+<h2 id="upward-view">upward view</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>仰视</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-44-19.png" alt=""></p>
+<h2 id="prerendered-graphics">prerendered graphics</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>预渲染图形</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-44-30.png" alt=""></p>
+<h2 id="fujichrome-provia400x">fujichrome provia400x</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>普罗维亚</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-44-45.png" alt=""></p>
+<h2 id="psx-graphics">psx graphics</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>PSx图形</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-45-00.png" alt=""></p>
+<h2 id="rtx-graphics-card-rendering">RTX graphics card rendering</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>RTX显卡渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-45-27.png" alt=""></p>
+<p>&ldquo;serene landscape, RTX graphics card rendering&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-50-43.png" alt=""></p>
+<h2 id="ssao">ssao</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>屏幕空间环境光遮蔽</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-46-49.png" alt=""></p>
+<p>&ldquo;serene landscape, ssao&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-52-28.png" alt=""></p>
+<h2 id="terragen">terragen</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>Terragen 场景产生器</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-47-23.png" alt=""></p>
+<h2 id="unreal-engine">unreal engine</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>虚幻引擎</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-48-08.png" alt=""></p>
+<h2 id="scenic-view">scenic view</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>全景眺望</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-50-40.png" alt=""></p>
+<h2 id="3dfx-voodoo-rendering">3dfx voodoo rendering</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>3dfx voodoo 图形芯片渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-51-04.png" alt=""></p>
+<p>&ldquo;portrait of a woman, 3dfx voodoo rendering&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-55-34.png" alt=""></p>
+<h2 id="bokeh">bokeh</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>散景</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-55-09.png" alt=""></p>
+<p>&ldquo;portrait of a woman, bokeh&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-57-19.png" alt=""></p>
+<h2 id="cel-shading">cel shading</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>卡通渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-55-22.png" alt=""></p>
+<h2 id="close-up">close-up</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>特写镜头</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-55-36.png" alt=""></p>
+<h2 id="diorama">diorama</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>立体透视模型</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-55-50.png" alt=""></p>
+<h2 id="doom-engine">doom engine</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>毁灭战士引擎</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-56-01.png" alt=""></p>
+<h2 id="large-wide-view">large wide view</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>宽大视野</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-56-16.png" alt=""></p>
+<h2 id="rander-with-quake-engine">rander with quake engine</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>雷神之锤引擎</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-56-30.png" alt=""></p>
+<h2 id="redscale">redscale</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>红标度</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-56-37.png" alt=""></p>
+<h2 id="rendered-in-corel-painter">rendered in corel painter</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>corel painter 中渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-56-48.png" alt=""></p>
+<h2 id="otoy-octanerender">otoy octanerender</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>octanerender 渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-57-00.png" alt=""></p>
+<h2 id="rendered-in-pov-ray">rendered in pov-ray</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>在 povray 中渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-57-10.png" alt=""></p>
+<h2 id="rendered-in-v-ray">rendered in v-ray</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>在 vray 中渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-57-20.png" alt=""></p>
+<h2 id="best-minecraft-shaders">best minecraft shaders</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>着色器</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-57-35.png" alt=""></p>
+<h2 id="contre-jour">contre-jour</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>逆光拍摄</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-59-26.png" alt=""></p>
+<h2 id="infinity-cove">infinity cove</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>无限白区</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-59-38.png" alt=""></p>
+<h2 id="high-contrast">high contrast</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>高对比度</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-00-11.png" alt=""></p>
+<h2 id="low-contrast">low contrast</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>低对比度</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-00-17.png" alt=""></p>
+<h2 id="composition-of-the-rule-of-thirds">composition of the rule of thirds</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>三分法构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-00-25.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-08-52.png" alt=""></p>
+<h2 id="centered-composition">centered composition</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>中心构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-02-35.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-09-12.png" alt=""></p>
+<h2 id="symmetry">symmetry</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>对称</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-02-41.png" alt=""></p>
+<h2 id="foreground-interest">foreground interest</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>前景兴趣</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-02-53.png" alt=""></p>
+<p>&ldquo;house, xxx&rdquo; 房子前面都有一小段前景</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-10-12.png" alt=""></p>
+<h2 id="frame-within-the-frame">frame within the frame</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>框架内的框架</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-04-53.png" alt=""></p>
+<p>&ldquo;chinese architechture, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-11-31.png" alt=""></p>
+<h2 id="leading-lines-composition">leading lines composition</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>引导线构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-05-00.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-12-12.png" alt=""></p>
+<h2 id="fill-the-frame">fill the frame</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>填充框架</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-09-33.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-15-35.png" alt=""></p>
+<h2 id="leave-negative-space">leave negative space</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>留白</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-09-46.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-16-36.png" alt=""></p>
+<h2 id="black-and-white-composition">black and white composition</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>黑白构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-11-06.png" alt=""></p>
+<h2 id="particular-color">particular color</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>特殊颜色</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-14-08.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-20-39.png" alt=""></p>
+<h2 id="golden-ratio-composition">golden ratio composition</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>黄金比例构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-16-17.png" alt=""></p>
+<p>&ldquo;building, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-23-13.png" alt=""></p>
+<h2 id="layers-in-the-frame">layers in the frame</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>框架中的层</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-16-43.png" alt=""></p>
+<p>&ldquo;building, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-25-13.png" alt=""></p>
+<h2 id="decisive-moment">decisive moment</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>决定性时刻</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-18-11.png" alt=""></p>
+<h2 id="large-depth-of-field">large depth of field</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>大景深</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-19-27.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-27-45.png" alt=""></p>
+<h2 id="shallow-depth-of-field">shallow depth of field</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>浅景深</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-19-35.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-28-57.png" alt=""></p>
+<h2 id="high-conceptual-contrast">high conceptual contrast</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>高概念对比度</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-20-08.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-29-42.png" alt=""></p>
+<h2 id="high-color-contrast">high color contrast</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>高颜色对比度</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-20-14.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-29-54.png" alt=""></p>
+<h2 id="attractive-focus">attractive focus</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>吸引人的焦点</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-22-02.png" alt=""></p>
+<h2 id="warm-colors">warm colors</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>暖色</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-22-17.png" alt=""></p>
+<h2 id="cool-colors">cool colors</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>冷色</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-22-24.png" alt=""></p>
+<h2 id="composition-of-odds-rule">composition of odds rule</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>赔率规则的构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-22-34.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-36-52.png" alt=""></p>
+<h2 id="composition-of-space-rule">composition of space rule</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>空间规则的构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-22-39.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-36-59.png" alt=""></p>
+<h2 id="horizon-composition">horizon composition</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>层位构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-22-46.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-37-06.png" alt=""></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+          <a id="logo" href="/">
+            <img width="280px" src="/hb.png"></img>
+            <br><font face="serif" size="5" color="#FF0000"><b>AI生成艺术探索</b></font>
+          </a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="搜索...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['zh'];
+        </script>
+        <script src="/js/auto-complete.js?1663080504" defer></script>
+        <script src="/js/lunr.min.js?1663080504" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1663080504" defer></script>
+        <script src="/js/lunr.multi.min.js?1663080504" defer></script>
+        <script src="/js/lunr.zh.min.js?1663080504" defer></script>
+        <script src="/js/search.js?1663080504" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics">
+          <li data-nav-id="/artists/" title="艺术家" class="dd-item"><a href="/artists/">艺术家</a></li>
+          <li data-nav-id="/carrier/" title="艺术媒介" class="dd-item"><a href="/carrier/">艺术媒介</a></li>
+          <li data-nav-id="/schools/" title="艺术流派和运动" class="dd-item"><a href="/schools/">艺术流派和运动</a></li>
+          <li data-nav-id="/render_composition/" title="渲染和构图" class="dd-item active"><a href="/render_composition/">渲染和构图</a></li>
+          <li data-nav-id="/location_lightingl/" title="时空和光效" class="dd-item"><a href="/location_lightingl/">时空和光效</a></li>
+          <li data-nav-id="/adjective/" title="很棒的形容词" class="dd-item"><a href="/adjective/">很棒的形容词</a></li>
+          <li data-nav-id="/color/" title="色彩" class="dd-item"><a href="/color/">色彩</a></li>
+          <li data-nav-id="/texture/" title="材质和纹理" class="dd-item"><a href="/texture/">材质和纹理</a></li>
+          <li data-nav-id="/others/" title="其他关键词" class="dd-item"><a href="/others/">其他关键词</a></li>
+          <li data-nav-id="/prompts/" title="关键词探索" class="dd-item"><a href="/prompts/">关键词探索</a></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title"></div>
+          <ul>
+            <li><a class="padding" href="/about">About</a></li>
+          </ul>
+        </div>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="neon" value="neon" selected>Neon</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> 清理历史记录</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">
+      <p>©2022 吴明文</p>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1663080504" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1663080504" defer></script>
+    <script src="/js/featherlight.min.js?1663080504" defer></script>
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1663080504" defer></script>
+    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
+    </script>
+    <script src="https://unpkg.com/rapidoc/dist/rapidoc-min.js" defer></script>
+    <script>
+      window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
+    </script>
+    <script src="/js/theme.js?1663080504" defer></script>
+  </body>
+</html>

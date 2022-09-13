@@ -12,19 +12,19 @@
     <link href="/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website">
     <link href="/index.json" rel="alternate" type="application/json" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1661239792" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1661239792" rel="stylesheet"></noscript>
-    <link href="/css/featherlight.min.css?1661239792" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1661239792" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1661239792" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1661239792" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1661239792" rel="stylesheet">
-    <link href="/css/nucleus.css?1661239792" rel="stylesheet">
-    <link href="/css/fonts.css?1661239792" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1661239792" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1661239792" rel="stylesheet">
-    <link href="/css/theme-neon.css?1661239792" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1661239792" rel="stylesheet">
-    <link href="/css/variant.css?1661239792" rel="stylesheet">
-    <link href="/css/print.css?1661239792" rel="stylesheet" media="print">
-    <link href="/css/format-print.css?1661239792" rel="stylesheet">
-    <script src="/js/variant.js?1661239792"></script>
+    <link href="/css/fontawesome-all.min.css?1663080504" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1663080504" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1663080504" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1663080504" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1663080504" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1663080504" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1663080504" rel="stylesheet">
+    <link href="/css/nucleus.css?1663080504" rel="stylesheet">
+    <link href="/css/fonts.css?1663080504" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1663080504" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1663080504" rel="stylesheet">
+    <link href="/css/theme-neon.css?1663080504" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1663080504" rel="stylesheet">
+    <link href="/css/variant.css?1663080504" rel="stylesheet">
+    <link href="/css/print.css?1663080504" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1663080504" rel="stylesheet">
+    <script src="/js/variant.js?1663080504"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -40,7 +40,7 @@
       var baseUriFull='/';
       window.variants && variants.init( [ 'neon' ] );
     </script>
-    <script src="/js/jquery.min.js?1661239792" defer></script>
+    <script src="/js/jquery.min.js?1663080504" defer></script>
   </head>
   <body class="mobile-support print" data-url="/">
     <div id="body" class="default-animation">
@@ -57,10 +57,35 @@
             <span id="sidebar-toggle-span">
               <a href="#" id="sidebar-toggle" title='导航 (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
             </span>
+            <span id="toc-menu" title='目录 (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
               <meta itemprop="itemListOrder" content="Descending" />
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/" aria-disabled="true"><span itemprop="name">主页</span></a></li>
             </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#风景">风景</a>
+      <ul>
+        <li><a href="#waterside-town">Waterside town</a></li>
+      </ul>
+    </li>
+    <li><a href="#人物">人物</a>
+      <ul>
+        <li><a href="#beauty-photo">Beauty photo</a></li>
+      </ul>
+    </li>
+    <li><a href="#建筑">建筑</a>
+      <ul>
+        <li><a href="#atlantis-city">Atlantis City</a></li>
+      </ul>
+    </li>
+    <li><a href="#hall-of-mirrors">hall of mirrors</a></li>
+  </ul>
+</nav>
+            </div>
           </div>
         </div>
       </nav>
@@ -71,10 +96,64 @@
           <article class="home deprecated">
 
 <h1 id="欢迎潜在空间的旅行者">欢迎潜在空间的旅行者</h1>
-<p>时空之门已经打开，你敢拿起宝剑，冲出去吗？</p>
+<p>潜在空间，根据我的浅显理解，就是 AI 将外部接收的数据 “压缩”，“抽象” 并 “储存”。就像人类的大脑，我们认识世界，需要借助对外部世界的 “压缩”，“抽象” 并 “储存”，这称为记忆。</p>
+<p>看到眼前的山山水水，我们抽象为风景，看到 “风景” 两个字，我们脑海中就浮现出山山水水。</p>
+<p>和人脑比起来，AI 能够 “压缩”，“抽象” 并 “储存” 的数据量，可以无限大。或许它就能够理解人脑不能理解，分析人脑不能分析，发现人脑不能发现，创造人脑不能创造……</p>
+<p>潜在空间的旅行者，就是与 AI 对话的 “先知”。“先知” 与 AI 之间的联系，某种程度上算是另一种形式的 “脑机接口”。</p>
+<p>与 AI 对话是一门艺术，或许在不久的将来，会是一项极重要的技能。这个技能能够让你直接通过人类的语言，掌握很多 AI 工具。</p>
+<p>例如已经实现的让 AI 给你写一部小说；画一幅画；甚至写个软件…… 与 AI 对话的越熟练，越准确，沟通越流畅，表达越清晰，决定着 AI 生成的东西越好。</p>
+<p>你有兴趣吗？我们先一起玩一玩 AI 绘画吧。</p>
+<p>下面是一些不错的主题示例。</p>
+<p><strong>全部主题目录</strong><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        点击展开
+    </a>
+    <div class="expand-content" style="display: none;">
+
+    </div>
+</div>
+<h2 id="风景">风景</h2>
+<h3 id="waterside-town">Waterside town</h3>
+<p>日出时刻中国建筑水边小镇</p>
+<p><a href="/render_composition/#particular-color">particular color</a> waterside town, <a href="/carrier/#chinese-architecture">chinese architecture</a>, <a href="/schools/#mechanical-punk">mechanical punk</a>, <a href="/location_lightingl/#at-sunrise">at sunrise</a>, <a href="/render_composition/#unreal-engine">unreal engine</a>, by <a href="/artists/#alayna-lemmer">alayna lemmer</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-17-23-33.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-09-13-17-24-37.png" alt=""></p>
+<h2 id="人物">人物</h2>
+<h3 id="beauty-photo">Beauty photo</h3>
+<p>普通美女照</p>
+<p>young beauty photo, color portrait photograph, lovely eyes and curly hair, highly detailed, attractive focus, short lighting</p>
+<p><img src="http://175.178.103.126/2022-09-13-19-26-14.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-09-13-19-28-09.png" alt=""></p>
+<p>添加艺术素材</p>
+<p>((((((Beauty photo)))))), beautiful face, milk glass art + marquetry art + cloisonné art hair</p>
+<p><img src="http://175.178.103.126/2022-09-13-19-52-42.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-09-13-19-52-49.png" alt=""></p>
+<h2 id="建筑">建筑</h2>
+<h3 id="atlantis-city">Atlantis City</h3>
+<p>风暴中秋天的亚特兰提斯城</p>
+<p>autumn atlantis city, 4k, large wide view, storm lightning, high color contrast, fantasy art, by albert benois</p>
+<p><img src="http://175.178.103.126/2022-09-13-20-26-49.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-09-13-20-26-57.png" alt=""></p>
+<h2 id="hall-of-mirrors">hall of mirrors</h2>
+<p>赛博黑镜厅</p>
+<p>hall of mirrors, tech or cyber noir, bounce lighting, otoy octanerender, by adam elsheimer</p>
+<p><img src="http://175.178.103.126/2022-09-13-21-07-33.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-09-13-21-07-40.png" alt=""></p>
 
 <ul class="children children-li children-sort-weight">
 <li><a href="/artists/" >艺术家</a></li><ul></ul>
+<li><a href="/carrier/" >艺术媒介</a></li><ul></ul>
+<li><a href="/schools/" >艺术流派和运动</a></li><ul></ul>
+<li><a href="/render_composition/" >渲染和构图</a></li><ul></ul>
+<li><a href="/location_lightingl/" >时空和光效</a></li><ul></ul>
+<li><a href="/adjective/" >很棒的形容词</a></li><ul></ul>
+<li><a href="/color/" >色彩</a></li><ul></ul>
+<li><a href="/texture/" >材质和纹理</a></li><ul></ul>
+<li><a href="/others/" >其他关键词</a></li><ul></ul>
 <li><a href="/prompts/" >关键词探索</a></li><ul></ul>
 </ul>
 
@@ -89,11 +168,11 @@
 <p>使用的绘画工具是在 LAION-5B 数据集上训练的 Stable Diffusion，它生成的画作能够比较清晰地呈现一个画家的风格。</p>
 <p>其实随便写个名字，AI 都会根据这个名字匹配一定的风格。</p>
 <p>如果一个艺术家的作品，数据集收集数量太少，艺术家风格呈现就不明显。</p>
-<p>本册子以直观的画面进行粗糙的分类，而不是风格。例如，抽象（看起来不像），形象（外形像，神似，幻想，概念，但非真实），真实（和真的一样，省略，例如，无抽象，形象的风景或人物都是真实），实物（非绘画，如雕刻，摆放），风景，人物，黑白等。并且一个艺术家，根据数据集收集情况，或艺术家主要作品，最多分 3 个类。</p>
+<p>本册子以直观的画面进行粗糙的分类，而不是风格。例如，抽象（看起来不像），幻想（外形像的概念画，神似的幻想画，想象力创造的，非真实的画风），真实（和真的一样，省略，例如，非抽象、幻想的风景或人物都是真实），实物（非绘画，如雕刻，摆放），风景，人物，黑白等。并且一个艺术家，根据数据集收集情况，或艺术家主要作品，最多分 3 个类。</p>
 <p>分类并不一定意味着某个类的艺术家生成该类画面的画作更好，创新会有意想不到的惊喜。</p>
-<p>数据集未收集的艺术家都分为一类，期待艺术家和工程师们将其加入数据集，让人类艺术的瑰宝都写入 AI 基因传承下去。</p>
-<p>如果你特别喜欢某个艺术家，或者让 AI 能够生成自己作品的风格，数据集中又没有，可以尝试自己将数据加入，<a href="https://colab.research.google.com/drive/1Xfd5fm4OnhTd6IHPMGcoqw54uhGT3HdF?usp=sharing">微调自己的扩散模型</a>。</p>
-<p>下面所有生成的画作，提示词都是 “by 艺术家”，为什么要加一个 “by”，移步 <a href="../prompts/#%E4%BB%8B%E8%AF%8D-by">关键词探索</a>。</p>
+<p>数据集未收集的艺术家都分为一类，期待艺术家和工程师们将其加入数据集，让人类艺术的瑰宝写入 AI 的基因中传承下去。</p>
+<p>如果你特别喜欢某个艺术家，或者让 AI 能够生成自己作品的风格，数据集中又没有，可以尝试自己将数据加入，<a href="http://colab.research.google.com/drive/1Xfd5fm4OnhTd6IHPMGcoqw54uhGT3HdF?usp=sharing">微调自己的扩散模型</a>。</p>
+<p>下面所有生成的画作，提示词都是 “by 艺术家”，为什么要加一个 “by”，移步 <a href="../prompts/#%E4%BB%8B%E8%AF%8D-by">关键词探索</a>。在实际创作时，可以根据需要变化句式，例如 “art by 艺术家”，“style of 艺术家” 等。</p>
 <h2 id="全部艺术家">全部艺术家</h2>
 
 <div class="expand">
@@ -103,7 +182,7 @@
         点击展开
     </a>
     <div class="expand-content" style="display: none;">
-<p><a href="#a-j-casson">a j casson</a>(风景，形象) | <a href="#aaron-douglas">aaron douglas</a>(抽象，人物) | <a href="#aaron-horkey">aaron horkey</a>(异形，黑白) | <a href="#aaron-jasinski">aaron jasinski</a>(人物，形象) | <a href="#aaron-siskind">aaron siskind</a>(抽象，摄影，黑白) | <a href="#abbott-fuller-graves">abbott fuller graves</a>(风景，人物) | <a href="#abbott-handerson-thayer">abbott handerson thayer</a>(人物) | <a href="#abdel-hadi-al-gazzar">abdel hadi al gazzar</a>(未收集) | <a href="#abed-abdi">abed abdi</a>(未收集) | <a href="#abigail-larson">abigail larson</a>(人物，形象) | <a href="#abraham-mintchine">abraham mintchine</a>(未收集) | <a href="#abraham-pether">abraham pether</a>(风景) | <a href="#abraham-rattner">abraham rattner</a>(未收集) | <a href="#abram-efimovich-arkhipov">abram efimovich arkhipov</a>(人物，风景) | <a href="#adam-baines">adam baines</a>(未收集) | <a href="#adam-elsheimer">adam elsheimer</a>(风景) | <a href="#adam-hughes">adam hughes</a>(人物，漫画) | <a href="#adam-martinakis">adam martinakis</a>(抽象，异形，人物) | <a href="#adam-paquette">adam paquette</a>(未收集) | <a href="#adi-granov">adi granov</a>(未收集) | <a href="#adolf-hir%C3%A9my-hirschl">adolf hirémy-hirschl</a>(未收集) | <a href="#adolph-gottlieb">adolph gottlieb</a>(抽象) | <a href="#adolph-menzel">adolph menzel</a>(风景，人物) | <a href="#adonna-khare">adonna khare</a>(动物，异形，黑白) | <a href="#adriaen-van-ostade">adriaen van ostade</a>(人物，建筑) | <a href="#adriaen-van-utrecht">adriaen van utrecht</a>(未收集) | <a href="#adrian-donoghue">adrian donoghue</a>(未收集) | <a href="#adrian-ghenie">adrian ghenie</a>(抽象) | <a href="#adrian-paul-allinson">adrian paul allinson</a>(未收集) | <a href="#adrian-smith">adrian smith</a>(异形) | <a href="#adrian-tomine">adrian tomine</a>(漫画) | <a href="#adrianus-eversen">adrianus eversen</a>(建筑) | <a href="#afarin-sajedi">afarin sajedi</a>(人物，形象) | <a href="#affandi">affandi</a>(人物，抽象) | <a href="#agnes-cecile">agnes cecile</a>(人物) | <a href="#agnes-lawrence-pelton">agnes lawrence pelton</a>(人物，抽象，静物) | <a href="#agnes-martin">agnes martin</a>(抽象) | <a href="#agostino-arrivabene">agostino arrivabene</a>(人物，异形) | <a href="#agostino-tassi">agostino tassi</a>(未收集) | <a href="#agust%C3%ADn-fern%C3%A1ndez">agustín fernández</a>(未收集) | <a href="#ahmed-morsi">ahmed morsi</a>(未收集) | <a href="#ai-weiwei">ai weiwei</a>(抽象，实物) | <a href="#ai-yazawa">ai yazawa</a>(人物，漫画) | <a href="#akihiko-yoshida">akihiko yoshida</a>(游戏，漫画) | <a href="#akira-toriyama">akira toriyama</a>(漫画) | <a href="#akos-major">akos major</a>(摄影) | <a href="#akseli-gallen-kallela">akseli gallen-kallela</a>(风景， 人物) | <a href="#al-capp">al capp</a>(漫画) | <a href="#al-feldstein">al feldstein</a>(漫画) | <a href="#al-williamson">al williamson</a>(漫画，黑白) | <a href="#alain-laboile">alain laboile</a>(摄影，黑白) | <a href="#alan-davis">alan davis</a>(漫画) | <a href="#alan-kenny">alan kenny</a>(未收集) | <a href="#alan-lee">alan lee</a>(风景，人物，形象) | <a href="#alan-moore">alan moore</a>(漫画) | <a href="#alan-parry">alan parry</a>(风景，静物，形象) | <a href="#alan-schaller">alan schaller</a>(摄影，黑白) | <a href="#alasdair-mclellan">alasdair mclellan</a>(摄影，人物，黑白) | <a href="#alayna-lemmer">alayna lemmer</a>(风景，建筑，形象) | <a href="#albert-benois">albert benois</a>(风景，建筑) | <a href="#albert-bierstadt">albert bierstadt</a>(风景) | <a href="#albert-bloch">albert bloch</a>(抽象，人物，风景) | <a href="#albert-dubois-pillet">albert dubois-pillet</a>(未收集) | <a href="#albert-eckhout">albert eckhout</a>(人物，静物) | <a href="#albert-edelfelt">albert edelfelt</a>(人物) | <a href="#albert-gleizes">albert gleizes</a>(抽象) | <a href="#albert-goodwin">albert goodwin</a>(风景) | <a href="#albert-joseph-moore">albert joseph moore</a>(人物)</p>
+<p><a href="#a-j-casson">a j casson</a>(风景，幻想) | <a href="#aaron-douglas">aaron douglas</a>(抽象，人物) | <a href="#aaron-horkey">aaron horkey</a>(异形，黑白) | <a href="#aaron-jasinski">aaron jasinski</a>(人物，幻想) | <a href="#aaron-siskind">aaron siskind</a>(抽象，摄影，黑白) | <a href="#abbott-fuller-graves">abbott fuller graves</a>(风景，人物) | <a href="#abbott-handerson-thayer">abbott handerson thayer</a>(人物) | <a href="#abdel-hadi-al-gazzar">abdel hadi al gazzar</a>(未收集) | <a href="#abed-abdi">abed abdi</a>(未收集) | <a href="#abigail-larson">abigail larson</a>(人物，幻想) | <a href="#abraham-mintchine">abraham mintchine</a>(未收集) | <a href="#abraham-pether">abraham pether</a>(风景) | <a href="#abraham-rattner">abraham rattner</a>(未收集) | <a href="#abram-efimovich-arkhipov">abram efimovich arkhipov</a>(人物，风景) | <a href="#adam-baines">adam baines</a>(未收集) | <a href="#adam-elsheimer">adam elsheimer</a>(风景) | <a href="#adam-hughes">adam hughes</a>(人物，漫画) | <a href="#adam-martinakis">adam martinakis</a>(抽象，异形，人物) | <a href="#adam-paquette">adam paquette</a>(未收集) | <a href="#adi-granov">adi granov</a>(未收集) | <a href="#adolf-hir%C3%A9my-hirschl">adolf hirémy-hirschl</a>(未收集) | <a href="#adolph-gottlieb">adolph gottlieb</a>(抽象) | <a href="#adolph-menzel">adolph menzel</a>(风景，人物) | <a href="#adonna-khare">adonna khare</a>(动物，异形，黑白) | <a href="#adriaen-van-ostade">adriaen van ostade</a>(人物，建筑) | <a href="#adriaen-van-utrecht">adriaen van utrecht</a>(未收集) | <a href="#adrian-donoghue">adrian donoghue</a>(未收集) | <a href="#adrian-ghenie">adrian ghenie</a>(抽象) | <a href="#adrian-paul-allinson">adrian paul allinson</a>(未收集) | <a href="#adrian-smith">adrian smith</a>(异形) | <a href="#adrian-tomine">adrian tomine</a>(漫画) | <a href="#adrianus-eversen">adrianus eversen</a>(建筑) | <a href="#afarin-sajedi">afarin sajedi</a>(人物，幻想) | <a href="#affandi">affandi</a>(人物，抽象) | <a href="#agnes-cecile">agnes cecile</a>(人物) | <a href="#agnes-lawrence-pelton">agnes lawrence pelton</a>(人物，抽象，静物) | <a href="#agnes-martin">agnes martin</a>(抽象) | <a href="#agostino-arrivabene">agostino arrivabene</a>(人物，异形) | <a href="#agostino-tassi">agostino tassi</a>(未收集) | <a href="#agust%C3%ADn-fern%C3%A1ndez">agustín fernández</a>(未收集) | <a href="#ahmed-morsi">ahmed morsi</a>(未收集) | <a href="#ai-weiwei">ai weiwei</a>(抽象，实物) | <a href="#ai-yazawa">ai yazawa</a>(人物，漫画) | <a href="#akihiko-yoshida">akihiko yoshida</a>(游戏，漫画) | <a href="#akira-toriyama">akira toriyama</a>(漫画) | <a href="#akos-major">akos major</a>(摄影) | <a href="#akseli-gallen-kallela">akseli gallen-kallela</a>(风景， 人物) | <a href="#al-capp">al capp</a>(漫画) | <a href="#al-feldstein">al feldstein</a>(漫画) | <a href="#al-williamson">al williamson</a>(漫画，黑白) | <a href="#alain-laboile">alain laboile</a>(摄影，黑白) | <a href="#alan-davis">alan davis</a>(漫画) | <a href="#alan-kenny">alan kenny</a>(未收集) | <a href="#alan-lee">alan lee</a>(风景，人物，幻想) | <a href="#alan-moore">alan moore</a>(漫画) | <a href="#alan-parry">alan parry</a>(风景，静物，幻想) | <a href="#alan-schaller">alan schaller</a>(摄影，黑白) | <a href="#alasdair-mclellan">alasdair mclellan</a>(摄影，人物，黑白) | <a href="#alayna-lemmer">alayna lemmer</a>(风景，建筑，幻想) | <a href="#albert-benois">albert benois</a>(风景，建筑) | <a href="#albert-bierstadt">albert bierstadt</a>(风景) | <a href="#albert-bloch">albert bloch</a>(抽象，人物，风景) | <a href="#albert-dubois-pillet">albert dubois-pillet</a>(未收集) | <a href="#albert-eckhout">albert eckhout</a>(人物，静物) | <a href="#albert-edelfelt">albert edelfelt</a>(人物) | <a href="#albert-gleizes">albert gleizes</a>(抽象) | <a href="#albert-goodwin">albert goodwin</a>(风景) | <a href="#albert-joseph-moore">albert joseph moore</a>(人物) | <a href="#albert-koetsier">albert koetsier</a>(未收集) | <a href="#albert-kotin">albert kotin</a>(未收集) | <a href="#albert-lynch">albert lynch</a>(人物) | <a href="#albert-marquet">albert marquet</a>(风景) | <a href="#albert-pinkham-ryder">albert pinkham ryder</a>(风景，幻想) | <a href="#albert-robida">albert robida</a>(漫画) | <a href="#albert-servaes">albert servaes</a>(未收集) | <a href="#albert-tucker">albert tucker</a>(未收集) | <a href="#albert-watson">albert watson</a>(人物) | <a href="#alberto-biasi">alberto biasi</a>(抽象) | <a href="#alberto-burri">alberto burri</a>(抽象) | <a href="#alberto-giacometti">alberto giacometti</a>(实物) | <a href="#alberto-magnelli">alberto magnelli</a>(未收集) | <a href="#alberto-seveso">alberto seveso</a>(人物，抽象) | <a href="#alberto-sughi">alberto sughi</a>(未收集) | <a href="#alberto-vargas">alberto vargas</a>(人物) | <a href="#albrecht-anker">albrecht anker</a>(人物) | <a href="#albrecht-d%C3%BCrer">albrecht dürer</a>(人物，黑白) | <a href="#alec-soth">alec soth</a>(摄影) | <a href="#alejandro-burdisio">alejandro burdisio</a>(机械) | <a href="#alejandro-jodorowsky">alejandro jodorowsky</a>(未收集) | <a href="#aleksander-gierymski">aleksander gierymski</a>(风景，幻想) | <a href="#alexei-savrasov">alexei savrasov</a>(风景) | <a href="#aleksi-briclot">aleksi briclot</a>(人物，异形) | <a href="#alena-aenami">alena aenami</a>(风景，幻想) | <a href="#alessandro-allori">alessandro allori</a>(人物) | <a href="#alessandro-barbucci">alessandro barbucci</a>(未收集) | <a href="#alessandro-gottardo">alessandro gottardo</a>(幻想) | <a href="#alessio-albi">alessio albi</a>(人物) | <a href="#alex-alemany">alex alemany</a>(人物) | <a href="#alex-andreev">alex andreev</a>(机械，异形) | <a href="#alex-colville">alex colville</a>(人物，动物) | <a href="#alex-figini">alex figini</a>(未收集) | <a href="#alex-garant">alex garant</a>(人物) | <a href="#alex-grey">alex grey</a>(抽象，人物) | <a href="#alex-gross">alex gross</a>(人物，异形) | <a href="#alex-hirsch">alex hirsch</a>(漫画) | <a href="#alex-horley">alex horley</a>(人物，异形，幻想) | <a href="#alex-howitt">alex howitt</a>(摄影，黑白，抽象) | <a href="#alex-katz">alex katz</a>(人物，幻想) | <a href="#alex-maleev">alex maleev</a>(漫画) | <a href="#alex-petruk">alex petruk</a>(未收集) | <a href="#alex-prager">alex prager</a>(摄影) | <a href="#alex-robinson">alex robinson</a>(未收集) | <a href="#alex-ross">alex ross</a>(漫画) | <a href="#alex-russell-flint">alex russell flint</a>(人物) | <a href="#alex-schomburg">alex schomburg</a>(漫画，幻想) | <a href="#alex-timmermans">alex timmermans</a>(摄影，黑白) | <a href="#alex-toth">alex toth</a>(漫画) | <a href="#alexander-archipenko">alexander archipenko</a>(实物，抽象，人物) | <a href="#alexander-bogen">alexander bogen</a>(未收集) | <a href="#alexander-fedosav">alexander fedosav</a>(未收集) | <a href="#alexander-jansson">alexander jansson</a>(机械，幻想，异形) | <a href="#alexander-kanoldt">alexander kanoldt</a>(未收集) | <a href="#alexander-mcqueen">alexander mcqueen</a>(实物，人物) | <a href="#alexander-millar">alexander millar</a>(未收集) | <a href="#alexander-milne-calder">alexander milne calder</a>(未收集) | <a href="#alexandr-averin">alexandr averin</a>(风景，人物) | <a href="#alexandre-antigna">alexandre antigna</a>(未收集) | <a href="#alexandre-benois">alexandre benois</a>(风景，建筑) | <a href="#alexandre-cabanel">alexandre cabanel</a>(人物) | <a href="#alexandre-calame">alexandre calame</a>(风景) | <a href="#alexandre-jacovleff">alexandre jacovleff</a>(未收集) | <a href="#alexandre-e%CC%81variste-fragonard">alexandre-évariste fragonard</a>(风景) | <a href="#alexei-harlamoff">alexei harlamoff</a>(未收集) | <a href="#alexej-von-jawlensky">alexej von jawlensky</a>(人物，幻想) | <a href="#alexey-kurbatov">alexey kurbatov</a>(未收集) | <a href="#alexis-gritchenko">alexis gritchenko</a>(未收集) | <a href="#alfons-maria-mucha">alfons maria mucha</a>(人物) | <a href="#alfred-augustus-glendening">alfred augustus glendening</a>(人物，风景) | <a href="#alfred-cheney-johnston">alfred cheney johnston</a>(摄影，人物，黑白) | <a href="#alfred-eisenstaedt">alfred eisenstaedt</a>(摄影，黑白) | <a href="#alfred-guillou">alfred guillou</a>(人物) | <a href="#alfred-heber-hutty">alfred heber hutty</a>(风景) | <a href="#alfred-henry-maurer">alfred henry maurer</a>(人物) | <a href="#alfred-kelsner">alfred kelsner</a>(未收集) | <a href="#alfred-kubin">alfred kubin</a>(异形，幻想) | <a href="#alfred-munnings">alfred munnings</a>(风景，动物) | <a href="#alfred-parsons">alfred parsons</a>(未收集) | <a href="#alfred-sisley">alfred sisley</a>(风景) | <a href="#alfred-stevens">alfred stevens</a>(人物) | <a href="#alfredo-jaar">alfredo jaar</a>(实物) | <a href="#algernon-blackwood">algernon blackwood</a>(异形) | <a href="#alice-bailly">alice bailly</a>(抽象，人物) | <a href="#alice-neel">alice neel</a>(人物，幻想) | <a href="#alice-pasquini">alice pasquini</a>(人物，幻想) | <a href="#alice-rahon">alice rahon</a>(抽象) | <a href="#alison-bechdel">alison bechdel</a>(漫画) | <a href="#aliza-razell">aliza razell</a>(抽象) | <a href="#allen-williams">allen williams</a>(异形) | <a href="#allie-brosh">allie brosh</a>(漫画) | <a href="#alma-thomas">alma thomas</a>(抽象) | <a href="#alois-arnegger">alois arnegger</a>(风景) | <a href="#alphonse-osbert">alphonse osbert</a>(风景，人物) | <a href="#alpo-jaakola">alpo jaakola</a>(未收集) | <a href="#alson-skinner-clark">alson skinner clark</a>(未收集) | <a href="#alvar-aalto">alvar aalto</a>(建筑，实物) | <a href="#alvar-caw%C3%A9n">alvar cawén</a>(未收集) | <a href="#%C3%A1lvaro-siza">álvaro siza</a>(建筑) | <a href="#alvin-langdon-coburn">alvin langdon coburn</a>(摄影，抽象，黑白) | <a href="#alyssa-monks">alyssa monks</a>(人物)</p>
 
     </div>
 </div>
@@ -117,7 +196,7 @@
         点击展开
     </a>
     <div class="expand-content" style="display: none;">
-<p><a href="#a-j-casson">a j casson</a>(风景，形象) | <a href="#abbott-fuller-graves">abbott fuller graves</a>(风景，人物) | <a href="#abraham-pether">abraham pether</a>(风景) | <a href="#abram-efimovich-arkhipov">abram efimovich arkhipov</a>(人物，风景) | <a href="#adam-elsheimer">adam elsheimer</a>(风景) | <a href="#adolph-menzel">adolph menzel</a>(风景，人物) | <a href="#akseli-gallen-kallela">akseli gallen-kallela</a>(风景， 人物) | <a href="#alan-lee">alan lee</a>(风景，人物，形象) | <a href="#alan-parry">alan parry</a>(风景，静物，形象) | <a href="#alayna-lemmer">alayna lemmer</a>(风景，建筑，形象) | <a href="#albert-benois">albert benois</a>(风景，建筑) | <a href="#albert-bierstadt">albert bierstadt</a>(风景) | <a href="#albert-bloch">albert bloch</a>(抽象，人物，风景) | <a href="#albert-goodwin">albert goodwin</a>(风景)</p>
+<p><a href="#a-j-casson">a j casson</a>(风景，幻想) | <a href="#abbott-fuller-graves">abbott fuller graves</a>(风景，人物) | <a href="#abraham-pether">abraham pether</a>(风景) | <a href="#abram-efimovich-arkhipov">abram efimovich arkhipov</a>(人物，风景) | <a href="#adam-elsheimer">adam elsheimer</a>(风景) | <a href="#adolph-menzel">adolph menzel</a>(风景，人物) | <a href="#akseli-gallen-kallela">akseli gallen-kallela</a>(风景， 人物) | <a href="#alan-lee">alan lee</a>(风景，人物，幻想) | <a href="#alan-parry">alan parry</a>(风景，静物，幻想) | <a href="#alayna-lemmer">alayna lemmer</a>(风景，建筑，幻想) | <a href="#albert-benois">albert benois</a>(风景，建筑) | <a href="#albert-bierstadt">albert bierstadt</a>(风景) | <a href="#albert-bloch">albert bloch</a>(抽象，人物，风景) | <a href="#albert-goodwin">albert goodwin</a>(风景) | <a href="#albert-marquet">albert marquet</a>(风景) | <a href="#albert-pinkham-ryder">albert pinkham ryder</a>(风景，幻想) | <a href="#aleksander-gierymski">aleksander gierymski</a>(风景，幻想) | <a href="#alexei-savrasov">alexei savrasov</a>(风景) | <a href="#alena-aenami">alena aenami</a>(风景，幻想) | <a href="#alexandr-averin">alexandr averin</a>(风景，人物) | <a href="#alexandre-benois">alexandre benois</a>(风景，建筑) | <a href="#alexandre-calame">alexandre calame</a>(风景) | <a href="#alexandre-e%CC%81variste-fragonard">alexandre-évariste fragonard</a>(风景) | <a href="#alfred-augustus-glendening">alfred augustus glendening</a>(人物，风景) | <a href="#alfred-heber-hutty">alfred heber hutty</a>(风景) | <a href="#alfred-munnings">alfred munnings</a>(风景，动物) | <a href="#alfred-sisley">alfred sisley</a>(风景) | <a href="#alois-arnegger">alois arnegger</a>(风景) | <a href="#alphonse-osbert">alphonse osbert</a>(风景，人物)</p>
 
     </div>
 </div>
@@ -131,12 +210,12 @@
         点击展开
     </a>
     <div class="expand-content" style="display: none;">
-<p><a href="#aaron-douglas">aaron douglas</a>(抽象，人物) | <a href="#aaron-jasinski">aaron jasinski</a>(人物，形象) | <a href="#abbott-fuller-graves">abbott fuller graves</a>(风景，人物) | <a href="#abbott-handerson-thayer">abbott handerson thayer</a>(人物) | <a href="#abigail-larson">abigail larson</a>(人物，形象) | <a href="#abram-efimovich-arkhipov">abram efimovich arkhipov</a>(人物，风景) | <a href="#adam-hughes">adam hughes</a>(人物，漫画) | <a href="#adam-martinakis">adam martinakis</a>(抽象，异形，人物) | <a href="#adolph-menzel">adolph menzel</a>(风景，人物) | <a href="#adriaen-van-ostade">adriaen van ostade</a>(人物，建筑) | <a href="#afarin-sajedi">afarin sajedi</a>(人物，形象) | <a href="#affandi">affandi</a>(人物，抽象) | <a href="#agnes-cecile">agnes cecile</a>(人物) | <a href="#agnes-lawrence-pelton">agnes lawrence pelton</a>(人物，抽象，静物) | <a href="#agostino-arrivabene">agostino arrivabene</a>(人物，异形) | <a href="#ai-yazawa">ai yazawa</a>(人物，漫画) | <a href="#akseli-gallen-kallela">akseli gallen-kallela</a>(风景， 人物) | <a href="#alan-lee">alan lee</a>(风景，人物，形象) | <a href="#alasdair-mclellan">alasdair mclellan</a>(摄影，人物，黑白) | <a href="#albert-bloch">albert bloch</a>(抽象，人物，风景) | <a href="#albert-eckhout">albert eckhout</a>(人物，静物) | <a href="#albert-edelfelt">albert edelfelt</a>(人物) | <a href="#albert-joseph-moore">albert joseph moore</a>(人物)</p>
+<p><a href="#aaron-douglas">aaron douglas</a>(抽象，人物) | <a href="#aaron-jasinski">aaron jasinski</a>(人物，幻想) | <a href="#abbott-fuller-graves">abbott fuller graves</a>(风景，人物) | <a href="#abbott-handerson-thayer">abbott handerson thayer</a>(人物) | <a href="#abigail-larson">abigail larson</a>(人物，幻想) | <a href="#abram-efimovich-arkhipov">abram efimovich arkhipov</a>(人物，风景) | <a href="#adam-hughes">adam hughes</a>(人物，漫画) | <a href="#adam-martinakis">adam martinakis</a>(抽象，异形，人物) | <a href="#adolph-menzel">adolph menzel</a>(风景，人物) | <a href="#adriaen-van-ostade">adriaen van ostade</a>(人物，建筑) | <a href="#afarin-sajedi">afarin sajedi</a>(人物，幻想) | <a href="#affandi">affandi</a>(人物，抽象) | <a href="#agnes-cecile">agnes cecile</a>(人物) | <a href="#agnes-lawrence-pelton">agnes lawrence pelton</a>(人物，抽象，静物) | <a href="#agostino-arrivabene">agostino arrivabene</a>(人物，异形) | <a href="#ai-yazawa">ai yazawa</a>(人物，漫画) | <a href="#akseli-gallen-kallela">akseli gallen-kallela</a>(风景， 人物) | <a href="#alan-lee">alan lee</a>(风景，人物，幻想) | <a href="#alasdair-mclellan">alasdair mclellan</a>(摄影，人物，黑白) | <a href="#albert-bloch">albert bloch</a>(抽象，人物，风景) | <a href="#albert-eckhout">albert eckhout</a>(人物，静物) | <a href="#albert-edelfelt">albert edelfelt</a>(人物) | <a href="#albert-joseph-moore">albert joseph moore</a>(人物) | <a href="#albert-lynch">albert lynch</a>(人物) | <a href="#albert-watson">albert watson</a>(人物) | <a href="#alberto-seveso">alberto seveso</a>(人物，抽象) | <a href="#alberto-vargas">alberto vargas</a>(人物) | <a href="#albrecht-anker">albrecht anker</a>(人物) | <a href="#albrecht-d%C3%BCrer">albrecht dürer</a>(人物，黑白) | <a href="#aleksi-briclot">aleksi briclot</a>(人物，异形) | <a href="#alessandro-allori">alessandro allori</a>(人物) | <a href="#alessio-albi">alessio albi</a>(人物) | <a href="#alex-alemany">alex alemany</a>(人物) | <a href="#alex-colville">alex colville</a>(人物，动物) | <a href="#alex-garant">alex garant</a>(人物) | <a href="#alex-grey">alex grey</a>(抽象，人物) | <a href="#alex-gross">alex gross</a>(人物，异形) | <a href="#alex-horley">alex horley</a>(人物，异形，幻想) | <a href="#alex-katz">alex katz</a>(人物，幻想) | <a href="#alex-russell-flint">alex russell flint</a>(人物) | <a href="#alexander-archipenko">alexander archipenko</a>(实物，抽象，人物) | <a href="#alexander-mcqueen">alexander mcqueen</a>(实物，人物) | <a href="#alexandr-averin">alexandr averin</a>(风景，人物) | <a href="#alexandre-cabanel">alexandre cabanel</a>(人物) | <a href="#alexej-von-jawlensky">alexej von jawlensky</a>(人物，幻想) | <a href="#alfons-maria-mucha">alfons maria mucha</a>(人物) | <a href="#alfred-augustus-glendening">alfred augustus glendening</a>(人物，风景) | <a href="#alfred-cheney-johnston">alfred cheney johnston</a>(摄影，人物，黑白) | <a href="#alfred-guillou">alfred guillou</a>(人物) | <a href="#alfred-henry-maurer">alfred henry maurer</a>(人物) | <a href="#alfred-stevens">alfred stevens</a>(人物) | <a href="#alice-bailly">alice bailly</a>(抽象，人物) | <a href="#alice-neel">alice neel</a>(人物，幻想) | <a href="#alice-pasquini">alice pasquini</a>(人物，幻想) | <a href="#alphonse-osbert">alphonse osbert</a>(风景，人物) | <a href="#alyssa-monks">alyssa monks</a>(人物)</p>
 
     </div>
 </div>
-<h2 id="形象">形象</h2>
-<p>形似和神似但非真实存在的风景，人物，建筑等。包括各种科幻，幻想，概念等。</p>
+<h2 id="幻想">幻想</h2>
+<p>形似和神似但非真实存在的想象力创造的风景，人物，建筑等。包括各种科幻，幻想，概念等。</p>
 
 <div class="expand">
     <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
@@ -145,7 +224,7 @@
         点击展开
     </a>
     <div class="expand-content" style="display: none;">
-<p><a href="#a-j-casson">a j casson</a>(风景，形象) | <a href="#aaron-jasinski">aaron jasinski</a>(人物，形象) | <a href="#abigail-larson">abigail larson</a>(人物，形象) | <a href="#afarin-sajedi">afarin sajedi</a>(人物，形象) | <a href="#alan-lee">alan lee</a>(风景，人物，形象) | <a href="#alan-parry">alan parry</a>(风景，静物，形象) | <a href="#alayna-lemmer">alayna lemmer</a>(风景，建筑，形象)</p>
+<p><a href="#a-j-casson">a j casson</a>(风景，幻想) | <a href="#aaron-jasinski">aaron jasinski</a>(人物，幻想) | <a href="#abigail-larson">abigail larson</a>(人物，幻想) | <a href="#afarin-sajedi">afarin sajedi</a>(人物，幻想) | <a href="#alan-lee">alan lee</a>(风景，人物，幻想) | <a href="#alan-parry">alan parry</a>(风景，静物，幻想) | <a href="#alayna-lemmer">alayna lemmer</a>(风景，建筑，幻想) | <a href="#albert-pinkham-ryder">albert pinkham ryder</a>(风景，幻想) | <a href="#aleksander-gierymski">aleksander gierymski</a>(风景，幻想) | <a href="#alena-aenami">alena aenami</a>(风景，幻想) | <a href="#alessandro-gottardo">alessandro gottardo</a>(幻想) | <a href="#alex-horley">alex horley</a>(人物，异形，幻想) | <a href="#alex-katz">alex katz</a>(人物，幻想) | <a href="#alex-schomburg">alex schomburg</a>(漫画，幻想) | <a href="#alexander-jansson">alexander jansson</a>(机械，幻想，异形) | <a href="#alexej-von-jawlensky">alexej von jawlensky</a>(人物，幻想) | <a href="#alfred-kubin">alfred kubin</a>(异形，幻想) | <a href="#alice-neel">alice neel</a>(人物，幻想) | <a href="#alice-pasquini">alice pasquini</a>(人物，幻想)</p>
 
     </div>
 </div>
@@ -159,7 +238,7 @@
         点击展开
     </a>
     <div class="expand-content" style="display: none;">
-<p><a href="#adriaen-van-ostade">adriaen van ostade</a>(人物，建筑) | <a href="#adrianus-eversen">adrianus eversen</a>(建筑) | <a href="#alayna-lemmer">alayna lemmer</a>(风景，建筑，形象) | <a href="#albert-benois">albert benois</a>(风景，建筑)</p>
+<p><a href="#adriaen-van-ostade">adriaen van ostade</a>(人物，建筑) | <a href="#adrianus-eversen">adrianus eversen</a>(建筑) | <a href="#alayna-lemmer">alayna lemmer</a>(风景，建筑，幻想) | <a href="#albert-benois">albert benois</a>(风景，建筑) | <a href="#alexandre-benois">alexandre benois</a>(风景，建筑) | <a href="#alvar-aalto">alvar aalto</a>(建筑，实物) | <a href="#%C3%A1lvaro-siza">álvaro siza</a>(建筑)</p>
 
     </div>
 </div>
@@ -173,7 +252,7 @@
         点击展开
     </a>
     <div class="expand-content" style="display: none;">
-<p><a href="#aaron-horkey">aaron horkey</a>(异形，黑白) | <a href="#adam-martinakis">adam martinakis</a>(抽象，异形，人物) | <a href="#adonna-khare">adonna khare</a>(动物，异形，黑白) | <a href="#adrian-smith">adrian smith</a>(异形) | <a href="#agostino-arrivabene">agostino arrivabene</a>(人物，异形)</p>
+<p><a href="#aaron-horkey">aaron horkey</a>(异形，黑白) | <a href="#adam-martinakis">adam martinakis</a>(抽象，异形，人物) | <a href="#adonna-khare">adonna khare</a>(动物，异形，黑白) | <a href="#adrian-smith">adrian smith</a>(异形) | <a href="#agostino-arrivabene">agostino arrivabene</a>(人物，异形) | <a href="#aleksi-briclot">aleksi briclot</a>(人物，异形) | <a href="#alex-andreev">alex andreev</a>(机械，异形) | <a href="#alex-gross">alex gross</a>(人物，异形) | <a href="#alex-horley">alex horley</a>(人物，异形，幻想) | <a href="#alexander-jansson">alexander jansson</a>(机械，幻想，异形) | <a href="#alfred-kubin">alfred kubin</a>(异形，幻想) | <a href="#algernon-blackwood">algernon blackwood</a>(异形) | <a href="#allen-williams">allen williams</a>(异形)</p>
 
     </div>
 </div>
@@ -187,7 +266,7 @@
         点击展开
     </a>
     <div class="expand-content" style="display: none;">
-<p><a href="#aaron-douglas">aaron douglas</a>(抽象，人物) | <a href="#aaron-siskind">aaron siskind</a>(抽象，摄影，黑白) | <a href="#adam-martinakis">adam martinakis</a>(抽象，异形，人物) | <a href="#adolph-gottlieb">adolph gottlieb</a>(抽象) | <a href="#adrian-ghenie">adrian ghenie</a>(抽象) | <a href="#affandi">affandi</a>(人物，抽象) | <a href="#agnes-lawrence-pelton">agnes lawrence pelton</a>(人物，抽象，静物) | <a href="#agnes-martin">agnes martin</a>(抽象) | <a href="#ai-weiwei">ai weiwei</a>(抽象，实物) | <a href="#albert-bloch">albert bloch</a>(抽象，人物，风景) | <a href="#albert-gleizes">albert gleizes</a>(抽象)</p>
+<p><a href="#aaron-douglas">aaron douglas</a>(抽象，人物) | <a href="#aaron-siskind">aaron siskind</a>(抽象，摄影，黑白) | <a href="#adam-martinakis">adam martinakis</a>(抽象，异形，人物) | <a href="#adolph-gottlieb">adolph gottlieb</a>(抽象) | <a href="#adrian-ghenie">adrian ghenie</a>(抽象) | <a href="#affandi">affandi</a>(人物，抽象) | <a href="#agnes-lawrence-pelton">agnes lawrence pelton</a>(人物，抽象，静物) | <a href="#agnes-martin">agnes martin</a>(抽象) | <a href="#ai-weiwei">ai weiwei</a>(抽象，实物) | <a href="#albert-bloch">albert bloch</a>(抽象，人物，风景) | <a href="#albert-gleizes">albert gleizes</a>(抽象) | <a href="#alberto-biasi">alberto biasi</a>(抽象) | <a href="#alberto-burri">alberto burri</a>(抽象) | <a href="#alberto-seveso">alberto seveso</a>(人物，抽象) | <a href="#alex-grey">alex grey</a>(抽象，人物) | <a href="#alex-howitt">alex howitt</a>(摄影，黑白，抽象) | <a href="#alexander-archipenko">alexander archipenko</a>(实物，抽象，人物) | <a href="#alice-bailly">alice bailly</a>(抽象，人物) | <a href="#alice-rahon">alice rahon</a>(抽象) | <a href="#aliza-razell">aliza razell</a>(抽象) | <a href="#alma-thomas">alma thomas</a>(抽象) | <a href="#alvin-langdon-coburn">alvin langdon coburn</a>(摄影，抽象，黑白)</p>
 
     </div>
 </div>
@@ -201,7 +280,7 @@
         点击展开
     </a>
     <div class="expand-content" style="display: none;">
-<p><a href="#adam-hughes">adam hughes</a>(人物，漫画) | <a href="#adrian-tomine">adrian tomine</a>(漫画) | <a href="#ai-yazawa">ai yazawa</a>(人物，漫画) | <a href="#akihiko-yoshida">akihiko yoshida</a>(游戏，漫画) | <a href="#akira-toriyama">akira toriyama</a>(漫画) | <a href="#al-capp">al capp</a>(漫画) | <a href="#al-feldstein">al feldstein</a>(漫画) | <a href="#al-williamson">al williamson</a>(漫画，黑白) | <a href="#alan-davis">alan davis</a>(漫画) | <a href="#alan-moore">alan moore</a>(漫画)</p>
+<p><a href="#adam-hughes">adam hughes</a>(人物，漫画) | <a href="#adrian-tomine">adrian tomine</a>(漫画) | <a href="#ai-yazawa">ai yazawa</a>(人物，漫画) | <a href="#akihiko-yoshida">akihiko yoshida</a>(游戏，漫画) | <a href="#akira-toriyama">akira toriyama</a>(漫画) | <a href="#al-capp">al capp</a>(漫画) | <a href="#al-feldstein">al feldstein</a>(漫画) | <a href="#al-williamson">al williamson</a>(漫画，黑白) | <a href="#alan-davis">alan davis</a>(漫画) | <a href="#alan-moore">alan moore</a>(漫画) | <a href="#albert-robida">albert robida</a>(漫画) | <a href="#alex-hirsch">alex hirsch</a>(漫画) | <a href="#alex-maleev">alex maleev</a>(漫画) | <a href="#alex-ross">alex ross</a>(漫画) | <a href="#alex-schomburg">alex schomburg</a>(漫画，幻想) | <a href="#alex-toth">alex toth</a>(漫画) | <a href="#alison-bechdel">alison bechdel</a>(漫画) | <a href="#allie-brosh">allie brosh</a>(漫画)</p>
 
     </div>
 </div>
@@ -215,7 +294,7 @@
         点击展开
     </a>
     <div class="expand-content" style="display: none;">
-<p><a href="#aaron-horkey">aaron horkey</a>(异形，黑白) | <a href="#aaron-siskind">aaron siskind</a>(抽象，摄影，黑白) | <a href="#adonna-khare">adonna khare</a>(动物，异形，黑白) | <a href="#al-williamson">al williamson</a>(漫画，黑白) | <a href="#alain-laboile">alain laboile</a>(摄影，黑白) | <a href="#alan-schaller">alan schaller</a>(摄影，黑白) | <a href="#alasdair-mclellan">alasdair mclellan</a>(摄影，人物，黑白)</p>
+<p><a href="#aaron-horkey">aaron horkey</a>(异形，黑白) | <a href="#aaron-siskind">aaron siskind</a>(抽象，摄影，黑白) | <a href="#adonna-khare">adonna khare</a>(动物，异形，黑白) | <a href="#al-williamson">al williamson</a>(漫画，黑白) | <a href="#alain-laboile">alain laboile</a>(摄影，黑白) | <a href="#alan-schaller">alan schaller</a>(摄影，黑白) | <a href="#alasdair-mclellan">alasdair mclellan</a>(摄影，人物，黑白) | <a href="#albrecht-d%C3%BCrer">albrecht dürer</a>(人物，黑白) | <a href="#alex-howitt">alex howitt</a>(摄影，黑白，抽象) | <a href="#alex-timmermans">alex timmermans</a>(摄影，黑白) | <a href="#alfred-cheney-johnston">alfred cheney johnston</a>(摄影，人物，黑白) | <a href="#alfred-eisenstaedt">alfred eisenstaedt</a>(摄影，黑白) | <a href="#alvin-langdon-coburn">alvin langdon coburn</a>(摄影，抽象，黑白)</p>
 
     </div>
 </div>
@@ -229,7 +308,7 @@
         点击展开
     </a>
     <div class="expand-content" style="display: none;">
-<p><a href="#aaron-siskind">aaron siskind</a>(抽象，摄影，黑白) | <a href="#akos-major">akos major</a>(摄影) | <a href="#alain-laboile">alain laboile</a>(摄影，黑白) | <a href="#alan-schaller">alan schaller</a>(摄影，黑白) | <a href="#alasdair-mclellan">alasdair mclellan</a>(摄影，人物，黑白)</p>
+<p><a href="#aaron-siskind">aaron siskind</a>(抽象，摄影，黑白) | <a href="#akos-major">akos major</a>(摄影) | <a href="#alain-laboile">alain laboile</a>(摄影，黑白) | <a href="#alan-schaller">alan schaller</a>(摄影，黑白) | <a href="#alasdair-mclellan">alasdair mclellan</a>(摄影，人物，黑白) | <a href="#alec-soth">alec soth</a>(摄影) | <a href="#alex-howitt">alex howitt</a>(摄影，黑白，抽象) | <a href="#alex-prager">alex prager</a>(摄影) | <a href="#alex-timmermans">alex timmermans</a>(摄影，黑白) | <a href="#alfred-cheney-johnston">alfred cheney johnston</a>(摄影，人物，黑白) | <a href="#alfred-eisenstaedt">alfred eisenstaedt</a>(摄影，黑白) | <a href="#alvin-langdon-coburn">alvin langdon coburn</a>(摄影，抽象，黑白)</p>
 
     </div>
 </div>
@@ -243,7 +322,7 @@
         点击展开
     </a>
     <div class="expand-content" style="display: none;">
-<p><a href="#agnes-lawrence-pelton">agnes lawrence pelton</a>(人物，抽象，静物) | <a href="#alan-parry">alan parry</a>(风景，静物，形象) | <a href="#albert-eckhout">albert eckhout</a>(人物，静物)</p>
+<p><a href="#agnes-lawrence-pelton">agnes lawrence pelton</a>(人物，抽象，静物) | <a href="#alan-parry">alan parry</a>(风景，静物，幻想) | <a href="#albert-eckhout">albert eckhout</a>(人物，静物)</p>
 
     </div>
 </div>
@@ -257,7 +336,7 @@
         点击展开
     </a>
     <div class="expand-content" style="display: none;">
-<p><a href="#ai-weiwei">ai weiwei</a>(抽象，实物)</p>
+<p><a href="#ai-weiwei">ai weiwei</a>(抽象，实物) | <a href="#alberto-giacometti">alberto giacometti</a>(实物) | <a href="#alexander-archipenko">alexander archipenko</a>(实物，抽象，人物) | <a href="#alexander-mcqueen">alexander mcqueen</a>(实物，人物) | <a href="#alfredo-jaar">alfredo jaar</a>(实物) | <a href="#alvar-aalto">alvar aalto</a>(建筑，实物)</p>
 
     </div>
 </div>
@@ -275,6 +354,34 @@
 
     </div>
 </div>
+<h2 id="机械">机械</h2>
+<p>包括人物机甲，机械工具，交通工具，机械科幻等。</p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        点击展开
+    </a>
+    <div class="expand-content" style="display: none;">
+<p><a href="#alejandro-burdisio">alejandro burdisio</a>(机械) | <a href="#alex-andreev">alex andreev</a>(机械，异形) | <a href="#alexander-jansson">alexander jansson</a>(机械，幻想，异形)</p>
+
+    </div>
+</div>
+<h2 id="动物">动物</h2>
+<p>各种动物绘画。</p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        点击展开
+    </a>
+    <div class="expand-content" style="display: none;">
+<p><a href="#adonna-khare">adonna khare</a>(动物，异形，黑白) | <a href="#alex-colville">alex colville</a>(人物，动物) | <a href="#alfred-munnings">alfred munnings</a>(风景，动物)</p>
+
+    </div>
+</div>
 <h2 id="未收集">未收集</h2>
 <p>数据集未收集的艺术家，附有该艺术家的样作</p>
 
@@ -285,342 +392,808 @@
         点击展开
     </a>
     <div class="expand-content" style="display: none;">
-<p><a href="#abdel-hadi-al-gazzar">abdel hadi al gazzar</a>(未收集) | <a href="#abed-abdi">abed abdi</a>(未收集) | <a href="#abraham-mintchine">abraham mintchine</a>(未收集) | <a href="#abraham-rattner">abraham rattner</a>(未收集) | <a href="#adam-baines">adam baines</a>(未收集) | <a href="#adam-paquette">adam paquette</a>(未收集) | <a href="#adi-granov">adi granov</a>(未收集) | <a href="#adolf-hir%C3%A9my-hirschl">adolf hirémy-hirschl</a>(未收集) | <a href="#adriaen-van-utrecht">adriaen van utrecht</a>(未收集) | <a href="#adrian-donoghue">adrian donoghue</a>(未收集) | <a href="#adrian-paul-allinson">adrian paul allinson</a>(未收集) | <a href="#agostino-tassi">agostino tassi</a>(未收集) | <a href="#agust%C3%ADn-fern%C3%A1ndez">agustín fernández</a>(未收集) | <a href="#ahmed-morsi">ahmed morsi</a>(未收集) | <a href="#alan-kenny">alan kenny</a>(未收集) | <a href="#albert-dubois-pillet">albert dubois-pillet</a>(未收集)</p>
+<p><a href="#adriaen-van-utrecht">adriaen van utrecht</a>(未收集) | <a href="#adrian-donoghue">adrian donoghue</a>(未收集) | <a href="#adrian-paul-allinson">adrian paul allinson</a>(未收集) | <a href="#agostino-tassi">agostino tassi</a>(未收集) | <a href="#agust%C3%ADn-fern%C3%A1ndez">agustín fernández</a>(未收集) | <a href="#ahmed-morsi">ahmed morsi</a>(未收集) | <a href="#alan-kenny">alan kenny</a>(未收集) | <a href="#albert-dubois-pillet">albert dubois-pillet</a>(未收集) | <a href="#albert-koetsier">albert koetsier</a>(未收集) | <a href="#albert-kotin">albert kotin</a>(未收集) | <a href="#albert-servaes">albert servaes</a>(未收集) | <a href="#albert-tucker">albert tucker</a>(未收集) | <a href="#alberto-magnelli">alberto magnelli</a>(未收集) | <a href="#alberto-sughi">alberto sughi</a>(未收集) | <a href="#alejandro-jodorowsky">alejandro jodorowsky</a>(未收集) | <a href="#alessandro-barbucci">alessandro barbucci</a>(未收集) | <a href="#alex-figini">alex figini</a>(未收集) | <a href="#alex-petruk">alex petruk</a>(未收集) | <a href="#alex-robinson">alex robinson</a>(未收集) | <a href="#alexander-bogen">alexander bogen</a>(未收集) | <a href="#alexander-fedosav">alexander fedosav</a>(未收集) | <a href="#alexander-kanoldt">alexander kanoldt</a>(未收集) | <a href="#alexander-millar">alexander millar</a>(未收集) | <a href="#alexander-milne-calder">alexander milne calder</a>(未收集) | <a href="#alexandre-antigna">alexandre antigna</a>(未收集) | <a href="#alexandre-jacovleff">alexandre jacovleff</a>(未收集) | <a href="#alexei-harlamoff">alexei harlamoff</a>(未收集) | <a href="#alexey-kurbatov">alexey kurbatov</a>(未收集) | <a href="#alexis-gritchenko">alexis gritchenko</a>(未收集) | <a href="#alfred-kelsner">alfred kelsner</a>(未收集) | <a href="#alfred-parsons">alfred parsons</a>(未收集) | <a href="#alpo-jaakola">alpo jaakola</a>(未收集) | <a href="#alson-skinner-clark">alson skinner clark</a>(未收集) | <a href="#alvar-caw%C3%A9n">alvar cawén</a>(未收集)</p>
 
     </div>
 </div>
 <hr>
 <h2 id="a-j-casson">a j casson</h2>
 <p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
-<a href="#%E5%BD%A2%E8%B1%A1">形象</a></p>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
 <p>1898-1992, 加拿大风景画家</p>
-<p><img src="https://175.178.103.126/2022-08-19-21-59-32.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-21-59-32.png" alt=""></p>
 <h2 id="aaron-douglas">aaron douglas</h2>
 <p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a>
 <a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
 <p>1899-1979, 美国画家、插画家和视觉艺术教育家</p>
-<p><img src="https://175.178.103.126/2022-08-19-22-02-43.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-22-02-43.png" alt=""></p>
 <h2 id="aaron-horkey">aaron horkey</h2>
 <p><a href="#%E5%BC%82%E5%BD%A2">异形</a>
 <a href="#%E9%BB%91%E7%99%BD">黑白</a></p>
 <p>美国插画家</p>
-<p><img src="https://175.178.103.126/2022-08-19-22-08-31.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-22-08-31.png" alt=""></p>
 <h2 id="aaron-jasinski">aaron jasinski</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
-<a href="#%E5%BD%A2%E8%B1%A1">形象</a></p>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
 <p>造型艺术家</p>
-<p><img src="https://175.178.103.126/2022-08-19-22-13-58.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-22-13-58.png" alt=""></p>
 <h2 id="aaron-siskind">aaron siskind</h2>
 <p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a>
 <a href="#%E6%91%84%E5%BD%B1">摄影</a>
 <a href="#%E9%BB%91%E7%99%BD">黑白</a></p>
 <p>1903-1991, 美国摄影师</p>
-<p><img src="https://175.178.103.126/2022-08-19-22-17-56.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-22-17-56.png" alt=""></p>
 <h2 id="abbott-fuller-graves">abbott fuller graves</h2>
 <p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
 <a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
 <p>1859-1936，美国露天花园、静物画家</p>
-<p><img src="https://175.178.103.126/2022-08-19-22-23-52.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-22-23-52.png" alt=""></p>
 <h2 id="abbott-handerson-thayer">abbott handerson thayer</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
 <p>1849-1921, 美国人物，动物，风景画家</p>
-<p><img src="https://175.178.103.126/2022-08-19-22-26-59.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-22-26-59.png" alt=""></p>
 <h2 id="abdel-hadi-el-gazzar">abdel hadi el gazzar</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>1925-1966, 埃及画家</p>
 <p>数据集未收集，以下图片来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-19-22-38-26.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-22-38-26.png" alt=""></p>
 <h2 id="abed-abdi">abed abdi</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>1942- ，巴勒斯坦画家，图形设计，雕塑家</p>
 <p>数据集未收集，以下图片来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-19-22-35-38.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-22-35-38.png" alt=""></p>
 <h2 id="abigail-larson">abigail larson</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
-<a href="#%E5%BD%A2%E8%B1%A1">形象</a></p>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
 <p>造型艺术家</p>
-<p><img src="https://175.178.103.126/2022-08-19-22-43-35.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-22-43-35.png" alt=""></p>
 <h2 id="abraham-mintchine">abraham mintchine</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>1898-1931, 乌克兰，法国画家</p>
 <p>数据集未收集，以下图片来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-19-22-48-03.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-22-48-03.png" alt=""></p>
 <h2 id="abraham-pether">abraham pether</h2>
 <p><a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
 <p>1756-1812, 英国月光风景画家</p>
-<p><img src="https://175.178.103.126/2022-08-19-22-52-06.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-22-52-06.png" alt=""></p>
 <h2 id="abraham-rattner">abraham rattner</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>1895-1978, 美国丰富色彩画家</p>
-<p><img src="https://175.178.103.126/2022-08-19-22-55-16.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-22-55-16.png" alt=""></p>
 <p>数据集中数量不够，风格不吻合，以下是真实风格，来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-19-22-57-29.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-22-57-29.png" alt=""></p>
 <h2 id="abram-efimovich-arkhipov">abram efimovich arkhipov</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
 <a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
 <p>1862-1930, 俄罗斯现实主义画家</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-00-00.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-00-00.png" alt=""></p>
 <h2 id="adam-baines">adam baines</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>暴雪娱乐高级概念艺术家</p>
 <p>数据集未收集，以下图片来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-04-10.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-04-10.png" alt=""></p>
 <h2 id="adam-elsheimer">adam elsheimer</h2>
 <p><a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
 <p>1578-1610，德国画家</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-12-55.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-12-55.png" alt=""></p>
 <h2 id="adam-hughes">adam hughes</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
 <a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
 <p>1967- , 美国插画，漫画家，女郎风格</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-16-01.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-16-01.png" alt=""></p>
 <h2 id="adam-martinakis">adam martinakis</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
 <a href="#%E6%8A%BD%E8%B1%A1">抽象</a>
 <a href="#%E5%BC%82%E5%BD%A2">异形</a></p>
 <p>1972- , 波兰设计，数字艺术家</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-20-22.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-20-22.png" alt=""></p>
 <h2 id="adam-paquette">adam paquette</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>数据集未收集，图片来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-25-19.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-25-19.png" alt=""></p>
 <h2 id="adi-granov">adi granov</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>1977- ，美国漫画家，概念设计师</p>
 <p>数据集未收集，以下图片来源网络（使用这个名字生成基本是女性肖像画）</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-33-05.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-33-05.png" alt=""></p>
 <h2 id="adolf-hirémy-hirschl">adolf hirémy-hirschl</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>1860-1933，匈牙利历史神话画家</p>
 <p>数据集未匹配风格，以下是真实风格，来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-42-13.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-42-13.png" alt=""></p>
 <p>生成是另外一种风格，是有同名画家吗？</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-42-25.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-42-25.png" alt=""></p>
 <h2 id="adolph-gottlieb">adolph gottlieb</h2>
 <p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
 <p>1903-1974, 美国抽象表现主义画家，雕塑家和版画家</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-44-33.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-44-33.png" alt=""></p>
 <h2 id="adolph-menzel">adolph menzel</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
 <a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
 <p>1815-1905, 德国油画，版画家</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-46-48.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-46-48.png" alt=""></p>
 <h2 id="adonna-khare">adonna khare</h2>
 <p><a href="#%E5%8A%A8%E7%89%A9">动物</a>
 <a href="#%E5%BC%82%E5%BD%A2">异形</a>
 <a href="#%E9%BB%91%E7%99%BD">黑白</a></p>
 <p>1980- , 美国大型铅笔素描画家</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-50-43.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-50-43.png" alt=""></p>
 <h2 id="adriaen-van-ostade">adriaen van ostade</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
 <a href="#%E5%BB%BA%E7%AD%91">建筑</a></p>
 <p>1610-1685，荷兰黄金时代风俗画画家。风格不完全吻合。</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-53-00.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-53-00.png" alt=""></p>
 <h2 id="adriaen-van-utrecht">adriaen van utrecht</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>1599-1652,比利时静物画家</p>
 <p>数据集不匹配，以下图片来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-19-23-59-43.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-19-23-59-43.png" alt=""></p>
 <p>生成图和 adriaen van ostade 风格类似</p>
-<p><img src="https://175.178.103.126/2022-08-20-00-00-07.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-20-00-00-07.png" alt=""></p>
 <h2 id="adrian-donoghue">adrian donoghue</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>街头摄影师</p>
 <p>数据集未收集，以下图片来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-20-00-07-27.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-20-00-07-27.png" alt=""></p>
 <h2 id="adrian-ghenie">adrian ghenie</h2>
 <p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
 <p>1977- , 罗马尼亚画家</p>
-<p><img src="https://175.178.103.126/2022-08-20-00-10-24.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-20-00-10-24.png" alt=""></p>
 <h2 id="adrian-paul-allinson">adrian paul allinson</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>1890-1959, 英国画家，陶艺家，雕刻家</p>
 <p>数据集未收集，以下图片来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-20-00-15-16.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-20-00-15-16.png" alt=""></p>
 <h2 id="adrian-smith">adrian smith</h2>
 <p><a href="#%E5%BC%82%E5%BD%A2">异形</a></p>
 <p>自由概念艺术家，插画家</p>
 <p>因为有同名的著名吉他手，每幅画都拿着一把吉他</p>
-<p><img src="https://175.178.103.126/2022-08-20-00-19-41.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-20-00-19-41.png" alt=""></p>
 <h2 id="adrian-tomine">adrian tomine</h2>
 <p><a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
 <p>1974- ，美国漫画家</p>
-<p><img src="https://175.178.103.126/2022-08-20-00-23-55.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-20-00-23-55.png" alt=""></p>
 <h2 id="adrianus-eversen">adrianus eversen</h2>
 <p><a href="#%E5%BB%BA%E7%AD%91">建筑</a></p>
 <p>1818-1897, 荷兰画家</p>
-<p><img src="https://175.178.103.126/2022-08-20-00-25-42.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-20-00-25-42.png" alt=""></p>
 <h2 id="afarin-sajedi">afarin sajedi</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
-<a href="#%E5%BD%A2%E8%B1%A1">形象</a></p>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
 <p>1979- ，伊朗艺术家</p>
-<p><img src="https://175.178.103.126/2022-08-22-19-04-33.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-19-04-33.png" alt=""></p>
 <h2 id="affandi">affandi</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
 <a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
 <p>1907-1990，印度尼西亚画家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-19-07-28.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-19-07-28.png" alt=""></p>
 <h2 id="agnes-cecile">agnes cecile</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
 <p>1991- ，意大利画家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-19-15-19.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-19-15-19.png" alt=""></p>
 <h2 id="agnes-lawrence-pelton">agnes lawrence pelton</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
 <a href="#%E6%8A%BD%E8%B1%A1">抽象</a>
 <a href="#%E9%9D%99%E7%89%A9">静物</a></p>
 <p>1881-1961，德国，美国画家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-19-23-48.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-19-23-48.png" alt=""></p>
 <h2 id="agnes-martin">agnes martin</h2>
 <p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
 <p>1912-2004，加拿大，美国艺术家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-19-27-18.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-19-27-18.png" alt=""></p>
 <h2 id="agostino-arrivabene">agostino arrivabene</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
 <a href="#%E5%BC%82%E5%BD%A2">异形</a></p>
 <p>1967- ，意大利艺术家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-19-37-07.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-19-37-07.png" alt=""></p>
 <h2 id="agostino-tassi">agostino tassi</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>1580-1644，意大利风景，海景画家。</p>
 <p>数据集未收集。以下图片来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-22-19-43-43.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-19-43-43.png" alt=""></p>
 <h2 id="agustín-fernández">agustín fernández</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>1928-2006，古巴画家，雕塑家，多媒体艺术家。</p>
 <p>数据集未收集，以下图片来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-22-19-49-40.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-19-49-40.png" alt=""></p>
 <h2 id="ahmed-morsi">ahmed morsi</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>1930- ，埃及艺术家。</p>
 <p>数据集未收集，以下图片来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-22-19-56-16.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-19-56-16.png" alt=""></p>
 <h2 id="ai-weiwei">ai weiwei</h2>
 <p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a>
 <a href="#%E5%AE%9E%E7%89%A9">实物</a></p>
 <p>1957- ，艾未未，中国造型艺术家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-20-01-19.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-20-01-19.png" alt=""></p>
 <h2 id="ai-yazawa">ai yazawa</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
 <a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
 <p>1967- ，日本漫画家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-20-14-20.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-20-14-20.png" alt=""></p>
 <h2 id="akihiko-yoshida">akihiko yoshida</h2>
 <p><a href="#%E6%B8%B8%E6%88%8F">游戏</a>
 <a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
 <p>1967- ，日本游戏美术设计师。</p>
-<p><img src="https://175.178.103.126/2022-08-22-20-21-02.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-20-21-02.png" alt=""></p>
 <h2 id="akira-toriyama">akira toriyama</h2>
 <p><a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
 <p>1955- ，日本漫画家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-20-24-48.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-20-24-48.png" alt=""></p>
 <h2 id="akos-major">akos major</h2>
 <p><a href="#%E6%91%84%E5%BD%B1">摄影</a></p>
 <p>1974- ，匈牙利摄影师。</p>
-<p><img src="https://175.178.103.126/2022-08-22-20-28-59.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-20-28-59.png" alt=""></p>
 <h2 id="akseli-gallen-kallela">akseli gallen-kallela</h2>
 <p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
 <a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
 <p>1865-1931，芬兰艺术家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-20-35-16.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-20-35-16.png" alt=""></p>
 <h2 id="al-capp">al capp</h2>
 <p><a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
 <p>1909-1979，美国漫画家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-21-25-27.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-21-25-27.png" alt=""></p>
 <h2 id="al-feldstein">al feldstein</h2>
 <p><a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
 <p>1925-2014，美国漫画家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-21-27-49.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-21-27-49.png" alt=""></p>
 <h2 id="al-williamson">al williamson</h2>
 <p><a href="#%E6%BC%AB%E7%94%BB">漫画</a>
 <a href="#%E9%BB%91%E7%99%BD">黑白</a></p>
 <p>1931-2010，美国漫画家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-21-35-44.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-21-35-44.png" alt=""></p>
 <h2 id="alain-laboile">alain laboile</h2>
 <p><a href="#%E6%91%84%E5%BD%B1">摄影</a>
 <a href="#%E9%BB%91%E7%99%BD">黑白</a></p>
 <p>1968- ，法国摄影家，雕塑家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-21-41-16.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-21-41-16.png" alt=""></p>
 <h2 id="alan-davis">alan davis</h2>
 <p><a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
 <p>1956- ，英国漫画家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-21-58-34.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-21-58-34.png" alt=""></p>
 <h2 id="alan-kenny">alan kenny</h2>
 <p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
 <p>数据集未收集，以下图片来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-22-22-03-49.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-22-03-49.png" alt=""></p>
 <h2 id="alan-lee">alan lee</h2>
 <p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
 <a href="#%E4%BA%BA%E7%89%A9">人物</a>
-<a href="#%E5%BD%A2%E8%B1%A1">形象</a></p>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
 <p>1947- ，英国图书，电影插画设计师。</p>
-<p><img src="https://175.178.103.126/2022-08-22-22-24-01.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-22-24-01.png" alt=""></p>
 <h2 id="alan-moore">alan moore</h2>
 <p><a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
 <p>1953- ，英国漫画家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-22-36-22.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-22-36-22.png" alt=""></p>
 <h2 id="alan-parry">alan parry</h2>
 <p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
 <a href="#%E9%9D%99%E7%89%A9">静物</a>
-<a href="#%E5%BD%A2%E8%B1%A1">形象</a></p>
-<p><img src="https://175.178.103.126/2022-08-22-22-43-53.png" alt=""></p>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
+<p><img src="http://175.178.103.126/2022-08-22-22-43-53.png" alt=""></p>
 <h2 id="alan-schaller">alan schaller</h2>
 <p><a href="#%E6%91%84%E5%BD%B1">摄影</a>
 <a href="#%E9%BB%91%E7%99%BD">黑白</a></p>
 <p>英国摄影师。</p>
-<p><img src="https://175.178.103.126/2022-08-22-23-08-27.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-23-08-27.png" alt=""></p>
 <h2 id="alasdair-mclellan">alasdair mclellan</h2>
 <p><a href="#%E6%91%84%E5%BD%B1">摄影</a>
 <a href="#%E4%BA%BA%E7%89%A9">人物</a>
 <a href="#%E9%BB%91%E7%99%BD">黑白</a></p>
 <p>1974- ，英国摄影师。</p>
-<p><img src="https://175.178.103.126/2022-08-22-23-17-12.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-23-17-12.png" alt=""></p>
 <h2 id="alayna-lemmer">alayna lemmer</h2>
 <p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
 <a href="#%E5%BB%BA%E7%AD%91">建筑</a>
-<a href="#%E5%BD%A2%E8%B1%A1">形象</a></p>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
 <p>美国艺术家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-23-25-37.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-23-25-37.png" alt=""></p>
 <h2 id="albert-benois">albert benois</h2>
 <p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
 <a href="#%E5%BB%BA%E7%AD%91">建筑</a></p>
 <p>1852-1936，俄罗斯水彩风景画画家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-23-33-19.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-23-33-19.png" alt=""></p>
 <h2 id="albert-bierstadt">albert bierstadt</h2>
 <p><a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
 <p>1830-1902，徳裔美国风景画家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-23-37-05.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-23-37-05.png" alt=""></p>
 <h2 id="albert-bloch">albert bloch</h2>
 <p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a>
 <a href="#%E9%A3%8E%E6%99%AF">风景</a>
 <a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
 <p>1882-1961，美国现代艺术家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-23-39-53.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-23-39-53.png" alt=""></p>
 <h2 id="albert-dubois-pillet">albert dubois-pillet</h2>
 <p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
 <p>1846-1890，法国新印象派画家。</p>
 <p>数据集未收集，以下图片来源网络</p>
-<p><img src="https://175.178.103.126/2022-08-22-23-45-43.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-23-45-43.png" alt=""></p>
 <h2 id="albert-eckhout">albert eckhout</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
 <a href="#%E9%9D%99%E7%89%A9">静物</a></p>
 <p>1610-1665，荷兰肖像和静物画家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-23-52-10.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-23-52-10.png" alt=""></p>
 <h2 id="albert-edelfelt">albert edelfelt</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
 <p>1854-1905，芬兰画家，平面设计师。</p>
-<p><img src="https://175.178.103.126/2022-08-22-23-55-28.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-23-55-28.png" alt=""></p>
 <h2 id="albert-gleizes">albert gleizes</h2>
 <p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
 <p>1881-1953，法国立体派艺术家。</p>
-<p><img src="https://175.178.103.126/2022-08-22-23-58-12.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-22-23-58-12.png" alt=""></p>
 <h2 id="albert-goodwin">albert goodwin</h2>
 <p><a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
 <p>1845-1932，英国水彩景观画家。</p>
-<p><img src="https://175.178.103.126/2022-08-23-00-00-47.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-23-00-00-47.png" alt=""></p>
 <h2 id="albert-joseph-moore">albert joseph moore</h2>
 <p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
 <p>1841-1893，英国画家。奢华和颓废，没精打采的女性人物描绘</p>
-<p><img src="https://175.178.103.126/2022-08-23-00-11-27.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-23-00-11-27.png" alt=""></p>
+<h2 id="albert-koetsier">albert koetsier</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>荷兰艺术家，x 射线，花卉艺术家。</p>
+<p>以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-29-21-11-08.png" alt=""></p>
+<h2 id="albert-kotin">albert kotin</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1907-1980，白俄罗斯抽象表现艺术家。</p>
+<p>以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-29-21-16-51.png" alt=""></p>
+<h2 id="albert-lynch">albert lynch</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1861-1950，巴黎肖像画家。</p>
+<p><img src="http://175.178.103.126/2022-08-29-21-20-12.png" alt=""></p>
+<h2 id="albert-marquet">albert marquet</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
+<p>1875-1947，法国野兽派画家。</p>
+<p><img src="http://175.178.103.126/2022-08-29-21-23-28.png" alt=""></p>
+<h2 id="albert-pinkham-ryder">albert pinkham ryder</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
+<p>1847-1917，美国画家。模糊的预言海景。</p>
+<p><img src="http://175.178.103.126/2022-08-29-21-28-45.png" alt=""></p>
+<h2 id="albert-robida">albert robida</h2>
+<p><a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
+<p>1848-1926，法国小说家，插画、版画家，讽刺画家，记者。</p>
+<p><img src="http://175.178.103.126/2022-08-29-21-33-27.png" alt=""></p>
+<h2 id="albert-servaes">albert servaes</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1883-1966，比利时表现主义画家。魔幻现实，宗教作品。</p>
+<p>以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-29-21-41-56.png" alt=""></p>
+<h2 id="albert-tucker">albert tucker</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1914-1990，澳大利亚现代派艺术家。</p>
+<p>以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-29-21-46-51.png" alt=""></p>
+<h2 id="albert-watson">albert watson</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1942- ，苏格兰时尚艺术摄影师。</p>
+<p><img src="http://175.178.103.126/2022-08-29-21-49-35.png" alt=""></p>
+<h2 id="alberto-biasi">alberto biasi</h2>
+<p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
+<p>1937- ，意大利现代艺术家。Kinetic 和 Op Art 先驱。</p>
+<p><img src="http://175.178.103.126/2022-08-29-21-53-37.png" alt=""></p>
+<h2 id="alberto-burri">alberto burri</h2>
+<p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
+<p>1915-1995，意大利视觉艺术家，画家，雕塑家，医生。</p>
+<p><img src="http://175.178.103.126/2022-08-29-21-56-26.png" alt=""></p>
+<h2 id="alberto-giacometti">alberto giacometti</h2>
+<p><a href="#%E5%AE%9E%E7%89%A9">实物</a></p>
+<p>1901-1966,瑞士雕塑家。</p>
+<p><img src="http://175.178.103.126/2022-08-29-22-00-35.png" alt=""></p>
+<h2 id="alberto-magnelli">alberto magnelli</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1888-1971，意大利现代画家。混泥土艺术运动重要人物。</p>
+<p>以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-29-22-03-32.png" alt=""></p>
+<h2 id="alberto-seveso">alberto seveso</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
+<a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
+<p>英国插画家，平面设计师，摄影师。</p>
+<p><img src="http://175.178.103.126/2022-08-29-22-12-22.png" alt=""></p>
+<h2 id="alberto-sughi">alberto sughi</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1928-2012,意大利画家。造型艺术家。</p>
+<p>数据集不够，风格不匹配。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-29-22-18-30.png" alt=""></p>
+<h2 id="alberto-vargas">alberto vargas</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1896-1982，美国美女人物画报画家。</p>
+<p><img src="http://175.178.103.126/2022-08-29-22-21-32.png" alt=""></p>
+<h2 id="albrecht-anker">albrecht anker</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1831-1910，瑞士画家和插画家。瑞士乡村生活描写。</p>
+<p><img src="http://175.178.103.126/2022-08-29-22-24-58.png" alt=""></p>
+<h2 id="albrecht-dürer">albrecht dürer</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
+<a href="#%E9%BB%91%E7%99%BD">黑白</a></p>
+<p>1471-1528，德国文艺复兴时期油画家，版画家，雕塑家，艺术理论家。祭坛，宗教，人物及自画像。</p>
+<p><img src="http://175.178.103.126/2022-08-29-22-35-35.png" alt=""></p>
+<h2 id="alec-soth">alec soth</h2>
+<p><a href="#%E6%91%84%E5%BD%B1">摄影</a></p>
+<p>1969- ，美国摄影师。</p>
+<p><img src="http://175.178.103.126/2022-08-29-22-42-21.png" alt=""></p>
+<h2 id="alejandro-burdisio">alejandro burdisio</h2>
+<p><a href="#%E6%9C%BA%E6%A2%B0">机械</a></p>
+<p>阿根廷画家。</p>
+<p><img src="http://175.178.103.126/2022-08-29-22-58-45.png" alt=""></p>
+<h2 id="alejandro-jodorowsky">alejandro jodorowsky</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1929- ，智利导演，制片人，编剧，演员，作家，诗人，作曲家，漫画家，音乐家。</p>
+<p>数据集构成复杂，不成统一风格。</p>
+<h2 id="aleksander-gierymski">aleksander gierymski</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
+<p>1850-1901，波兰画家。现实主义和印象派。</p>
+<p>数据集未收集，以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-29-23-15-35.png" alt=""></p>
+<p>但这个名字有不错的风景画风格</p>
+<p><img src="http://175.178.103.126/2022-08-29-23-17-20.png" alt=""></p>
+<h2 id="aleksey-savrasov">aleksey savrasov</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
+<p>1830-1897，俄罗斯著名风景画家。</p>
+<p><img src="http://175.178.103.126/2022-08-29-23-26-48.png" alt=""></p>
+<h2 id="aleksi-briclot">aleksi briclot</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
+<a href="#%E5%BC%82%E5%BD%A2">异形</a></p>
+<p>1978- , 法国造型艺术家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-15-23-11.png" alt=""></p>
+<h2 id="alena-aenami">alena aenami</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
+<p>乌克兰画家。日、月、霞光。</p>
+<p><img src="http://175.178.103.126/2022-08-30-15-28-04.png" alt=""></p>
+<h2 id="alessandro-allori">alessandro allori</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1535-1607，意大利画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-15-33-37.png" alt=""></p>
+<h2 id="alessandro-barbucci">alessandro barbucci</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1973- ，意大利造型艺术家。</p>
+<p>以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-15-36-20.png" alt=""></p>
+<h2 id="alessandro-gottardo">alessandro gottardo</h2>
+<p><a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
+<p>1977- ，意大利插画家。简约。</p>
+<p><img src="http://175.178.103.126/2022-08-30-15-45-46.png" alt=""></p>
+<h2 id="alessio-albi">alessio albi</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>摄影师。</p>
+<p><img src="http://175.178.103.126/2022-08-30-15-50-36.png" alt=""></p>
+<h2 id="alex-alemany">alex alemany</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1943- ，魔幻现实主义画家。数据集不匹配，以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-15-57-51.png" alt=""></p>
+<h2 id="alex-andreev">alex andreev</h2>
+<p><a href="#%E6%9C%BA%E6%A2%B0">机械</a>
+<a href="#%E5%BC%82%E5%BD%A2">异形</a></p>
+<p>1972- ，俄罗斯数字绘画艺术家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-16-06-25.png" alt=""></p>
+<h2 id="alex-colville">alex colville</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
+<a href="#%E5%8A%A8%E7%89%A9">动物</a></p>
+<p>1920-2013，加拿大画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-16-13-50.png" alt=""></p>
+<h2 id="alex-figini">alex figini</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>加拿大概念艺术家。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-16-23-32.png" alt=""></p>
+<h2 id="alex-garant">alex garant</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>加拿大视觉艺术家，OP 艺术先驱，4 眼人物画。</p>
+<p><img src="http://175.178.103.126/2022-08-30-16-28-59.png" alt=""></p>
+<p>令人意外的是，AI 画不出 4 眼人物。以下图片来源 laion5B 数据集</p>
+<p><img src="http://175.178.103.126/2022-08-30-16-31-50.png" alt=""></p>
+<h2 id="alex-grey">alex grey</h2>
+<p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a>
+<a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1953- ，美国艺术家。灵幻艺术。藏传佛教信仰者。</p>
+<p><img src="http://175.178.103.126/2022-08-30-16-36-17.png" alt=""></p>
+<h2 id="alex-gross">alex gross</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
+<a href="#%E5%BC%82%E5%BD%A2">异形</a></p>
+<p>1968- ，美国视觉艺术家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-16-39-48.png" alt=""></p>
+<h2 id="alex-hirsch">alex hirsch</h2>
+<p><a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
+<p>1985- ，美国配音演员，动画师，作家，故事板艺术家和制作人。</p>
+<p><img src="http://175.178.103.126/2022-08-30-16-48-41.png" alt=""></p>
+<h2 id="alex-horley">alex horley</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
+<a href="#%E5%BC%82%E5%BD%A2">异形</a>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
+<p>1970- ，意大利造型艺术家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-17-11-45.png" alt=""></p>
+<h2 id="alex-howitt">alex howitt</h2>
+<p><a href="#%E6%91%84%E5%BD%B1">摄影</a>
+<a href="#%E9%BB%91%E7%99%BD">黑白</a>
+<a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
+<p>摄影师。</p>
+<p><img src="http://175.178.103.126/2022-08-30-17-13-56.png" alt=""></p>
+<h2 id="alex-katz">alex katz</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
+<p>1927- ，美国具象艺术家。雕塑，版画，绘画。</p>
+<p><img src="http://175.178.103.126/2022-08-30-17-17-12.png" alt=""></p>
+<h2 id="alex-maleev">alex maleev</h2>
+<p><a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
+<p>1971- ，保加利亚漫画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-17-19-55.png" alt=""></p>
+<h2 id="alex-petruk">alex petruk</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>俄罗斯画家。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-17-23-13.png" alt=""></p>
+<h2 id="alex-prager">alex prager</h2>
+<p><a href="#%E6%91%84%E5%BD%B1">摄影</a></p>
+<p>1979- ，美国摄影师，电影制作人。</p>
+<p><img src="http://175.178.103.126/2022-08-30-17-28-08.png" alt=""></p>
+<h2 id="alex-robinson">alex robinson</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1969- ，美国漫画作家，艺术家。</p>
+<p>数据集太少，风格不匹配。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-17-33-38.png" alt=""></p>
+<h2 id="alex-ross">alex ross</h2>
+<p><a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
+<p>1970- ，美国漫画作家，艺术家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-17-35-52.png" alt=""></p>
+<h2 id="alex-russell-flint">alex russell flint</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>英国艺术家。油画和木炭的具象叙事作品</p>
+<p><img src="http://175.178.103.126/2022-08-30-17-38-44.png" alt=""></p>
+<h2 id="alex-schomburg">alex schomburg</h2>
+<p><a href="#%E6%BC%AB%E7%94%BB">漫画</a>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
+<p>1905-1998，波多黎各商业艺术家，漫画家，画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-17-42-19.png" alt=""></p>
+<h2 id="alex-timmermans">alex timmermans</h2>
+<p><a href="#%E6%91%84%E5%BD%B1">摄影</a>
+<a href="#%E9%BB%91%E7%99%BD">黑白</a></p>
+<p>1962- ，荷兰摄影师。</p>
+<p><img src="http://175.178.103.126/2022-08-30-17-50-57.png" alt=""></p>
+<h2 id="alex-toth">alex toth</h2>
+<p><a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
+<p>1928-2006，美国漫画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-17-56-15.png" alt=""></p>
+<h2 id="alexander-archipenko">alexander archipenko</h2>
+<p><a href="#%E5%AE%9E%E7%89%A9">实物</a>
+<a href="#%E6%8A%BD%E8%B1%A1">抽象</a>
+<a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1887-1964，乌克兰和美国先锋派艺术家，雕塑家，图像艺术家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-18-00-10.png" alt=""></p>
+<h2 id="alexander-bogen">alexander bogen</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1916-2010，波兰，以色列视觉艺术家。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-18-04-43.png" alt=""></p>
+<h2 id="alexander-fedosov">alexander fedosov</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>数字艺术家。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-18-13-26.png" alt=""></p>
+<h2 id="alexander-jansson">alexander jansson</h2>
+<p><a href="#%E6%9C%BA%E6%A2%B0">机械</a>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a>
+<a href="#%E5%BC%82%E5%BD%A2">异形</a></p>
+<p>1977- ，造型艺术家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-18-16-16.png" alt=""></p>
+<h2 id="alexander-kanoldt">alexander kanoldt</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1881-1939，德国魔幻现实主义画家。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-18-21-43.png" alt=""></p>
+<h2 id="alexander-mcqueen">alexander mcqueen</h2>
+<p><a href="#%E5%AE%9E%E7%89%A9">实物</a>
+<a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1969-2010，英国服装设计师。</p>
+<p><img src="http://175.178.103.126/2022-08-30-18-26-05.png" alt=""></p>
+<h2 id="alexander-millar">alexander millar</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>苏格兰画家。轻盈厚涂笔触。</p>
+<p><img src="http://175.178.103.126/2022-08-30-18-48-29.png" alt=""></p>
+<p>数据集不够，风格不太匹配，以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-18-49-52.png" alt=""></p>
+<h2 id="alexander-milne-calder">alexander milne calder</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1846-1923，苏格兰，美国雕塑家。</p>
+<p>数据集不够，风格不匹配。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-12-54.png" alt=""></p>
+<h2 id="alexandr-averin">alexandr averin</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
+<a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1952- ，俄罗斯画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-17-05.png" alt=""></p>
+<h2 id="alexandre-antigna">alexandre antigna</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1817-1878，法国画家。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-20-15.png" alt=""></p>
+<h2 id="alexandre-benois">alexandre benois</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
+<a href="#%E5%BB%BA%E7%AD%91">建筑</a></p>
+<p>1870-1960，俄罗斯艺术家，艺术评论家，历史学家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-23-17.png" alt=""></p>
+<h2 id="alexandre-cabanel">alexandre cabanel</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1823-1889，法国学院派画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-28-10.png" alt=""></p>
+<h2 id="alexandre-calame">alexandre calame</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
+<p>1810-1864，瑞士风景画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-29-43.png" alt=""></p>
+<h2 id="alexandre-jacovleff">alexandre jacovleff</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1887-1938，俄罗斯新古典主义画家，制图员，设计师，雕刻家。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-32-23.png" alt=""></p>
+<h2 id="alexandre-evariste-fragonard">alexandre-évariste fragonard</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
+<p>1780-1850，法国画家，雕刻家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-35-13.png" alt=""></p>
+<h2 id="alexei-harlamoff">alexei harlamoff</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1840-1925，俄罗斯画家。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-38-07.png" alt=""></p>
+<h2 id="alexej-von-jawlensky">alexej von jawlensky</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
+<p>1864-1941，俄罗斯表现主义画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-40-33.png" alt=""></p>
+<h2 id="alexey-kurbatov">alexey kurbatov</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>俄罗斯图形艺术家。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-45-04.png" alt=""></p>
+<h2 id="alexis-gritchenko">alexis gritchenko</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1883-1977，乌克兰画家，艺术理论家。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-48-11.png" alt=""></p>
+<h2 id="alfons-maria-mucha">alfons maria mucha</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1860-1939，捷克画家，装饰品艺术家。人物装饰画。</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-50-33.png" alt=""></p>
+<p>又名 alphonse mucha，该名生成</p>
+<p><img src="http://175.178.103.126/2022-08-30-21-29-30.png" alt=""></p>
+<h2 id="alfred-augustus-glendening">alfred augustus glendening</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
+<a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1840-1910，英国艺术家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-54-47.png" alt=""></p>
+<h2 id="alfred-cheney-johnston">alfred cheney johnston</h2>
+<p><a href="#%E6%91%84%E5%BD%B1">摄影</a>
+<a href="#%E4%BA%BA%E7%89%A9">人物</a>
+<a href="#%E9%BB%91%E7%99%BD">黑白</a></p>
+<p>1885-1971，美国摄影师，男女演员肖像。</p>
+<p><img src="http://175.178.103.126/2022-08-30-19-59-03.png" alt=""></p>
+<h2 id="alfred-eisenstaedt">alfred eisenstaedt</h2>
+<p><a href="#%E6%91%84%E5%BD%B1">摄影</a>
+<a href="#%E9%BB%91%E7%99%BD">黑白</a></p>
+<p>1898-1995，美国摄影师，记者。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-02-02.png" alt=""></p>
+<h2 id="alfred-guillou">alfred guillou</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1844-1926，法国布列塔尼传统画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-03-56.png" alt=""></p>
+<h2 id="alfred-heber-hutty">alfred heber hutty</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
+<p>1877-1954，美国艺术家，印象派风景画，素描，版画。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-06-28.png" alt=""></p>
+<h2 id="alfred-henry-maurer">alfred henry maurer</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1868-1932，美国现代主义画家。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-10-21.png" alt=""></p>
+<p>数据集未收集，但该名字有特殊的肖像画风格</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-11-29.png" alt=""></p>
+<h2 id="alfred-kelsner">alfred kelsner</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>德国插画师，70 年代科幻。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-17-05.png" alt=""></p>
+<h2 id="alfred-kubin">alfred kubin</h2>
+<p><a href="#%E5%BC%82%E5%BD%A2">异形</a>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
+<p>1877-1959，奥地利版画家，插画家，作家。象征主义，表现主义。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-19-56.png" alt=""></p>
+<h2 id="alfred-munnings">alfred munnings</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
+<a href="#%E5%8A%A8%E7%89%A9">动物</a></p>
+<p>1878-1959，英国画家，马画。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-23-29.png" alt=""></p>
+<h2 id="alfred-parsons">alfred parsons</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1847-1920，英国插画家，风景画家，园艺设计师。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-27-02.png" alt=""></p>
+<h2 id="alfred-sisley">alfred sisley</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
+<p>1839-1899，法国画家。风景画，印象派。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-29-20.png" alt=""></p>
+<h2 id="alfred-stevens">alfred stevens</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1823-1906，比利时画家。优雅的现代女性画作。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-31-50.png" alt=""></p>
+<h2 id="alfredo-jaar">alfredo jaar</h2>
+<p><a href="#%E5%AE%9E%E7%89%A9">实物</a></p>
+<p>1956- ，智利装置艺术家，建筑师，摄影师，电影制作人。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-35-17.png" alt=""></p>
+<h2 id="algernon-blackwood">algernon blackwood</h2>
+<p><a href="#%E5%BC%82%E5%BD%A2">异形</a></p>
+<p>1869-1951，英国恐怖小说作家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-38-33.png" alt=""></p>
+<h2 id="alice-bailly">alice bailly</h2>
+<p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a>
+<a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1872-1938，瑞士先锋派画家，立体主义，野兽派，未来主义。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-41-31.png" alt=""></p>
+<h2 id="alice-neel">alice neel</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
+<p>1900-1984，美国视觉艺术家。肖像画。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-44-30.png" alt=""></p>
+<h2 id="alice-pasquini">alice pasquini</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a>
+<a href="#%E5%B9%BB%E6%83%B3">幻想</a></p>
+<p>1980- ，意大利画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-46-29.png" alt=""></p>
+<h2 id="alice-rahon">alice rahon</h2>
+<p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
+<p>1904-1987，法国，墨西哥诗人，艺术家。抽象表现主义。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-49-20.png" alt=""></p>
+<h2 id="alison-bechdel">alison bechdel</h2>
+<p><a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
+<p>1960- ，美国漫画家，作家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-20-51-15.png" alt=""></p>
+<h2 id="aliza-razell">aliza razell</h2>
+<p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
+<p>混合媒介艺术家。水彩和摄影的结合。</p>
+<p><img src="http://175.178.103.126/2022-08-30-21-03-13.png" alt=""></p>
+<h2 id="allen-williams">allen williams</h2>
+<p><a href="#%E5%BC%82%E5%BD%A2">异形</a></p>
+<p>1965- ，概念设计师，艺术家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-21-05-30.png" alt=""></p>
+<h2 id="allie-brosh">allie brosh</h2>
+<p><a href="#%E6%BC%AB%E7%94%BB">漫画</a></p>
+<p>1985- ，美国作家，漫画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-21-11-20.png" alt=""></p>
+<h2 id="alma-thomas">alma thomas</h2>
+<p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
+<p>1891-1978，美国画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-21-18-28.png" alt=""></p>
+<h2 id="alois-arnegger">alois arnegger</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
+<p>1879-1963，奥地利画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-21-21-05.png" alt=""></p>
+<h2 id="alphonse-osbert">alphonse osbert</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a>
+<a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1857-1939，法国象征主义画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-21-30-46.png" alt=""></p>
+<h2 id="alpo-jaakola">alpo jaakola</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1929-1997，芬兰画家，雕塑家。神秘主义，超现实主义。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-21-33-51.png" alt=""></p>
+<h2 id="alson-skinner-clark">alson skinner clark</h2>
+<p><a href="#%E9%A3%8E%E6%99%AF">风景</a></p>
+<p>1876-1949，美国印象派画家。摄影师，外光派画家，艺术教育家，壁画家。</p>
+<p>数据集太少，不匹配。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-21-38-50.png" alt=""></p>
+<h2 id="alvar-aalto">alvar aalto</h2>
+<p><a href="#%E5%BB%BA%E7%AD%91">建筑</a>
+<a href="#%E5%AE%9E%E7%89%A9">实物</a></p>
+<p>1898-1976，芬兰建筑师和设计师。设计作品包括建筑、家具、布料、玻璃器皿，以及雕塑和绘画</p>
+<p><img src="http://175.178.103.126/2022-08-30-21-43-49.png" alt=""></p>
+<h2 id="alvar-cawén">alvar cawén</h2>
+<p><a href="#%E6%9C%AA%E6%94%B6%E9%9B%86">未收集</a></p>
+<p>1886-1935，芬兰表现主义画家。以下图片来源网络</p>
+<p><img src="http://175.178.103.126/2022-08-30-21-47-21.png" alt=""></p>
+<h2 id="álvaro-siza">álvaro siza</h2>
+<p><a href="#%E5%BB%BA%E7%AD%91">建筑</a></p>
+<p>1933- ，葡萄牙建筑师。</p>
+<p><img src="http://175.178.103.126/2022-08-30-21-50-47.png" alt=""></p>
+<h2 id="alvin-langdon-coburn">alvin langdon coburn</h2>
+<p><a href="#%E6%91%84%E5%BD%B1">摄影</a>
+<a href="#%E6%8A%BD%E8%B1%A1">抽象</a>
+<a href="#%E9%BB%91%E7%99%BD">黑白</a></p>
+<p>1882-1966，美国摄影师。</p>
+<p><img src="http://175.178.103.126/2022-08-30-21-53-45.png" alt=""></p>
+<h2 id="alyssa-monks">alyssa monks</h2>
+<p><a href="#%E4%BA%BA%E7%89%A9">人物</a></p>
+<p>1977- ，美国画家。水，蒸汽和乙烯树脂遮掩的人物为特色</p>
+<h2 id="amadeo-de-souza-cardoso">amadeo de souza-cardoso</h2>
+<p><a href="#%E6%8A%BD%E8%B1%A1">抽象</a></p>
+<p>1887-1918，葡萄牙现代主义画家。</p>
+<p><img src="http://175.178.103.126/2022-08-30-22-02-32.png" alt=""></p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 
@@ -629,31 +1202,1688 @@
           </article>
 
           <article class="default">
+<h1>艺术媒介</h1>
+
+<p>这里的艺术媒介主要是以 艺术的载体 和/或 创作艺术的材料和工具 来定义和区分的。例如油画，版画，铅笔画，雕刻，摄影，像素画，剪纸，镶嵌，针织等等。</p>
+<p>一种艺术媒介，在 AI 笔下其实是一种艺术风格或流派。有时又是很多种风格或流派的载体。例如 oil painting 这个媒介就有非常多的风格或流派。</p>
+<p>根据主要特征，对各种艺术媒介进行粗糙的分类，它们总是交织在一起的。</p>
+<p>下面的图像都是直接使用关键词生成。</p>
+<p><strong>全部关键词目录</strong><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        点击展开
+    </a>
+    <div class="expand-content" style="display: none;">
+<p><a href="#hd-wallpaper">hd wallpaper</a>(高清壁纸) | <a href="#photographic-art">photographic art</a>(摄影艺术) | <a href="#encaustic-painting">encaustic painting</a>(蜂蜡画) | <a href="#mosaic-art">mosaic art</a>(马赛克艺术) | <a href="#byzantine-mosaics">byzantine mosaics</a>(拜占庭马赛克) | <a href="#ancient-greece-and-rome-mosaics">ancient greece and rome mosaics</a>(古希腊罗马马赛克) | <a href="#christian-mosaics">christian mosaics</a>(基督教马赛克) | <a href="#Islamic-mosaics">Islamic mosaics</a>(伊斯兰马赛克) | <a href="#figurative-mosaic">figurative mosaic</a>(具象马赛克) | <a href="#modern-mosaics">modern mosaics</a>(现代马赛克) | <a href="#mosaic-tilework">mosaic tilework</a>(马赛克瓷砖) | <a href="#zellij-zillij-zellige">zellij zillij zellige</a>(一种马赛克瓷砖) | <a href="#fresco-secco-painting">fresco-secco painting</a>(干壁画) | <a href="#fresco-painting">fresco painting</a>(湿壁画) | <a href="#buon-fresco-painting">buon fresco painting</a>(buon 壁画) | <a href="#mexican-muralism">mexican muralism</a>(墨西哥壁画) | <a href="#ancient-aegean-fresco">ancient aegean fresco</a>(爱琴海壁画) | <a href="#etruscan-tomb-fresco">etruscan tomb fresco</a>(伊特鲁里亚墓壁画) | <a href="#italian-fresco">italian fresco</a>(意大利壁画) | <a href="#bulgaria-fresco">bulgaria fresco</a>(保加利亚壁画) | <a href="#serbian-medieval-fresco">serbian medieval fresco</a>(塞尔维亚壁画) | <a href="#dunhuang-fresco">dunhuang fresco</a>(敦煌壁画) | <a href="#marouflage-painting">marouflage painting</a>(帆布画固定在墙上的画) | <a href="#graffiti-art">graffiti art</a>(涂鸦) | <a href="#mural-art">mural art</a>(壁画总称) | <a href="#graphic-art">graphic art</a>(图形艺术) | <a href="#tempera-painting">tempera painting</a>(蛋彩画) | <a href="#panel-painting">panel painting</a>(面板画) | <a href="#cabinet-painting">cabinet painting</a>(橱柜画) | <a href="#icon-religious-painting">icon religious painting</a>(宗教圣像画) | <a href="#ancient-miniature-painting">ancient miniature painting</a>(古代微型画) | <a href="#portrait-miniature">portrait miniature</a>(微型肖像) | <a href="#altarpiece-painting">altarpiece painting</a>(祭坛画) | <a href="#old-master-print">old master print</a>(古老大师版画) | <a href="#popular-print">popular print</a>(普通印刷) | <a href="#woodblock-printing">woodblock printing</a>(雕版印刷) | <a href="#engraving">engraving</a>(版画) | <a href="#wood-engraving">wood engraving</a>(木版画) | <a href="#etching">etching</a>(蚀刻画) | <a href="#aquatint-art">aquatint art</a>(蚀刻的一种变体) | <a href="#lithography-painting">lithography painting</a>(平板印刷) | <a href="#mezzotint-painting">mezzotint painting</a>(单色版画) | <a href="#stippling">stippling</a>(点画) | <a href="#watercolor-stippling">watercolor stippling</a>(水彩点画) | <a href="#pen-stippling">pen stippling</a>(钢笔点画) | <a href="#etched-carnelian-beads">etched carnelian beads</a>(红玉髓蚀刻) | <a href="#indienne-textile-art">indienne textile art</a>(印度纺织艺术) | <a href="#steel-engraving-art">steel engraving art</a>(钢雕艺术) | <a href="#engraved-gem">engraved gem</a>(宝石雕刻) | <a href="#carving-art">carving art</a>(雕刻艺术) | <a href="#bone-carving">bone carving</a>(骨雕) | <a href="#chip-carving">chip carving</a>(切屑雕刻) | <a href="#statue-art">statue art</a>(雕像) | <a href="#fruit-carving">fruit carving</a>(水果雕刻) | <a href="#gourd-art">gourd art</a>(葫芦艺术) | <a href="#ice-sculpture-art">ice sculpture art</a>(冰雕) | <a href="#ivory-carving-art">ivory carving art</a>(象牙雕刻) | <a href="#petroglyph-art">petroglyph art</a>(岩画) | <a href="#wood-carving-art">wood carving art</a>(木雕) | <a href="#medal-or-medallion">medal or medallion</a>(勋章) | <a href="#digital-3d-sculpting-or-sculpt-modeling">digital 3d sculpting or sculpt modeling</a>(数字雕刻) | <a href="#hardstone-carving-art">hardstone carving art</a>(硬石雕刻) | <a href="#cameo-carving">cameo carving</a>(浮雕珠宝) | <a href="#woodcut">woodcut</a>(木刻) | <a href="#sculpture-art">sculpture art</a>(雕塑) | <a href="#plastic-art">plastic art</a>(塑料造型) | <a href="#relief-art">relief art</a>(浮雕) | <a href="#carved-lacquer-art">carved lacquer art</a>(漆雕) | <a href="#japanese-lacquerware-art">japanese lacquerware art</a>(日本漆器艺术) | <a href="#engraved-glass-art">engraved glass art</a>(蚀刻玻璃艺术) | <a href="#cut-glass-art">cut-glass art</a>(切割玻璃艺术) | <a href="#enamelled-or-painted-glass-art">enamelled or painted glass art</a>(搪瓷彩绘玻璃) | <a href="#islamic-glass-art">islamic glass art</a>(伊斯兰玻璃) | <a href="#venetian-glass-art">venetian glass art</a>(威尼斯玻璃) | <a href="#milk-glass-art">milk glass art</a>(牛奶玻璃) | <a href="#bohemian-glass-art">bohemian glass art</a>(波西米亚玻璃) | <a href="#glass-art">glass art</a>(玻璃艺术) | <a href="#porcelain-art">porcelain art</a>(瓷器艺术) | <a href="#chelsea-porcelain-art">chelsea porcelain art</a>(切尔西瓷器厂瓷器) | <a href="#nymphenburg-porcelain-art">nymphenburg porcelain art</a>(宁芬堡瓷器厂瓷器) | <a href="#jingdezhen-porcelain-art">jingdezhen porcelain art</a>(景德镇瓷器) | <a href="#blue-and-white-pottery-art">blue and white pottery art</a>(青花瓷) | <a href="#underglaze-art">underglaze art</a>(釉下彩) | <a href="#imperial-porcelain-art">imperial porcelain art</a>(御瓷) | <a href="#longquan-celadon-art">longquan celadon art</a>(龙泉瓷) | <a href="#ceramic-art">ceramic art</a>(陶瓷) | <a href="#hard-paste-porcelain-art">hard-paste porcelain art</a>(硬浆瓷) | <a href="#soft-paste-porcelain-art">soft-paste porcelain art</a>(软膏瓷) | <a href="#overglaze-decoration-overglaze-enamelling-or-on-glaze-art">overglaze decoration overglaze enamelling or on-glaze art</a>(釉上彩) | <a href="#cloisonn%C3%A9-art">cloisonné art</a>(景泰蓝) | <a href="#vitreous-enamel-porcelain-enamel-art">vitreous enamel porcelain enamel art</a>(搪瓷) | <a href="#willow-pattern-ceramic">willow pattern ceramic</a>(柳纹陶瓷) | <a href="#champlev%C3%A9-art">champlevé art</a>(珐琅装饰) | <a href="#wood-intarsia-art">wood intarsia art</a>(细木嵌花) | <a href="#inlay-art">inlay art</a>(涵盖雕刻和装饰的一种镶嵌) | <a href="#marquetry-art">marquetry art</a>(细木镶嵌) | <a href="#marquetry-marqueterie-art">marquetry marqueterie art</a>(镶嵌装饰) | <a href="#andr%C3%A9-charles-boulle-marquetry-inlay-art">andré charles boulle marquetry inlay art</a>(法国橱柜) | <a href="#woodworking-art">woodworking art</a>(木工艺术) | <a href="#3d-printed-digital-art">3d printed digital art</a>(3d 数字打印) | <a href="#made-with-Pixologic-ZBrush">made with Pixologic ZBrush</a>(Pixologic ZBrush) | <a href="#made-with-Mudbox">made with Mudbox</a>(Mudbox) | <a href="#made-with-3ds-Max">made with 3ds Max</a>(3ds Max) | <a href="#made-with-Autodesk-Maya">made with Autodesk Maya</a>(Autodesk Maya) | <a href="#made-with-Foundry-modo">made with Foundry modo</a>(Foundry modo) | <a href="#made-with-Oculus-Medium">made with Oculus Medium</a>(Oculus Medium) | <a href="#made-with-Cinema-4D">made with Cinema 4D</a>(Cinema 4D) | <a href="#made-with-Sculptris">made with Sculptris</a>(Sculptris) | <a href="#made-with-Blender">made with Blender</a>(Blender) | <a href="#made-with-SketchUp">made with SketchUp</a>(SketchUp) | <a href="#made-with-Softimage">made with Softimage</a>(Softimage) | <a href="#made-with-Bondware-Poser">made with Bondware Poser</a>(Bondware Poser) | <a href="#made-with-Rhinoceros-3D-Rhino3D">made with Rhinoceros 3D Rhino3D</a>(Rhinoceros 3D Rhino3D) | <a href="#made-with-Houdini">made with Houdini</a>(Houdini) | <a href="#digital-art">digital art</a>(数字艺术) | <a href="#pixel-art">pixel art</a>(像素艺术) | <a href="#vector-art">vector art</a>(矢量艺术) | <a href="#chinoiserie-art">chinoiserie art</a>(中国风艺术) | <a href="#chinese-art">chinese art</a>(中国艺术) | <a href="#chinese-architecture">chinese architecture</a>(中国建筑) | <a href="#landscape-painting">landscape painting</a>(山水画) | <a href="#chinese-painting">chinese painting</a>(中国画) | <a href="#ink-wash-painting">ink wash painting</a>(水墨画) | <a href="#chinese-clothing">chinese clothing</a>(中国服饰) | <a href="#hanfu">hanfu</a>(汉服) | <a href="#chinese-dragon-art">chinese dragon art</a>(中国龙) | <a href="#chinese-paper-cutting">chinese paper cutting</a>(中国剪纸) | <a href="#peking-opera-art">peking opera art</a>(京剧艺术) | <a href="#kirie-paper-art">kirie paper art</a>(日本剪纸) | <a href="#oil-painting">oil painting</a>(油画) | <a href="#gouache">gouache</a>(水粉) | <a href="#acrylic-painting">acrylic painting</a>(丙烯酸画) | <a href="#watercolor-painting">watercolor painting</a>(水彩画) | <a href="#gothic-architecture">gothic architecture</a>(哥特式建筑) | <a href="#pencil-drawing">pencil drawing</a>(铅笔画) | <a href="#color-pencil-drawing">color pencil drawing</a>(彩色铅笔画) | <a href="#charcoal-pencil-drawing">charcoal pencil drawing</a>(炭笔画) | <a href="#silverpoint-drawing">silverpoint drawing</a>(银点画) | <a href="#matte-painting">matte painting</a>(哑光黑) | <a href="#pen-drawing">pen drawing</a>(钢笔画) | <a href="#ink-drawing">ink drawing</a>(墨水画) | <a href="#crayon-drawing">crayon drawing</a>(蜡笔画) | <a href="#chalk-drawing">chalk drawing</a>(粉笔画) | <a href="#pastel-drawing">pastel drawing</a>(粉彩画) | <a href="#needlepoint-art">needlepoint art</a>(针绣艺术) | <a href="#cross-stitches-art">cross stitches art</a>(十字绣) | <a href="#embroidery-art">embroidery art</a>(刺绣) | <a href="#satin-stitch-in-silk-art">satin stitch in silk art</a>(丝绸缎纹绣) | <a href="#sketch-drawing">sketch drawing</a>(素描) | <a href="#textile-art">textile art</a>(纺织艺术) | <a href="#fiber-art">fiber art</a>(纤维艺术) | <a href="#velvet-painting">velvet painting</a>(天鹅绒画) | <a href="#blueprint">blueprint</a>(蓝图) | <a href="#cyanotype">cyanotype</a>(蓝调照相印刷) | <a href="#still-life">still life</a>(静物画) | <a href="#marine-art">marine art</a>(海洋艺术) | <a href="#architectural-painting">architectural painting</a>(建筑画) | <a href="#botanical-illustration">botanical illustration</a>(植物插图) | <a href="#trompe-l'%C5%93il-painting">trompe-l&rsquo;œil painting</a>(视觉错画) | <a href="#forced-perspective-art">forced perspective art</a>(视差艺术) | <a href="#portrait">portrait</a>(肖像) | <a href="#portrait-painting">portrait painting</a>(肖像画) | <a href="#portrait-photograph">portrait photograph</a>(肖像照) | <a href="#portrait-sculpture">portrait sculpture</a>(肖像雕塑) | <a href="#head-shot-portrait">head shot portrait</a>(大头照) | <a href="#selfie">selfie</a>(自拍) | <a href="#modelling-headshot">modelling headshot</a>(造型头像) | <a href="#bonsai">bonsai</a>(盆景) | <a href="#flower-bouquet-art">flower bouquet art</a>(插花艺术) | <a href="#ikebana">ikebana</a>(日式插花) | <a href="#impasto-painting">impasto painting</a>(厚涂画) | <a href="#linocut-art">linocut art</a>(亚麻油毡浮雕印刷) | <a href="#silhouette">silhouette</a>(剪影) | <a href="#snow-globe-waterglobe-snowstorm-snowdome">snow globe waterglobe snowstorm snowdome</a>(雪花球) | <a href="#stained-glass-art">stained glass art</a>(彩色玻璃艺术) | <a href="#kokedama">kokedama</a>(青苔土壤球) | <a href="#line-art">line art</a>(线条艺术)</p>
+
+    </div>
+</div>
+<h2 id="hd-wallpaper">hd wallpaper</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>wallpaper 有墙纸和桌面背景的意思，单独使用生成的图多是墙纸（贴在墙上的装饰）</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-06-57.png" alt=""></p>
+<h2 id="photographic-art">photographic art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>摄影艺术。Image 强调电子图片, Photo 强调拍摄的照片, Picture 强调画出来的图片，范围都很大</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-07-35.png" alt=""></p>
+<h2 id="encaustic-painting">encaustic painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>蜂蜡画，蜡和颜料熔融混合物涂画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-07-52.png" alt=""></p>
+<h2 id="mosaic-art">mosaic art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>马赛克艺术，小块有色石头、玻璃或陶瓷等制成的图案或图像，由石膏/砂浆固定并覆盖表面。马赛克通常用作地板和墙壁装饰，在古罗马世界特别流行</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-07-59.png" alt=""></p>
+<p><strong>马赛克风格细分</strong></p>
+<h3 id="byzantine-mosaics">byzantine mosaics</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>拜占庭马赛克</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-08-14.png" alt=""></p>
+<h3 id="ancient-greece-and-rome-mosaics">ancient greece and rome mosaics</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>古希腊，古罗马马赛克</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-08-27.png" alt=""></p>
+<h3 id="christian-mosaics">christian mosaics</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>基督教马赛克</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-08-41.png" alt=""></p>
+<h3 id="islamic-mosaics">Islamic mosaics</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>伊斯兰马赛克</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-08-55.png" alt=""></p>
+<h3 id="figurative-mosaic">figurative mosaic</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>具象马赛克</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-09-11.png" alt=""></p>
+<h3 id="modern-mosaics">modern mosaics</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>现代马赛克</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-09-23.png" alt=""></p>
+<h3 id="mosaic-tilework">mosaic tilework</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>马赛克瓷砖</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-13-14.png" alt=""></p>
+<p>等等……</p>
+<h2 id="fresco-secco-painting">fresco-secco painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>干壁画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-14-04.png" alt=""></p>
+<h2 id="fresco-painting">fresco painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>湿壁画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-14-14.png" alt=""></p>
+<p><strong>更多壁画</strong>：（将 fresco 改为复数 frescoes 试试？）</p>
+<h3 id="buon-fresco-painting">buon fresco painting</h3>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-14-41.png" alt=""></p>
+<h3 id="mexican-muralism">mexican muralism</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>墨西哥壁画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-14-55.png" alt=""></p>
+<h3 id="ancient-aegean-fresco">ancient aegean fresco</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>古爱琴海壁画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-15-18.png" alt=""></p>
+<h3 id="etruscan-tomb-fresco">etruscan tomb fresco</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>伊特鲁里亚墓壁画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-15-29.png" alt=""></p>
+<h3 id="italian-fresco">italian fresco</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>意大利壁画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-15-37.png" alt=""></p>
+<h3 id="bulgaria-fresco">bulgaria fresco</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>保加利亚壁画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-15-55.png" alt=""></p>
+<h3 id="serbian-medieval-fresco">serbian medieval fresco</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>塞尔维亚中世纪壁画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-16-05.png" alt=""></p>
+<h3 id="dunhuang-fresco">dunhuang fresco</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>敦煌壁画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-16-21.png" alt=""></p>
+<p>等等……</p>
+<h2 id="marouflage-painting">marouflage painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>将帆布画当壁画固定在墙上的画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-16-46.png" alt=""></p>
+<h2 id="graffiti-art">graffiti art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>涂鸦艺术，在墙上或其他表面写字或绘画，包括简单文字到精美壁画。古代就已出现</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-17-05.png" alt=""></p>
+<h2 id="mural-art">mural art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>壁画，包括了 fresco, mosaic, graffiti 和 marouflage 等图形艺术品</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-17-20.png" alt=""></p>
+<h2 id="graphic-art">graphic art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>涵盖了广泛的视觉艺术表达，通常是平面上设计的二维的图形艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-17-54.png" alt=""></p>
+<h2 id="tempera-painting">tempera painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>蛋彩画，永久性的快干绘画。颜料和水溶性（通常是蛋黄等）粘性材料混合而绘画。大约 1500 年被油画取代，油画成为主导</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-18-09.png" alt=""></p>
+<h2 id="panel-painting">panel painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>平面木板上制作的画作，直到 16 世纪帆布成为更受欢迎的媒介之前，面板绘画是主要形式</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-18-21.png" alt=""></p>
+<h2 id="cabinet-painting">cabinet painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>橱柜画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-18-51.png" alt=""></p>
+<h2 id="icon-religious-painting">icon religious painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>宗教圣像画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-19-12.png" alt=""></p>
+<h2 id="ancient-miniature-painting">ancient miniature painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>古代微型画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-19-24.png" alt=""></p>
+<h2 id="portrait-miniature">portrait miniature</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>微型肖像</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-19-40.png" alt=""></p>
+<h2 id="altarpiece-painting">altarpiece painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>祭坛画，代表宗教主题的绘画、雕塑或浮雕（winged altarpiece，翼祭坛画）</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-19-54.png" alt=""></p>
+<h2 id="old-master-print">old master print</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>古老的大师版画的称呼</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-20-22.png" alt=""></p>
+<h2 id="popular-print">popular print</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>普通印刷图像的称呼</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-20-54.png" alt=""></p>
+<h2 id="woodblock-printing">woodblock printing</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>雕版印刷，最早出现在中国。印制于唐朝公元 868 年的《金刚经》，敦煌莫高窟发现。</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-21-42.png" alt=""></p>
+<h2 id="engraving">engraving</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>版画，用刻刀在坚硬的、通常是平坦的表面上切出凹槽，结果可能是艺术品本身或用于印刷艺术品的凹版</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-22-11.png" alt=""></p>
+<h2 id="wood-engraving">wood engraving</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>木版画，将图像加工成一块木头，或用于印刷的凸版</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-22-42.png" alt=""></p>
+<h2 id="etching">etching</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>蚀刻画，强酸或媒染剂切割金属表面制成的凹版艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-22-59.png" alt=""></p>
+<h2 id="aquatint-art">aquatint art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>蚀刻的一种变体，可以产生色调区域，与蚀刻结合，以提供线条和阴影色调，然后用水彩手工上色</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-23-20.png" alt=""></p>
+<h2 id="lithography-painting">lithography painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>平版印刷画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-23-45.png" alt=""></p>
+<h2 id="mezzotint-painting">mezzotint painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>单色版画（monochrome printmaking）</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-23-58.png" alt=""></p>
+<h2 id="stippling">stippling</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>点画。可以是笔，刷子等绘画工具描绘的点，要加上相应描述词，如 Watercolor stippling</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-24-12.png" alt=""></p>
+<h3 id="watercolor-stippling">watercolor stippling</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>水彩点画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-24-35.png" alt=""></p>
+<h3 id="pen-stippling">pen stippling</h3>
+<p><a href="#jump">返回目录</a></p>
+<p>钢笔点画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-24-47.png" alt=""></p>
+<p>等等……</p>
+<h2 id="etched-carnelian-beads">etched carnelian beads</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>红玉髓蚀刻制成的古代装饰珠子</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-25-07.png" alt=""></p>
+<h2 id="indienne-textile-art">indienne textile art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>印度纺织艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-25-23.png" alt=""></p>
+<h2 id="steel-engraving-art">steel engraving art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>钢雕艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-25-33.png" alt=""></p>
+<h2 id="engraved-gem">engraved gem</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>宝石雕刻</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-25-50.png" alt=""></p>
+<h2 id="carving-art">carving art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>雕刻艺术，使用工具刮掉材料的一部分塑造的艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-26-16.png" alt=""></p>
+<h2 id="bone-carving">bone carving</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>骨雕</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-26-26.png" alt=""></p>
+<h2 id="chip-carving">chip carving</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>切屑雕刻</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-26-34.png" alt=""></p>
+<h2 id="statue-art">statue art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>雕像，一种独立的雕塑，雕刻人或动物全身</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-26-50.png" alt=""></p>
+<h2 id="fruit-carving">fruit carving</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>水果雕刻</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-27-10.png" alt=""></p>
+<h2 id="gourd-art">gourd art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>葫芦艺术，葫芦表面雕刻、涂漆、打磨、烧制、染色和抛光的艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-27-30.png" alt=""></p>
+<h2 id="ice-sculpture-art">ice sculpture art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>冰雕</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-27-45.png" alt=""></p>
+<h2 id="ivory-carving-art">ivory carving art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>象牙雕刻艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-28-02.png" alt=""></p>
+<h2 id="petroglyph-art">petroglyph art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>岩画艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-28-12.png" alt=""></p>
+<h2 id="wood-carving-art">wood carving art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>木雕</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-28-23.png" alt=""></p>
+<h2 id="medal-or-medallion">medal or medallion</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>勋章</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-28-38.png" alt=""></p>
+<h2 id="digital-3d-sculpting-or-sculpt-modeling">digital 3d sculpting or sculpt modeling</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>数字雕刻，使用软件工具推动、拉动、平滑、抓取、捏合或以其他方式操纵创造的数字对象</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-28-52.png" alt=""></p>
+<h2 id="hardstone-carving-art">hardstone carving art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>硬石雕刻艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-29-26.png" alt=""></p>
+<h2 id="cameo-carving">cameo carving</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>浮雕珠宝饰物</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-29-40.png" alt=""></p>
+<h2 id="woodcut">woodcut</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>木刻画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-29-50.png" alt=""></p>
+<h2 id="sculpture-art">sculpture art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>雕塑艺术，三维立体艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-30-07.png" alt=""></p>
+<h2 id="plastic-art">plastic art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>塑料造型艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-30-20.png" alt=""></p>
+<h2 id="relief-art">relief art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>浮雕艺术（relief carving 木雕图）</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-30-33.png" alt=""></p>
+<h2 id="carved-lacquer-art">carved lacquer art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>漆雕艺术，一种独特的中国装饰漆器</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-30-46.png" alt=""></p>
+<h2 id="japanese-lacquerware-art">japanese lacquerware art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>日本漆器艺术品</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-30-58.png" alt=""></p>
+<h2 id="engraved-glass-art">engraved glass art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>蚀刻玻璃艺术（Glass etching art）</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-31-10.png" alt=""></p>
+<h2 id="cut-glass-art">cut-glass art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>切割玻璃艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-31-23.png" alt=""></p>
+<h2 id="enamelled-or-painted-glass-art">enamelled or painted glass art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>搪瓷玻璃或彩绘玻璃是用搪瓷（玻璃粉，通常与粘合剂混合）装饰然后烧制以融合的玻璃</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-31-34.png" alt=""></p>
+<h2 id="islamic-glass-art">islamic glass art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>伊斯兰玻璃艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-31-48.png" alt=""></p>
+<h2 id="venetian-glass-art">venetian glass art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>威尼斯玻璃艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-31-59.png" alt=""></p>
+<h2 id="milk-glass-art">milk glass art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>牛奶玻璃艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-32-07.png" alt=""></p>
+<h2 id="bohemian-glass-art">bohemian glass art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>波希米亚玻璃艺术（Bohemia crystal art）</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-32-15.png" alt=""></p>
+<h2 id="glass-art">glass art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>玻璃艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-32-26.png" alt=""></p>
+<h2 id="porcelain-art">porcelain art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>瓷器艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-32-32.png" alt=""></p>
+<h2 id="chelsea-porcelain-art">chelsea porcelain art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>切尔西瓷器厂生产的瓷器</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-32-41.png" alt=""></p>
+<h2 id="nymphenburg-porcelain-art">nymphenburg porcelain art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>宁芬堡瓷器厂生产的瓷器</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-32-50.png" alt=""></p>
+<h2 id="jingdezhen-porcelain-art">jingdezhen porcelain art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>景德镇瓷器艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-32-58.png" alt=""></p>
+<h2 id="blue-and-white-pottery-art">blue and white pottery art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>青花瓷</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-33-07.png" alt=""></p>
+<h2 id="underglaze-art">underglaze art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>釉下彩，陶瓷表面的彩色装饰</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-33-15.png" alt=""></p>
+<h2 id="imperial-porcelain-art">imperial porcelain art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>御瓷艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-33-22.png" alt=""></p>
+<h2 id="longquan-celadon-art">longquan celadon art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>龙泉青瓷</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-33-34.png" alt=""></p>
+<h2 id="ceramic-art">ceramic art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>陶瓷艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-34-12.png" alt=""></p>
+<h2 id="hard-paste-porcelain-art">hard-paste porcelain art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>硬浆瓷</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-34-25.png" alt=""></p>
+<h2 id="soft-paste-porcelain-art">soft-paste porcelain art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>软膏瓷</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-34-32.png" alt=""></p>
+<h2 id="overglaze-decoration-overglaze-enamelling-or-on-glaze-art">overglaze decoration overglaze enamelling or on-glaze art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>釉上彩，陶瓷表面装饰</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-34-40.png" alt=""></p>
+<h2 id="cloisonné-art">cloisonné art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>景泰蓝艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-34-48.png" alt=""></p>
+<h2 id="vitreous-enamel-porcelain-enamel-art">vitreous enamel porcelain enamel art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>搪瓷艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-34-59.png" alt=""></p>
+<h2 id="willow-pattern-ceramic">willow pattern ceramic</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>柳纹陶瓷</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-35-09.png" alt=""></p>
+<h2 id="champlevé-art">champlevé art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>一种珐琅装饰艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-35-18.png" alt=""></p>
+<h2 id="wood-intarsia-art">wood intarsia art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>细木嵌花艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-35-29.png" alt=""></p>
+<h2 id="inlay-art">inlay art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>一种涵盖雕刻和装饰的镶嵌艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-35-41.png" alt=""></p>
+<h2 id="marquetry-art">marquetry art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>细木镶嵌艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-35-50.png" alt=""></p>
+<h2 id="marquetry-marqueterie-art">marquetry marqueterie art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>一种镶嵌装饰艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-36-01.png" alt=""></p>
+<h2 id="andré-charles-boulle-marquetry-inlay-art">andré charles boulle marquetry inlay art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>法国橱柜制造商生产的镶嵌装饰艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-36-10.png" alt=""></p>
+<h2 id="woodworking-art">woodworking art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>木工艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-36-29.png" alt=""></p>
+<h2 id="3d-printed-digital-art">3d printed digital art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>3d 打印数字艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-36-39.png" alt=""></p>
+<hr>
+<p><strong>以下是 3d 设计软件，格式为 made with xxx，可尝试 design with xxx，xxx rendering, rendered in xxx 或 by xxx 等</strong></p>
+<h2 id="made-with-pixologic-zbrush">made with Pixologic ZBrush</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-37-00.png" alt=""></p>
+<h2 id="made-with-mudbox">made with Mudbox</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-37-09.png" alt=""></p>
+<h2 id="made-with-3ds-max">made with 3ds Max</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-37-16.png" alt=""></p>
+<h2 id="made-with-autodesk-maya">made with Autodesk Maya</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-37-24.png" alt=""></p>
+<h2 id="made-with-foundry-modo">made with Foundry modo</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-37-32.png" alt=""></p>
+<h2 id="made-with-oculus-medium">made with Oculus Medium</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-37-39.png" alt=""></p>
+<h2 id="made-with-cinema-4d">made with Cinema 4D</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-37-50.png" alt=""></p>
+<h2 id="made-with-sculptris">made with Sculptris</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-37-58.png" alt=""></p>
+<h2 id="made-with-blender">made with Blender</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-38-09.png" alt=""></p>
+<h2 id="made-with-sketchup">made with SketchUp</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-38-17.png" alt=""></p>
+<h2 id="made-with-softimage">made with Softimage</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-38-24.png" alt=""></p>
+<h2 id="made-with-bondware-poser">made with Bondware Poser</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-38-38.png" alt=""></p>
+<h2 id="made-with-rhinoceros-3d-rhino3d">made with Rhinoceros 3D Rhino3D</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-38-50.png" alt=""></p>
+<h2 id="made-with-houdini">made with Houdini</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-03-16-39-00.png" alt=""></p>
+<hr>
+<h2 id="digital-art">digital art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>数字艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-39-24.png" alt=""></p>
+<h2 id="pixel-art">pixel art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>像素艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-39-35.png" alt=""></p>
+<h2 id="vector-art">vector art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>矢量艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-39-48.png" alt=""></p>
+<h2 id="chinoiserie-art">chinoiserie art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>中国风艺术，这里指的是欧洲对中国艺术风格的诠释和模仿的艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-40-08.png" alt=""></p>
+<h2 id="chinese-art">chinese art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>中国艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-40-28.png" alt=""></p>
+<h2 id="chinese-architecture">chinese architecture</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>中国建筑</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-40-39.png" alt=""></p>
+<h2 id="landscape-painting">landscape painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>山水画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-40-54.png" alt=""></p>
+<h2 id="chinese-painting">chinese painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>中国画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-41-02.png" alt=""></p>
+<h2 id="ink-wash-painting">ink wash painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>水墨画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-41-11.png" alt=""></p>
+<h2 id="chinese-clothing">chinese clothing</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>中国服装</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-41-36.png" alt=""></p>
+<h2 id="hanfu">hanfu</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>汉服</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-41-49.png" alt=""></p>
+<h2 id="chinese-dragon-art">chinese dragon art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>中国龙</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-42-02.png" alt=""></p>
+<h2 id="chinese-paper-cutting">chinese paper cutting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>中国剪纸</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-42-33.png" alt=""></p>
+<h2 id="peking-opera-art">peking opera art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>京剧艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-42-52.png" alt=""></p>
+<h2 id="kirie-paper-art">kirie paper art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>日本剪纸艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-43-52.png" alt=""></p>
+<h2 id="oil-painting">oil painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>油画，干性油为粘合剂，用颜料在木板或帆布上绘画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-44-07.png" alt=""></p>
+<h2 id="gouache">gouache</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>水粉画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-44-19.png" alt=""></p>
+<h2 id="acrylic-painting">acrylic painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>丙烯酸画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-44-26.png" alt=""></p>
+<h2 id="watercolor-painting">watercolor painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>水彩画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-44-34.png" alt=""></p>
+<h2 id="gothic-architecture">gothic architecture</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>哥特式建筑</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-44-42.png" alt=""></p>
+<h2 id="pencil-drawing">pencil drawing</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>铅笔画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-44-52.png" alt=""></p>
+<h2 id="color-pencil-drawing">color pencil drawing</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>彩色铅笔画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-45-01.png" alt=""></p>
+<h2 id="charcoal-pencil-drawing">charcoal pencil drawing</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>炭笔画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-45-15.png" alt=""></p>
+<h2 id="silverpoint-drawing">silverpoint drawing</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>银点画，用金属尖绘画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-45-25.png" alt=""></p>
+<h2 id="matte-painting">matte painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>哑光画，通常与电影实景镜头结合创造现实中不可能的拍摄环境</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-45-40.png" alt=""></p>
+<h2 id="pen-drawing">pen drawing</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>钢笔画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-46-20.png" alt=""></p>
+<h2 id="ink-drawing">ink drawing</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>墨水画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-46-28.png" alt=""></p>
+<h2 id="crayon-drawing">crayon drawing</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>蜡笔画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-46-36.png" alt=""></p>
+<h2 id="chalk-drawing">chalk drawing</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>粉笔画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-46-54.png" alt=""></p>
+<h2 id="pastel-drawing">pastel drawing</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>粉彩画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-47-21.png" alt=""></p>
+<h2 id="needlepoint-art">needlepoint art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>针绣艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-47-29.png" alt=""></p>
+<h2 id="cross-stitches-art">cross stitches art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>十字绣</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-47-41.png" alt=""></p>
+<h2 id="embroidery-art">embroidery art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>刺绣</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-47-49.png" alt=""></p>
+<h2 id="satin-stitch-in-silk-art">satin stitch in silk art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>丝绸缎纹绣</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-47-57.png" alt=""></p>
+<h2 id="sketch-drawing">sketch drawing</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>素描</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-48-06.png" alt=""></p>
+<h2 id="textile-art">textile art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>纺织艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-48-14.png" alt=""></p>
+<h2 id="fiber-art">fiber art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>纤维艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-48-28.png" alt=""></p>
+<h2 id="velvet-painting">velvet painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>天鹅绒画，天鹅绒代替帆布的绘画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-48-38.png" alt=""></p>
+<h2 id="blueprint">blueprint</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>蓝图，工程或技术图纸</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-48-46.png" alt=""></p>
+<h2 id="cyanotype">cyanotype</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>一种蓝调照相印刷艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-48-57.png" alt=""></p>
+<h2 id="still-life">still life</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>静物画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-49-05.png" alt=""></p>
+<h2 id="marine-art">marine art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>海洋艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-49-14.png" alt=""></p>
+<h2 id="architectural-painting">architectural painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>建筑画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-49-30.png" alt=""></p>
+<h2 id="botanical-illustration">botanical illustration</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>植物插图</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-49-39.png" alt=""></p>
+<h2 id="trompe-lœil-painting">trompe-l&rsquo;œil painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>视觉错画，逼真的三维视觉画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-49-48.png" alt=""></p>
+<h2 id="forced-perspective-art">forced perspective art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>视差艺术，离镜头的远近制造物体大小视差</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-50-21.png" alt=""></p>
+<h2 id="portrait">portrait</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>肖像，一个人的画像，照片，雕塑或其他艺术表达（self-portrait，自肖像，也包括画像，照片，雕塑）</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-50-35.png" alt=""></p>
+<h2 id="portrait-painting">portrait painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>肖像画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-50-59.png" alt=""></p>
+<h2 id="portrait-photograph">portrait photograph</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>肖像照</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-51-09.png" alt=""></p>
+<h2 id="portrait-sculpture">portrait sculpture</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>肖像雕塑</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-51-20.png" alt=""></p>
+<h2 id="head-shot-portrait">head shot portrait</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>大头照，现代（通常是数字）肖像</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-51-33.png" alt=""></p>
+<h2 id="selfie">selfie</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>自拍</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-51-58.png" alt=""></p>
+<h2 id="modelling-headshot">modelling headshot</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>造型头像</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-52-06.png" alt=""></p>
+<h2 id="bonsai">bonsai</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>盆景</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-52-14.png" alt=""></p>
+<h2 id="flower-bouquet-art">flower bouquet art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>插花艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-52-26.png" alt=""></p>
+<h2 id="ikebana">ikebana</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>日式插花</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-52-33.png" alt=""></p>
+<h2 id="impasto-painting">impasto painting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>厚涂画</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-52-42.png" alt=""></p>
+<h2 id="linocut-art">linocut art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>亚麻油毡浮雕印刷艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-52-50.png" alt=""></p>
+<h2 id="silhouette">silhouette</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>剪影，事物的单一颜色图像（通常为黑色），边缘与主体轮廓相匹配</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-53-03.png" alt=""></p>
+<h2 id="snow-globe-waterglobe-snowstorm-snowdome">snow globe waterglobe snowstorm snowdome</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>雪花球</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-53-11.png" alt=""></p>
+<h2 id="stained-glass-art">stained glass art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>彩色玻璃艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-53-20.png" alt=""></p>
+<h2 id="kokedama">kokedama</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>苔玉，长满青苔的土壤球</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-53-29.png" alt=""></p>
+<h2 id="line-art">line art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>线条艺术</p>
+<p><img src="http://175.178.103.126/2022-09-03-16-53-38.png" alt=""></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1>艺术流派和运动</h1>
+
+<p>此处的流派和运动，不只是历史上有名的艺术流派和运动，还包括各名族某种独特的艺术风格；各种社会艺术风潮；以及具有独特风格的其他各种艺术表现。</p>
+<p>图像均使用关键词直接生成。</p>
+<p><strong>全部关键词目录</strong><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        点击展开
+    </a>
+    <div class="expand-content" style="display: none;">
+<p><a href="#psychedelia-art">psychedelia art</a>(迷幻艺术) | <a href="#kitsch">kitsch</a>(媚俗艺术) | <a href="#LSD-art">LSD art</a>(lsd 幻觉艺术) | <a href="#punk">punk</a>(朋克) | <a href="#acidpunk">acidpunk</a>(酸朋克) | <a href="#aetherpunk">aetherpunk</a>(以太朋克) | <a href="#bronzepunk">bronzepunk</a>(铜朋克) | <a href="#mechanical-punk">mechanical punk</a>(机械朋克) | <a href="#clockpunk">clockpunk</a>(时钟朋克) | <a href="#cyberpunk">cyberpunk</a>(赛博朋克科幻) | <a href="#tech-or-cyber-noir">tech or cyber noir</a>(黑色科幻) | <a href="#cyberart">cyberart</a>(网络技术艺术) | <a href="#cybernetic-art">cybernetic art</a>(控制论艺术) | <a href="#daydreampunk">daydreampunk</a>(白日梦朋克) | <a href="#deathpunk">deathpunk</a>(死亡朋克) | <a href="#decopunk">decopunk</a>(deco 朋克) | <a href="#dieselpunk">dieselpunk</a>(柴油朋克) | <a href="#dollpunk">dollpunk</a>(多尔朋克) | <a href="#elfpunk">elfpunk</a>(小精灵朋克) | <a href="#mythpunk">mythpunk</a>(神话朋克) | <a href="#postcyberpunk">postcyberpunk</a>(后赛博朋克) | <a href="#psychedelic-punk">psychedelic punk</a>(迷幻朋克) | <a href="#raypunk">raypunk</a>(雷朋克) | <a href="#rococopunk">rococopunk</a>(洛可可朋克) | <a href="#solarpunk">solarpunk</a>(太阳朋克) | <a href="#steampunk">steampunk</a>(蒸汽朋克) | <a href="#steelpunk">steelpunk</a>(钢铁朋克) | <a href="#thunderpunk">thunderpunk</a>(霹雳朋克) | <a href="#acidwave">acidwave</a>(酸性波) | <a href="#adventure-pulp">adventure pulp</a>(冒险媚俗艺术) | <a href="#anime">anime</a>(日本动漫) | <a href="#art-brut-or-outsider-art">art brut or outsider art</a>(非主流艺术) | <a href="#art-deco">art deco</a>(装饰派艺术) | <a href="#arts-and-crafts-movement">arts and crafts movement</a>(工艺美术运动) | <a href="#assyrian-art">assyrian art</a>(亚述人艺术) | <a href="#black-arts-movement">black arts movement</a>(黑人艺术运动) | <a href="#capriccio-art">capriccio art</a>(卡普里科艺术) | <a href="#caricature">caricature</a>(讽刺画) | <a href="#cartoon">cartoon</a>(卡通) | <a href="#character-design">character design</a>(人物设计) | <a href="#children's-illustration">children&rsquo;s illustration</a>(儿童插图) | <a href="#concrete-art">concrete art</a>(具体艺术) | <a href="#corinthian-order">corinthian order</a>(科林斯柱式建筑风格) | <a href="#cosmic-or-lovecraftian-horror">cosmic or lovecraftian horror</a>(洛夫克拉夫特式恐怖) | <a href="#cosmic-nebula">cosmic nebula</a>(宇宙星云) | <a href="#dark-academia">dark academia</a>(黑暗学术界社交媒体美学) | <a href="#doric-order">doric order</a>(多立克式建筑风格) | <a href="#dutch-golden-age">dutch golden age</a>(荷兰黄金时代) | <a href="#edo-period">edo period</a>(日本江户时代) | <a href="#fantasy-art">fantasy art</a>(幻想艺术) | <a href="#fantastic-art">fantastic art</a>(奇幻艺术) | <a href="#fashion-art">fashion art</a>(时尚艺术) | <a href="#feminist-art">feminist art</a>(女性主义艺术) | <a href="#fractal-manifold">fractal manifold</a>(分形流形) | <a href="#french-new-wave">french new wave</a>(法国新浪潮) | <a href="#funk-art">funk art</a>(芬克运动) | <a href="#futuretech-art">futuretech art</a>(未来科技艺术) | <a href="#glitch-art">glitch art</a>(故障艺术) | <a href="#gore-art">gore art</a>(恶心恐怖艺术) | <a href="#graphic-novel">graphic novel</a>(视觉文学) | <a href="#illuminated-manuscript">illuminated manuscript</a>(泥金装饰手抄本) | <a href="#indian-ink">indian ink</a>(黑墨水) | <a href="#installation-art">installation art</a>(装置艺术3d) | <a href="#isometric-art">isometric art</a>(平面3维艺术) | <a href="#junk-art">junk art</a>(废料艺术) | <a href="#kawaii">kawaii</a>(日本卡瓦伊) | <a href="#korean-folk-art-minhwa">korean folk art minhwa</a>(韩国民间艺术) | <a href="#manga">manga</a>(日本漫画) | <a href="#manichaean-art">manichaean art</a>(摩尼教艺术) | <a href="#melanin-art">melanin art</a>(黑色素艺术) | <a href="#mesoamerican-art">mesoamerican art</a>(中美洲艺术) | <a href="#mexican-muralism">mexican muralism</a>(墨西哥壁画运动) | <a href="#native-american-art">native american art</a>(美洲原住民艺术) | <a href="#navajo-art">navajo art</a>(纳瓦霍艺术) | <a href="#nirvana-art">nirvana art</a>(涅槃艺术) | <a href="#op-art">op art</a>(Op艺术) | <a href="#phoenician-art">phoenician art</a>(腓尼基艺术) | <a href="#pin-up">pin-up</a>(海报女郎) | <a href="#pop-art">pop art</a>(pop 艺术) | <a href="#screenprint-art">screenprint art</a>(丝网印刷艺术) | <a href="#shin-hanga">shin-hanga</a>(日本新版画) | <a href="#solarised-art">solarised art</a>(射线艺术) | <a href="#spatialism-art">spatialism art</a>(空间主义艺术) | <a href="#storybook-illustration">storybook illustration</a>(故事书插图) | <a href="#street-art">street art</a>(街头艺术) | <a href="#sumerian-art">sumerian art</a>(苏美尔人艺术) | <a href="#thangka-art">thangka art</a>(藏传佛教绘画) | <a href="#toyism-art">toyism art</a>(玩具主义) | <a href="#haida-art">haida art</a>(北美海达人艺术) | <a href="#s%C3%A1mi-art">sámi art</a>(萨米人艺术) | <a href="#ukiyo-e">ukiyo-e</a>(浮世绘) | <a href="#wabi-sabi">wabi-sabi</a>(侘寂日本美学) | <a href="#y2k-aesthetic">y2k aesthetic</a>(y2k美学)</p>
+
+    </div>
+</div>
+<h2 id="psychedelia-art">psychedelia art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-09-42.png" alt=""></p>
+<h2 id="kitsch">kitsch</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-10-00.png" alt=""></p>
+<h2 id="lsd-art">LSD art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-10-12.png" alt=""></p>
+<h2 id="punk">punk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-46-47.png" alt=""></p>
+<h2 id="acidpunk">acidpunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-10-21.png" alt=""></p>
+<h2 id="aetherpunk">aetherpunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-11-22.png" alt=""></p>
+<h2 id="bronzepunk">bronzepunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-13-25.png" alt=""></p>
+<h2 id="mechanical-punk">mechanical punk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-14-11.png" alt=""></p>
+<h2 id="clockpunk">clockpunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-15-07.png" alt=""></p>
+<h2 id="cyberpunk">cyberpunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-16-32.png" alt=""></p>
+<h2 id="tech-or-cyber-noir">tech or cyber noir</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-15-54.png" alt=""></p>
+<h2 id="cyberart">cyberart</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-16-09.png" alt=""></p>
+<h2 id="cybernetic-art">cybernetic art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-16-25.png" alt=""></p>
+<h2 id="daydreampunk">daydreampunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-16-53.png" alt=""></p>
+<h2 id="deathpunk">deathpunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-17-00.png" alt=""></p>
+<h2 id="decopunk">decopunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-17-07.png" alt=""></p>
+<h2 id="dieselpunk">dieselpunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-17-19.png" alt=""></p>
+<h2 id="dollpunk">dollpunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-17-30.png" alt=""></p>
+<h2 id="elfpunk">elfpunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-18-03.png" alt=""></p>
+<h2 id="mythpunk">mythpunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-26-38.png" alt=""></p>
+<h2 id="postcyberpunk">postcyberpunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-11-53.png" alt=""></p>
+<h2 id="psychedelic-punk">psychedelic punk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-12-02.png" alt=""></p>
+<h2 id="raypunk">raypunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-12-12.png" alt=""></p>
+<h2 id="rococopunk">rococopunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-12-19.png" alt=""></p>
+<h2 id="solarpunk">solarpunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-12-58.png" alt=""></p>
+<h2 id="steampunk">steampunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-13-14.png" alt=""></p>
+<h2 id="steelpunk">steelpunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-13-24.png" alt=""></p>
+<h2 id="thunderpunk">thunderpunk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-14-37.png" alt=""></p>
+<h2 id="acidwave">acidwave</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-10-30.png" alt=""></p>
+<h2 id="adventure-pulp">adventure pulp</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-11-13.png" alt=""></p>
+<h2 id="anime">anime</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-11-40.png" alt=""></p>
+<h2 id="art-brut-or-outsider-art">art brut or outsider art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-11-55.png" alt=""></p>
+<h2 id="art-deco">art deco</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-12-07.png" alt=""></p>
+<h2 id="arts-and-crafts-movement">arts and crafts movement</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-12-25.png" alt=""></p>
+<h2 id="assyrian-art">assyrian art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-13-10.png" alt=""></p>
+<h2 id="black-arts-movement">black arts movement</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-13-18.png" alt=""></p>
+<h2 id="capriccio-art">capriccio art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-13-42.png" alt=""></p>
+<h2 id="caricature">caricature</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-14-30.png" alt=""></p>
+<h2 id="cartoon">cartoon</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-14-46.png" alt=""></p>
+<h2 id="character-design">character design</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-14-53.png" alt=""></p>
+<h2 id="childrens-illustration">children&rsquo;s illustration</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-15-01.png" alt=""></p>
+<h2 id="concrete-art">concrete art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-15-19.png" alt=""></p>
+<h2 id="corinthian-order">corinthian order</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-15-28.png" alt=""></p>
+<h2 id="cosmic-or-lovecraftian-horror">cosmic or lovecraftian horror</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-15-35.png" alt=""></p>
+<h2 id="cosmic-nebula">cosmic nebula</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-15-46.png" alt=""></p>
+<h2 id="dark-academia">dark academia</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-16-44.png" alt=""></p>
+<h2 id="doric-order">doric order</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-17-36.png" alt=""></p>
+<h2 id="dutch-golden-age">dutch golden age</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-17-45.png" alt=""></p>
+<h2 id="edo-period">edo period</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-17-53.png" alt=""></p>
+<h2 id="fantasy-art">fantasy art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-18-13.png" alt=""></p>
+<h2 id="fantastic-art">fantastic art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-18-26.png" alt=""></p>
+<h2 id="fashion-art">fashion art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-18-41.png" alt=""></p>
+<h2 id="feminist-art">feminist art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-18-50.png" alt=""></p>
+<h2 id="fractal-manifold">fractal manifold</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-19-02.png" alt=""></p>
+<h2 id="french-new-wave">french new wave</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-19-10.png" alt=""></p>
+<h2 id="funk-art">funk art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-19-19.png" alt=""></p>
+<h2 id="futuretech-art">futuretech art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-19-32.png" alt=""></p>
+<h2 id="glitch-art">glitch art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-19-44.png" alt=""></p>
+<h2 id="gore-art">gore art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-19-53.png" alt=""></p>
+<h2 id="graphic-novel">graphic novel</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-20-03.png" alt=""></p>
+<h2 id="illuminated-manuscript">illuminated manuscript</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-24-23.png" alt=""></p>
+<h2 id="indian-ink">indian ink</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-24-36.png" alt=""></p>
+<h2 id="installation-art">installation art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-24-44.png" alt=""></p>
+<h2 id="isometric-art">isometric art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-24-52.png" alt=""></p>
+<h2 id="junk-art">junk art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-24-59.png" alt=""></p>
+<h2 id="kawaii">kawaii</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-25-05.png" alt=""></p>
+<h2 id="korean-folk-art-minhwa">korean folk art minhwa</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-25-27.png" alt=""></p>
+<h2 id="manga">manga</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-25-50.png" alt=""></p>
+<h2 id="manichaean-art">manichaean art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-26-00.png" alt=""></p>
+<h2 id="melanin-art">melanin art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-26-07.png" alt=""></p>
+<h2 id="mesoamerican-art">mesoamerican art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-26-19.png" alt=""></p>
+<h2 id="mexican-muralism">mexican muralism</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-26-28.png" alt=""></p>
+<h2 id="native-american-art">native american art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-28-56.png" alt=""></p>
+<h2 id="navajo-art">navajo art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-10-29-03.png" alt=""></p>
+<h2 id="nirvana-art">nirvana art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-11-07.png" alt=""></p>
+<h2 id="op-art">op art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-11-16.png" alt=""></p>
+<h2 id="phoenician-art">phoenician art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-11-22.png" alt=""></p>
+<h2 id="pin-up">pin-up</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-11-33.png" alt=""></p>
+<h2 id="pop-art">pop art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-11-44.png" alt=""></p>
+<h2 id="screenprint-art">screenprint art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-12-28.png" alt=""></p>
+<h2 id="shin-hanga">shin-hanga</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-12-37.png" alt=""></p>
+<h2 id="solarised-art">solarised art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-12-49.png" alt=""></p>
+<h2 id="spatialism-art">spatialism art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-13-06.png" alt=""></p>
+<h2 id="storybook-illustration">storybook illustration</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-14-06.png" alt=""></p>
+<h2 id="street-art">street art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-14-13.png" alt=""></p>
+<h2 id="sumerian-art">sumerian art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-14-21.png" alt=""></p>
+<h2 id="thangka-art">thangka art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-14-27.png" alt=""></p>
+<h2 id="toyism-art">toyism art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-14-53.png" alt=""></p>
+<h2 id="haida-art">haida art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-14-58.png" alt=""></p>
+<h2 id="sámi-art">sámi art</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-15-13.png" alt=""></p>
+<h2 id="ukiyo-e">ukiyo-e</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-15-21.png" alt=""></p>
+<h2 id="wabi-sabi">wabi-sabi</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-15-31.png" alt=""></p>
+<h2 id="y2k-aesthetic">y2k aesthetic</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-13-11-15-49.png" alt=""></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1>渲染和构图</h1>
+
+<p>渲染指图像所使用的渲染软件，工具或方式；构图指调节图像的比例，景深，视角等能够产生特别风格的方法。</p>
+<p>直接用关键词生成的图像，不容易展现出渲染和构图的效果，尤其是构图。因此，下面部分关键词添加了主题。</p>
+<p><strong>全部关键词目录</strong><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        点击展开
+    </a>
+    <div class="expand-content" style="display: none;">
+<p><a href="#use-a-macro-lens">use a macro lens</a>(用微距镜头) | <a href="#friday-vfx-rendering">friday vfx rendering</a>(fridayvfx 图像引擎渲染) | <a href="#ambient-occlusion">ambient occlusion</a>(环境光遮挡) | <a href="#cryengine">cryengine</a>(CryEngine 游戏引擎) | <a href="#fisheye-lens">fisheye lens</a>(鱼眼镜头) | <a href="#kodak-gold-200">kodak gold 200</a>(柯达黄金 200) | <a href="#long-exposure">long exposure</a>(长时间曝光) | <a href="#multiple-exposure">multiple exposure</a>(多次曝光) | <a href="#by-uav">by uav</a>(无人机拍摄) | <a href="#shoot-from-below">shoot from below</a>(仰拍) | <a href="#shoot-from-above">shoot from above</a>(俯拍) | <a href="#aerial-view">aerial view</a>(航拍) | <a href="#bottom-up-view">bottom up view</a>(仰视) | <a href="#upward-view">upward view</a>(仰视) | <a href="#prerendered-graphics">prerendered graphics</a>(预渲染图形) | <a href="#fujichrome-provia400x">fujichrome provia400x</a>(普罗维亚) | <a href="#psx-graphics">psx graphics</a>(PSx图形) | <a href="#RTX-graphics-card-rendering">RTX graphics card rendering</a>(RTX显卡渲染) | <a href="#ssao">ssao</a>(屏幕空间环境光遮蔽) | <a href="#terragen">terragen</a>(Terragen 场景产生器) | <a href="#unreal-engine">unreal engine</a>(虚幻引擎) | <a href="#scenic-view">scenic view</a>(全景眺望) | <a href="#3dfx-voodoo-rendering">3dfx voodoo rendering</a>(3dfx voodoo 图形芯片渲染) | <a href="#bokeh">bokeh</a>(散景) | <a href="#cel-shading">cel shading</a>(卡通渲染) | <a href="#close-up">close-up</a>(特写镜头) | <a href="#diorama">diorama</a>(立体透视模型) | <a href="#doom-engine">doom engine</a>(毁灭战士引擎) | <a href="#large-wide-view">large wide view</a>(宽大视野) | <a href="#rander-with-quake-engine">rander with quake engine</a>(雷神之锤引擎) | <a href="#redscale">redscale</a>(红标度) | <a href="#rendered-in-corel-painter">rendered in corel painter</a>(corel painter 中渲染) | <a href="#otoy-octanerender">otoy octanerender</a>(octanerender 渲染) | <a href="#rendered-in-pov-ray">rendered in pov-ray</a>(在 povray 中渲染) | <a href="#rendered-in-v-ray">rendered in v-ray</a>(在 vray 中渲染) | <a href="#best-minecraft-shaders">best minecraft shaders</a>(着色器) | <a href="#contre-jour">contre-jour</a>(逆光拍摄) | <a href="#infinity-cove">infinity cove</a>(无限白区) | <a href="#high-contrast">high contrast</a>(高对比度) | <a href="#low-contrast">low contrast</a>(低对比度) | <a href="#composition-of-the-rule-of-thirds">composition of the rule of thirds</a>(三分法构图) | <a href="#centered-composition">centered composition</a>(中心构图) | <a href="#symmetry">symmetry</a>(对称) | <a href="#foreground-interest">foreground interest</a>(前景兴趣) | <a href="#frame-within-the-frame">frame within the frame</a>(框架内的框架) | <a href="#leading-lines-composition">leading lines composition</a>(引导线构图) | <a href="#fill-the-frame">fill the frame</a>(填充框架) | <a href="#leave-negative-space">leave negative space</a>(留白) | <a href="#black-and-white-composition">black and white composition</a>(黑白构图) | <a href="#particular-color">particular color</a>(特殊颜色) | <a href="#juxtaposition-composition">juxtaposition composition</a>(并列构图) | <a href="#golden-ratio-composition">golden ratio composition</a>(黄金比例构图) | <a href="#layers-in-the-frame">layers in the frame</a>(框架中的层) | <a href="#decisive-moment">decisive moment</a>(决定性时刻) | <a href="#large-depth-of-field">large depth of field</a>(大景深) | <a href="#shallow-depth-of-field">shallow depth of field</a>(浅景深) | <a href="#high-conceptual-contrast">high conceptual contrast</a>(高概念对比度) | <a href="#high-color-contrast">high color contrast</a>(高颜色对比度) | <a href="#attractive-focus">attractive focus</a>(吸引人的焦点) | <a href="#warm-colors">warm colors</a>(暖色) | <a href="#cool-colors">cool colors</a>(冷色) | <a href="#composition-of-odds-rule">composition of odds rule</a>(赔率规则的构图) | <a href="#composition-of-space-rule">composition of space rule</a>(空间规则的构图) | <a href="#horizon-composition">horizon composition</a>(层位构图)</p>
+
+    </div>
+</div>
+<h2 id="use-a-macro-lens">use a macro lens</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>用微距镜头</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-37-22.png" alt=""></p>
+<p>&ldquo;insect, use a macro lens&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-46-46.png" alt=""></p>
+<h2 id="friday-vfx-rendering">friday vfx rendering</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>fridayvfx 图像引擎渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-37-58.png" alt=""></p>
+<p>&ldquo;serene landscape, friday vfx rendering&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-48-12.png" alt=""></p>
+<h2 id="ambient-occlusion">ambient occlusion</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>环境光遮挡</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-38-47.png" alt=""></p>
+<h2 id="cryengine">cryengine</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>CryEngine 游戏引擎</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-39-08.png" alt=""></p>
+<h2 id="fisheye-lens">fisheye lens</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>鱼眼镜头</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-39-25.png" alt=""></p>
+<p>&ldquo;serene landscape, fisheye lens&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-49-02.png" alt=""></p>
+<h2 id="kodak-gold-200">kodak gold 200</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>柯达黄金 200</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-42-22.png" alt=""></p>
+<h2 id="long-exposure">long exposure</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>长时间曝光</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-42-42.png" alt=""></p>
+<h2 id="multiple-exposure">multiple exposure</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>多次曝光</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-42-49.png" alt=""></p>
+<h2 id="by-uav">by uav</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>无人机拍摄</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-43-00.png" alt=""></p>
+<h2 id="shoot-from-below">shoot from below</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>仰拍</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-43-24.png" alt=""></p>
+<h2 id="shoot-from-above">shoot from above</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>俯拍</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-43-34.png" alt=""></p>
+<h2 id="aerial-view">aerial view</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>航拍</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-43-43.png" alt=""></p>
+<h2 id="bottom-up-view">bottom up view</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>仰视</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-43-55.png" alt=""></p>
+<h2 id="upward-view">upward view</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>仰视</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-44-19.png" alt=""></p>
+<h2 id="prerendered-graphics">prerendered graphics</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>预渲染图形</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-44-30.png" alt=""></p>
+<h2 id="fujichrome-provia400x">fujichrome provia400x</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>普罗维亚</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-44-45.png" alt=""></p>
+<h2 id="psx-graphics">psx graphics</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>PSx图形</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-45-00.png" alt=""></p>
+<h2 id="rtx-graphics-card-rendering">RTX graphics card rendering</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>RTX显卡渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-45-27.png" alt=""></p>
+<p>&ldquo;serene landscape, RTX graphics card rendering&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-50-43.png" alt=""></p>
+<h2 id="ssao">ssao</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>屏幕空间环境光遮蔽</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-46-49.png" alt=""></p>
+<p>&ldquo;serene landscape, ssao&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-52-28.png" alt=""></p>
+<h2 id="terragen">terragen</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>Terragen 场景产生器</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-47-23.png" alt=""></p>
+<h2 id="unreal-engine">unreal engine</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>虚幻引擎</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-48-08.png" alt=""></p>
+<h2 id="scenic-view">scenic view</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>全景眺望</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-50-40.png" alt=""></p>
+<h2 id="3dfx-voodoo-rendering">3dfx voodoo rendering</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>3dfx voodoo 图形芯片渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-51-04.png" alt=""></p>
+<p>&ldquo;portrait of a woman, 3dfx voodoo rendering&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-55-34.png" alt=""></p>
+<h2 id="bokeh">bokeh</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>散景</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-55-09.png" alt=""></p>
+<p>&ldquo;portrait of a woman, bokeh&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-18-57-19.png" alt=""></p>
+<h2 id="cel-shading">cel shading</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>卡通渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-55-22.png" alt=""></p>
+<h2 id="close-up">close-up</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>特写镜头</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-55-36.png" alt=""></p>
+<h2 id="diorama">diorama</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>立体透视模型</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-55-50.png" alt=""></p>
+<h2 id="doom-engine">doom engine</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>毁灭战士引擎</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-56-01.png" alt=""></p>
+<h2 id="large-wide-view">large wide view</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>宽大视野</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-56-16.png" alt=""></p>
+<h2 id="rander-with-quake-engine">rander with quake engine</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>雷神之锤引擎</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-56-30.png" alt=""></p>
+<h2 id="redscale">redscale</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>红标度</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-56-37.png" alt=""></p>
+<h2 id="rendered-in-corel-painter">rendered in corel painter</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>corel painter 中渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-56-48.png" alt=""></p>
+<h2 id="otoy-octanerender">otoy octanerender</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>octanerender 渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-57-00.png" alt=""></p>
+<h2 id="rendered-in-pov-ray">rendered in pov-ray</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>在 povray 中渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-57-10.png" alt=""></p>
+<h2 id="rendered-in-v-ray">rendered in v-ray</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>在 vray 中渲染</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-57-20.png" alt=""></p>
+<h2 id="best-minecraft-shaders">best minecraft shaders</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>着色器</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-57-35.png" alt=""></p>
+<h2 id="contre-jour">contre-jour</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>逆光拍摄</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-59-26.png" alt=""></p>
+<h2 id="infinity-cove">infinity cove</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>无限白区</p>
+<p><img src="http://175.178.103.126/2022-09-07-15-59-38.png" alt=""></p>
+<h2 id="high-contrast">high contrast</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>高对比度</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-00-11.png" alt=""></p>
+<h2 id="low-contrast">low contrast</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>低对比度</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-00-17.png" alt=""></p>
+<h2 id="composition-of-the-rule-of-thirds">composition of the rule of thirds</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>三分法构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-00-25.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-08-52.png" alt=""></p>
+<h2 id="centered-composition">centered composition</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>中心构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-02-35.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-09-12.png" alt=""></p>
+<h2 id="symmetry">symmetry</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>对称</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-02-41.png" alt=""></p>
+<h2 id="foreground-interest">foreground interest</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>前景兴趣</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-02-53.png" alt=""></p>
+<p>&ldquo;house, xxx&rdquo; 房子前面都有一小段前景</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-10-12.png" alt=""></p>
+<h2 id="frame-within-the-frame">frame within the frame</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>框架内的框架</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-04-53.png" alt=""></p>
+<p>&ldquo;chinese architechture, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-11-31.png" alt=""></p>
+<h2 id="leading-lines-composition">leading lines composition</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>引导线构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-05-00.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-12-12.png" alt=""></p>
+<h2 id="fill-the-frame">fill the frame</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>填充框架</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-09-33.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-15-35.png" alt=""></p>
+<h2 id="leave-negative-space">leave negative space</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>留白</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-09-46.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-16-36.png" alt=""></p>
+<h2 id="black-and-white-composition">black and white composition</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>黑白构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-11-06.png" alt=""></p>
+<h2 id="particular-color">particular color</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>特殊颜色</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-14-08.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-20-39.png" alt=""></p>
+<h2 id="golden-ratio-composition">golden ratio composition</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>黄金比例构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-16-17.png" alt=""></p>
+<p>&ldquo;building, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-23-13.png" alt=""></p>
+<h2 id="layers-in-the-frame">layers in the frame</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>框架中的层</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-16-43.png" alt=""></p>
+<p>&ldquo;building, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-25-13.png" alt=""></p>
+<h2 id="decisive-moment">decisive moment</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>决定性时刻</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-18-11.png" alt=""></p>
+<h2 id="large-depth-of-field">large depth of field</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>大景深</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-19-27.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-27-45.png" alt=""></p>
+<h2 id="shallow-depth-of-field">shallow depth of field</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>浅景深</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-19-35.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-28-57.png" alt=""></p>
+<h2 id="high-conceptual-contrast">high conceptual contrast</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>高概念对比度</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-20-08.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-29-42.png" alt=""></p>
+<h2 id="high-color-contrast">high color contrast</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>高颜色对比度</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-20-14.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-29-54.png" alt=""></p>
+<h2 id="attractive-focus">attractive focus</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>吸引人的焦点</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-22-02.png" alt=""></p>
+<h2 id="warm-colors">warm colors</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>暖色</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-22-17.png" alt=""></p>
+<h2 id="cool-colors">cool colors</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>冷色</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-22-24.png" alt=""></p>
+<h2 id="composition-of-odds-rule">composition of odds rule</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>赔率规则的构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-22-34.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-36-52.png" alt=""></p>
+<h2 id="composition-of-space-rule">composition of space rule</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>空间规则的构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-22-39.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-36-59.png" alt=""></p>
+<h2 id="horizon-composition">horizon composition</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>层位构图</p>
+<p><img src="http://175.178.103.126/2022-09-07-16-22-46.png" alt=""></p>
+<p>&ldquo;serene landscape, xxx&rdquo;</p>
+<p><img src="http://175.178.103.126/2022-09-07-19-37-06.png" alt=""></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1>时空和光效</h1>
+
+<p>时空指事物所处的时间和空间，例如在虚拟世界中，一天中的某个时刻；光效指事物的光照条件。</p>
+<p>时空和光照，单独使用个关键词生成图像，可能看不出效果，选择适当的主题，效果会很明显。此处为了方便，图像都是直接使用关键词生成。</p>
+<p><strong>全部关键词目录</strong><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        点击展开
+    </a>
+    <div class="expand-content" style="display: none;">
+<p><a href="#storm-lightning">storm lightning</a>(风暴雷电) | <a href="#volumetric-lighting">volumetric lighting</a>(体积光照) | <a href="#rays-of-evening-sunlight">rays of evening sunlight</a>(傍晚阳光光线) | <a href="#the-rays-of-god">the rays of god</a>(上帝之光) | <a href="#moon-rays">moon rays</a>(月光) | <a href="#light-shadow">light shadow</a>(光阴影) | <a href="#clear-day">clear day</a>(晴天) | <a href="#in-the-rain">in the rain</a>(雨中) | <a href="#at-dawn">at dawn</a>(黎明) | <a href="#at-dusk">at dusk</a>(黄昏) | <a href="#at-noon">at noon</a>(正午) | <a href="#moonlit-night">moonlit night</a>(月夜) | <a href="#at-sunset">at sunset</a>(日落之时) | <a href="#at-sunrise">at sunrise</a>(日出之时) | <a href="#at-night">at night</a>(在晚上) | <a href="#fog">fog</a>(雾) | <a href="#overcast">overcast</a>(阴天) | <a href="#birth-of-time">birth of time</a>(时间诞生) | <a href="#end-of-time">end of time</a>(时间尽头) | <a href="#end-of-the-world">end of the world</a>(世界尽头) | <a href="#winter">winter</a>(冬天) | <a href="#summer">summer</a>(夏天) | <a href="#autumn">autumn</a>(秋天) | <a href="#spring">spring</a>(春天) | <a href="#deep-under-the-sea">deep under the sea</a>(海底深处) | <a href="#desert">desert</a>(沙漠) | <a href="#frozen-and-snow-covered-land">frozen and snow-covered land</a>(冰天雪地) | <a href="#prairie">prairie</a>(草原) | <a href="#alien-planet">alien planet</a>(异外星球) | <a href="#in-virtual-world">in virtual world</a>(虚拟世界中) | <a href="#hazy-obscure">hazy obscure</a>(朦胧) | <a href="#harvest-time">harvest time</a>(收获时节) | <a href="#atmospheric-phenomenon">atmospheric phenomenon</a>(大气现象) | <a href="#beautifully-lit">beautifully lit</a>(灯火) | <a href="#cenozoic-period">cenozoic period</a>(新生代时期) | <a href="#corpuscular-ray">corpuscular ray</a>(微粒射线) | <a href="#dappled-lighting">dappled lighting</a>(斑纹照明) | <a href="#atmospheric-lighting">atmospheric lighting</a>(气氛照明) | <a href="#dramatic-lighting">dramatic lighting</a>(戏剧性的灯光) | <a href="#golden-hour">golden hour</a>(黄金时段) | <a href="#interior">interior</a>(内部) | <a href="#mood-lighting">mood lighting</a>(情调照明) | <a href="#at-twilight">at twilight</a>(暮光) | <a href="#eclipse-light">eclipse light</a>(日、月食光) | <a href="#nature">nature</a>(自然界) | <a href="#studio-lighting">studio lighting</a>(演播室照明) | <a href="#natural-lighting">natural lighting</a>(自然采光) | <a href="#key-lighting">key lighting</a>(主光) | <a href="#fill-lighting">fill lighting</a>(补光) | <a href="#backlighting">backlighting</a>(背景光) | <a href="#high-key-lighting">high key lighting</a>(亮色调) | <a href="#low-key-lighting">low key lighting</a>(暗色调) | <a href="#practical-lighting">practical lighting</a>(实用道具光) | <a href="#hard-lighting">hard lighting</a>(强光) | <a href="#soft-lighting">soft lighting</a>(柔光) | <a href="#bounce-lighting">bounce lighting</a>(反射光) | <a href="#chiaroscuro-lighting">chiaroscuro lighting</a>(明暗对比光) | <a href="#side-lighting">side lighting</a>(测光) | <a href="#motivated-lighting">motivated lighting</a>(发射光) | <a href="#ambient-lighting">ambient lighting</a>(环境光) | <a href="#split-lighting">split lighting</a>(均分光（人脸）) | <a href="#butterfly-lighting">butterfly lighting</a>(蝴蝶光) | <a href="#loop-lighting">loop lighting</a>(环形光) | <a href="#rembrandt-lighting">rembrandt lighting</a>(伦勃朗光) | <a href="#short-lighting">short lighting</a>(显瘦光) | <a href="#broad-lighting">broad lighting</a>(显宽光) | <a href="#decorative-lighting">decorative lighting</a>(装饰照明) | <a href="#bubble-light">bubble light</a>(气泡光)</p>
+
+    </div>
+</div>
+<h2 id="storm-lightning">storm lightning</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-18-08.png" alt=""></p>
+<h2 id="volumetric-lighting">volumetric lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-18-19.png" alt=""></p>
+<h2 id="rays-of-evening-sunlight">rays of evening sunlight</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-18-29.png" alt=""></p>
+<h2 id="the-rays-of-god">the rays of god</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-18-38.png" alt=""></p>
+<h2 id="moon-rays">moon rays</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-19-07.png" alt=""></p>
+<h2 id="light-shadow">light shadow</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-19-27.png" alt=""></p>
+<h2 id="clear-day">clear day</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-19-42.png" alt=""></p>
+<h2 id="in-the-rain">in the rain</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-19-56.png" alt=""></p>
+<h2 id="at-dawn">at dawn</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-20-07.png" alt=""></p>
+<h2 id="at-dusk">at dusk</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-20-20.png" alt=""></p>
+<h2 id="moonlit-night">moonlit night</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-21-10.png" alt=""></p>
+<h2 id="at-sunset">at sunset</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-22-29.png" alt=""></p>
+<h2 id="at-sunrise">at sunrise</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-22-35.png" alt=""></p>
+<h2 id="at-night">at night</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-22-50.png" alt=""></p>
+<h2 id="fog">fog</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-23-09.png" alt=""></p>
+<h2 id="overcast">overcast</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-23-18.png" alt=""></p>
+<h2 id="birth-of-time">birth of time</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-23-28.png" alt=""></p>
+<h2 id="end-of-time">end of time</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-23-41.png" alt=""></p>
+<h2 id="end-of-the-world">end of the world</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-23-50.png" alt=""></p>
+<h2 id="winter">winter</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-24-02.png" alt=""></p>
+<h2 id="summer">summer</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-24-08.png" alt=""></p>
+<h2 id="autumn">autumn</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-24-16.png" alt=""></p>
+<h2 id="spring">spring</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-24-24.png" alt=""></p>
+<h2 id="deep-under-the-sea">deep under the sea</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-24-32.png" alt=""></p>
+<h2 id="desert">desert</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-24-46.png" alt=""></p>
+<h2 id="frozen-and-snow-covered-land">frozen and snow-covered land</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-24-59.png" alt=""></p>
+<h2 id="prairie">prairie</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-25-18.png" alt=""></p>
+<h2 id="alien-planet">alien planet</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-25-28.png" alt=""></p>
+<h2 id="in-virtual-world">in virtual world</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-25-40.png" alt=""></p>
+<h2 id="hazy-obscure">hazy obscure</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-25-57.png" alt=""></p>
+<h2 id="harvest-time">harvest time</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-26-08.png" alt=""></p>
+<h2 id="atmospheric-phenomenon">atmospheric phenomenon</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-26-27.png" alt=""></p>
+<h2 id="beautifully-lit">beautifully lit</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-26-40.png" alt=""></p>
+<h2 id="cenozoic-period">cenozoic period</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-26-57.png" alt=""></p>
+<h2 id="corpuscular-ray">corpuscular ray</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-27-11.png" alt=""></p>
+<h2 id="dappled-lighting">dappled lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-27-21.png" alt=""></p>
+<h2 id="atmospheric-lighting">atmospheric lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-27-32.png" alt=""></p>
+<h2 id="dramatic-lighting">dramatic lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-27-41.png" alt=""></p>
+<h2 id="golden-hour">golden hour</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-27-52.png" alt=""></p>
+<h2 id="interior">interior</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-28-02.png" alt=""></p>
+<h2 id="mood-lighting">mood lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-28-12.png" alt=""></p>
+<h2 id="at-twilight">at twilight</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-28-20.png" alt=""></p>
+<h2 id="eclipse-light">eclipse light</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-28-31.png" alt=""></p>
+<h2 id="nature">nature</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-28-43.png" alt=""></p>
+<h2 id="studio-lighting">studio lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-28-55.png" alt=""></p>
+<h2 id="natural-lighting">natural lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-29-04.png" alt=""></p>
+<h2 id="key-lighting">key lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-29-12.png" alt=""></p>
+<h2 id="fill-lighting">fill lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-29-21.png" alt=""></p>
+<h2 id="backlighting">backlighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-29-33.png" alt=""></p>
+<h2 id="high-key-lighting">high key lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-29-47.png" alt=""></p>
+<h2 id="low-key-lighting">low key lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-29-53.png" alt=""></p>
+<h2 id="practical-lighting">practical lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-30-04.png" alt=""></p>
+<h2 id="hard-lighting">hard lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-30-12.png" alt=""></p>
+<h2 id="soft-lighting">soft lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-30-21.png" alt=""></p>
+<h2 id="bounce-lighting">bounce lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-30-34.png" alt=""></p>
+<h2 id="chiaroscuro-lighting">chiaroscuro lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-30-42.png" alt=""></p>
+<h2 id="side-lighting">side lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-30-50.png" alt=""></p>
+<h2 id="motivated-lighting">motivated lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-30-58.png" alt=""></p>
+<h2 id="ambient-lighting">ambient lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-31-07.png" alt=""></p>
+<h2 id="split-lighting">split lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-31-56.png" alt=""></p>
+<h2 id="butterfly-lighting">butterfly lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>直接用关键词生成图：</p>
+<p><img src="http://175.178.103.126/2022-09-05-19-32-23.png" alt=""></p>
+<p>生成肖像（A portrait of a beautiful woman, butterfly lighting）：</p>
+<p><img src="http://175.178.103.126/2022-09-05-19-59-12.png" alt=""></p>
+<h2 id="loop-lighting">loop lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p>直接用关键词生成图：</p>
+<p><img src="http://175.178.103.126/2022-09-05-19-32-37.png" alt=""></p>
+<p>生成肖像（A portrait of a beautiful woman, loop lighting）：</p>
+<p><img src="http://175.178.103.126/2022-09-05-19-59-44.png" alt=""></p>
+<h2 id="rembrandt-lighting">rembrandt lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-32-47.png" alt=""></p>
+<h2 id="short-lighting">short lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-32-56.png" alt=""></p>
+<h2 id="broad-lighting">broad lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-33-08.png" alt=""></p>
+<h2 id="decorative-lighting">decorative lighting</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-33-16.png" alt=""></p>
+<h2 id="bubble-light">bubble light</h2>
+<p><a href="#jump">返回目录</a></p>
+<p><img src="http://175.178.103.126/2022-09-05-19-33-25.png" alt=""></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1>很棒的形容词</h1>
+
+<p><strong>全部关键词目录</strong><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        点击展开
+    </a>
+    <div class="expand-content" style="display: none;">
+
+    </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1>色彩</h1>
+
+<p>色彩即画面的主色调，选择适当的颜色，能使图像更具艺术表现力和视觉冲击力等。</p>
+<p><strong>全部关键词目录</strong><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        点击展开
+    </a>
+    <div class="expand-content" style="display: none;">
+
+    </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1>材质和纹理</h1>
+
+<p><strong>全部关键词目录</strong><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        点击展开
+    </a>
+    <div class="expand-content" style="display: none;">
+
+    </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1>其他关键词</h1>
+
+<p><strong>全部关键词目录</strong><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<div class="expand">
+    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        点击展开
+    </a>
+    <div class="expand-content" style="display: none;">
+
+    </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
 <h1>关键词探索</h1>
 
-<p>探索字、词、句以及提示词语句组织的规则和语法，是一个长期的巨大的工程。它就像在与 AI 进行交流对话，你和 AI 聊得越多，你们之间越熟悉，AI 就 “愿意” 给你画更好的作品。</p>
-<p>与 AI 对话是一门艺术，或许在不久的将来，会是一项极重要的技能。这个技能能够让你直接通过人类的语言，掌握很多 AI 工具。例如已经实现的让 AI 给你写一部小说；画一幅画；甚至写个软件…… 与 AI 对话的熟练度、准确度以及艺术技巧，决定着生成的小说，绘画，软件的优劣。</p>
+<p>探索字、词、句以及提示词语句组织的规则和语法，是一个长期的巨大的工程。它就像在与 AI 进行交流对话，你和 AI 聊得越多，你们之间越熟悉，你与 AI 之间的沟通表达越流畅精准，AI 就 “愿意” 给你画更好的作品。</p>
 <p>这不是权威，只是粗略的探索，欢迎指正，或一起探索。现在只是比较零散的发现。</p>
 <h2 id="介词-by">介词 by</h2>
 <p>数据集中可能会有大量艺术家本人的照片，在艺术家前面加 by，可以消除艺术家本人肖像的影响</p>
 <ul>
 <li>Salvador Dalí</li>
 </ul>
-<p><img src="https://175.178.103.126/2022-08-18-22-56-40.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-18-22-56-40.png" alt=""></p>
 <ul>
 <li>by Salvador Dalí</li>
 </ul>
-<p><img src="https://175.178.103.126/2022-08-18-22-57-04.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-18-22-57-04.png" alt=""></p>
 <p>使用的工具也可以加上 by</p>
 <ul>
 <li>uav 无人机，如果前面加上 by，画面中出现无人机的可能性就很小</li>
 </ul>
-<p><img src="https://175.178.103.126/2022-08-18-22-59-34.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-18-22-59-34.png" alt=""></p>
 <h2 id="如果有明确的主题或风格就注意用词">如果有明确的主题或风格，就注意用词</h2>
 <p>初次探索时，喜欢往提示词里加很多元素，但如果你有明确的主题或风格需求，就注意用词，精挑细选。例如我最初提示词里一直保留 painting，使得所有画作中都有颜料和涂料绘画的风格</p>
-<p><img src="https://175.178.103.126/2022-08-18-23-01-45.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-18-23-01-45.png" alt=""></p>
 <p>去掉 painting 后，就可以去除这个风格</p>
-<p><img src="https://175.178.103.126/2022-08-18-23-01-29.png" alt=""></p>
+<p><img src="http://175.178.103.126/2022-08-18-23-01-29.png" alt=""></p>
 
             <footer class="footline">
             </footer>
@@ -678,16 +2908,24 @@
         <script>
           var contentLangs=['zh'];
         </script>
-        <script src="/js/auto-complete.js?1661239792" defer></script>
-        <script src="/js/lunr.min.js?1661239792" defer></script>
-        <script src="/js/lunr.stemmer.support.min.js?1661239792" defer></script>
-        <script src="/js/lunr.multi.min.js?1661239792" defer></script>
-        <script src="/js/lunr.zh.min.js?1661239792" defer></script>
-        <script src="/js/search.js?1661239792" defer></script>
+        <script src="/js/auto-complete.js?1663080504" defer></script>
+        <script src="/js/lunr.min.js?1663080504" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1663080504" defer></script>
+        <script src="/js/lunr.multi.min.js?1663080504" defer></script>
+        <script src="/js/lunr.zh.min.js?1663080504" defer></script>
+        <script src="/js/search.js?1663080504" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
           <li data-nav-id="/artists/" title="艺术家" class="dd-item"><a href="/artists/">艺术家</a></li>
+          <li data-nav-id="/carrier/" title="艺术媒介" class="dd-item"><a href="/carrier/">艺术媒介</a></li>
+          <li data-nav-id="/schools/" title="艺术流派和运动" class="dd-item"><a href="/schools/">艺术流派和运动</a></li>
+          <li data-nav-id="/render_composition/" title="渲染和构图" class="dd-item"><a href="/render_composition/">渲染和构图</a></li>
+          <li data-nav-id="/location_lightingl/" title="时空和光效" class="dd-item"><a href="/location_lightingl/">时空和光效</a></li>
+          <li data-nav-id="/adjective/" title="很棒的形容词" class="dd-item"><a href="/adjective/">很棒的形容词</a></li>
+          <li data-nav-id="/color/" title="色彩" class="dd-item"><a href="/color/">色彩</a></li>
+          <li data-nav-id="/texture/" title="材质和纹理" class="dd-item"><a href="/texture/">材质和纹理</a></li>
+          <li data-nav-id="/others/" title="其他关键词" class="dd-item"><a href="/others/">其他关键词</a></li>
           <li data-nav-id="/prompts/" title="关键词探索" class="dd-item"><a href="/prompts/">关键词探索</a></li>
         </ul>
         <div id="shortcuts">
@@ -732,9 +2970,9 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1661239792" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1661239792" defer></script>
-    <script src="/js/featherlight.min.js?1661239792" defer></script>
+    <script src="/js/clipboard.min.js?1663080504" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1663080504" defer></script>
+    <script src="/js/featherlight.min.js?1663080504" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -764,7 +3002,7 @@
       useMathJax( JSON.parse("{}") );
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="/js/jquery.svg.pan.zoom.js?1661239792" defer></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1663080504" defer></script>
     <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
@@ -773,6 +3011,6 @@
     <script>
       window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
     </script>
-    <script src="/js/theme.js?1661239792" defer></script>
+    <script src="/js/theme.js?1663080504" defer></script>
   </body>
 </html>
