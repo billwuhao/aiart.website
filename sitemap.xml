@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/artists/</loc>
+    <loc>/objects/</loc>
     <lastmod>2022-08-07T16:07:59+08:00</lastmod>
   </url>
   <url>
     <loc>/</loc>
+    <lastmod>2022-08-07T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/artists/</loc>
     <lastmod>2022-08-07T16:07:59+08:00</lastmod>
   </url>
   <url>
@@ -17,11 +21,15 @@
     <lastmod>2022-08-07T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/render_composition/</loc>
+    <loc>/angle_effect/</loc>
     <lastmod>2022-08-07T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/location_lightingl/</loc>
+    <loc>/soft_hardware/</loc>
+    <lastmod>2022-08-07T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/lighting/</loc>
     <lastmod>2022-08-07T16:07:59+08:00</lastmod>
   </url>
   <url>
@@ -30,6 +38,18 @@
   </url>
   <url>
     <loc>/color/</loc>
+    <lastmod>2022-08-07T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/entity/</loc>
+    <lastmod>2022-08-07T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/nation/</loc>
+    <lastmod>2022-08-07T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/clothing/</loc>
     <lastmod>2022-08-07T16:07:59+08:00</lastmod>
   </url>
   <url>
