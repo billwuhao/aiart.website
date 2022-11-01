@@ -10,18 +10,18 @@
     <title>光效 - aiart.website</title>
     <link href="/lighting/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1667300962" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1667300962" rel="stylesheet"></noscript>
-    <link href="/css/featherlight.min.css?1667300962" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1667300962" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1667300962" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1667300962" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1667300962" rel="stylesheet">
-    <link href="/css/nucleus.css?1667300962" rel="stylesheet">
-    <link href="/css/fonts.css?1667300962" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1667300962" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1667300962" rel="stylesheet">
-    <link href="/css/theme-neon.css?1667300962" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1667300962" rel="stylesheet">
-    <link href="/css/variant.css?1667300962" rel="stylesheet">
-    <link href="/css/print.css?1667300962" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1667300962"></script>
+    <link href="/css/fontawesome-all.min.css?1667302972" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1667302972" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1667302972" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1667302972" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1667302972" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1667302972" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1667302972" rel="stylesheet">
+    <link href="/css/nucleus.css?1667302972" rel="stylesheet">
+    <link href="/css/fonts.css?1667302972" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1667302972" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1667302972" rel="stylesheet">
+    <link href="/css/theme-neon.css?1667302972" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1667302972" rel="stylesheet">
+    <link href="/css/variant.css?1667302972" rel="stylesheet">
+    <link href="/css/print.css?1667302972" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1667302972"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -37,7 +37,7 @@
       var baseUriFull='/';
       window.variants && variants.init( [ 'neon' ] );
     </script>
-    <script src="/js/jquery.min.js?1667300962" defer></script>
+    <script src="/js/jquery.min.js?1667302972" defer></script>
   </head>
   <body class="mobile-support html" data-url="/lighting/">
     <div id="body" class="default-animation">
@@ -60,7 +60,6 @@
             <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#全部关键词目录">全部关键词目录</a></li>
     <li><a href="#flat-shading-lighting">flat shading lighting</a></li>
     <li><a href="#vray-tracing">vray tracing</a></li>
     <li><a href="#ambient-lighting">ambient lighting</a></li>
@@ -165,468 +164,274 @@
 <h1>光效</h1>
 
 <p>光效指画面中的光照条件。如太阳光，月光，各种电影光及摄影光等，以及早晨，黄昏，夜晚，雾等有光效的时刻或环境。</p>
-<h2 id="全部关键词目录">全部关键词目录</h2>
-
-<div class="expand">
-    <a class="expand-label" onclick="$t=$(this); if($t.parent('.expand-expanded.expand-marked').length){ $t.next().css('display','none') }else if($t.parent('.expand-marked').length){ $t.next().css('display','block') }else{ $t.next('.expand-content').slideToggle(100); } $t.parent().toggleClass('expand-expanded');">
-        <i class="fas fa-chevron-down"></i>
-        <i class="fas fa-chevron-right"></i>
-        点击展开
-    </a>
-    <div class="expand-content" style="display: none;">
-<ul>
-<li><a href="#flat-shading-lighting">flat shading lighting</a>：3d。3d 光效</li>
-<li><a href="#vray-tracing">vray tracing</a>：3d。3d 光效，vray 跟踪</li>
-<li><a href="#ambient-lighting">ambient lighting</a>：光照。环境光</li>
-<li><a href="#asymmetric-lighting">asymmetric lighting</a>：光照。不对称照明</li>
-<li><a href="#atmospheric-lighting">atmospheric lighting</a>：光照。气氛照明</li>
-<li><a href="#backlighting">backlighting</a>：光照。背景光</li>
-<li><a href="#beautifully-illumintated">beautifully illumintated</a>：光照。美丽的照明</li>
-<li><a href="#beautifully-lit">beautifully lit up</a>：光照。美丽灯效</li>
-<li><a href="#bisexual-lighting">bisexual lighting</a>：光照。两性照明</li>
-<li><a href="#bounce-lighting">bounce lighting</a>：光照。反射光</li>
-<li><a href="#broad-lighting">broad lighting</a>：光照。显宽光</li>
-<li><a href="#cameo-lighting">cameo lighting</a>：光照。浮雕照明</li>
-<li><a href="#celebratory-lighting">celebratory lighting</a>：光照。庆祝照明</li>
-<li><a href="#chiaroscuro-lighting">chiaroscuro lighting</a>：光照。明暗对比光</li>
-<li><a href="#christmas-lighting">christmas lighting</a>：光照。圣诞节照明</li>
-<li><a href="#cinematic-lighting">cinematic lighting</a>：光照。电影灯光</li>
-<li><a href="#computer-graphics-lighting">computer graphics lighting</a>：光照。计算机图形照明</li>
-<li><a href="#corpuscular-ray">corpuscular ray</a>：光照。微粒射线</li>
-<li><a href="#cove-lighting">cove lighting</a>：光照。凹形照明</li>
-<li><a href="#dappled-lighting">dappled lighting</a>：光照。斑纹照明</li>
-<li><a href="#dramatic-lighting">dramatic lighting</a>：光照。戏剧性的灯光</li>
-<li><a href="#electric-lighting">electric lighting</a>：光照。电气照明</li>
-<li><a href="#emergency-lighting">emergency lighting</a>：光照。应急照明</li>
-<li><a href="#excessive-lighting">excessive lighting</a>：光照。过度照明</li>
-<li><a href="#fluorescence">fluorescence</a>：光照。荧光</li>
-<li><a href="#fluorescent-lighting">fluorescent lighting</a>：光照。荧光灯</li>
-<li><a href="#fusion-lighting">fusion lighting</a>：光照。聚变照明</li>
-<li><a href="#gas-lighting">gas lighting</a>：光照。气体照明</li>
-<li><a href="#global-illumination">global illumination</a>：光照。全局照明</li>
-<li><a href="#ground-effects-lighting">ground effects lighting</a>：光照。地面效果照明</li>
-<li><a href="#hard-lighting">hard lighting</a>：光照。强光</li>
-<li><a href="#high-iso-value-lighting">high iso value lighting</a>：光照</li>
-<li><a href="#high-key-lighting">high key lighting</a>：光照。亮色调</li>
-<li><a href="#high-key-lighting">high-key lighting</a>：光照。高调照明</li>
-<li><a href="#image-based-lighting">image-based lighting</a>：光照。基于图像的光照</li>
-<li><a href="#incandescent-lighting">incandescent lighting</a>：光照。白炽灯</li>
-<li><a href="#indirect-illumination">indirect illumination</a>：光照。间接照明</li>
-<li><a href="#intelligent-lighting">intelligent lighting</a>：光照。智能照明</li>
-<li><a href="#key-lighting-and-fill-lighting">key lighting and fill lighting</a>：光照。关键照明和填充照明</li>
-<li><a href="#landscape-lighting">landscape lighting</a>：光照。景观照明</li>
-<li><a href="#led-light">led light</a>：光照。led 光</li>
-<li><a href="#led-stage-lighting">led stage lighting</a>：光照。led 舞台照明</li>
-<li><a href="#lens-flare">lens flare</a>：光照。透镜光斑</li>
-<li><a href="#library-lighting">library lighting</a>：光照。图书馆照明</li>
-<li><a href="#light-shadow">light and shadow</a>：光照。光影</li>
-<li><a href="#lighting-made-of-fireflies">lighting made of fireflies</a>：光照。萤火虫的光</li>
-<li><a href="#local-illumination">local illumination</a>：光照。局部照明</li>
-<li><a href="#loop-lighting">loop lighting</a>：光照。环形光</li>
-<li><a href="#low-iso-value-lighting">low iso value lighting</a>：光照</li>
-<li><a href="#low-key-lighting">low key lighting</a>：光照。暗色调</li>
-<li><a href="#low-light">low light</a>：光照。弱光</li>
-<li><a href="#low-key-lighting">low-key lighting</a>：光照。低调照明</li>
-<li><a href="#luminism">luminism</a>：光照。外光主义</li>
-<li><a href="#mood-lighting">mood lighting</a>：光照。情调照明</li>
-<li><a href="#motivated-lighting">motivated lighting</a>：光照。发射光</li>
-<li><a href="#natural-lighting">natural lighting</a>：光照。自然采光</li>
-<li><a href="#per-pixel-lighting">per-pixel lighting</a>：光照。每像素照明</li>
-<li><a href="#per-vertex-lighting">per-vertex lighting</a>：光照。逐顶点照明</li>
-<li><a href="#photographic-lighting">photographic lighting</a>：光照。摄影照明</li>
-<li><a href="#practical-lighting">practical lighting</a>：光照。实用道具光</li>
-<li><a href="#rays-of-evening-sunlight">rays of evening sunlight</a>：光照。傍晚阳光光线</li>
-<li><a href="#rembrandt-lighting">rembrandt lighting</a>：光照。伦勃朗光</li>
-<li><a href="#runway-lighting">runway lighting</a>：光照。跑道照明</li>
-<li><a href="#security-lighting">security lighting</a>：光照。安全照明</li>
-<li><a href="#shimmering">shimmering</a>：光照。闪闪发光</li>
-<li><a href="#short-lighting">short lighting</a>：光照。显瘦光</li>
-<li><a href="#side-lighting">side lighting</a>：光照。测光</li>
-<li><a href="#soft-lighting">soft lighting</a>：光照。柔光</li>
-<li><a href="#solid-state-lighting">solid-state lighting</a>：光照。固态照明</li>
-<li><a href="#stage-lighting">stage lighting</a>：光照。舞台照明</li>
-<li><a href="#street-lighting">street lighting</a>：光照。街道照明</li>
-<li><a href="#studio-lighting">studio lighting</a>：光照。演播室照明</li>
-<li><a href="#symmetric-lighting">symmetric lighting</a>：光照。对称照明</li>
-<li><a href="#task-lighting">task lighting</a>：光照。任务照明</li>
-<li><a href="#the-rays-of-god">the rays of god</a>：光照。上帝之光</li>
-<li><a href="#track-lighting">track lighting</a>：光照。轨道照明</li>
-<li><a href="#unified-lighting-and-shadowing">unified lighting and shadowing</a>：光照。统一照明和阴影</li>
-<li><a href="#urban-lighting">urban lighting</a>：光照。城市照明</li>
-<li><a href="#volumetric-lighting">volumetric lighting</a>：光照。体积光照</li>
-<li><a href="#clear-day">clear day</a>：空间。晴天</li>
-<li><a href="#fog">fog</a>：空间。雾</li>
-<li><a href="#overcast">overcast</a>：空间。阴天</li>
-<li><a href="#at-dawn">at dawn</a>：时间。黎明</li>
-<li><a href="#at-dusk">at dusk</a>：时间。黄昏</li>
-<li><a href="#at-night">at night</a>：时间。在晚上</li>
-<li><a href="#at-sunrise">at sunrise</a>：时间。日出之时</li>
-<li><a href="#at-sunset">at sunset</a>：时间。日落之时</li>
-<li><a href="#at-twilight">at twilight</a>：时间。暮光</li>
-<li><a href="#golden-hour">golden hour</a>：时间。黄金时段</li>
-<li><a href="#moonlit-night">moonlit night</a>：时间。月夜</li>
-</ul>
-
-    </div>
-</div>
 <h2 id="flat-shading-lighting">flat shading lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>3d。3d 光效</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/flat-shading-lighting.png">查看生成图像效果</a></p>
 <h2 id="vray-tracing">vray tracing</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>3d。3d 光效，vray 跟踪</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/vray-tracing.png">查看生成图像效果</a></p>
 <h2 id="ambient-lighting">ambient lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。环境光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-31-07.png">查看生成图像效果</a></p>
 <h2 id="asymmetric-lighting">asymmetric lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。不对称照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/asymmetric-lighting.png">查看生成图像效果</a></p>
 <h2 id="atmospheric-lighting">atmospheric lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。气氛照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-27-32.png">查看生成图像效果</a></p>
 <h2 id="backlighting">backlighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。背景光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-29-33.png">查看生成图像效果</a></p>
 <h2 id="beautifully-illumintated">beautifully illumintated</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。美丽的照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/beautifully-illumintated.png">查看生成图像效果</a></p>
 <h2 id="beautifully-lit-up">beautifully lit up</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。美丽灯效</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-26-40.png">查看生成图像效果</a></p>
 <h2 id="bisexual-lighting">bisexual lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。两性照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/bisexual-lighting.png">查看生成图像效果</a></p>
 <h2 id="bounce-lighting">bounce lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。反射光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-30-34.png">查看生成图像效果</a></p>
 <h2 id="broad-lighting">broad lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。显宽光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-33-08.png">查看生成图像效果</a></p>
 <h2 id="cameo-lighting">cameo lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。浮雕照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/cameo-lighting.png">查看生成图像效果</a></p>
 <h2 id="celebratory-lighting">celebratory lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。庆祝照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/celebratory-lighting.png">查看生成图像效果</a></p>
 <h2 id="chiaroscuro-lighting">chiaroscuro lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。明暗对比光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-30-42.png">查看生成图像效果</a></p>
 <h2 id="christmas-lighting">christmas lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。圣诞节照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/christmas-lighting.png">查看生成图像效果</a></p>
 <h2 id="cinematic-lighting">cinematic lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。电影灯光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/cinematic-lighting.png">查看生成图像效果</a></p>
 <h2 id="computer-graphics-lighting">computer graphics lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。计算机图形照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/computer-graphics-lighting.png">查看生成图像效果</a></p>
 <h2 id="corpuscular-ray">corpuscular ray</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。微粒射线</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-27-11.png">查看生成图像效果</a></p>
 <h2 id="cove-lighting">cove lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。凹形照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/cove-lighting.png">查看生成图像效果</a></p>
 <h2 id="dappled-lighting">dappled lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。斑纹照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-27-21.png">查看生成图像效果</a></p>
 <h2 id="dramatic-lighting">dramatic lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。戏剧性的灯光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-27-41.png">查看生成图像效果</a></p>
 <h2 id="electric-lighting">electric lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。电气照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/electric-lighting.png">查看生成图像效果</a></p>
 <h2 id="emergency-lighting">emergency lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。应急照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/emergency-lighting.png">查看生成图像效果</a></p>
 <h2 id="excessive-lighting">excessive lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。过度照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/excessive-lighting.png">查看生成图像效果</a></p>
 <h2 id="fluorescence">fluorescence</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。荧光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/fluorescence.png">查看生成图像效果</a></p>
 <h2 id="fluorescent-lighting">fluorescent lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。荧光灯</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/fluorescent-lighting.png">查看生成图像效果</a></p>
 <h2 id="fusion-lighting">fusion lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。聚变照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/fusion-lighting.png">查看生成图像效果</a></p>
 <h2 id="gas-lighting">gas lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。气体照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/gas-lighting.png">查看生成图像效果</a></p>
 <h2 id="global-illumination">global illumination</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。全局照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/global-illumination.png">查看生成图像效果</a></p>
 <h2 id="ground-effects-lighting">ground effects lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。地面效果照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/ground-effects-lighting.png">查看生成图像效果</a></p>
 <h2 id="hard-lighting">hard lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。强光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-30-12.png">查看生成图像效果</a></p>
 <h2 id="high-iso-value-lighting">high iso value lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/high-iso-value-lighting.png">查看生成图像效果</a></p>
 <h2 id="high-key-lighting">high key lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。亮色调</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-29-47.png">查看生成图像效果</a></p>
 <h2 id="high-key-lighting-1">high-key lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。高调照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/high-key-lighting.png">查看生成图像效果</a></p>
 <h2 id="image-based-lighting">image-based lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。基于图像的光照</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/image-based-lighting.png">查看生成图像效果</a></p>
 <h2 id="incandescent-lighting">incandescent lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。白炽灯</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/incandescent-lighting.png">查看生成图像效果</a></p>
 <h2 id="indirect-illumination">indirect illumination</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。间接照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/indirect-illumination.png">查看生成图像效果</a></p>
 <h2 id="intelligent-lighting">intelligent lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。智能照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/intelligent-lighting.png">查看生成图像效果</a></p>
 <h2 id="key-lighting-and-fill-lighting">key lighting and fill lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。关键照明和填充照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/key-lighting-and-fill-lighting.png">查看生成图像效果</a></p>
 <h2 id="landscape-lighting">landscape lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。景观照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/landscape-lighting.png">查看生成图像效果</a></p>
 <h2 id="led-light">led light</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。led 光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/led-light.png">查看生成图像效果</a></p>
 <h2 id="led-stage-lighting">led stage lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。led 舞台照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/led-stage-lighting.png">查看生成图像效果</a></p>
 <h2 id="lens-flare">lens flare</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。透镜光斑</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/lens-flare.png">查看生成图像效果</a></p>
 <h2 id="library-lighting">library lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。图书馆照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/library-lighting.png">查看生成图像效果</a></p>
 <h2 id="light-and-shadow">light and shadow</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。光影</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-19-27.png">查看生成图像效果</a></p>
 <h2 id="lighting-made-of-fireflies">lighting made of fireflies</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。萤火虫的光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/lighting-made-of-fireflies.png">查看生成图像效果</a></p>
 <h2 id="local-illumination">local illumination</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。局部照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/local-illumination.png">查看生成图像效果</a></p>
 <h2 id="loop-lighting">loop lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。环形光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-32-37.png">查看生成图像效果</a></p>
 <h2 id="low-iso-value-lighting">low iso value lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/low-iso-value-lighting.png">查看生成图像效果</a></p>
 <h2 id="low-key-lighting">low key lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。暗色调</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-29-53.png">查看生成图像效果</a></p>
 <h2 id="low-light">low light</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。弱光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/low-light.png">查看生成图像效果</a></p>
 <h2 id="low-key-lighting-1">low-key lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。低调照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/low-key-lighting.png">查看生成图像效果</a></p>
 <h2 id="luminism">luminism</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。外光主义</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/luminism.png">查看生成图像效果</a></p>
 <h2 id="mood-lighting">mood lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。情调照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-28-12.png">查看生成图像效果</a></p>
 <h2 id="motivated-lighting">motivated lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。发射光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-30-58.png">查看生成图像效果</a></p>
 <h2 id="natural-lighting">natural lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。自然采光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-29-04.png">查看生成图像效果</a></p>
 <h2 id="per-pixel-lighting">per-pixel lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。每像素照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/per-pixel-lighting.png">查看生成图像效果</a></p>
 <h2 id="per-vertex-lighting">per-vertex lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。逐顶点照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/per-vertex-lighting.png">查看生成图像效果</a></p>
 <h2 id="photographic-lighting">photographic lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。摄影照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/photographic-lighting.png">查看生成图像效果</a></p>
 <h2 id="practical-lighting">practical lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。实用道具光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-30-04.png">查看生成图像效果</a></p>
 <h2 id="rays-of-evening-sunlight">rays of evening sunlight</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。傍晚阳光光线</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-18-29.png">查看生成图像效果</a></p>
 <h2 id="rembrandt-lighting">rembrandt lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。伦勃朗光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-32-47.png">查看生成图像效果</a></p>
 <h2 id="runway-lighting">runway lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。跑道照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/runway-lighting.png">查看生成图像效果</a></p>
 <h2 id="security-lighting">security lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。安全照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/security-lighting.png">查看生成图像效果</a></p>
 <h2 id="shimmering">shimmering</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。闪闪发光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/shimmering.png">查看生成图像效果</a></p>
 <h2 id="short-lighting">short lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。显瘦光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-32-56.png">查看生成图像效果</a></p>
 <h2 id="side-lighting">side lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。测光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-30-50.png">查看生成图像效果</a></p>
 <h2 id="soft-lighting">soft lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。柔光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-30-21.png">查看生成图像效果</a></p>
 <h2 id="solid-state-lighting">solid-state lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。固态照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/solid-state-lighting.png">查看生成图像效果</a></p>
 <h2 id="stage-lighting">stage lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。舞台照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/stage-lighting.png">查看生成图像效果</a></p>
 <h2 id="street-lighting">street lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。街道照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/street-lighting.png">查看生成图像效果</a></p>
 <h2 id="studio-lighting">studio lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。演播室照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-28-55.png">查看生成图像效果</a></p>
 <h2 id="symmetric-lighting">symmetric lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。对称照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/symmetric-lighting.png">查看生成图像效果</a></p>
 <h2 id="task-lighting">task lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。任务照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/task-lighting.png">查看生成图像效果</a></p>
 <h2 id="the-rays-of-god">the rays of god</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。上帝之光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-18-38.png">查看生成图像效果</a></p>
 <h2 id="track-lighting">track lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。轨道照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/track-lighting.png">查看生成图像效果</a></p>
 <h2 id="unified-lighting-and-shadowing">unified lighting and shadowing</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。统一照明和阴影</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/unified-lighting-and-shadowing.png">查看生成图像效果</a></p>
 <h2 id="urban-lighting">urban lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。城市照明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/urban-lighting.png">查看生成图像效果</a></p>
 <h2 id="volumetric-lighting">volumetric lighting</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>光照。体积光照</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-18-19.png">查看生成图像效果</a></p>
 <h2 id="clear-day">clear day</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>空间。晴天</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-19-42.png">查看生成图像效果</a></p>
 <h2 id="fog">fog</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>空间。雾</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-23-09.png">查看生成图像效果</a></p>
 <h2 id="overcast">overcast</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>空间。阴天</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-23-18.png">查看生成图像效果</a></p>
 <h2 id="at-dawn">at dawn</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>时间。黎明</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-20-07.png">查看生成图像效果</a></p>
 <h2 id="at-dusk">at dusk</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>时间。黄昏</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-20-20.png">查看生成图像效果</a></p>
 <h2 id="at-night">at night</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>时间。在晚上</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-22-50.png">查看生成图像效果</a></p>
 <h2 id="at-sunrise">at sunrise</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>时间。日出之时</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-22-35.png">查看生成图像效果</a></p>
 <h2 id="at-sunset">at sunset</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>时间。日落之时</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-22-29.png">查看生成图像效果</a></p>
 <h2 id="at-twilight">at twilight</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>时间。暮光</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-28-20.png">查看生成图像效果</a></p>
 <h2 id="golden-hour">golden hour</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>时间。黄金时段</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-27-52.png">查看生成图像效果</a></p>
 <h2 id="moonlit-night">moonlit night</h2>
-<p><a href="#%E5%85%A8%E9%83%A8%E5%85%B3%E9%94%AE%E8%AF%8D%E7%9B%AE%E5%BD%95">返回目录</a></p>
 <p>时间。月夜</p>
 <p><a href="https://aiart.billwuhao.com/aiartimgs/2022-09-05-19-21-10.png">查看生成图像效果</a></p>
 
@@ -652,12 +457,12 @@
         <script>
           var contentLangs=['zh'];
         </script>
-        <script src="/js/auto-complete.js?1667300963" defer></script>
-        <script src="/js/lunr.min.js?1667300963" defer></script>
-        <script src="/js/lunr.stemmer.support.min.js?1667300963" defer></script>
-        <script src="/js/lunr.multi.min.js?1667300963" defer></script>
-        <script src="/js/lunr.zh.min.js?1667300963" defer></script>
-        <script src="/js/search.js?1667300963" defer></script>
+        <script src="/js/auto-complete.js?1667302972" defer></script>
+        <script src="/js/lunr.min.js?1667302972" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1667302972" defer></script>
+        <script src="/js/lunr.multi.min.js?1667302972" defer></script>
+        <script src="/js/lunr.zh.min.js?1667302972" defer></script>
+        <script src="/js/search.js?1667302972" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
@@ -719,9 +524,9 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1667300963" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1667300963" defer></script>
-    <script src="/js/featherlight.min.js?1667300963" defer></script>
+    <script src="/js/clipboard.min.js?1667302972" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1667302972" defer></script>
+    <script src="/js/featherlight.min.js?1667302972" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -751,7 +556,7 @@
       useMathJax( JSON.parse("{}") );
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="/js/jquery.svg.pan.zoom.js?1667300963" defer></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1667302972" defer></script>
     <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
@@ -760,6 +565,6 @@
     <script>
       window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
     </script>
-    <script src="/js/theme.js?1667300963" defer></script>
+    <script src="/js/theme.js?1667302972" defer></script>
   </body>
 </html>
