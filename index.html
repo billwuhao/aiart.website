@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.1+tip">
+    <meta name="description" content="">
+    <meta name="author" content="吴明文">
+    <title>主页 - aiart.website</title>
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website">
+    <link href="/index.json" rel="alternate" type="application/json" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1732372109" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1732372109" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1732372109" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1732372109" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1732372109" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1732372109" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1732372109" rel="stylesheet">
+    <link href="/css/nucleus.css?1732372109" rel="stylesheet">
+    <link href="/css/fonts.css?1732372109" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1732372109" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1732372109" rel="stylesheet">
+    <link href="/css/theme-black.css?1732372109" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1732372109" rel="stylesheet">
+    <link href="/css/variant.css?1732372109" rel="stylesheet">
+    <link href="/css/print.css?1732372109" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1732372109"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="/index.json";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = '复制到剪贴板';
+      window.T_Copied_to_clipboard = '复制到剪贴板！';
+      window.T_Copy_link_to_clipboard = '将链接复制到剪贴板';
+      window.T_Link_copied_to_clipboard = '链接复制到剪贴板！';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'black' ] );
+    </script>
+    <script src="/js/jquery.min.js?1732372109" defer></script>
+  </head>
+  <body class="mobile-support html" data-url="/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='导航 (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='目录 (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/" aria-disabled="true"><span itemprop="name">主页</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#项目网站">项目网站</a>
+      <ul>
+        <li><a href="#搜索问答">搜索问答</a></li>
+        <li><a href="#视频-语音-绘图等综合">视频, 语音, 绘图等综合</a></li>
+        <li><a href="#视频">视频</a></li>
+        <li><a href="#绘画设计">绘画设计</a></li>
+        <li><a href="#3d">3D</a></li>
+        <li><a href="#语音-音乐">语音, 音乐</a></li>
+        <li><a href="#提示词">提示词</a></li>
+        <li><a href="#代码">代码</a></li>
+        <li><a href="#其他">其他</a></li>
+        <li><a href="#等待中的项目">等待中的项目</a></li>
+        <li><a href="#模型-资源-工作流">模型, 资源, 工作流</a></li>
+      </ul>
+    </li>
+    <li><a href="#相关网站">相关网站</a></li>
+    <li><a href="#github-项目">GitHub 项目</a>
+      <ul>
+        <li><a href="#视频-1">视频</a></li>
+        <li><a href="#comfyui">ComfyUI</a></li>
+        <li><a href="#webui">WebUI</a></li>
+        <li><a href="#llm">LLM</a></li>
+        <li><a href="#训练脚本">训练脚本</a></li>
+        <li><a href="#图像设计">图像设计</a></li>
+        <li><a href="#语音-音乐-1">语音, 音乐</a></li>
+        <li><a href="#3d-1">3D</a></li>
+        <li><a href="#文本处理">文本处理</a></li>
+        <li><a href="#其他-1">其他</a></li>
+      </ul>
+    </li>
+    <li><a href="#hugging-face">Hugging Face</a></li>
+    <li><a href="#文档资料">文档资料</a></li>
+    <li><a href="#归档可以不用看">归档(可以不用看)</a></li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable home" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="home deprecated">
+
+<h1 id="明文视界-的-ai-站">明文视界 的 AI 站</h1>
+<!-- raw HTML omitted -->
+<p>AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常棒的项目/应用/资源&hellip; 后面新添加, 都会标注日期.</p>
+<h2 id="项目网站">项目网站</h2>
+<h3 id="搜索问答">搜索问答</h3>
+<p><a href="https://kimi.moonshot.cn/">Kimi</a></p>
+<p><a href="https://chatgpt.com/">chatgpt</a></p>
+<p><a href="https://metaso.cn/">秘塔</a></p>
+<p><a href="https://www.perplexity.ai/">perplexity</a></p>
+<p><a href="https://www.meta.ai/">Meta AI</a></p>
+<p><a href="https://yuanbao.tencent.com/discovery">腾讯元宝</a></p>
+<p><a href="https://www.doubao.com/chat/?channel=baidu_sem&amp;source=db_sem_baidu_htl_pc_1_ocpc&amp;keywordid=751265762256&amp;ad_platform_id=baidusearch_lead&amp;account_id=52024153&amp;a_planid=477748213&amp;a_unitid=9513180824&amp;a_keywordid=751265762256&amp;a_creative=93832488550&amp;a_matchtype=1&amp;a_dongtai=0&amp;a_trig_flag=nm&amp;a_crowdid=0&amp;a_kw_enc_utf8=%E8%B1%86%E5%8C%85%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;ug_semver=v2.0.0&amp;bd_vid=11275434556537774190">豆包 - 抖音旗下 AI 智能助手</a></p>
+<p><a href="https://aistudio.google.com/app/prompts/new_chat">Google AI Studio</a></p>
+<p><a href="https://claude.ai/login?returnTo=%2F%3F#">Claude</a></p>
+<p><a href="https://zhida.zhihu.com/">知乎直答</a></p>
+<p><a href="https://www.sou.com/">360搜</a></p>
+<p><a href="https://poe.com/">Poe</a></p>
+<p><a href="https://huggingface.co/chat/">HuggingChat</a></p>
+<h3 id="视频-语音-绘图等综合">视频, 语音, 绘图等综合</h3>
+<p><a href="https://chatglm.cn/main/alltoolsdetail?lang=zh">智谱清言</a></p>
+<p><a href="https://jimeng.jianying.com/ai-tool/home">即梦AI - 一站式AI创作平台</a></p>
+<p><a href="https://klingai.kuaishou.com/">可灵 AI - 新一代 AI 创意生产力平台</a></p>
+<p><a href="https://hailuoai.com/">海螺 AI</a></p>
+<p><a href="https://yuewen.cn/chats/new">跃问</a></p>
+<p><a href="https://lumalabs.ai/dream-machine">Luma Dream Machine | AI Video Generator</a></p>
+<p><a href="https://www.krea.ai/home">KREA AI - AIGC集合-风格-图有免费</a></p>
+<p><a href="https://app.leonardo.ai/">Home - Leonardo.Ai</a></p>
+<p><a href="https://aitestkitchen.withgoogle.com/zh">AI Test Kitchen</a></p>
+<p><a href="https://limewire.com/">LimeWire</a></p>
+<p><a href="https://chat.mistral.ai/chat">Le Chat - Mistral AI</a></p>
+<p><a href="https://www.whee.com/">WHEE - 高品质的AI素材生成器</a></p>
+<h3 id="视频">视频</h3>
+<p><a href="https://www.vidu.studio/zh">Vidu，让想象发生</a></p>
+<p><a href="https://hailuoai.video/">Hailuo AI Video Generator - Reimagine Video Creation</a></p>
+<p><a href="https://app.runwayml.com/video-tools/teams/billwuhao2018/dashboard">Runway</a></p>
+<p><a href="https://app.ltx.studio/">讲故事的方式发生了转变LTX工作室 &mdash; Storytelling Transformed | LTX Studio</a></p>
+<p><a href="https://noisee.ai/">Noisee AI 音乐生成MV</a></p>
+<p><a href="https://pika.art/">Pika</a></p>
+<p><a href="https://www.genmo.ai/">Genmo. Create videos and images with AI.</a></p>
+<p><a href="https://app.pixverse.ai/home">Home | PixVerse</a></p>
+<p><a href="https://viggle.ai/home">Viggle AI</a></p>
+<p><a href="https://app.wonderdynamics.com/">万德动力 &mdash; Wonder Dynamics</a></p>
+<p><a href="https://app.heygen.com/home">HeyGen - AI Spokesperson Video Creator</a></p>
+<p><a href="https://aiuni.ai/">Aiuni</a></p>
+<p><a href="https://www.domoai.app/zh-Hant/home">DomoAI: video to video, video to animation and more</a></p>
+<p><a href="https://app.flair.ai/templates">Flair</a></p>
+<p><a href="https://warpvideo.ai/">Warpvideo AI: Change Video Style with AI</a></p>
+<p><a href="https://www.hedra.com/">Hedra 数字人</a></p>
+<p><a href="https://aihug.ai/tw">AI 擁抱 - 免費線上 AI 擁抱影片生成器</a></p>
+<p><a href="https://www.moki.cn/home">MOKI - 我用AI做短片</a></p>
+<p><a href="https://meshcapade.com/">Meshcapade | 编辑人物动作</a></p>
+<p><a href="https://boomcutai.com/">BoomCut - 爆剪辑 - 小影科技旗下 AI 内容创意产品与服务平台</a></p>
+<h3 id="绘画设计">绘画设计</h3>
+<p><a href="https://clipdrop.co/">Create stunning visuals in seconds with AI.</a></p>
+<p><a href="https://photo.baidu.com/photasy/home">超能画布首页</a></p>
+<p><a href="https://firefly.adobe.com/">Adobe Firefly</a></p>
+<p><a href="https://playground.com/design">Design - Playground</a></p>
+<p><a href="https://skybox.blockadelabs.com/">Skybox AI 360°全景</a></p>
+<p><a href="https://magicstudio.com/zh/">Magic Studio：利用 AI 制作精美图像</a></p>
+<p><a href="https://www.midjourney.com/explore?tab=top">midjourney</a></p>
+<p><a href="https://www.remove.bg/">Remove Background from Image for Free – remove.bg</a></p>
+<p><a href="https://www.craiyon.com/">Craiyon, formerly DALL-E mini</a></p>
+<p><a href="https://www.artbreeder.com/create">Create - Artbreeder</a></p>
+<p><a href="https://creator.nightcafe.studio/my-creations">NightCafe Creator</a></p>
+<p><a href="https://www.recraft.ai/projects">Projects - Recraft</a></p>
+<p><a href="https://app.blendbox.ai/create">Blendbox.ai 多图组合</a></p>
+<p><a href="https://ideogram.ai/t/explore">Ideogram 画布</a></p>
+<p><a href="https://www.logo-creator.io/">Logo-creator.io – Generate a logo</a></p>
+<p><a href="https://www.remove.bg/zh">在线抠图软件_图片去除背景 | remove.bg – remove.bg</a></p>
+<p><a href="https://ai.smalld.cn/#/">触手AI</a></p>
+<h3 id="3d">3D</h3>
+<p><a href="https://www.meshy.ai/">Meshy - Free 3D Models Generated from Images and Text</a></p>
+<p><a href="https://www.immersity.ai/">Immersity AI | Convert Image and Video to 3D</a></p>
+<p><a href="https://www.tripo3d.ai/">Tripo AI - 用文字或图片免费生成3D模型</a></p>
+<h3 id="语音-音乐">语音, 音乐</h3>
+<p><a href="https://suno.com/">Suno</a></p>
+<p><a href="https://www.haimianyinyue.com/featured">海绵音乐</a></p>
+<p><a href="https://elevenlabs.io/">Free Text to Speech &amp; AI Voice Generator | ElevenLabs</a></p>
+<p><a href="https://www.udio.com/home">Udio AI Music Generator - Make Original Tracks in Seconds</a></p>
+<p><a href="https://www.stableaudio.com/generate">Stable Audio - Generate</a></p>
+<p><a href="https://www.ttson.cn/">在线免费文本转语音 - TTS-Online | 多种声音与二次元语音</a></p>
+<p><a href="https://tuna.voicemod.net/">Soundboard - TUNA - Download Unlimited Free Meme Sounds</a></p>
+<p><a href="https://experiments.withgoogle.com/ai/beat-blender/view/">节奏生成器-Beat Blender 音乐</a></p>
+<p><a href="https://tianyin.music.163.com/#/">网易天音 - 一站式AI音乐创作工具 - 官网</a></p>
+<h3 id="提示词">提示词</h3>
+<p><a href="https://promptomania.com/">promptoMANIA:绘画提示生成器</a></p>
+<p><a href="https://lexica.art/">Lexica</a></p>
+<p><a href="https://prompthero.com/">PromptHero - 提示词大全</a></p>
+<h3 id="代码">代码</h3>
+<p><a href="https://www.marscode.com/home">MarsCode - AI IDE</a></p>
+<p><a href="https://www.cursor.com/">Cursor</a></p>
+<p><a href="https://bolt.new/">bolt.new</a></p>
+<p><a href="https://scriptecho.cn/index.html">ScriptEcho | AI生成生产级代码 |</a></p>
+<h3 id="其他">其他</h3>
+<p><a href="https://notebooklm.google/">NotebookLM | Note Taking &amp; Research Assistant Powered by AI</a></p>
+<p><a href="https://www.coze.cn/">扣子 - AI 智能体开发平台</a></p>
+<p><a href="https://www.figma.com/files/team/1441808069682903816/recents-and-sharing?fuid=1441808067539027124"> Figma</a></p>
+<p><a href="https://illuminate.google.com/home?pli=1">Illuminate | Learn Your Way</a></p>
+<p><a href="https://chatnio.net/">Chat Nio</a></p>
+<p><a href="https://llamaocr.com/">LlamaOCR.com – Document to markdown</a></p>
+<p><a href="https://heyneo.so/">Neo AI engineer</a></p>
+<p><a href="https://excalidraw.com/">Excalidraw</a></p>
+<h3 id="等待中的项目">等待中的项目</h3>
+<p><a href="https://www.showrunner.xyz/">首页 |剧集主管 &mdash; Home | Showrunner</a></p>
+<p><a href="https://desktop.youchuan.cn/#/imagine">悠船</a></p>
+<p><a href="https://video.luchentech.com/zh-CN">Video Ocean视频大模型 - 人人皆导演</a></p>
+<p><a href="https://grisoon.github.io/PersonaTalk/">PersonaTalk: Bring Attention to Your Persona in Visual Dubbing</a></p>
+<p><a href="https://mardini-vidgen.github.io/">MarDini: Masked Auto-Regressive Diffusion for Video Generation at Scale &ndash; Meta AI Research</a></p>
+<p><a href="https://artistrylab.net/login">炉米Lumi</a></p>
+<p><a href="https://loopyavatar.github.io/?ref=aihub.cn">loopyavatar.github.io/?ref=aihub.cn</a></p>
+<p><a href="https://workspace.google.com/products/vids/#vids-create">Google Vids：在线视频创建和编辑器 | Google Vids谷歌工作区 &mdash; Google Vids: Online Video Creator and Editor | Google Workspace</a></p>
+<p><a href="https://skyreels.ai/beta">SkyReels</a></p>
+<p><a href="https://junxuan-li.github.io/urgca-website/">URAvatar: Universal Relightable Gaussian Codec Avatars</a></p>
+<p><a href="https://kebii.github.io/MikuDance/">MikuDance</a></p>
+<p><a href="https://research.nvidia.com/labs/par/addit/">Add-it</a></p>
+<p><a href="https://th-mlab.github.io/DanceFusion/#">DanceFusion: A Spatio-Temporal Skeleton Diffusion Transformer for Audio-Driven Dance Motion Reconstruction.</a></p>
+<p><a href="https://yu-shaonian.github.io/Animate_Anything/?utm_source=ai-bot.cn">AnimateAnything</a></p>
+<p><a href="https://menyifang.github.io/projects/MIMO/index.html">MIMO</a></p>
+<p><a href="https://wangyuchi369.github.io/InstructAvatar/">InstructAvatar</a></p>
+<h3 id="模型-资源-工作流">模型, 资源, 工作流</h3>
+<p><a href="https://openart.ai/">Discovery | OpenArt</a></p>
+<p><a href="https://www.shakker.ai/home">Shakker - Generative AI design tool with diverse models</a></p>
+<p><a href="https://www.modelscope.cn/home">首页 · 魔搭社区</a></p>
+<p><a href="https://comfyworkflows.com/">Comfy Workflows</a></p>
+<p><a href="https://openmodeldb.info/">OpenModelDB</a></p>
+<p><a href="https://tusiart.com/">FREE online image generator and model hosting site! | Tensor.Art</a></p>
+<p><a href="https://civitai.com/">Civitai: The Home of Open-Source Generative AI</a></p>
+<p><a href="https://www.codewithgpu.com/image">CodeWithGPU | 能复现才是好算法</a></p>
+<p><a href="https://www.liblib.art/">LiblibAI-哩布哩布AI - 中国领先的AI创作平台</a></p>
+<p><a href="https://www.runninghub.cn/">ComfyUI工作流 - 在线运行，速度快，不报错</a></p>
+<p><a href="https://tensor.art/">FREE online image generator and model hosting site! | Tensor.Art</a></p>
+<p><a href="https://cephalon.cloud/#/aigc">Cephalon Cloud 端脑云 - AIGC 应用平台</a></p>
+<h2 id="相关网站">相关网站</h2>
+<p><a href="https://pixabay.com/videos/search/?order=ec">Discover and download free videos - Pixabay</a></p>
+<p><a href="https://danbooru.donmai.us/">Danbooru: Anime Image Board</a></p>
+<p><a href="https://gptsmenu.com/">Discover the Best GPTs</a></p>
+<p><a href="https://ai-bot.cn/">AI工具集 | 700+ AI工具集合官网，国内外AI工具集导航大全</a></p>
+<p><a href="https://supertools.therundown.ai/">Supertools | Best AI Tools Guide</a></p>
+<p><a href="https://www.aigc.cn/">AIGC导航 | 1500+全品类AIGC创作工具_探索更多可能！</a></p>
+<p><a href="https://www.pixiv.net/?lang=zh&amp;return_to=">插画交流网站[pixiv]</a></p>
+<p><a href="https://www.artstation.com/">ArtStation - Explore</a></p>
+<p><a href="https://top.aibase.com/">AIbase - 智能匹配最适合您的AI产品和网站</a></p>
+<p><a href="https://sketchfab.com/feed">Newsfeed - Sketchfab</a></p>
+<p><a href="https://artificialanalysis.ai/">AI Model &amp; API Providers Analysis | Artificial Analysis</a></p>
+<p><a href="https://x.ai/">xAI</a></p>
+<p><a href="https://www.ggac.com/home">GGAC数字艺术平台</a></p>
+<p><a href="https://weirdwonderfulai.art/">Weird Wonderful AI Art | ART of the future - now!</a></p>
+<h2 id="github-项目">GitHub 项目</h2>
+<h3 id="视频-1">视频</h3>
+<p><a href="https://github.com/aigc-apps/EasyAnimate">aigc-apps/EasyAnimate: 📺 An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion</a></p>
+<p><a href="https://github.com/HVision-NKU/StoryDiffusion">GitHub - HVision-NKU/StoryDiffusion: Create Magic Story!</a></p>
+<p><a href="https://github.com/hpcaitech/Open-Sora?tab=readme-ov-file">hpcaitech/Open-Sora: Open-Sora: Democratizing Efficient Video Production for All</a></p>
+<p><a href="https://github.com/Vision-CAIR/MiniGPT4-video">Vision-CAIR/MiniGPT4-video</a></p>
+<p><a href="https://github.com/hkchengrex/Cutie">hkchengrex/Cutie: [CVPR 2024 Highlight] Putting the Object Back Into Video Object Segmentation</a></p>
+<p><a href="https://github.com/Picsart-AI-Research/StreamingT2V">Picsart-AI-Research/StreamingT2V: StreamingT2V: Consistent, Dynamic, and Extendable Long Video Generation from Text</a></p>
+<p><a href="https://github.com/aigc-apps/EasyAnimate/">aigc-apps/EasyAnimate: 📺 An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion</a></p>
+<p><a href="https://github.com/Tencent/MimicMotion">Tencent/MimicMotion: High-Quality Human Motion Video Generation with Confidence-aware Pose Guidance</a></p>
+<p><a href="https://github.com/jianchang512/pyvideotrans">jianchang512/pyvideotrans: Translate the video from one language to another and add dubbing. 将视频从一种语言翻译为另一种语言，并支持api调用</a></p>
+<p><a href="https://github.com/Hillobar/Rope">Hillobar/Rope: GUI-focused roop</a></p>
+<p><a href="https://github.com/sczhou/CodeFormer">GitHub - sczhou/CodeFormer: [NeurIPS 2022] Towards Robust Blind Face Restoration with Codebook Lookup Transformer</a></p>
+<p><a href="https://github.com/Huanshere/VideoLingo">Huanshere/VideoLingo: Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组</a></p>
+<p><a href="https://github.com/jy0205/Pyramid-Flow">jy0205/Pyramid-Flow: Code of Pyramidal Flow Matching for Efficient Video Generative Modeling</a></p>
+<p><a href="https://github.com/Vision-CAIR/LongVU">Vision-CAIR/LongVU</a></p>
+<p><a href="https://github.com/Doubiiu/ToonCrafter">Doubiiu/ToonCrafter: [SIGGRAPH Asia 2024, Journal Track] ToonCrafter: Generative Cartoon Interpolation</a></p>
+<p><a href="https://github.com/VectorSpaceLab/Video-XL">VectorSpaceLab/Video-XL: 🔥🔥First-ever hour scale video understanding models</a></p>
+<p><a href="https://github.com/anliyuan/Ultralight-Digital-Human">anliyuan/Ultralight-Digital-Human: 一个超轻量级、可以在移动端实时运行的数字人模型</a></p>
+<p><a href="https://github.com/antgroup/echomimic_v2">antgroup/echomimic_v2: EchoMimicV2: Towards Striking, Simplified, and Semi-Body Human Animation</a></p>
+<p><a href="https://github.com/Zejun-Yang/AniPortrait">Zejun-Yang/AniPortrait: AniPortrait: Audio-Driven Synthesis of Photorealistic Portrait Animation</a></p>
+<p><a href="https://github.com/fudan-generative-vision/hallo2">fudan-generative-vision/hallo2: Hallo2: Long-Duration and High-Resolution Audio-driven Portrait Image Animation</a></p>
+<p><a href="https://github.com/antgroup/echomimic">antgroup/echomimic: EchoMimic: Lifelike Audio-Driven Portrait Animations through Editable Landmark Conditioning</a></p>
+<p><a href="https://github.com/LordLiang/DrawingSpinUp">LordLiang/DrawingSpinUp: (SIGGRAPH Asia 2024) This is the official PyTorch implementation of SIGGRAPH Asia 2024 paper: DrawingSpinUp: 3D Animation from Single Character Drawings</a></p>
+<p><a href="https://github.com/HelloVision/HelloMeme">HelloVision/HelloMeme: The official HelloMeme GitHub site</a></p>
+<p><a href="https://github.com/Kmcode1/SG-I2V">Kmcode1/SG-I2V: This is the official implementation of SG-I2V: Self-Guided Trajectory Control in Image-to-Video Generation.</a></p>
+<p><a href="https://github.com/facebookresearch/sapiens">facebookresearch/sapiens: High-resolution models for human tasks.</a></p>
+<p><a href="https://github.com/AlonzoLeeeooo/StableV2V">AlonzoLeeeooo/StableV2V: The official implementation of the paper titled &ldquo;StableV2V: Stablizing Shape Consistency in Video-to-Video Editing&rdquo;.</a></p>
+<p><a href="https://github.com/genmoai/mochi">genmoai/mochi: The best OSS video generation models</a></p>
+<p><a href="https://github.com/THUDM/CogVideo?tab=readme-ov-file">THUDM/CogVideo: text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)</a></p>
+<p><a href="https://github.com/CyberAgentAILab/TANGO">CyberAgentAILab/TANGO: Official implementation of the paper &ldquo;TANGO: Co-Speech Gesture Video Reenactment with Hierarchical Audio-Motion Embedding and Diffusion Interpolation&rdquo;</a></p>
+<p><a href="https://github.com/IDEA-Research/MotionCLR">IDEA-Research/MotionCLR: [Arxiv 2024] MotionCLR: Motion Generation and Training-free Editing via Understanding Attention Mechanisms</a></p>
+<p><a href="https://github.com/Ji4chenLi/t2v-turbo">Ji4chenLi/t2v-turbo: Code repository for T2V-Turbo and T2V-Turbo-v2</a></p>
+<p><a href="https://github.com/Lightricks/LTX-Video">Lightricks/LTX-Video: Official repository for LTX-Video</a></p>
+<h3 id="comfyui">ComfyUI</h3>
+<p><a href="https://github.com/erosDiffusion/ComfyUI-enricos-nodes">erosDiffusion/ComfyUI-enricos-nodes: Compositor Node experiments</a></p>
+<p><a href="https://github.com/StartHua/Comfyui_CXH_joy_caption">StartHua/Comfyui_CXH_joy_caption: Recommended based on comfyui node pictures:Joy_caption + MiniCPMv2_6-prompt-generator + florence2</a></p>
+<p><a href="https://github.com/ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM">ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM: Unofficial implementation of YOLO-World + EfficientSAM for ComfyUI</a></p>
+<p><a href="https://github.com/logtd/ComfyUI-Fluxtapoz?tab=readme-ov-file">logtd/ComfyUI-Fluxtapoz: Nodes for image juxtaposition for Flux in ComfyUI</a></p>
+<p><a href="https://github.com/GreenLandisaLie/AuraSR-ComfyUI">GreenLandisaLie/AuraSR-ComfyUI: ComfyUI implementation of AuraSR</a></p>
+<p><a href="https://github.com/Jonseed/ComfyUI-Detail-Daemon">Jonseed/ComfyUI-Detail-Daemon: A port of muerrilla&rsquo;s sd-webui-Detail-Daemon as a node for ComfyUI, to adjust sigmas that control detail.</a></p>
+<p><a href="https://github.com/taabata/ComfyCanvas">taabata/ComfyCanvas: Canvas to use with ComfyUI</a></p>
+<p><a href="https://github.com/jtydhr88/ComfyUI-Hunyuan3D-1-wrapper">jtydhr88/ComfyUI-Hunyuan3D-1-wrapper: ComfyUI Hunyuan3D-1-wrapper is a custom node that allows you to run Tencent/Hunyuan3D-1 in ComfyUI as a wrapper.</a></p>
+<p><a href="https://github.com/smthemex/ComfyUI_Sapiens">smthemex/ComfyUI_Sapiens: You can call Using Sapiens to get seg，normal，pose，depth，mask</a></p>
+<p><a href="https://github.com/1038lab/ComfyUI-RMBG">1038lab/ComfyUI-RMBG: A ComfyUI node for removing image backgrounds using RMBG-2.0.</a></p>
+<p><a href="https://github.com/TTPlanetPig/Comfyui_Object_Migration">TTPlanetPig/Comfyui_Object_Migration: This is a study aim to transfer the single concept by using DIT model self-attention capablity</a></p>
+<p><a href="https://github.com/DoctorDiffusion/ComfyUI-BEN">DoctorDiffusion/ComfyUI-BEN: Background Erase Network - Remove backgrounds from images within ComfyUI.</a></p>
+<p><a href="https://github.com/marduk191/ComfyUI-Fluxpromptenhancer">marduk191/ComfyUI-Fluxpromptenhancer: A Prompt Enhancer for flux.1 in ComfyUI</a></p>
+<p><a href="https://github.com/Lightricks/ComfyUI-LTXVideo?tab=readme-ov-file">Lightricks/ComfyUI-LTXVideo: LTX-Video Support for ComfyUI</a></p>
+<h3 id="webui">WebUI</h3>
+<p><a href="https://github.com/open-webui/open-webui">open-webui/open-webui: User-friendly AI Interface (Supports Ollama, OpenAI API, &hellip;)</a></p>
+<p><a href="https://github.com/continue-revolution/sd-webui-segment-anything">continue-revolution/sd-webui-segment-anything: Segment Anything for Stable Diffusion WebUI</a></p>
+<p><a href="https://github.com/lllyasviel/stable-diffusion-webui-forge">lllyasviel/stable-diffusion-webui-forge</a></p>
+<p><a href="https://github.com/aigc-apps/sd-webui-EasyPhoto">aigc-apps/sd-webui-EasyPhoto: 📷 EasyPhoto | Your Smart AI Photo Generator.</a></p>
+<h3 id="llm">LLM</h3>
+<p><a href="https://github.com/binary-husky/gpt_academic">binary-husky/gpt_academic: 为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&amp;函数插件，支持Python和C++等项目剖析&amp;自译解功能，PDF/LaTex论文翻译&amp;总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。</a></p>
+<p><a href="https://github.com/SillyTavern/SillyTavern">SillyTavern/SillyTavern: LLM Frontend for Power Users.</a></p>
+<p><a href="https://github.com/mendableai/firecrawl">mendableai/firecrawl: 🔥 Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.</a></p>
+<p><a href="https://github.com/InternLM/InternLM">InternLM/InternLM: Official release of InternLM2.5 base and chat models. 1M context support</a></p>
+<h3 id="训练脚本">训练脚本</h3>
+<p><a href="https://github.com/kijai/ComfyUI-FluxTrainer">kijai/ComfyUI-FluxTrainer</a></p>
+<p><a href="https://github.com/bmaltais/kohya_ss">Releases · bmaltais/kohya_ss</a></p>
+<p><a href="https://github.com/Akegarasu/lora-scripts">Akegarasu/lora-scripts: LoRA &amp; Dreambooth training scripts &amp; GUI use kohya-ss&rsquo;s trainer, for diffusion model.</a></p>
+<p><a href="https://github.com/Nerogar/OneTrainer">Nerogar/OneTrainer: OneTrainer is a one-stop solution for all your stable diffusion training needs.</a></p>
+<h3 id="图像设计">图像设计</h3>
+<p><a href="https://github.com/black-forest-labs/flux">black-forest-labs/flux: Official inference repo for FLUX.1 models</a></p>
+<p><a href="https://github.com/Stability-AI/sd3.5">Stability-AI/sd3.5</a></p>
+<p><a href="https://github.com/lllyasviel/Omost">lllyasviel/Omost: Your image is almost there!</a></p>
+<p><a href="https://github.com/gligen/GLIGEN">gligen/GLIGEN: Open-Set Grounded Text-to-Image Generation</a></p>
+<p><a href="https://github.com/Tencent/HunyuanDiT">Tencent/HunyuanDiT: Hunyuan-DiT : A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding</a></p>
+<p><a href="https://github.com/lllyasviel/IC-Light">lllyasviel/IC-Light: More relighting!</a></p>
+<p><a href="https://github.com/tencent-ailab/IP-Adapter">tencent-ailab/IP-Adapter: The image prompt adapter is designed to enable a pretrained text-to-image diffusion model to generate images with image prompt.</a></p>
+<p><a href="https://github.com/piddnad/DDColor">piddnad/DDColor: [ICCV 2023] Official implementation of &ldquo;DDColor: Towards Photo-Realistic Image Colorization via Dual Decoders&rdquo;</a></p>
+<p><a href="https://github.com/cumulo-autumn/StreamDiffusion">cumulo-autumn/StreamDiffusion: StreamDiffusion: A Pipeline-Level Solution for Real-Time Interactive Generation</a></p>
+<p><a href="https://github.com/ToTheBeginning/PuLID">ToTheBeginning/PuLID: [NeurIPS 2024] Official code for PuLID: Pure and Lightning ID Customization via Contrastive Alignment</a></p>
+<p><a href="https://github.com/KDE/krita">KDE/krita: Krita is a free and open source cross-platform application that offers an end-to-end solution for creating digital art files from scratch built on the KDE and Qt frameworks.</a></p>
+<p><a href="https://github.com/Acly/krita-ai-diffusion">Acly/krita-ai-diffusion: Streamlined interface for generating images with AI in Krita. Inpaint and outpaint with optional text prompt, no tweaking required.</a></p>
+<p><a href="https://github.com/instantX-research/InstantID">instantX-research/InstantID: InstantID: Zero-shot Identity-Preserving Generation in Seconds 🔥</a></p>
+<p><a href="https://github.com/jbilcke-hf/FacePoke">jbilcke-hf/FacePoke: Select a portrait, click to move the head around (please use your own space / GPU!)</a></p>
+<p><a href="https://github.com/catcathh/UltraPixel">catcathh/UltraPixel: Implementation of UltraPixel: Advancing Ultra-High-Resolution Image Synthesis to New Peaks</a></p>
+<p><a href="https://github.com/Zeyi-Lin/HivisionIDPhotos">Zeyi-Lin/HivisionIDPhotos: ⚡️HivisionIDPhotos: a lightweight and efficient AI ID photos tools. 一个轻量级的AI证件照制作算法。</a></p>
+<p><a href="https://github.com/VectorSpaceLab/OmniGen">VectorSpaceLab/OmniGen: OmniGen: Unified Image Generation. https://arxiv.org/pdf/2409.11340</a></p>
+<p><a href="https://github.com/shallowdream204/DreamClear">shallowdream204/DreamClear: [NeurIPS 2024🔥] DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe Dataset Curation</a></p>
+<p><a href="https://github.com/NVlabs/consistory">NVlabs/consistory</a></p>
+<p><a href="https://github.com/instantX-research/Regional-Prompting-FLUX">instantX-research/Regional-Prompting-FLUX: Training-free Regional Prompting for Diffusion Transformers 🔥</a></p>
+<p><a href="https://github.com/ali-vilab/In-Context-LoRA">ali-vilab/In-Context-LoRA: Official repository of In-Context LoRA for Diffusion Transformers</a></p>
+<p><a href="https://github.com/mit-han-lab/nunchaku">mit-han-lab/nunchaku: SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models</a></p>
+<p><a href="https://github.com/ChenyangSi/FreeU">ChenyangSi/FreeU: FreeU: Free Lunch in Diffusion U-Net (CVPR2024 Oral)</a></p>
+<p><a href="https://github.com/magic-quill/MagicQuill">magic-quill/MagicQuill: Official Implementations for Paper - MagicQuill: An Intelligent Interactive Image Editing System</a></p>
+<p><a href="https://github.com/Nutlope/logocreator">Nutlope/logocreator: A free + OSS logo generator powered by Flux on Together AI</a></p>
+<p><a href="https://github.com/NVlabs/Sana">NVlabs/Sana: SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer</a></p>
+<p><a href="https://github.com/JackAILab/ConsistentID">JackAILab/ConsistentID: Customized ID Consistent for human</a></p>
+<p><a href="https://github.com/DepthAnything/Depth-Anything-V2">DepthAnything/Depth-Anything-V2: [NeurIPS 2024] Depth Anything V2. A More Capable Foundation Model for Monocular Depth Estimation</a></p>
+<p><a href="https://github.com/tryonlabs/FLUX.1-dev-LoRA-Outfit-Generator">tryonlabs/FLUX.1-dev-LoRA-Outfit-Generator: FLUX.1-dev LoRA Outfit Generator can create an outfit by detailing the color, pattern, fit, style, material, and type.</a></p>
+<h3 id="语音-音乐-1">语音, 音乐</h3>
+<p><a href="https://github.com/yxlllc/DDSP-SVC">GitHub - yxlllc/DDSP-SVC: Real-time end-to-end singing voice conversion system based on DDSP (Differentiable Digital Signal Processing)</a></p>
+<p><a href="https://github.com/voicepaw/so-vits-svc-fork">voicepaw/so-vits-svc-fork: so-vits-svc fork with realtime support, improved interface and more features.</a></p>
+<p><a href="https://github.com/RVC-Boss/GPT-SoVITS">GitHub - RVC-Boss/GPT-SoVITS: 1 min voice data can also be used to train a good TTS model! (few shot voice cloning)</a></p>
+<p><a href="https://github.com/SWivid/F5-TTS">SWivid/F5-TTS: Official code for &ldquo;F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching&rdquo;</a></p>
+<p><a href="https://github.com/misya11p/amt-apc">misya11p/amt-apc: AMT-APC: AMT-APC: Automatic Piano Cover by Fine-Tuning an Automatic Music Transcription Model</a></p>
+<p><a href="https://github.com/WEIFENG2333/AsrTools">WEIFENG2333/AsrTools: ✨ AsrTools: 智能语音转文字工具 | 高效批处理 | 用户友好界面 | 无需 GPU |支持 SRT/TXT 输出 | 让您的音频瞬间变成精确文字！</a></p>
+<p><a href="https://github.com/open-mmlab/Amphion">open-mmlab/Amphion: Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audio, music, and speech generation research and development.</a></p>
+<p><a href="https://github.com/fishaudio/fish-speech">fishaudio/fish-speech: Brand new TTS solution</a></p>
+<h3 id="3d-1">3D</h3>
+<p><a href="https://github.com/HengyiWang/spann3r">HengyiWang/spann3r: 3D Reconstruction with Spatial Memory</a></p>
+<p><a href="https://github.com/Tencent/Hunyuan3D-1">Tencent/Hunyuan3D-1</a></p>
+<p><a href="https://github.com/wenqsun/DimensionX">wenqsun/DimensionX: DimensionX: Create Any 3D and 4D Scenes from a Single Image with Controllable Video Diffusion</a></p>
+<h3 id="文本处理">文本处理</h3>
+<p><a href="https://github.com/zyddnys/manga-image-translator">zyddnys/manga-image-translator: Translate manga/image 一键翻译各类图片内文字 https://cotrans.touhou.ai/</a></p>
+<p><a href="https://github.com/chidiwilliams/buzz">chidiwilliams/buzz: Buzz transcribes and translates audio offline on your personal computer. Powered by OpenAI&rsquo;s Whisper.</a></p>
+<p><a href="https://github.com/AgentEra/Agently-Daily-News-Collector">AgentEra/Agently-Daily-News-Collector: An open-source LLM based automatically daily news collecting workflow showcase powered by Agently AI application development framework.</a></p>
+<p><a href="https://github.com/LC044/WeChatMsg">LC044/WeChatMsg: 提取微信聊天记录，将其导出成HTML、Word、Excel文档永久保存，对聊天记录进行分析生成年度聊天报告，用聊天数据训练专属于个人的AI聊天助手</a></p>
+<p><a href="https://github.com/gabrielchua/open-notebooklm">gabrielchua/open-notebooklm: Convert any PDF into a podcast episode!</a></p>
+<p><a href="https://github.com/getomni-ai/zerox">getomni-ai/zerox: Zero shot pdf OCR with gpt-4o-mini</a></p>
+<p><a href="https://github.com/opendatalab/PDF-Extract-Kit">opendatalab/PDF-Extract-Kit: A Comprehensive Toolkit for High-Quality PDF Content Extraction</a></p>
+<p><a href="https://github.com/Nutlope/llama-ocr">Nutlope/llama-ocr: Document to Markdown OCR library with Llama 3.2 vision</a></p>
+<p><a href="https://github.com/opendatalab/MinerU">opendatalab/MinerU: A high-quality tool for convert PDF to Markdown and JSON.一站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。</a></p>
+<h3 id="其他-1">其他</h3>
+<p><a href="https://github.com/OpenCodeInterpreter/OpenCodeInterpreter">OpenCodeInterpreter/OpenCodeInterpreter: OpenCodeInterpreter is a suite of open-source code generation systems aimed at bridging the gap between large language models and sophisticated proprietary systems like the GPT-4 Code Interpreter. It significantly enhances code generation capabilities by integrating execution and iterative refinement functionalities.</a></p>
+<p><a href="https://github.com/Ikaros-521/AI-Vtuber">Ikaros-521/AI-Vtuber: AI Vtuber是一个由 【ChatterBot/ChatGPT/claude/langchain/chatglm/text-gen-webui/闻达/千问/kimi/ollama】 驱动的虚拟主播【Live2D/UE/xuniren】，可以在 【Bilibili/抖音/快手/微信视频号/拼多多/斗鱼/YouTube/twitch/TikTok】 直播中与观众实时互动 或 直接在本地进行聊天。它使用TTS技术【edge-tts/VITS/elevenlabs/bark/bert-vits2/睿声】生成回答并可以选择【so-vits-svc/DDSP-SVC】变声；指令协同SD画图。</a></p>
+<p><a href="https://github.com/3b1b/manim">GitHub - 3b1b/manim: Animation engine for explanatory math videos</a></p>
+<p><a href="https://github.com/manimCommunity/manim">GitHub - ManimCommunity/manim: A community-maintained Python framework for creating mathematical animations.</a></p>
+<p><a href="https://github.com/KindXiaoming/pykan">GitHub - KindXiaoming/pykan: Kolmogorov Arnold Networks</a></p>
+<p><a href="https://github.com/PeterH0323/Streamer-Sales">GitHub - PeterH0323/Streamer-Sales: Streamer-Sales 销冠 —— 卖货主播大模型，一个能够根据给定的商品特点对商品进行解说并激发用户的购买意愿的卖货主播模型</a></p>
+<p><a href="https://github.com/FujiwaraChoki/MoneyPrinter">FujiwaraChoki/MoneyPrinter: Automate Creation of YouTube Shorts using MoviePy.</a></p>
+<p><a href="https://github.com/princeton-nlp/swe-agent">princeton-nlp/SWE-agent: SWE-agent takes a GitHub issue and tries to automatically fix it, using GPT-4. It solves 12.29% of bugs in the SWE-bench evaluation set (comparable to Devin) and take just 1.5 minutes to run (7x faster than Devin).</a></p>
+<p><a href="https://github.com/harry0703/MoneyPrinterTurbo">harry0703/MoneyPrinterTurbo: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</a></p>
+<p><a href="https://github.com/idootop/mi-gpt">idootop/mi-gpt: 🏠 将小爱音箱接入 ChatGPT 和豆包，改造成你的专属语音助手。</a></p>
+<p><a href="https://github.com/wan-h/awesome-digital-human-live2d">wan-h/awesome-digital-human-live2d: Awesome Digital Human</a></p>
+<p><a href="https://github.com/openai/swarm">openai/swarm: Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.</a></p>
+<p><a href="https://github.com/meta-llama/llama-recipes">meta-llama/llama-recipes: Scripts for fine-tuning Meta Llama with composable FSDP &amp; PEFT methods to cover single/multi-node GPUs. Supports default &amp; custom datasets for applications such as summarization and Q&amp;A. Supporting a number of candid inference solutions such as HF TGI, VLLM for local or cloud deployment. Demo apps to showcase Meta Llama for WhatsApp &amp; Messenger.</a></p>
+<p><a href="https://github.com/HqWu-HITCS/Awesome-Chinese-LLM">HqWu-HITCS/Awesome-Chinese-LLM: 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。</a></p>
+<p><a href="https://github.com/Hannibal046/Awesome-LLM">Hannibal046/Awesome-LLM: Awesome-LLM: a curated list of Large Language Model</a></p>
+<p><a href="https://github.com/excalidraw/excalidraw">excalidraw/excalidraw: Virtual whiteboard for sketching hand-drawn like diagrams</a></p>
+<p><a href="https://github.com/meltylabs/melty">meltylabs/melty: Chat first code editor. To download the packaged app:</a></p>
+<p><a href="https://github.com/gpt-omni/mini-omni2">gpt-omni/mini-omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities。</a></p>
+<h2 id="hugging-face">Hugging Face</h2>
+<p><a href="https://huggingface.co/spaces/amphion/naturalspeech3_facodec">NaturalSpeech3 FACodec - a Hugging Face Space by amphion</a></p>
+<p><a href="https://huggingface.co/spaces/yisol/IDM-VTON">IDM VTON - a Hugging Face Space by yisol</a></p>
+<p><a href="https://huggingface.co/spaces/ByteDance/AnimateDiff-Lightning">AnimateDiff-Lightning - a Hugging Face Space by ByteDance</a></p>
+<p><a href="https://huggingface.co/spaces/lllyasviel/Omost">Omost - a Hugging Face Space by lllyasviel</a></p>
+<p><a href="https://huggingface.co/spaces/pharmapsychotic/CLIP-Interrogator">CLIP Interrogator - a Hugging Face Space by pharmapsychotic</a></p>
+<p><a href="https://huggingface.co/spaces/Pyramid-Flow/pyramid-flow">Pyramid Flow - a Hugging Face Space by Pyramid-Flow</a></p>
+<p><a href="https://huggingface.co/spaces/fancyfeast/joy-caption-alpha-two">Joy Caption Alpha Two - a Hugging Face Space by fancyfeast</a></p>
+<p><a href="https://huggingface.co/spaces/lllyasviel/iclight-v2">IC Light V2 - a Hugging Face Space by lllyasviel</a></p>
+<p><a href="https://huggingface.co/spaces/amphion/maskgct">MaskGCT TTS Demo - a Hugging Face Space by amphion</a></p>
+<p><a href="https://huggingface.co/spaces/Shitao/OmniGen">OmniGen - a Hugging Face Space by Shitao</a></p>
+<p><a href="https://huggingface.co/spaces/EvanTHU/MotionCLR">MotionCLR - a Hugging Face Space by EvanTHU</a></p>
+<p><a href="https://huggingface.co/spaces/ByteDance/SeedEdit-APP">SeedEdit-APP-V1.0 - a Hugging Face Space by ByteDance</a></p>
+<p><a href="https://huggingface.co/spaces/wwen1997/Framer">Framer - a Hugging Face Space by wwen1997</a></p>
+<p><a href="https://huggingface.co/spaces/briaai/BRIA-RMBG-2.0">BRIA RMBG 2.0 - a Hugging Face Space by briaai</a></p>
+<p><a href="https://huggingface.co/spaces/opendatalab/MinerU">MinerU - a Hugging Face Space by opendatalab</a></p>
+<p><a href="https://huggingface.co/spaces/Qwen/Qwen2.5-Turbo-1M-Demo">Qwen Turbo 1M Demo - a Hugging Face Space by Qwen</a></p>
+<p><a href="https://huggingface.co/spaces/fffiloni/DimensionX">DimensionX - a Hugging Face Space by fffiloni</a></p>
+<p><a href="https://huggingface.co/spaces/TencentARC/PhotoMaker-V2">PhotoMaker V2 - a Hugging Face Space by TencentARC</a></p>
+<p><a href="https://huggingface.co/spaces/levihsu/OOTDiffusion">OOTDiffusion - a Hugging Face Space by levihsu</a></p>
+<p><a href="https://huggingface.co/spaces/vikhyatk/moondream2">moondream2 - a Hugging Face Space by vikhyatk</a></p>
+<h2 id="文档资料">文档资料</h2>
+<p><a href="https://huggingface.co/blog/zh/train-your-controlnet">使用 diffusers 训练你自己的 ControlNet 🧨</a></p>
+<p><a href="https://antfu.me/posts/ai-qrcode-101">Stable Diffusion QR Code 101</a></p>
+<p><a href="https://namu.wiki/w/E-Hentai/%ED%83%9C%EA%B7%B8">E-Hentai/태그 - 나무위키</a></p>
+<p><a href="https://aitag.top/">魔咒百科词典</a></p>
+<p><a href="https://www.yuque.com/umoubuton/ueupp5">So-VITS-SVC 4.1 整合包完全指南</a></p>
+<p><a href="https://stability.ai/learning-hub/stable-diffusion-3-5-prompt-guide">Stable Diffusion 3.5 Prompt Guide — Stability AI</a></p>
+<p><a href="https://openai.com/chatgpt/use-cases/student-writing-guide/">使用 ChatGPT 进行写作的学生指南 |开放人工智能 &mdash; A Student’s Guide to Writing with ChatGPT | OpenAI</a></p>
+<p><a href="https://github.com/richards199999/Thinking-Claude">richards199999/Thinking-Claude: Let your Claude able to think</a></p>
+<p><a href="https://github.com/hesamsheikh/ml-retreat">hesamsheikh/ml-retreat: Machine Learning Journal for Intermediate to Advanced Topics.</a></p>
+<p><a href="https://docs.midjourney.com/">Midjourney Documentation and User Guide</a></p>
+<h2 id="归档可以不用看">归档(可以不用看)</h2>
+<p><a href="https://docs.google.com/document/d/18BrtW9RzI9rRAAYnmxES59HOxeC_QH1_BT7VDcP-32E/mobilebasic">Resources for GAN Artists</a></p>
+<p><a href="https://docs.google.com/document/d/1Ff8s8CX3xGrVr6AJ94hcvQ_PYqJ_mDAXzT3NGb5_K1w/edit">Disco Diffusion Portrait Study (by @enviraldesign) - Google 文档</a></p>
+<p><a href="https://github.com/alibaba/animate-anything/">alibaba/animate-anything: Fine-Grained Open Domain Image Animation with Motion Guidance</a></p>
+<p><a href="https://github.com/prophesier/diff-SVC">GitHub - prophesier/diff-svc: Singing Voice Conversion via diffusion model</a></p>
+<p><a href="https://github.com/TencentARC/GFPGAN/tree/master">TencentARC/GFPGAN: GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration.</a></p>
+<p><a href="https://gist.github.com/MSFTserver/a05f637f32302918dd893318a4d9f62b">guide to installing disco v5+ locally on windows</a></p>
+<p><a href="https://colab.research.google.com/github/pharmapsychotic/clip-interrogator/blob/main/clip_interrogator.ipynb#scrollTo=Pf6qkFG6MPRj">clip_interrogator.ipynb - Colaboratory</a></p>
+<p><a href="https://sweet-hall-e72.notion.site/A-Traveler-s-Guide-to-the-Latent-Space-85efba7e5e6a40e5bd3cae980f30235f">A Traveler’s Guide to the Latent Space</a></p>
+<p><a href="https://coar.notion.site/coar/Coar-s-Disco-Diffusion-Guide-3d86d652c15d4ca986325e808bde06aa">Coar’s Disco Diffusion Guide</a></p>
+<p><a href="https://mpaugam.notion.site/Disco-Diffusion-Illustrated-Settings-cd4badf06e08440c99d8a93d4cd39f51">Disco Diffusion Illustrated Settings</a></p>
+<p><a href="https://pharmapsychotic.com/tools.html">Ai generative art tools</a></p>
+<p><a href="https://397987634.notion.site/AI-764e6a50fbf04327945a12a07ce9654f">AI绘画的关键词（群友们的画 ）</a></p>
+<p><a href="https://remidurant.com/artists/#">Artist Studies by @remi_durant</a></p>
+<p><a href="https://matthewmcateer.me/blog/clip-prompt-engineering/">CLIP Prompt Engineering for Generative Art - matthewmcateer.me</a></p>
+<p><a href="https://laion.ai/blog/laion-400-open-dataset/">数据集-LAION-400-MILLION OPEN DATASET | LAION</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+          <a id="logo" href="/">
+            <img width="280px" src="/hb.png"></img>
+            <br><font face="serif" size="5" color="#FF0000"><b>明 文 视 界</b></font>
+          </a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="搜索...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['zh'];
+        </script>
+        <script src="/js/auto-complete.js?1732372109" defer></script>
+        <script src="/js/lunr.min.js?1732372109" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1732372109" defer></script>
+        <script src="/js/lunr.multi.min.js?1732372109" defer></script>
+        <script src="/js/lunr.zh.min.js?1732372109" defer></script>
+        <script src="/js/search.js?1732372109" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics">
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title"></div>
+          <ul>
+            <li><a class="padding" href="/about">About</a></li>
+          </ul>
+        </div>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="black" value="black" selected>Black</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> 清理历史记录</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">      <p>粤ICP备 <a href="https://beian.miit.gov.cn/#/Integrated/index">20041225号</a></p>
+      <p></a><img src="/beian.png" >粤公网安备<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030702003010"> 44030702003010号</a>
+      <p>©2022 <a href="https://wuhao.online">吴明文</a></p>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1732372109" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1732372109" defer></script>
+    <script src="/js/featherlight.min.js?1732372109" defer></script>
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1732372109" defer></script>
+    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
+    </script>
+    <script src="https://unpkg.com/rapidoc/dist/rapidoc-min.js" defer></script>
+    <script>
+      window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
+    </script>
+    <script src="/js/theme.js?1732372109" defer></script>
+  </body>
+</html>
