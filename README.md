@@ -207,6 +207,10 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 等待中的项目
 
+[Fashion-VDM: Video Diffusion Model for Virtual Try-On](https://johannakarras.github.io/Fashion-VDM/)
+
+[Inverse Painting: Reconstructing The Painting Process](https://inversepainting.github.io/)
+
 [首页 |剧集主管 --- Home | Showrunner](https://www.showrunner.xyz/)
 
 [悠船](https://desktop.youchuan.cn/#/imagine)
@@ -299,6 +303,12 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 视频
 
+[yangchris11/samurai: Official repository of "SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory"](https://github.com/yangchris11/samurai)
+
+[alibaba/Tora: The official repository for paper "Tora: Trajectory-oriented Diffusion Transformer for Video Generation"](https://github.com/alibaba/Tora?tab=readme-ov-file)
+
+[aigc-apps/CogVideoX-Fun: 📹 A more flexible CogVideoX that can generate videos at any resolution and creates videos from images.](https://github.com/aigc-apps/CogVideoX-Fun)
+
 [aigc-apps/EasyAnimate: 📺 An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion](https://github.com/aigc-apps/EasyAnimate)
 
 [GitHub - HVision-NKU/StoryDiffusion: Create Magic Story!](https://github.com/HVision-NKU/StoryDiffusion)
@@ -365,6 +375,82 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### ComfyUI
 
+[kijai/ComfyUI-CogVideoXWrapper](https://github.com/kijai/ComfyUI-CogVideoXWrapper)
+
+[Lightricks/ComfyUI-LTXVideo: LTX-Video Support for ComfyUI](https://github.com/Lightricks/ComfyUI-LTXVideo)
+
+[smthemex/ComfyUI_EchoMimic: You can using EchoMimic in ComfyUI](https://github.com/smthemex/ComfyUI_EchoMimic)
+
+[AIFSH/ACE-ComfyUI](https://github.com/AIFSH/ACE-ComfyUI?tab=readme-ov-file)
+
+[logtd/ComfyUI-MochiEdit: ComfyUI nodes to edit videos using Genmo Mochi](https://github.com/logtd/ComfyUI-MochiEdit)
+
+[kijai/ComfyUI-SUPIR: SUPIR upscaling wrapper for ComfyUI](https://github.com/kijai/ComfyUI-SUPIR)
+
+[HelloVision/ComfyUI_HelloMeme: Official comfyui repository of Hellomeme](https://github.com/HelloVision/ComfyUI_HelloMeme)
+
+[alimama-creative/SDXL_EcomID_ComfyUI](https://github.com/alimama-creative/SDXL_EcomID_ComfyUI)
+
+[AIGODLIKE/AIGODLIKE-ComfyUI-Studio: Improve the interactive experience of using ComfyUI, such as making the loading of ComfyUI models more intuitive and making it easier to create model thumbnails](https://github.com/AIGODLIKE/AIGODLIKE-ComfyUI-Studio)
+
+[ssitu/ComfyUI_UltimateSDUpscale: ComfyUI nodes for the Ultimate Stable Diffusion Upscale script by Coyote-A.](https://github.com/ssitu/ComfyUI_UltimateSDUpscale)
+
+[Gourieff/comfyui-reactor-node: Fast and Simple Face Swap Extension Node for ComfyUI](https://github.com/Gourieff/comfyui-reactor-node)
+
+[lldacing/ComfyUI_BiRefNet_ll](https://github.com/lldacing/ComfyUI_BiRefNet_ll)
+
+[AIGODLIKE/ComfyUI-BlenderAI-node: Used for AI model generation, next-generation Blender rendering engine, texture enhancement&generation (based on ComfyUI)](https://github.com/AIGODLIKE/ComfyUI-BlenderAI-node)
+
+[smthemex/ComfyUI_Hallo2: ComfyUI_Hallo2: Long-Duration and High-Resolution Audio-driven Portrait Image Animation](https://github.com/smthemex/ComfyUI_Hallo2)
+
+[kijai/ComfyUI-Florence2: Inference Microsoft Florence2 VLM](https://github.com/kijai/ComfyUI-Florence2)
+
+[CY-CHENYUE/ComfyUI-Molmo: Generate detailed image descriptions and analysis using Molmo models in ComfyUI.](https://github.com/CY-CHENYUE/ComfyUI-Molmo)
+
+[yolain/ComfyUI-Easy-Use: In order to make it easier to use the ComfyUI, I have made some optimizations and integrations to some commonly used nodes.](https://github.com/yolain/ComfyUI-Easy-Use)
+
+[sipherxyz/comfyui-art-venture](https://github.com/sipherxyz/comfyui-art-venture)
+
+[GiusTex/ComfyUI-DiffusersImageOutpaint: Diffusers Image Outpaint for ComfyUI](https://github.com/GiusTex/ComfyUI-DiffusersImageOutpaint)
+
+[XLabs-AI/x-flux-comfyui](https://github.com/XLabs-AI/x-flux-comfyui)
+
+[T8star1984/Comfyui-Aix-NodeMap: Comfyui's latest node organization and annotation, continuously updated, and supported by the Aix team/comfyui最新节点整理及注释，持续更新，AIX团队](https://github.com/T8star1984/Comfyui-Aix-NodeMap)
+
+[T8star1984/Comfyui-Aix-NodeMap: Comfyui's latest node organization and annotation, continuously updated, and supported by the Aix team/comfyui最新节点整理及注释，持续更新，AIX团队](https://github.com/T8star1984/Comfyui-Aix-NodeMap/tree/main)
+
+[logtd/ComfyUI-Fluxtapoz: Nodes for image juxtaposition for Flux in ComfyUI](https://github.com/logtd/ComfyUI-Fluxtapoz)
+
+[WASasquatch/was-node-suite-comfyui: An extensive node suite for ComfyUI with over 210 new nodes](https://github.com/WASasquatch/was-node-suite-comfyui)
+
+[cubiq/ComfyUI_IPAdapter_plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus)
+
+[cubiq/ComfyUI_InstantID](https://github.com/cubiq/ComfyUI_InstantID)
+
+[cubiq/ComfyUI_InstantID](https://github.com/cubiq/ComfyUI_InstantID?tab=readme-ov-file)
+
+[ZHO-ZHO-ZHO/ComfyUI-InstantID: Unofficial implementation of InstantID for ComfyUI](https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID)
+
+[kijai/ComfyUI-MochiWrapper](https://github.com/kijai/ComfyUI-MochiWrapper)
+
+[kijai/ComfyUI-LivePortraitKJ: ComfyUI nodes for LivePortrait](https://github.com/kijai/ComfyUI-LivePortraitKJ)
+
+[PowerHouseMan/ComfyUI-AdvancedLivePortrait](https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait)
+
+[TemryL/ComfyUI-IDM-VTON: ComfyUI adaptation of IDM-VTON for virtual try-on.](https://github.com/TemryL/ComfyUI-IDM-VTON)
+
+[city96/ComfyUI-GGUF: GGUF Quantization support for native ComfyUI models](https://github.com/city96/ComfyUI-GGUF)
+
+[FizzleDorf/ComfyUI_FizzNodes: Custom Nodes for Comfyui](https://github.com/FizzleDorf/ComfyUI_FizzNodes)
+
+[balazik/ComfyUI-PuLID-Flux: PuLID-Flux ComfyUI implementation](https://github.com/balazik/ComfyUI-PuLID-Flux)
+
+[kijai/ComfyUI-PyramidFlowWrapper](https://github.com/kijai/ComfyUI-PyramidFlowWrapper)
+
+[stavsap/comfyui-ollama](https://github.com/stavsap/comfyui-ollama)
+
+[ltdrdata/ComfyUI-Manager: ComfyUI-Manager is an extension designed to enhance the usability of ComfyUI. It offers management functions to install, remove, disable, and enable various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.](https://github.com/ltdrdata/ComfyUI-Manager)
+
 [erosDiffusion/ComfyUI-enricos-nodes: Compositor Node experiments](https://github.com/erosDiffusion/ComfyUI-enricos-nodes)
 
 [StartHua/Comfyui_CXH_joy_caption: Recommended based on comfyui node pictures:Joy_caption + MiniCPMv2_6-prompt-generator + florence2](https://github.com/StartHua/Comfyui_CXH_joy_caption)
@@ -405,6 +491,14 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### LLM
 
+[THUDM/GLM-4-Voice: GLM-4-Voice | 端到端中英语音对话模型](https://github.com/THUDM/GLM-4-Voice)
+
+[oobabooga/text-generation-webui: A Gradio web UI for Large Language Models.](https://github.com/oobabooga/text-generation-webui)
+
+[janhq/jan: Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. Multiple engine support (llama.cpp, TensorRT-LLM)](https://github.com/janhq/jan)
+
+[ollama/ollama: Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language models.](https://github.com/ollama/ollama)
+
 [binary-husky/gpt_academic: 为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。](https://github.com/binary-husky/gpt_academic)
 
 [SillyTavern/SillyTavern: LLM Frontend for Power Users.](https://github.com/SillyTavern/SillyTavern)
@@ -415,6 +509,10 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 训练脚本
 
+[kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts)
+
+[cocktailpeanut/fluxgym: Dead simple FLUX LoRA training UI with LOW VRAM support](https://github.com/cocktailpeanut/fluxgym)
+
 [kijai/ComfyUI-FluxTrainer](https://github.com/kijai/ComfyUI-FluxTrainer)
 
 [Releases · bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss)
@@ -424,6 +522,26 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 [Nerogar/OneTrainer: OneTrainer is a one-stop solution for all your stable diffusion training needs.](https://github.com/Nerogar/OneTrainer)
 
 ### 图像设计
+
+[ali-vilab/ACE: All-round Creator and Editor](https://github.com/ali-vilab/ACE)
+
+[mit-han-lab/hart: HART: Efficient Visual Generation with Hybrid Autoregressive Transformer](https://github.com/mit-han-lab/hart)
+
+[ZhengPeng7/BiRefNet: [CAAI AIR'24] Bilateral Reference for High-Resolution Dichotomous Image Segmentation](https://github.com/ZhengPeng7/BiRefNet)
+
+[YangLing0818/IterComp: IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation](https://github.com/YangLing0818/IterComp)
+
+[xinsir6/ControlNetPlus: ControlNet++: All-in-one ControlNet for image generations and editing!](https://github.com/xinsir6/ControlNetPlus)
+
+[Kwai-Kolors/Kolors: Kolors Team](https://github.com/Kwai-Kolors/Kolors)
+
+[Xiaojiu-z/Stable-Hair: Stable-Hair: Real-World Hair Transfer via Diffusion Model](https://github.com/Xiaojiu-z/Stable-Hair)
+
+[yisol/IDM-VTON: [ECCV2024] IDM-VTON : Improving Diffusion Models for Authentic Virtual Try-on in the Wild](https://github.com/yisol/IDM-VTON)
+
+[bcmi/libcom: Image composition toolbox: everything you want to know about image composition or object insertion](https://github.com/bcmi/libcom)
+
+[PixArt-alpha/PixArt-alpha: PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis](https://github.com/PixArt-alpha/PixArt-alpha)
 
 [black-forest-labs/flux: Official inference repo for FLUX.1 models](https://github.com/black-forest-labs/flux)
 
@@ -485,6 +603,16 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 语音, 音乐
 
+[netease-youdao/EmotiVoice: EmotiVoice 😊: a Multi-Voice and Prompt-Controlled TTS Engine](https://github.com/netease-youdao/EmotiVoice?tab=readme-ov-file)
+
+[haidog-yaqub/EzAudio: High-quality Text-to-Audio Generation with Efficient Diffusion Transformer](https://github.com/haidog-yaqub/EzAudio)
+
+[2noise/ChatTTS: A generative speech model for daily dialogue.](https://github.com/2noise/ChatTTS)
+
+[BytedanceSpeech/seed-tts-eval](https://github.com/BytedanceSpeech/seed-tts-eval)
+
+[RVC-Project/Retrieval-based-Voice-Conversion-WebUI: Easily train a good VC model with voice data <= 10 mins!](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
+
 [GitHub - yxlllc/DDSP-SVC: Real-time end-to-end singing voice conversion system based on DDSP (Differentiable Digital Signal Processing)](https://github.com/yxlllc/DDSP-SVC)
 
 [voicepaw/so-vits-svc-fork: so-vits-svc fork with realtime support, improved interface and more features.](https://github.com/voicepaw/so-vits-svc-fork)
@@ -502,6 +630,8 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 [fishaudio/fish-speech: Brand new TTS solution](https://github.com/fishaudio/fish-speech)
 
 ### 3D
+
+[microsoft/MoGe: MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision](https://github.com/microsoft/MoGe?tab=readme-ov-file)
 
 [HengyiWang/spann3r: 3D Reconstruction with Spatial Memory](https://github.com/HengyiWang/spann3r)
 
@@ -530,6 +660,24 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 [opendatalab/MinerU: A high-quality tool for convert PDF to Markdown and JSON.一站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。](https://github.com/opendatalab/MinerU)
 
 ### 其他
+
+[Ucas-HaoranWei/GOT-OCR2.0: Official code implementation of General OCR Theory: Towards OCR-2.0 via a Unified End-to-end Model](https://github.com/Ucas-HaoranWei/GOT-OCR2.0)
+
+[deepseek-ai/DeepSeek-VL: DeepSeek-VL: Towards Real-World Vision-Language Understanding](https://github.com/deepseek-ai/DeepSeek-VL)
+
+[dynobo/normcap: OCR powered screen-capture tool to capture information instead of images](https://github.com/dynobo/normcap)
+
+[modelscope/DiffSynth-Studio: Enjoy the magic of Diffusion models!](https://github.com/modelscope/DiffSynth-Studio?tab=readme-ov-file#usage-in-webui)
+
+[abi/screenshot-to-code: Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)](https://github.com/abi/screenshot-to-code)
+
+[stackblitz/bolt.new: Prompt, run, edit, and deploy full-stack web applications](https://github.com/stackblitz/bolt.new)
+
+[lean-dojo/LeanCopilot: LLMs as Copilots for Theorem Proving in Lean](https://github.com/lean-dojo/LeanCopilot)
+
+[geekan/MetaGPT: 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming](https://github.com/geekan/MetaGPT)
+
+[princeton-nlp/SWE-agent: [NeurIPS 2024] SWE-agent takes a GitHub issue and tries to automatically fix it, using GPT-4, or your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges.](https://github.com/princeton-nlp/SWE-agent)
 
 [OpenCodeInterpreter/OpenCodeInterpreter: OpenCodeInterpreter is a suite of open-source code generation systems aimed at bridging the gap between large language models and sophisticated proprietary systems like the GPT-4 Code Interpreter. It significantly enhances code generation capabilities by integrating execution and iterative refinement functionalities.](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter)
 
@@ -568,6 +716,12 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 [gpt-omni/mini-omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities。](https://github.com/gpt-omni/mini-omni2)
 
 ## Hugging Face
+
+[ACE-Chat - a Hugging Face Space by scepter-studio](https://huggingface.co/spaces/scepter-studio/ACE-Chat)
+
+[MoGe - a Hugging Face Space by Ruicheng](https://huggingface.co/spaces/Ruicheng/MoGe)
+
+[EzAudio - a Hugging Face Space by OpenSound](https://huggingface.co/spaces/OpenSound/EzAudio)
 
 [NaturalSpeech3 FACodec - a Hugging Face Space by amphion](https://huggingface.co/spaces/amphion/naturalspeech3_facodec)
 
