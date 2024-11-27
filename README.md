@@ -65,6 +65,8 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 视频
 
+[kaze.ai - AI-powered Free Online Removing Watermark and Logos Tool](https://kaze.ai/) 2024-11-27
+
 [Vidu，让想象发生](https://www.vidu.studio/zh)
 
 [Hailuo AI Video Generator - Reimagine Video Creation](https://hailuoai.video/)
@@ -207,6 +209,10 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 等待中的项目
 
+[Baking Gaussian Splatting into Diffusion Denoiser for Fast and Scalable Single-stage Image-to-3D Generation](https://caiyuanhao1998.github.io/project/DiffusionGS/) 2024-11-27
+
+[Fugatto, World’s Most Flexible Sound Machine, Debuts | NVIDIA Blog](https://blogs.nvidia.com/blog/fugatto-gen-ai-sound-model/) 2024-11-27
+
 [Fashion-VDM: Video Diffusion Model for Virtual Try-On](https://johannakarras.github.io/Fashion-VDM/)
 
 [Inverse Painting: Reconstructing The Painting Process](https://inversepainting.github.io/)
@@ -303,6 +309,10 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 视频
 
+[k4yt3x/video2x: A machine learning-based lossless video super resolution framework. Est. Hack the Valley II, 2018.](https://github.com/k4yt3x/video2x) 2024-11-27
+
+[facefusion/facefusion: Industry leading face manipulation platform](https://github.com/facefusion/facefusion) 2024-11-27
+
 [yangchris11/samurai: Official repository of "SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory"](https://github.com/yangchris11/samurai)
 
 [alibaba/Tora: The official repository for paper "Tora: Trajectory-oriented Diffusion Transformer for Video Generation"](https://github.com/alibaba/Tora?tab=readme-ov-file)
@@ -374,6 +384,12 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 [Lightricks/LTX-Video: Official repository for LTX-Video](https://github.com/Lightricks/LTX-Video)
 
 ### ComfyUI
+
+[EvilBT/ComfyUI_SLK_joy_caption_two: ComfyUI Node](https://github.com/EvilBT/ComfyUI_SLK_joy_caption_two?tab=readme-ov-file) 2024-11-27
+
+[huchenlei/ComfyUI-layerdiffuse: Layer Diffuse custom nodes](https://github.com/huchenlei/ComfyUI-layerdiffuse) 2024-11-27
+
+[kijai/ComfyUI-IC-Light: Using IC-LIght models in ComfyUI](https://github.com/kijai/ComfyUI-IC-Light) 2024-11-27
 
 [kijai/ComfyUI-CogVideoXWrapper](https://github.com/kijai/ComfyUI-CogVideoXWrapper)
 
@@ -523,6 +539,12 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 图像设计
 
+[erwold/qwen2vl-flux](https://github.com/erwold/qwen2vl-flux) 2024-11-27
+
+[Yuanshi9815/OminiControl: A minimal and universal controller for FLUX.1.](https://github.com/Yuanshi9815/OminiControl) 2024-11-27
+
+[lllyasviel/sd-forge-layerdiffuse: [WIP] Layer Diffusion for WebUI (via Forge)](https://github.com/lllyasviel/sd-forge-layerdiffuse) 2024-11-27
+
 [ali-vilab/ACE: All-round Creator and Editor](https://github.com/ali-vilab/ACE)
 
 [mit-han-lab/hart: HART: Efficient Visual Generation with Hybrid Autoregressive Transformer](https://github.com/mit-han-lab/hart)
@@ -631,6 +653,8 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 3D
 
+[VAST-AI-Research/TripoSR](https://github.com/VAST-AI-Research/TripoSR) 2024-11-27
+
 [microsoft/MoGe: MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision](https://github.com/microsoft/MoGe?tab=readme-ov-file)
 
 [HengyiWang/spann3r: 3D Reconstruction with Spatial Memory](https://github.com/HengyiWang/spann3r)
@@ -716,6 +740,8 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 [gpt-omni/mini-omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities。](https://github.com/gpt-omni/mini-omni2)
 
 ## Hugging Face
+
+[OminiControl - a Hugging Face Space by Yuanshi](https://huggingface.co/spaces/Yuanshi/OminiControl) 2024-11-27
 
 [ACE-Chat - a Hugging Face Space by scepter-studio](https://huggingface.co/spaces/scepter-studio/ACE-Chat)
 
