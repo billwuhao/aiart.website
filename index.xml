@@ -7,20 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ACGC 项目, 应用, 工具, 资源集</title>
+      <title>ACGC 项目资源集</title>
       <link>/01_aigc_object/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/</guid>
       <description> AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常棒的项目/应用/工具/资源&amp;hellip; 后面新添加, 都会标注日期.
 内容主要分为 项目的官方网站, 项目的 GitHub 主页, 项目的 Hugging Face Space (可在线试用), AIGC 相关网站, 相关文档资料. 它们之间可能会有重叠的项目, 但非常少, 我做了去重, 确保唯一性.
 项目的官方网站 项目的 GitHub 主页 Hugging Face Space AIGC 相关网站 相关文档资料 </description>
-    </item>
-    <item>
-      <title>ComfyUI 教程</title>
-      <link>/02_comfyui/</link>
-      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/02_comfyui/</guid>
-      <description>ComfyUI 教程资源 </description>
     </item>
   </channel>
 </rss>

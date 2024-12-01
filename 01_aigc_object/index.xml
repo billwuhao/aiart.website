@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ACGC 项目, 应用, 工具, 资源集 on aiart.website</title>
+    <title>ACGC 项目资源集 on aiart.website</title>
     <link>/01_aigc_object/</link>
-    <description>Recent content in ACGC 项目, 应用, 工具, 资源集 on aiart.website</description>
+    <description>Recent content in ACGC 项目资源集 on aiart.website</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/01_aigc_object/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -68,7 +68,7 @@ Omost - a Hugging Face Space by lllyasviel</description>
       <link>/01_aigc_object/04_web/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/04_web/</guid>
-      <description>AIGC 相关网站 Discover and download free videos - Pixabay
+      <description>Discover and download free videos - Pixabay
 Danbooru: Anime Image Board
 Discover the Best GPTs
 AI工具集 | 700+ AI工具集合官网，国内外AI工具集导航大全
@@ -81,16 +81,14 @@ Newsfeed - Sketchfab
 AI Model &amp;amp; API Providers Analysis | Artificial Analysis
 xAI
 GGAC数字艺术平台
-Weird Wonderful AI Art | ART of the future - now!
-相关文档资料 使用 diffusers 训练你自己的 ControlNet 🧨
-Stable Diffusion QR Code 101</description>
+Weird Wonderful AI Art | ART of the future - now!</description>
     </item>
     <item>
       <title>相关文档资料</title>
       <link>/01_aigc_object/05_doc/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/05_doc/</guid>
-      <description>相关文档资料 使用 diffusers 训练你自己的 ControlNet 🧨
+      <description>使用 diffusers 训练你自己的 ControlNet 🧨
 Stable Diffusion QR Code 101
 E-Hentai/태그 - 나무위키
 魔咒百科词典
