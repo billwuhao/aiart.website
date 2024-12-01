@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.1+tip">
+    <meta name="description" content="">
+    <meta name="author" content="吴明文">
+    <title>项目的 GitHub 主页 - aiart.website</title>
+    <link href="/01_aigc_object/02_github/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1733022793" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1733022793" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1733022793" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1733022793" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1733022793" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1733022793" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1733022793" rel="stylesheet">
+    <link href="/css/nucleus.css?1733022793" rel="stylesheet">
+    <link href="/css/fonts.css?1733022793" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1733022793" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1733022793" rel="stylesheet">
+    <link href="/css/theme-black.css?1733022793" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1733022793" rel="stylesheet">
+    <link href="/css/variant.css?1733022793" rel="stylesheet">
+    <link href="/css/print.css?1733022793" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1733022793"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="/index.json";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = '复制到剪贴板';
+      window.T_Copied_to_clipboard = '复制到剪贴板！';
+      window.T_Copy_link_to_clipboard = '将链接复制到剪贴板';
+      window.T_Link_copied_to_clipboard = '链接复制到剪贴板！';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'black' ] );
+    </script>
+    <script src="/js/jquery.min.js?1733022793" defer></script>
+  </head>
+  <body class="mobile-support html" data-url="/01_aigc_object/02_github/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='导航 (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='目录 (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="/"><span itemprop="name">aiart.website</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/01_aigc_object/"><span itemprop="name">ACGC 项目, 应用, 工具, 资源集</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/01_aigc_object/02_github/" aria-disabled="true"><span itemprop="name">项目的 GitHub 主页</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#视频">视频</a></li>
+    <li><a href="#comfyui">ComfyUI</a></li>
+    <li><a href="#webui">WebUI</a></li>
+    <li><a href="#llm">LLM</a></li>
+    <li><a href="#训练脚本">训练脚本</a></li>
+    <li><a href="#图像设计">图像设计</a></li>
+    <li><a href="#语音-音乐">语音, 音乐</a></li>
+    <li><a href="#3d">3D</a></li>
+    <li><a href="#文本处理">文本处理</a></li>
+    <li><a href="#其他">其他</a></li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>项目的 GitHub 主页</h1>
+
+<h2 id="视频">视频</h2>
+<p><a href="https://github.com/k4yt3x/video2x">k4yt3x/video2x: A machine learning-based lossless video super resolution framework. Est. Hack the Valley II, 2018.</a> 2024-11-27</p>
+<p><a href="https://github.com/facefusion/facefusion">facefusion/facefusion: Industry leading face manipulation platform</a> 2024-11-27</p>
+<p><a href="https://github.com/yangchris11/samurai">yangchris11/samurai: Official repository of &ldquo;SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory&rdquo;</a></p>
+<p><a href="https://github.com/alibaba/Tora?tab=readme-ov-file">alibaba/Tora: The official repository for paper &ldquo;Tora: Trajectory-oriented Diffusion Transformer for Video Generation&rdquo;</a></p>
+<p><a href="https://github.com/aigc-apps/CogVideoX-Fun">aigc-apps/CogVideoX-Fun: 📹 A more flexible CogVideoX that can generate videos at any resolution and creates videos from images.</a></p>
+<p><a href="https://github.com/aigc-apps/EasyAnimate">aigc-apps/EasyAnimate: 📺 An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion</a></p>
+<p><a href="https://github.com/HVision-NKU/StoryDiffusion">GitHub - HVision-NKU/StoryDiffusion: Create Magic Story!</a></p>
+<p><a href="https://github.com/hpcaitech/Open-Sora?tab=readme-ov-file">hpcaitech/Open-Sora: Open-Sora: Democratizing Efficient Video Production for All</a></p>
+<p><a href="https://github.com/Vision-CAIR/MiniGPT4-video">Vision-CAIR/MiniGPT4-video</a></p>
+<p><a href="https://github.com/hkchengrex/Cutie">hkchengrex/Cutie: [CVPR 2024 Highlight] Putting the Object Back Into Video Object Segmentation</a></p>
+<p><a href="https://github.com/Picsart-AI-Research/StreamingT2V">Picsart-AI-Research/StreamingT2V: StreamingT2V: Consistent, Dynamic, and Extendable Long Video Generation from Text</a></p>
+<p><a href="https://github.com/aigc-apps/EasyAnimate/">aigc-apps/EasyAnimate: 📺 An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion</a></p>
+<p><a href="https://github.com/Tencent/MimicMotion">Tencent/MimicMotion: High-Quality Human Motion Video Generation with Confidence-aware Pose Guidance</a></p>
+<p><a href="https://github.com/jianchang512/pyvideotrans">jianchang512/pyvideotrans: Translate the video from one language to another and add dubbing. 将视频从一种语言翻译为另一种语言，并支持api调用</a></p>
+<p><a href="https://github.com/Hillobar/Rope">Hillobar/Rope: GUI-focused roop</a></p>
+<p><a href="https://github.com/sczhou/CodeFormer">GitHub - sczhou/CodeFormer: [NeurIPS 2022] Towards Robust Blind Face Restoration with Codebook Lookup Transformer</a></p>
+<p><a href="https://github.com/Huanshere/VideoLingo">Huanshere/VideoLingo: Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组</a></p>
+<p><a href="https://github.com/jy0205/Pyramid-Flow">jy0205/Pyramid-Flow: Code of Pyramidal Flow Matching for Efficient Video Generative Modeling</a></p>
+<p><a href="https://github.com/Vision-CAIR/LongVU">Vision-CAIR/LongVU</a></p>
+<p><a href="https://github.com/Doubiiu/ToonCrafter">Doubiiu/ToonCrafter: [SIGGRAPH Asia 2024, Journal Track] ToonCrafter: Generative Cartoon Interpolation</a></p>
+<p><a href="https://github.com/VectorSpaceLab/Video-XL">VectorSpaceLab/Video-XL: 🔥🔥First-ever hour scale video understanding models</a></p>
+<p><a href="https://github.com/anliyuan/Ultralight-Digital-Human">anliyuan/Ultralight-Digital-Human: 一个超轻量级、可以在移动端实时运行的数字人模型</a></p>
+<p><a href="https://github.com/antgroup/echomimic_v2">antgroup/echomimic_v2: EchoMimicV2: Towards Striking, Simplified, and Semi-Body Human Animation</a></p>
+<p><a href="https://github.com/Zejun-Yang/AniPortrait">Zejun-Yang/AniPortrait: AniPortrait: Audio-Driven Synthesis of Photorealistic Portrait Animation</a></p>
+<p><a href="https://github.com/fudan-generative-vision/hallo2">fudan-generative-vision/hallo2: Hallo2: Long-Duration and High-Resolution Audio-driven Portrait Image Animation</a></p>
+<p><a href="https://github.com/antgroup/echomimic">antgroup/echomimic: EchoMimic: Lifelike Audio-Driven Portrait Animations through Editable Landmark Conditioning</a></p>
+<p><a href="https://github.com/LordLiang/DrawingSpinUp">LordLiang/DrawingSpinUp: (SIGGRAPH Asia 2024) This is the official PyTorch implementation of SIGGRAPH Asia 2024 paper: DrawingSpinUp: 3D Animation from Single Character Drawings</a></p>
+<p><a href="https://github.com/HelloVision/HelloMeme">HelloVision/HelloMeme: The official HelloMeme GitHub site</a></p>
+<p><a href="https://github.com/Kmcode1/SG-I2V">Kmcode1/SG-I2V: This is the official implementation of SG-I2V: Self-Guided Trajectory Control in Image-to-Video Generation.</a></p>
+<p><a href="https://github.com/facebookresearch/sapiens">facebookresearch/sapiens: High-resolution models for human tasks.</a></p>
+<p><a href="https://github.com/AlonzoLeeeooo/StableV2V">AlonzoLeeeooo/StableV2V: The official implementation of the paper titled &ldquo;StableV2V: Stablizing Shape Consistency in Video-to-Video Editing&rdquo;.</a></p>
+<p><a href="https://github.com/genmoai/mochi">genmoai/mochi: The best OSS video generation models</a></p>
+<p><a href="https://github.com/THUDM/CogVideo?tab=readme-ov-file">THUDM/CogVideo: text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)</a></p>
+<p><a href="https://github.com/CyberAgentAILab/TANGO">CyberAgentAILab/TANGO: Official implementation of the paper &ldquo;TANGO: Co-Speech Gesture Video Reenactment with Hierarchical Audio-Motion Embedding and Diffusion Interpolation&rdquo;</a></p>
+<p><a href="https://github.com/IDEA-Research/MotionCLR">IDEA-Research/MotionCLR: [Arxiv 2024] MotionCLR: Motion Generation and Training-free Editing via Understanding Attention Mechanisms</a></p>
+<p><a href="https://github.com/Ji4chenLi/t2v-turbo">Ji4chenLi/t2v-turbo: Code repository for T2V-Turbo and T2V-Turbo-v2</a></p>
+<p><a href="https://github.com/Lightricks/LTX-Video">Lightricks/LTX-Video: Official repository for LTX-Video</a></p>
+<h2 id="comfyui">ComfyUI</h2>
+<p><a href="https://github.com/EvilBT/ComfyUI_SLK_joy_caption_two?tab=readme-ov-file">EvilBT/ComfyUI_SLK_joy_caption_two: ComfyUI Node</a> 2024-11-27</p>
+<p><a href="https://github.com/huchenlei/ComfyUI-layerdiffuse">huchenlei/ComfyUI-layerdiffuse: Layer Diffuse custom nodes</a> 2024-11-27</p>
+<p><a href="https://github.com/kijai/ComfyUI-IC-Light">kijai/ComfyUI-IC-Light: Using IC-LIght models in ComfyUI</a> 2024-11-27</p>
+<p><a href="https://github.com/kijai/ComfyUI-CogVideoXWrapper">kijai/ComfyUI-CogVideoXWrapper</a></p>
+<p><a href="https://github.com/Lightricks/ComfyUI-LTXVideo">Lightricks/ComfyUI-LTXVideo: LTX-Video Support for ComfyUI</a></p>
+<p><a href="https://github.com/smthemex/ComfyUI_EchoMimic">smthemex/ComfyUI_EchoMimic: You can using EchoMimic in ComfyUI</a></p>
+<p><a href="https://github.com/AIFSH/ACE-ComfyUI?tab=readme-ov-file">AIFSH/ACE-ComfyUI</a></p>
+<p><a href="https://github.com/logtd/ComfyUI-MochiEdit">logtd/ComfyUI-MochiEdit: ComfyUI nodes to edit videos using Genmo Mochi</a></p>
+<p><a href="https://github.com/kijai/ComfyUI-SUPIR">kijai/ComfyUI-SUPIR: SUPIR upscaling wrapper for ComfyUI</a></p>
+<p><a href="https://github.com/HelloVision/ComfyUI_HelloMeme">HelloVision/ComfyUI_HelloMeme: Official comfyui repository of Hellomeme</a></p>
+<p><a href="https://github.com/alimama-creative/SDXL_EcomID_ComfyUI">alimama-creative/SDXL_EcomID_ComfyUI</a></p>
+<p><a href="https://github.com/AIGODLIKE/AIGODLIKE-ComfyUI-Studio">AIGODLIKE/AIGODLIKE-ComfyUI-Studio: Improve the interactive experience of using ComfyUI, such as making the loading of ComfyUI models more intuitive and making it easier to create model thumbnails</a></p>
+<p><a href="https://github.com/ssitu/ComfyUI_UltimateSDUpscale">ssitu/ComfyUI_UltimateSDUpscale: ComfyUI nodes for the Ultimate Stable Diffusion Upscale script by Coyote-A.</a></p>
+<p><a href="https://github.com/Gourieff/comfyui-reactor-node">Gourieff/comfyui-reactor-node: Fast and Simple Face Swap Extension Node for ComfyUI</a></p>
+<p><a href="https://github.com/lldacing/ComfyUI_BiRefNet_ll">lldacing/ComfyUI_BiRefNet_ll</a></p>
+<p><a href="https://github.com/AIGODLIKE/ComfyUI-BlenderAI-node">AIGODLIKE/ComfyUI-BlenderAI-node: Used for AI model generation, next-generation Blender rendering engine, texture enhancement&amp;generation (based on ComfyUI)</a></p>
+<p><a href="https://github.com/smthemex/ComfyUI_Hallo2">smthemex/ComfyUI_Hallo2: ComfyUI_Hallo2: Long-Duration and High-Resolution Audio-driven Portrait Image Animation</a></p>
+<p><a href="https://github.com/kijai/ComfyUI-Florence2">kijai/ComfyUI-Florence2: Inference Microsoft Florence2 VLM</a></p>
+<p><a href="https://github.com/CY-CHENYUE/ComfyUI-Molmo">CY-CHENYUE/ComfyUI-Molmo: Generate detailed image descriptions and analysis using Molmo models in ComfyUI.</a></p>
+<p><a href="https://github.com/yolain/ComfyUI-Easy-Use">yolain/ComfyUI-Easy-Use: In order to make it easier to use the ComfyUI, I have made some optimizations and integrations to some commonly used nodes.</a></p>
+<p><a href="https://github.com/sipherxyz/comfyui-art-venture">sipherxyz/comfyui-art-venture</a></p>
+<p><a href="https://github.com/GiusTex/ComfyUI-DiffusersImageOutpaint">GiusTex/ComfyUI-DiffusersImageOutpaint: Diffusers Image Outpaint for ComfyUI</a></p>
+<p><a href="https://github.com/XLabs-AI/x-flux-comfyui">XLabs-AI/x-flux-comfyui</a></p>
+<p><a href="https://github.com/T8star1984/Comfyui-Aix-NodeMap">T8star1984/Comfyui-Aix-NodeMap: Comfyui&rsquo;s latest node organization and annotation, continuously updated, and supported by the Aix team/comfyui最新节点整理及注释，持续更新，AIX团队</a></p>
+<p><a href="https://github.com/T8star1984/Comfyui-Aix-NodeMap/tree/main">T8star1984/Comfyui-Aix-NodeMap: Comfyui&rsquo;s latest node organization and annotation, continuously updated, and supported by the Aix team/comfyui最新节点整理及注释，持续更新，AIX团队</a></p>
+<p><a href="https://github.com/logtd/ComfyUI-Fluxtapoz">logtd/ComfyUI-Fluxtapoz: Nodes for image juxtaposition for Flux in ComfyUI</a></p>
+<p><a href="https://github.com/WASasquatch/was-node-suite-comfyui">WASasquatch/was-node-suite-comfyui: An extensive node suite for ComfyUI with over 210 new nodes</a></p>
+<p><a href="https://github.com/cubiq/ComfyUI_IPAdapter_plus">cubiq/ComfyUI_IPAdapter_plus</a></p>
+<p><a href="https://github.com/cubiq/ComfyUI_InstantID">cubiq/ComfyUI_InstantID</a></p>
+<p><a href="https://github.com/cubiq/ComfyUI_InstantID?tab=readme-ov-file">cubiq/ComfyUI_InstantID</a></p>
+<p><a href="https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID">ZHO-ZHO-ZHO/ComfyUI-InstantID: Unofficial implementation of InstantID for ComfyUI</a></p>
+<p><a href="https://github.com/kijai/ComfyUI-MochiWrapper">kijai/ComfyUI-MochiWrapper</a></p>
+<p><a href="https://github.com/kijai/ComfyUI-LivePortraitKJ">kijai/ComfyUI-LivePortraitKJ: ComfyUI nodes for LivePortrait</a></p>
+<p><a href="https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait">PowerHouseMan/ComfyUI-AdvancedLivePortrait</a></p>
+<p><a href="https://github.com/TemryL/ComfyUI-IDM-VTON">TemryL/ComfyUI-IDM-VTON: ComfyUI adaptation of IDM-VTON for virtual try-on.</a></p>
+<p><a href="https://github.com/city96/ComfyUI-GGUF">city96/ComfyUI-GGUF: GGUF Quantization support for native ComfyUI models</a></p>
+<p><a href="https://github.com/FizzleDorf/ComfyUI_FizzNodes">FizzleDorf/ComfyUI_FizzNodes: Custom Nodes for Comfyui</a></p>
+<p><a href="https://github.com/balazik/ComfyUI-PuLID-Flux">balazik/ComfyUI-PuLID-Flux: PuLID-Flux ComfyUI implementation</a></p>
+<p><a href="https://github.com/kijai/ComfyUI-PyramidFlowWrapper">kijai/ComfyUI-PyramidFlowWrapper</a></p>
+<p><a href="https://github.com/stavsap/comfyui-ollama">stavsap/comfyui-ollama</a></p>
+<p><a href="https://github.com/ltdrdata/ComfyUI-Manager">ltdrdata/ComfyUI-Manager: ComfyUI-Manager is an extension designed to enhance the usability of ComfyUI. It offers management functions to install, remove, disable, and enable various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.</a></p>
+<p><a href="https://github.com/erosDiffusion/ComfyUI-enricos-nodes">erosDiffusion/ComfyUI-enricos-nodes: Compositor Node experiments</a></p>
+<p><a href="https://github.com/StartHua/Comfyui_CXH_joy_caption">StartHua/Comfyui_CXH_joy_caption: Recommended based on comfyui node pictures:Joy_caption + MiniCPMv2_6-prompt-generator + florence2</a></p>
+<p><a href="https://github.com/ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM">ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM: Unofficial implementation of YOLO-World + EfficientSAM for ComfyUI</a></p>
+<p><a href="https://github.com/logtd/ComfyUI-Fluxtapoz?tab=readme-ov-file">logtd/ComfyUI-Fluxtapoz: Nodes for image juxtaposition for Flux in ComfyUI</a></p>
+<p><a href="https://github.com/GreenLandisaLie/AuraSR-ComfyUI">GreenLandisaLie/AuraSR-ComfyUI: ComfyUI implementation of AuraSR</a></p>
+<p><a href="https://github.com/Jonseed/ComfyUI-Detail-Daemon">Jonseed/ComfyUI-Detail-Daemon: A port of muerrilla&rsquo;s sd-webui-Detail-Daemon as a node for ComfyUI, to adjust sigmas that control detail.</a></p>
+<p><a href="https://github.com/taabata/ComfyCanvas">taabata/ComfyCanvas: Canvas to use with ComfyUI</a></p>
+<p><a href="https://github.com/jtydhr88/ComfyUI-Hunyuan3D-1-wrapper">jtydhr88/ComfyUI-Hunyuan3D-1-wrapper: ComfyUI Hunyuan3D-1-wrapper is a custom node that allows you to run Tencent/Hunyuan3D-1 in ComfyUI as a wrapper.</a></p>
+<p><a href="https://github.com/smthemex/ComfyUI_Sapiens">smthemex/ComfyUI_Sapiens: You can call Using Sapiens to get seg，normal，pose，depth，mask</a></p>
+<p><a href="https://github.com/1038lab/ComfyUI-RMBG">1038lab/ComfyUI-RMBG: A ComfyUI node for removing image backgrounds using RMBG-2.0.</a></p>
+<p><a href="https://github.com/TTPlanetPig/Comfyui_Object_Migration">TTPlanetPig/Comfyui_Object_Migration: This is a study aim to transfer the single concept by using DIT model self-attention capablity</a></p>
+<p><a href="https://github.com/DoctorDiffusion/ComfyUI-BEN">DoctorDiffusion/ComfyUI-BEN: Background Erase Network - Remove backgrounds from images within ComfyUI.</a></p>
+<p><a href="https://github.com/marduk191/ComfyUI-Fluxpromptenhancer">marduk191/ComfyUI-Fluxpromptenhancer: A Prompt Enhancer for flux.1 in ComfyUI</a></p>
+<p><a href="https://github.com/Lightricks/ComfyUI-LTXVideo?tab=readme-ov-file">Lightricks/ComfyUI-LTXVideo: LTX-Video Support for ComfyUI</a></p>
+<h2 id="webui">WebUI</h2>
+<p><a href="https://github.com/open-webui/open-webui">open-webui/open-webui: User-friendly AI Interface (Supports Ollama, OpenAI API, &hellip;)</a></p>
+<p><a href="https://github.com/continue-revolution/sd-webui-segment-anything">continue-revolution/sd-webui-segment-anything: Segment Anything for Stable Diffusion WebUI</a></p>
+<p><a href="https://github.com/lllyasviel/stable-diffusion-webui-forge">lllyasviel/stable-diffusion-webui-forge</a></p>
+<p><a href="https://github.com/aigc-apps/sd-webui-EasyPhoto">aigc-apps/sd-webui-EasyPhoto: 📷 EasyPhoto | Your Smart AI Photo Generator.</a></p>
+<h2 id="llm">LLM</h2>
+<p><a href="https://github.com/THUDM/GLM-4-Voice">THUDM/GLM-4-Voice: GLM-4-Voice | 端到端中英语音对话模型</a></p>
+<p><a href="https://github.com/oobabooga/text-generation-webui">oobabooga/text-generation-webui: A Gradio web UI for Large Language Models.</a></p>
+<p><a href="https://github.com/janhq/jan">janhq/jan: Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. Multiple engine support (llama.cpp, TensorRT-LLM)</a></p>
+<p><a href="https://github.com/ollama/ollama">ollama/ollama: Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language models.</a></p>
+<p><a href="https://github.com/binary-husky/gpt_academic">binary-husky/gpt_academic: 为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&amp;函数插件，支持Python和C++等项目剖析&amp;自译解功能，PDF/LaTex论文翻译&amp;总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。</a></p>
+<p><a href="https://github.com/SillyTavern/SillyTavern">SillyTavern/SillyTavern: LLM Frontend for Power Users.</a></p>
+<p><a href="https://github.com/mendableai/firecrawl">mendableai/firecrawl: 🔥 Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.</a></p>
+<p><a href="https://github.com/InternLM/InternLM">InternLM/InternLM: Official release of InternLM2.5 base and chat models. 1M context support</a></p>
+<h2 id="训练脚本">训练脚本</h2>
+<p><a href="https://github.com/kohya-ss/sd-scripts">kohya-ss/sd-scripts</a></p>
+<p><a href="https://github.com/cocktailpeanut/fluxgym">cocktailpeanut/fluxgym: Dead simple FLUX LoRA training UI with LOW VRAM support</a></p>
+<p><a href="https://github.com/kijai/ComfyUI-FluxTrainer">kijai/ComfyUI-FluxTrainer</a></p>
+<p><a href="https://github.com/bmaltais/kohya_ss">Releases · bmaltais/kohya_ss</a></p>
+<p><a href="https://github.com/Akegarasu/lora-scripts">Akegarasu/lora-scripts: LoRA &amp; Dreambooth training scripts &amp; GUI use kohya-ss&rsquo;s trainer, for diffusion model.</a></p>
+<p><a href="https://github.com/Nerogar/OneTrainer">Nerogar/OneTrainer: OneTrainer is a one-stop solution for all your stable diffusion training needs.</a></p>
+<h2 id="图像设计">图像设计</h2>
+<p><a href="https://github.com/erwold/qwen2vl-flux">erwold/qwen2vl-flux</a> 2024-11-27</p>
+<p><a href="https://github.com/Yuanshi9815/OminiControl">Yuanshi9815/OminiControl: A minimal and universal controller for FLUX.1.</a> 2024-11-27</p>
+<p><a href="https://github.com/lllyasviel/sd-forge-layerdiffuse">lllyasviel/sd-forge-layerdiffuse: [WIP] Layer Diffusion for WebUI (via Forge)</a> 2024-11-27</p>
+<p><a href="https://github.com/ali-vilab/ACE">ali-vilab/ACE: All-round Creator and Editor</a></p>
+<p><a href="https://github.com/mit-han-lab/hart">mit-han-lab/hart: HART: Efficient Visual Generation with Hybrid Autoregressive Transformer</a></p>
+<p><a href="https://github.com/ZhengPeng7/BiRefNet">ZhengPeng7/BiRefNet: [CAAI AIR'24] Bilateral Reference for High-Resolution Dichotomous Image Segmentation</a></p>
+<p><a href="https://github.com/YangLing0818/IterComp">YangLing0818/IterComp: IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation</a></p>
+<p><a href="https://github.com/xinsir6/ControlNetPlus">xinsir6/ControlNetPlus: ControlNet++: All-in-one ControlNet for image generations and editing!</a></p>
+<p><a href="https://github.com/Kwai-Kolors/Kolors">Kwai-Kolors/Kolors: Kolors Team</a></p>
+<p><a href="https://github.com/Xiaojiu-z/Stable-Hair">Xiaojiu-z/Stable-Hair: Stable-Hair: Real-World Hair Transfer via Diffusion Model</a></p>
+<p><a href="https://github.com/yisol/IDM-VTON">yisol/IDM-VTON: [ECCV2024] IDM-VTON : Improving Diffusion Models for Authentic Virtual Try-on in the Wild</a></p>
+<p><a href="https://github.com/bcmi/libcom">bcmi/libcom: Image composition toolbox: everything you want to know about image composition or object insertion</a></p>
+<p><a href="https://github.com/PixArt-alpha/PixArt-alpha">PixArt-alpha/PixArt-alpha: PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis</a></p>
+<p><a href="https://github.com/black-forest-labs/flux">black-forest-labs/flux: Official inference repo for FLUX.1 models</a></p>
+<p><a href="https://github.com/Stability-AI/sd3.5">Stability-AI/sd3.5</a></p>
+<p><a href="https://github.com/lllyasviel/Omost">lllyasviel/Omost: Your image is almost there!</a></p>
+<p><a href="https://github.com/gligen/GLIGEN">gligen/GLIGEN: Open-Set Grounded Text-to-Image Generation</a></p>
+<p><a href="https://github.com/Tencent/HunyuanDiT">Tencent/HunyuanDiT: Hunyuan-DiT : A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding</a></p>
+<p><a href="https://github.com/lllyasviel/IC-Light">lllyasviel/IC-Light: More relighting!</a></p>
+<p><a href="https://github.com/tencent-ailab/IP-Adapter">tencent-ailab/IP-Adapter: The image prompt adapter is designed to enable a pretrained text-to-image diffusion model to generate images with image prompt.</a></p>
+<p><a href="https://github.com/piddnad/DDColor">piddnad/DDColor: [ICCV 2023] Official implementation of &ldquo;DDColor: Towards Photo-Realistic Image Colorization via Dual Decoders&rdquo;</a></p>
+<p><a href="https://github.com/cumulo-autumn/StreamDiffusion">cumulo-autumn/StreamDiffusion: StreamDiffusion: A Pipeline-Level Solution for Real-Time Interactive Generation</a></p>
+<p><a href="https://github.com/ToTheBeginning/PuLID">ToTheBeginning/PuLID: [NeurIPS 2024] Official code for PuLID: Pure and Lightning ID Customization via Contrastive Alignment</a></p>
+<p><a href="https://github.com/KDE/krita">KDE/krita: Krita is a free and open source cross-platform application that offers an end-to-end solution for creating digital art files from scratch built on the KDE and Qt frameworks.</a></p>
+<p><a href="https://github.com/Acly/krita-ai-diffusion">Acly/krita-ai-diffusion: Streamlined interface for generating images with AI in Krita. Inpaint and outpaint with optional text prompt, no tweaking required.</a></p>
+<p><a href="https://github.com/instantX-research/InstantID">instantX-research/InstantID: InstantID: Zero-shot Identity-Preserving Generation in Seconds 🔥</a></p>
+<p><a href="https://github.com/jbilcke-hf/FacePoke">jbilcke-hf/FacePoke: Select a portrait, click to move the head around (please use your own space / GPU!)</a></p>
+<p><a href="https://github.com/catcathh/UltraPixel">catcathh/UltraPixel: Implementation of UltraPixel: Advancing Ultra-High-Resolution Image Synthesis to New Peaks</a></p>
+<p><a href="https://github.com/Zeyi-Lin/HivisionIDPhotos">Zeyi-Lin/HivisionIDPhotos: ⚡️HivisionIDPhotos: a lightweight and efficient AI ID photos tools. 一个轻量级的AI证件照制作算法。</a></p>
+<p><a href="https://github.com/VectorSpaceLab/OmniGen">VectorSpaceLab/OmniGen: OmniGen: Unified Image Generation. https://arxiv.org/pdf/2409.11340</a></p>
+<p><a href="https://github.com/shallowdream204/DreamClear">shallowdream204/DreamClear: [NeurIPS 2024🔥] DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe Dataset Curation</a></p>
+<p><a href="https://github.com/NVlabs/consistory">NVlabs/consistory</a></p>
+<p><a href="https://github.com/instantX-research/Regional-Prompting-FLUX">instantX-research/Regional-Prompting-FLUX: Training-free Regional Prompting for Diffusion Transformers 🔥</a></p>
+<p><a href="https://github.com/ali-vilab/In-Context-LoRA">ali-vilab/In-Context-LoRA: Official repository of In-Context LoRA for Diffusion Transformers</a></p>
+<p><a href="https://github.com/mit-han-lab/nunchaku">mit-han-lab/nunchaku: SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models</a></p>
+<p><a href="https://github.com/ChenyangSi/FreeU">ChenyangSi/FreeU: FreeU: Free Lunch in Diffusion U-Net (CVPR2024 Oral)</a></p>
+<p><a href="https://github.com/magic-quill/MagicQuill">magic-quill/MagicQuill: Official Implementations for Paper - MagicQuill: An Intelligent Interactive Image Editing System</a></p>
+<p><a href="https://github.com/Nutlope/logocreator">Nutlope/logocreator: A free + OSS logo generator powered by Flux on Together AI</a></p>
+<p><a href="https://github.com/NVlabs/Sana">NVlabs/Sana: SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer</a></p>
+<p><a href="https://github.com/JackAILab/ConsistentID">JackAILab/ConsistentID: Customized ID Consistent for human</a></p>
+<p><a href="https://github.com/DepthAnything/Depth-Anything-V2">DepthAnything/Depth-Anything-V2: [NeurIPS 2024] Depth Anything V2. A More Capable Foundation Model for Monocular Depth Estimation</a></p>
+<p><a href="https://github.com/tryonlabs/FLUX.1-dev-LoRA-Outfit-Generator">tryonlabs/FLUX.1-dev-LoRA-Outfit-Generator: FLUX.1-dev LoRA Outfit Generator can create an outfit by detailing the color, pattern, fit, style, material, and type.</a></p>
+<h2 id="语音-音乐">语音, 音乐</h2>
+<p><a href="https://github.com/netease-youdao/EmotiVoice?tab=readme-ov-file">netease-youdao/EmotiVoice: EmotiVoice 😊: a Multi-Voice and Prompt-Controlled TTS Engine</a></p>
+<p><a href="https://github.com/haidog-yaqub/EzAudio">haidog-yaqub/EzAudio: High-quality Text-to-Audio Generation with Efficient Diffusion Transformer</a></p>
+<p><a href="https://github.com/2noise/ChatTTS">2noise/ChatTTS: A generative speech model for daily dialogue.</a></p>
+<p><a href="https://github.com/BytedanceSpeech/seed-tts-eval">BytedanceSpeech/seed-tts-eval</a></p>
+<p><a href="https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI">RVC-Project/Retrieval-based-Voice-Conversion-WebUI: Easily train a good VC model with voice data &lt;= 10 mins!</a></p>
+<p><a href="https://github.com/yxlllc/DDSP-SVC">GitHub - yxlllc/DDSP-SVC: Real-time end-to-end singing voice conversion system based on DDSP (Differentiable Digital Signal Processing)</a></p>
+<p><a href="https://github.com/voicepaw/so-vits-svc-fork">voicepaw/so-vits-svc-fork: so-vits-svc fork with realtime support, improved interface and more features.</a></p>
+<p><a href="https://github.com/RVC-Boss/GPT-SoVITS">GitHub - RVC-Boss/GPT-SoVITS: 1 min voice data can also be used to train a good TTS model! (few shot voice cloning)</a></p>
+<p><a href="https://github.com/SWivid/F5-TTS">SWivid/F5-TTS: Official code for &ldquo;F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching&rdquo;</a></p>
+<p><a href="https://github.com/misya11p/amt-apc">misya11p/amt-apc: AMT-APC: AMT-APC: Automatic Piano Cover by Fine-Tuning an Automatic Music Transcription Model</a></p>
+<p><a href="https://github.com/WEIFENG2333/AsrTools">WEIFENG2333/AsrTools: ✨ AsrTools: 智能语音转文字工具 | 高效批处理 | 用户友好界面 | 无需 GPU |支持 SRT/TXT 输出 | 让您的音频瞬间变成精确文字！</a></p>
+<p><a href="https://github.com/open-mmlab/Amphion">open-mmlab/Amphion: Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audio, music, and speech generation research and development.</a></p>
+<p><a href="https://github.com/fishaudio/fish-speech">fishaudio/fish-speech: Brand new TTS solution</a></p>
+<h2 id="3d">3D</h2>
+<p><a href="https://github.com/VAST-AI-Research/TripoSR">VAST-AI-Research/TripoSR</a> 2024-11-27</p>
+<p><a href="https://github.com/microsoft/MoGe?tab=readme-ov-file">microsoft/MoGe: MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision</a></p>
+<p><a href="https://github.com/HengyiWang/spann3r">HengyiWang/spann3r: 3D Reconstruction with Spatial Memory</a></p>
+<p><a href="https://github.com/Tencent/Hunyuan3D-1">Tencent/Hunyuan3D-1</a></p>
+<p><a href="https://github.com/wenqsun/DimensionX">wenqsun/DimensionX: DimensionX: Create Any 3D and 4D Scenes from a Single Image with Controllable Video Diffusion</a></p>
+<h2 id="文本处理">文本处理</h2>
+<p><a href="https://github.com/zyddnys/manga-image-translator">zyddnys/manga-image-translator: Translate manga/image 一键翻译各类图片内文字 https://cotrans.touhou.ai/</a></p>
+<p><a href="https://github.com/chidiwilliams/buzz">chidiwilliams/buzz: Buzz transcribes and translates audio offline on your personal computer. Powered by OpenAI&rsquo;s Whisper.</a></p>
+<p><a href="https://github.com/AgentEra/Agently-Daily-News-Collector">AgentEra/Agently-Daily-News-Collector: An open-source LLM based automatically daily news collecting workflow showcase powered by Agently AI application development framework.</a></p>
+<p><a href="https://github.com/LC044/WeChatMsg">LC044/WeChatMsg: 提取微信聊天记录，将其导出成HTML、Word、Excel文档永久保存，对聊天记录进行分析生成年度聊天报告，用聊天数据训练专属于个人的AI聊天助手</a></p>
+<p><a href="https://github.com/gabrielchua/open-notebooklm">gabrielchua/open-notebooklm: Convert any PDF into a podcast episode!</a></p>
+<p><a href="https://github.com/getomni-ai/zerox">getomni-ai/zerox: Zero shot pdf OCR with gpt-4o-mini</a></p>
+<p><a href="https://github.com/opendatalab/PDF-Extract-Kit">opendatalab/PDF-Extract-Kit: A Comprehensive Toolkit for High-Quality PDF Content Extraction</a></p>
+<p><a href="https://github.com/Nutlope/llama-ocr">Nutlope/llama-ocr: Document to Markdown OCR library with Llama 3.2 vision</a></p>
+<p><a href="https://github.com/opendatalab/MinerU">opendatalab/MinerU: A high-quality tool for convert PDF to Markdown and JSON.一站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。</a></p>
+<h2 id="其他">其他</h2>
+<p><a href="https://github.com/Ucas-HaoranWei/GOT-OCR2.0">Ucas-HaoranWei/GOT-OCR2.0: Official code implementation of General OCR Theory: Towards OCR-2.0 via a Unified End-to-end Model</a></p>
+<p><a href="https://github.com/deepseek-ai/DeepSeek-VL">deepseek-ai/DeepSeek-VL: DeepSeek-VL: Towards Real-World Vision-Language Understanding</a></p>
+<p><a href="https://github.com/dynobo/normcap">dynobo/normcap: OCR powered screen-capture tool to capture information instead of images</a></p>
+<p><a href="https://github.com/modelscope/DiffSynth-Studio?tab=readme-ov-file#usage-in-webui">modelscope/DiffSynth-Studio: Enjoy the magic of Diffusion models!</a></p>
+<p><a href="https://github.com/abi/screenshot-to-code">abi/screenshot-to-code: Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)</a></p>
+<p><a href="https://github.com/stackblitz/bolt.new">stackblitz/bolt.new: Prompt, run, edit, and deploy full-stack web applications</a></p>
+<p><a href="https://github.com/lean-dojo/LeanCopilot">lean-dojo/LeanCopilot: LLMs as Copilots for Theorem Proving in Lean</a></p>
+<p><a href="https://github.com/geekan/MetaGPT">geekan/MetaGPT: 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming</a></p>
+<p><a href="https://github.com/princeton-nlp/SWE-agent">princeton-nlp/SWE-agent: [NeurIPS 2024] SWE-agent takes a GitHub issue and tries to automatically fix it, using GPT-4, or your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges.</a></p>
+<p><a href="https://github.com/OpenCodeInterpreter/OpenCodeInterpreter">OpenCodeInterpreter/OpenCodeInterpreter: OpenCodeInterpreter is a suite of open-source code generation systems aimed at bridging the gap between large language models and sophisticated proprietary systems like the GPT-4 Code Interpreter. It significantly enhances code generation capabilities by integrating execution and iterative refinement functionalities.</a></p>
+<p><a href="https://github.com/Ikaros-521/AI-Vtuber">Ikaros-521/AI-Vtuber: AI Vtuber是一个由 【ChatterBot/ChatGPT/claude/langchain/chatglm/text-gen-webui/闻达/千问/kimi/ollama】 驱动的虚拟主播【Live2D/UE/xuniren】，可以在 【Bilibili/抖音/快手/微信视频号/拼多多/斗鱼/YouTube/twitch/TikTok】 直播中与观众实时互动 或 直接在本地进行聊天。它使用TTS技术【edge-tts/VITS/elevenlabs/bark/bert-vits2/睿声】生成回答并可以选择【so-vits-svc/DDSP-SVC】变声；指令协同SD画图。</a></p>
+<p><a href="https://github.com/3b1b/manim">GitHub - 3b1b/manim: Animation engine for explanatory math videos</a></p>
+<p><a href="https://github.com/manimCommunity/manim">GitHub - ManimCommunity/manim: A community-maintained Python framework for creating mathematical animations.</a></p>
+<p><a href="https://github.com/KindXiaoming/pykan">GitHub - KindXiaoming/pykan: Kolmogorov Arnold Networks</a></p>
+<p><a href="https://github.com/PeterH0323/Streamer-Sales">GitHub - PeterH0323/Streamer-Sales: Streamer-Sales 销冠 —— 卖货主播大模型，一个能够根据给定的商品特点对商品进行解说并激发用户的购买意愿的卖货主播模型</a></p>
+<p><a href="https://github.com/FujiwaraChoki/MoneyPrinter">FujiwaraChoki/MoneyPrinter: Automate Creation of YouTube Shorts using MoviePy.</a></p>
+<p><a href="https://github.com/princeton-nlp/swe-agent">princeton-nlp/SWE-agent: SWE-agent takes a GitHub issue and tries to automatically fix it, using GPT-4. It solves 12.29% of bugs in the SWE-bench evaluation set (comparable to Devin) and take just 1.5 minutes to run (7x faster than Devin).</a></p>
+<p><a href="https://github.com/harry0703/MoneyPrinterTurbo">harry0703/MoneyPrinterTurbo: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</a></p>
+<p><a href="https://github.com/idootop/mi-gpt">idootop/mi-gpt: 🏠 将小爱音箱接入 ChatGPT 和豆包，改造成你的专属语音助手。</a></p>
+<p><a href="https://github.com/wan-h/awesome-digital-human-live2d">wan-h/awesome-digital-human-live2d: Awesome Digital Human</a></p>
+<p><a href="https://github.com/openai/swarm">openai/swarm: Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.</a></p>
+<p><a href="https://github.com/meta-llama/llama-recipes">meta-llama/llama-recipes: Scripts for fine-tuning Meta Llama with composable FSDP &amp; PEFT methods to cover single/multi-node GPUs. Supports default &amp; custom datasets for applications such as summarization and Q&amp;A. Supporting a number of candid inference solutions such as HF TGI, VLLM for local or cloud deployment. Demo apps to showcase Meta Llama for WhatsApp &amp; Messenger.</a></p>
+<p><a href="https://github.com/HqWu-HITCS/Awesome-Chinese-LLM">HqWu-HITCS/Awesome-Chinese-LLM: 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。</a></p>
+<p><a href="https://github.com/Hannibal046/Awesome-LLM">Hannibal046/Awesome-LLM: Awesome-LLM: a curated list of Large Language Model</a></p>
+<p><a href="https://github.com/excalidraw/excalidraw">excalidraw/excalidraw: Virtual whiteboard for sketching hand-drawn like diagrams</a></p>
+<p><a href="https://github.com/meltylabs/melty">meltylabs/melty: Chat first code editor. To download the packaged app:</a></p>
+<p><a href="https://github.com/gpt-omni/mini-omni2">gpt-omni/mini-omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities。</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+          <a id="logo" href="/">
+            <img width="280px" src="/hb.png"></img>
+            <br><font face="serif" size="5" color="#FF0000"><b>明 文 视 界</b></font>
+          </a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="搜索...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['zh'];
+        </script>
+        <script src="/js/auto-complete.js?1733022793" defer></script>
+        <script src="/js/lunr.min.js?1733022793" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1733022793" defer></script>
+        <script src="/js/lunr.multi.min.js?1733022793" defer></script>
+        <script src="/js/lunr.zh.min.js?1733022793" defer></script>
+        <script src="/js/search.js?1733022793" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics">
+          <li data-nav-id="/01_aigc_object/" title="ACGC 项目, 应用, 工具, 资源集" class="dd-item parent"><input type="checkbox" id="section-33ed1d2a346ed20d642e8be7edffce65" class="toggle" checked/><label for="section-33ed1d2a346ed20d642e8be7edffce65" ></label><a href="/01_aigc_object/">ACGC 项目, 应用, 工具, 资源集</a><ul>
+          <li data-nav-id="/01_aigc_object/01_object/" title="项目的官方网站" class="dd-item"><a href="/01_aigc_object/01_object/">项目的官方网站</a></li>
+          <li data-nav-id="/01_aigc_object/02_github/" title="项目的 GitHub 主页" class="dd-item active"><a href="/01_aigc_object/02_github/">项目的 GitHub 主页</a></li>
+          <li data-nav-id="/01_aigc_object/03_hugging/" title="Hugging Face Space" class="dd-item"><a href="/01_aigc_object/03_hugging/">Hugging Face Space</a></li>
+          <li data-nav-id="/01_aigc_object/04_web/" title="AIGC 相关网站" class="dd-item"><a href="/01_aigc_object/04_web/">AIGC 相关网站</a></li>
+          <li data-nav-id="/01_aigc_object/05_doc/" title="相关文档资料" class="dd-item"><a href="/01_aigc_object/05_doc/">相关文档资料</a></li></ul></li>
+          <li data-nav-id="/02_comfyui/" title="ComfyUI 教程" class="dd-item"><a href="/02_comfyui/">ComfyUI 教程</a></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title"></div>
+          <ul>
+            <li><a class="padding" href="/about">About</a></li>
+          </ul>
+        </div>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="black" value="black" selected>Black</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> 清理历史记录</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">      <p>粤ICP备 <a href="https://beian.miit.gov.cn/#/Integrated/index">20041225号</a></p>
+      <p></a><img src="/beian.png" >粤公网安备<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030702003010"> 44030702003010号</a>
+      <p>©2022 <a href="https://wuhao.online">吴明文</a></p>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1733022793" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1733022793" defer></script>
+    <script src="/js/featherlight.min.js?1733022793" defer></script>
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1733022793" defer></script>
+    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
+    </script>
+    <script src="https://unpkg.com/rapidoc/dist/rapidoc-min.js" defer></script>
+    <script>
+      window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
+    </script>
+    <script src="/js/theme.js?1733022793" defer></script>
+  </body>
+</html>

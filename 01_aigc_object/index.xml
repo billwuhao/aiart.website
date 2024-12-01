@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ACGC 项目, 应用, 工具, 资源集 on aiart.website</title>
+    <link>/01_aigc_object/</link>
+    <description>Recent content in ACGC 项目, 应用, 工具, 资源集 on aiart.website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/01_aigc_object/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>项目的官方网站</title>
+      <link>/01_aigc_object/01_object/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_object/</guid>
+      <description>搜索问答 Kimi
+chatgpt
+秘塔
+perplexity
+Meta AI
+腾讯元宝
+豆包 - 抖音旗下 AI 智能助手
+Google AI Studio
+Claude
+知乎直答
+360搜
+Poe
+HuggingChat
+视频, 语音, 绘图等综合 智谱清言
+即梦AI - 一站式AI创作平台
+可灵 AI - 新一代 AI 创意生产力平台
+海螺 AI
+跃问
+Luma Dream Machine | AI Video Generator
+KREA AI - AIGC集合-风格-图有免费
+Home - Leonardo.Ai
+AI Test Kitchen
+LimeWire
+Le Chat - Mistral AI
+WHEE - 高品质的AI素材生成器
+视频 kaze.ai - AI-powered Free Online Removing Watermark and Logos Tool 2024-11-27</description>
+    </item>
+    <item>
+      <title>项目的 GitHub 主页</title>
+      <link>/01_aigc_object/02_github/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/02_github/</guid>
+      <description>视频 k4yt3x/video2x: A machine learning-based lossless video super resolution framework. Est. Hack the Valley II, 2018. 2024-11-27
+facefusion/facefusion: Industry leading face manipulation platform 2024-11-27
+yangchris11/samurai: Official repository of &amp;ldquo;SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory&amp;rdquo;
+alibaba/Tora: The official repository for paper &amp;ldquo;Tora: Trajectory-oriented Diffusion Transformer for Video Generation&amp;rdquo;
+aigc-apps/CogVideoX-Fun: 📹 A more flexible CogVideoX that can generate videos at any resolution and creates videos from images.</description>
+    </item>
+    <item>
+      <title>Hugging Face Space</title>
+      <link>/01_aigc_object/03_hugging/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/03_hugging/</guid>
+      <description>项目的 Hugging Face Space OminiControl - a Hugging Face Space by Yuanshi 2024-11-27
+ACE-Chat - a Hugging Face Space by scepter-studio
+MoGe - a Hugging Face Space by Ruicheng
+EzAudio - a Hugging Face Space by OpenSound
+NaturalSpeech3 FACodec - a Hugging Face Space by amphion
+IDM VTON - a Hugging Face Space by yisol
+AnimateDiff-Lightning - a Hugging Face Space by ByteDance
+Omost - a Hugging Face Space by lllyasviel</description>
+    </item>
+    <item>
+      <title>AIGC 相关网站</title>
+      <link>/01_aigc_object/04_web/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/04_web/</guid>
+      <description>AIGC 相关网站 Discover and download free videos - Pixabay
+Danbooru: Anime Image Board
+Discover the Best GPTs
+AI工具集 | 700+ AI工具集合官网，国内外AI工具集导航大全
+Supertools | Best AI Tools Guide
+AIGC导航 | 1500+全品类AIGC创作工具_探索更多可能！
+插画交流网站[pixiv]
+ArtStation - Explore
+AIbase - 智能匹配最适合您的AI产品和网站
+Newsfeed - Sketchfab
+AI Model &amp;amp; API Providers Analysis | Artificial Analysis
+xAI
+GGAC数字艺术平台
+Weird Wonderful AI Art | ART of the future - now!
+相关文档资料 使用 diffusers 训练你自己的 ControlNet 🧨
+Stable Diffusion QR Code 101</description>
+    </item>
+    <item>
+      <title>相关文档资料</title>
+      <link>/01_aigc_object/05_doc/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/05_doc/</guid>
+      <description>相关文档资料 使用 diffusers 训练你自己的 ControlNet 🧨
+Stable Diffusion QR Code 101
+E-Hentai/태그 - 나무위키
+魔咒百科词典
+So-VITS-SVC 4.1 整合包完全指南
+Stable Diffusion 3.5 Prompt Guide — Stability AI
+使用 ChatGPT 进行写作的学生指南 |开放人工智能 &amp;mdash; A Student’s Guide to Writing with ChatGPT | OpenAI
+richards199999/Thinking-Claude: Let your Claude able to think
+hesamsheikh/ml-retreat: Machine Learning Journal for Intermediate to Advanced Topics.
+Midjourney Documentation and User Guide
+归档(可以不用看) Resources for GAN Artists
+Disco Diffusion Portrait Study (by @enviraldesign) - Google 文档</description>
+    </item>
+  </channel>
+</rss>
