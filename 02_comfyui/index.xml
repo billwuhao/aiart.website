@@ -6,5 +6,49 @@
     <description>Recent content in ComfyUI 教程资源 on aiart.website</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/02_comfyui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>界面介绍</title>
+      <link>/02_comfyui/01_interface/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/02_comfyui/01_interface/</guid>
+      <description>默认工作流 长这样, 具体细节将在后面 基本概念 介绍.
+调节视图的组件 分别是 放大, 缩小 (这两个和鼠标中键滚动一样), 适应, 选择/平移 模式 (选择模式可选择节点, 平移模式拖动整个工作流移动, 快捷键是空格键, 按住空格键, 拖动鼠标就平移) 和 显示/关闭 连接线.
+&amp;ldquo;运行&amp;rdquo; 管理区域 从左到右分别是 管理器, 卸载模型, 释放, 分享, 队列, 批次, 停止, 清除排队, 显示logs/终端, 隐藏菜单:
+卸载模型 (将加载到显存/内存里的模型卸载)
+释放模型和节点缓存
+分享(将工作流分享出去)
+队列, 分别是 点击执行, 生成完成后执行, 改变工作流后执行:
+运行次数
+停止运行当前任务
+清除等待中的任务
+打开底部 logs 和 终端
+隐藏菜单
+管理器 Skip update check: 跳过更新检查
+DB: 配置检索 节点/模型 信息的位置。默认一天内的缓存, 如果设置为本地，则忽略通道，如果设置为通道（远程），则每次打开列表时都会获取最新信息。
+Channel: 配置通道，以便从自定义节点列表（包括缺失节点）或模型列表中检索数据。请注意，这里使用了本地缓存信息。
+Preview method: 配置在采样过程如何预览图像生成的过程。None 不显示最快, 其他有微小的影响.
+Default UI: 设置桌面启动时在主菜单中显示的默认状态.</description>
+    </item>
+    <item>
+      <title>基本概念</title>
+      <link>/02_comfyui/02_basic/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/02_comfyui/02_basic/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>内置节点</title>
+      <link>/02_comfyui/03_built-in/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/02_comfyui/03_built-in/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>常用自定义节点</title>
+      <link>/02_comfyui/04_common-nodes/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/02_comfyui/04_common-nodes/</guid>
+      <description> </description>
+    </item>
   </channel>
 </rss>

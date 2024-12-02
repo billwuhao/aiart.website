@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.1+tip">
+    <meta name="description" content="">
+    <meta name="author" content="吴明文">
+    <title>界面介绍 - aiart.website</title>
+    <link href="/02_comfyui/01_interface/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1733108965" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1733108965" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1733108965" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1733108965" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1733108965" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1733108965" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1733108965" rel="stylesheet">
+    <link href="/css/nucleus.css?1733108965" rel="stylesheet">
+    <link href="/css/fonts.css?1733108965" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1733108965" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1733108965" rel="stylesheet">
+    <link href="/css/theme-black.css?1733108965" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1733108965" rel="stylesheet">
+    <link href="/css/variant.css?1733108965" rel="stylesheet">
+    <link href="/css/print.css?1733108965" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1733108965"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="/index.json";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = '复制到剪贴板';
+      window.T_Copied_to_clipboard = '复制到剪贴板！';
+      window.T_Copy_link_to_clipboard = '将链接复制到剪贴板';
+      window.T_Link_copied_to_clipboard = '链接复制到剪贴板！';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'black' ] );
+    </script>
+    <script src="/js/jquery.min.js?1733108965" defer></script>
+  </head>
+  <body class="mobile-support html" data-url="/02_comfyui/01_interface/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='导航 (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='目录 (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="/"><span itemprop="name">aiart.website</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/02_comfyui/"><span itemprop="name">ComfyUI 教程资源</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/02_comfyui/01_interface/" aria-disabled="true"><span itemprop="name">界面介绍</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#默认工作流">默认工作流</a></li>
+    <li><a href="#调节视图的组件">调节视图的组件</a></li>
+    <li><a href="#运行-管理区域">&ldquo;运行&rdquo; 管理区域</a></li>
+    <li><a href="#管理器">管理器</a></li>
+    <li><a href="#帮助">帮助</a></li>
+    <li><a href="#编辑">编辑</a></li>
+    <li><a href="#工作流管理">工作流管理</a></li>
+    <li><a href="#文件管理">文件管理</a></li>
+    <li><a href="#设置">设置</a>
+      <ul>
+        <li><a href="#comfy-设置">Comfy 设置</a></li>
+        <li><a href="#litegraph-设置">LiteGraph 设置</a></li>
+        <li><a href="#appearance-外观">Appearance 外观</a></li>
+        <li><a href="#mask-editor-蒙版编辑">Mask Editor 蒙版编辑</a></li>
+        <li><a href="#comfy-desktop-桌面设置">Comfy-Desktop 桌面设置</a></li>
+        <li><a href="#keybinding-编辑快捷键-可自定义">Keybinding 编辑快捷键 (可自定义)</a></li>
+        <li><a href="#extension-扩展">Extension 扩展</a></li>
+        <li><a href="#server-config">Server-Config</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>界面介绍</h1>
+
+<h2 id="默认工作流">默认工作流</h2>
+<p>长这样, 具体细节将在后面 <code>基本概念</code> 介绍.</p>
+<p><img src="image.png" alt="alt text"></p>
+<h2 id="调节视图的组件">调节视图的组件</h2>
+<p><img src="image-1.png" alt="alt text"></p>
+<p>分别是 <code>放大</code>, <code>缩小</code> (这两个和鼠标中键滚动一样), <code>适应</code>, <code>选择/平移 模式</code> (选择模式可选择节点, 平移模式拖动整个工作流移动, 快捷键是空格键, 按住空格键, 拖动鼠标就平移) 和 <code>显示/关闭 连接线</code>.</p>
+<h2 id="运行-管理区域">&ldquo;运行&rdquo; 管理区域</h2>
+<p><img src="image-2.png" alt=""></p>
+<p>从左到右分别是 管理器, 卸载模型, 释放, 分享, 队列, 批次, 停止, 清除排队, 显示logs/终端, 隐藏菜单:</p>
+<ul>
+<li>
+<p>卸载模型 (将加载到显存/内存里的模型卸载)</p>
+</li>
+<li>
+<p>释放模型和节点缓存</p>
+</li>
+<li>
+<p>分享(将工作流分享出去)</p>
+<p><img src="image-4.png" alt="alt text"></p>
+</li>
+<li>
+<p>队列, 分别是 <code>点击执行</code>, <code>生成完成后执行</code>, <code>改变工作流后执行</code>:</p>
+<p><img src="image-6.png" alt="alt text"></p>
+</li>
+<li>
+<p>运行次数</p>
+</li>
+<li>
+<p>停止运行当前任务</p>
+</li>
+<li>
+<p>清除等待中的任务</p>
+</li>
+<li>
+<p>打开底部 <code>logs</code> 和 <code>终端</code></p>
+<p><img src="image-3.png" alt=""></p>
+</li>
+<li>
+<p>隐藏菜单</p>
+</li>
+</ul>
+<h2 id="管理器">管理器</h2>
+<p><img src="image-5.png" alt="alt text"></p>
+<ul>
+<li>
+<p>Skip update check: 跳过更新检查</p>
+</li>
+<li>
+<p>DB: 配置检索 节点/模型 信息的位置。默认一天内的缓存, 如果设置为本地，则忽略通道，如果设置为通道（远程），则每次打开列表时都会获取最新信息。</p>
+<p><img src="image-7.png" alt="alt text"></p>
+</li>
+<li>
+<p>Channel: 配置通道，以便从自定义节点列表（包括缺失节点）或模型列表中检索数据。请注意，这里使用了本地缓存信息。</p>
+<p><img src="image-8.png" alt="alt text"></p>
+</li>
+<li>
+<p>Preview method: 配置在采样过程如何预览图像生成的过程。None 不显示最快, 其他有微小的影响.</p>
+<p><img src="image-9.png" alt="alt text"></p>
+</li>
+<li>
+<p>Default UI: 设置桌面启动时在主菜单中显示的默认状态.</p>
+<p><img src="image-10.png" alt="alt text"></p>
+</li>
+<li>
+<p>Share: 隐藏主菜单中的共享按钮，或在点击时设置默认操作。例如, 在通过点击共享按钮共享时，配置默认共享站点.</p>
+<p><img src="image-11.png" alt="alt text"></p>
+</li>
+<li>
+<p>Component: 加载工作流时，配置要使用的组件版本.</p>
+<p><img src="image-12.png" alt="alt text"></p>
+</li>
+<li>
+<p>Double-Click: 设置双击节点标题区域时的行为.</p>
+<p><img src="image-13.png" alt="alt text"></p>
+</li>
+<li>
+<p>Unload models: 卸载模型</p>
+</li>
+<li>
+<p>Custom Nodes Manager: 管理节点</p>
+<p><img src="image-14.png" alt="alt text"></p>
+</li>
+<li>
+<p>Install Missing Custom Nodes: 安装缺失节点, 如果工作流中显示有节点缺失, 点击这里将进入节点管理进行缺失节点安装.</p>
+</li>
+<li>
+<p>Model Manager: 模型管理, 这里管理模型, 例如安装, 卸载.</p>
+<p><img src="image-15.png" alt="alt text"></p>
+</li>
+<li>
+<p>Install via Git URL: 通过 GitHub 链接安装节点.</p>
+</li>
+<li>
+<p>Update All Nodes: 更新所有节点.</p>
+</li>
+<li>
+<p>Fetch Updates: 抓取更新.</p>
+</li>
+<li>
+<p>Restart: 重启</p>
+</li>
+<li>
+<p>Community Manual: 社区手册</p>
+<p><img src="image-16.png" alt="alt text"></p>
+</li>
+<li>
+<p>Nodes Info: 所有节点的信息大全.</p>
+</li>
+<li>
+<p>Features/Updates News: 更新公告.</p>
+</li>
+</ul>
+<h2 id="帮助">帮助</h2>
+<p><img src="image-17.png" alt="alt text"></p>
+<ul>
+<li>ComfyUl Issues 提问</li>
+<li>ComfyUI Docs 文档</li>
+<li>Comfy-Org 社区</li>
+<li>Feedback 反馈</li>
+<li>Open DevTools 打开开发工具</li>
+<li>Reinstall 重装</li>
+<li>Open Folder 打开文件夹
+<ul>
+<li>Open Logs Folder 打开 logs 文件夹</li>
+<li>Open Models Folder 打开模型文件夹</li>
+<li>Open Outputs Folder 打开输出文件夹</li>
+<li>Open Inputs Folder 打开输入文件夹</li>
+<li>Open Custom Nodes Folder 打开节点文件夹</li>
+<li>Open extra_model_paths.yaml 打开自定义模型路径文件, 可以将模型或节点放在指定的文件夹中, 然后在这个文件里配置.</li>
+</ul>
+</li>
+</ul>
+<h2 id="编辑">编辑</h2>
+<p><img src="image-18.png" alt="alt text"></p>
+<ul>
+<li>Undo 撤销 Ctrl + Z</li>
+<li>Redo 重做 Ctrl + Y</li>
+<li>Refresh Node Definitions 刷新节点, 快捷键 R, 例如刚把模型放入文件夹, 刷新节点就可以加载了.</li>
+<li>Clear Workflow 清理工作流, 将工作流全部清掉, 选中节点, 可以用快捷键 <code>Backspace</code> 删掉节点.</li>
+<li>Clipspace: CLIP 空间, 目前只对图像有效, 绘蒙版时使用, 后面会详细介绍.</li>
+</ul>
+<h2 id="工作流管理">工作流管理</h2>
+<p><img src="image-19.png" alt="alt text"></p>
+<ul>
+<li>New 新建</li>
+<li>Open 打开已有工作流, 快捷键 Ctrl+o</li>
+<li>Browse Templates 选择自带工作流模板</li>
+<li>Save 保存工作流, 快捷键 Ctrl+s</li>
+<li>Save As 另存为</li>
+<li>Export 导出工作流</li>
+<li>Export(API) 导出(包含API)</li>
+</ul>
+<h2 id="文件管理">文件管理</h2>
+<ul>
+<li>
+<p>查看队列历史, 应用生成的图像 (右键点击图像选择), 或删除历史</p>
+<p><img src="image-20.png" alt="alt text"></p>
+</li>
+<li>
+<p>查看节点库. 鼠标放到节点上, 会显示节点信息, 以及参数介绍, 还可以标星方便使用.</p>
+<p><img src="image-22.png" alt="alt text"></p>
+</li>
+<li>
+<p>模型库, 查看模型. 点击模型会自动生成加载节点.</p>
+<p><img src="image-21.png" alt="alt text"></p>
+</li>
+<li>
+<p>工作流管理, 点击工作流直接打开, 右击可以重命名, 删除, 应用. 同样可以选择内建模板, 打开已有工作流或新建.</p>
+<p><img src="image-23.png" alt="alt text"></p>
+</li>
+</ul>
+<h2 id="设置">设置</h2>
+<h3 id="comfy-设置">Comfy 设置</h3>
+<p><img src="image-24.png" alt="alt text"></p>
+<ul>
+<li>
+<p>Dev Mode. 开发者模式</p>
+<p>Enable dev mode options (API save, etc.). 启用开发模式选项（API保存等）</p>
+</li>
+<li>
+<p>Edit Attention. 编辑 <code>Attention</code></p>
+<p>Ctrl+up/down precision. Ctrl+up/down 调节精度</p>
+</li>
+<li>
+<p>Locale. 本地化, 需要安装中文插件才能显示中文</p>
+</li>
+<li>
+<p>Logging. 打开/关闭 logging, 出错可以将 logs 发给大神们求助.</p>
+<p>Enable logging</p>
+</li>
+<li>
+<p>Menu. 菜单</p>
+<p>Use new menu. 使用新菜单, 可选顶部, 底部, 或关闭.</p>
+<p>Save legacy menu&rsquo;s position. 保留旧菜单的位置</p>
+</li>
+<li>
+<p>Model Library. 模型库</p>
+<p>What name to display in the model library tree view. 在模型库中显示什么名称。</p>
+<p>Select &ldquo;filename&rdquo; to render a simplified view of the raw filename (without directory or &ldquo;.safetensors&rdquo; extension) in the model list. Select &ldquo;title&rdquo; to display the configurable model metadata title. 选择“filename”以在模型列表中呈现原始文件名的简化视图（不带目录或“.safetensors”扩展名）。选择“title”以显示可配置的模型元数据标题。</p>
+<p>Automatically load all model folders. 自动加载所有模型文件夹。</p>
+<p>If true, all folders will load as soon as you open the model library (this may cause delays while it loads). If false, root level model folders will only load once you click on them. 如果为true，则打开模型库后将立即加载所有文件夹（这可能会导致加载时的延迟）。如果为false，则只有在您单击根级模型文件夹后才会加载它们。</p>
+</li>
+<li>
+<p>Node 节点</p>
+<p>Show experimental nodes in search. 在搜索中显示实验节点</p>
+<p>Experimental nodes are marked as such in the UI and may be subject to significant changes or removal in future versions. Use with caution in production workflows. 实验节点在UI中标记为这样，在未来的版本中可能会发生重大变化或被删除。在生产工作流程中谨慎使用.</p>
+<p>Show deprecated nodes in search. 在搜索中显示已弃用的节点</p>
+<p>Deprecated nodes are hidden by default in the UI, but remain functional in existing workflows that use them. 默认情况下，弃用的节点在UI中隐藏，但在使用它们的现有工作流中仍然可以正常工作。</p>
+</li>
+<li>
+<p>Node Search Box. 节点搜索框</p>
+<ul>
+<li>Number of nodes suggestions. 建议的节点数量</li>
+</ul>
+<p>Only for litegraph searchbox/context menu. 仅适用于 litegraph 搜索框/快捷菜单</p>
+<ul>
+<li>Show node frequency in search results. 在搜索结果中显示节点频率</li>
+</ul>
+<p>Only applies to the default implementation. 仅适用于默认实现</p>
+<ul>
+<li>Show node id name in search results. 在搜索结果中显示节点 id 名称</li>
+</ul>
+<p>Only applies to the default implementation.</p>
+<ul>
+<li>Show node category in search results. 在搜索结果中显示节点类别</li>
+</ul>
+<p>Only applies to the default implementation.</p>
+<ul>
+<li>Node preview. 节点预览</li>
+</ul>
+<p>Only applies to the default implementation.</p>
+<ul>
+<li>BETA: Node search box implementation. 节点搜索框实现. 可选默认, 或旧版.</li>
+</ul>
+</li>
+<li>
+<p>Node Widget. 节点组件</p>
+<p>Widget control mode. Controls when widget values are updated (randomize/increment/ decrement), either before the prompt is queued or after. 组件控制模式. 控制何时更新组件值(随机/增加/减少)，在提示词队列执行前或执行后</p>
+<p>Textarea widget spellcheck. 文本区域小部件拼写检查</p>
+</li>
+<li>
+<p>Node Input Conversion Submenus. 节点输入转换子菜单</p>
+<p>In the node context menu, place the entries that convert between input/widget in sub-menus. 在节点快捷菜单中，将 <code>输入/小部件</code> 之间转换的条目放置在子菜单中</p>
+</li>
+<li>
+<p>Queue</p>
+<p>Queue history size. The maximum number of tasks that show in the queue history. 队列历史记录数。队列历史记录中显示的最大任务数</p>
+</li>
+<li>
+<p>Queue Button. 队列按钮</p>
+<p>Batch count limit. The maximum number of tasks added to the queue at one button click. 批次计数限制。一键添加到队列的最大任务数</p>
+</li>
+<li>
+<p>Settings. 设置</p>
+<p>BETA: Show extension panel in settings dialog. 在设置对话框中显示扩展面板</p>
+</li>
+<li>
+<p>Tree Explorer.</p>
+<p>Tree explorer item padding</p>
+</li>
+<li>
+<p>Validation. 验证</p>
+<p>Validate node definitions (slow). Recommended for node developers. This will validate all node definitions on startup. 验证节点定义（缓慢）。推荐给节点开发人员。这将在启动时验证所有节点定义</p>
+<p>Validate workflows. 验证工作流</p>
+</li>
+<li>
+<p>Window. 窗口</p>
+<p>Show confirmation when closing window. 关闭窗口时显示确认</p>
+</li>
+<li>
+<p>Workflow. 工作流</p>
+<p>Save and restore canvas position and zoom level in workflows. 在工作流中保存, 恢复 画布位置 和 缩放级别</p>
+<p>Opened workflows position. 打开工作流位置, 可选顶部或侧边栏</p>
+<p>Prompt for filename when saving workflow. 保存工作流时提示输入文件名</p>
+<p>Require confirmation when clearing workflow. 清除工作流时需要确认</p>
+<p>BETA: Show missing models warning. 显示缺失模型警告</p>
+<p>Show missing nodes warning. 显示缺失节点警告</p>
+<p>Sort node IDs when saving workflow. 保存工作流时对节点ID进行排序</p>
+<h3 id="litegraph-设置">LiteGraph 设置</h3>
+</li>
+<li>
+<p>Canvas 画布</p>
+<p>Always snap to grid. 始终捕捉到网格</p>
+<p>Snap to grid size. When dragging and resizing nodes while holding shift they will be aligned to the grid, this controls the size of that grid. 对齐网格大小。按住shift键拖动和调整节点大小时，它们将与网格对齐，这控制了网格的大小</p>
+<p>Enable fast-zoom shortcut (Ctrl + Shift + Drag). 启用快速缩放快捷方式（Ctrl+Shift+拖动）</p>
+<p>Show graph canvas menu. 显示图形画布菜单</p>
+<p>Canvas zoom speed. 画布缩放速度</p>
+<p>Show canvas info on bottom left corner (fps, etc.). 在左下角显示画布信息（fps 等）</p>
+</li>
+<li>
+<p>Graph</p>
+<p>Link Render Mode. 连接线渲染模式 (曲线, 直线等)</p>
+</li>
+<li>
+<p>Group 组</p>
+<p>Double click group title to edit. 双击组标题进行编辑</p>
+<p>Group selected nodes padding. 组边距</p>
+</li>
+<li>
+<p>Link 连线</p>
+<p>Link midpoint markers. 连线中点标记 (圆点, 箭头)</p>
+</li>
+<li>
+<p>Link Release. 连线松开</p>
+<p>Action on link release (Shift). 按住 Shift 松开连线</p>
+<p>Action on link release (No modifier). 不按 Shift 松开连线</p>
+</li>
+<li>
+<p>Menu 菜单</p>
+<p>Invert Context Menu Scrolling. 反转快捷菜单滚动</p>
+</li>
+<li>
+<p>Node 节点</p>
+<p>Enable DOM element clipping (enabling may reduce performance). 启用DOM元素剪裁（启用可能会降低性能）</p>
+<p>Middle-click creates a new Reroute node. 单击鼠标中键可创建新的 “转接” 节点</p>
+<p>Keep all links when deleting nodes. When deleting a node, attempt to reconnect all of its input and output links (bypassing the deleted node). 删除节点时保留所有链接. 删除节点时，尝试重新连接其所有输入和输出链路（绕过已删除的节点）</p>
+<p>Snap highlights node. When dragging a link over a node with viable input slot, highlight the node. 捕捉高亮节点. 在拖动线经过具有可输入点的节点时，突出显示该节点</p>
+<p>Auto snap link to node slot. 自动捕捉可连接线到节点插槽</p>
+<p>Enable Tooltips. 启用工具提示</p>
+<p>Node life cycle badge mode. 节点激活标记</p>
+<p>Node ID badge mode. 节点 ID 标记</p>
+<p>Node source badge mode. 节点来源标记</p>
+<p>Double click node title to edit. 双击节点标题编辑</p>
+</li>
+<li>
+<p>Node Widget</p>
+<p>Float widget rounding decimal places [0 = auto]. (requires page reload). 浮点控件四舍五入小数位数[0=auto]。（需要重新加载页面）</p>
+<p>Disable default float widget rounding. (requires page reload) Cannot disable round when round is set by the node in the backend.  禁用默认浮点控件舍入。（需要重新加载页面）当舍入由后端节点设置时，无法禁用舍入</p>
+<p>Disable node widget sliders. 禁用节点小部件滑块</p>
+<p>Preview image format. When displaying a preview in the image widget, convert it to a lightweight image, e.g. webp, jpeg, webp;50, etc. 预览图像格式. 在图像小部件中显示预览时，将其转换为轻量级图像，例如webp、jpeg、webp；50等</p>
+</li>
+<li>
+<p>Pointer 鼠标指针</p>
+<p>Double click interval (maximum). The maximum time in milliseconds between the two clicks of a double-click. Increasing this value may assist if double-clicks are sometimes not registered. 双击间隔（最大值）。双击两次之间的最长时间（毫秒）。如果双击有时未生效，则增加此值可能会有所帮助</p>
+<p>BETA: Pointer click drift delay. After pressing a pointer button down, this is the maximum time (in milliseconds)that pointer movement can be ignored for. Helps prevent objects from being unintentionally nudged if the pointer is moved whilst clicking. 指针点击漂移延迟。按下指针按钮后，这是指针移动可以忽略的最长时间（以毫秒为单位）。有助于防止在单击时移动指针时无意中轻推对象</p>
+<p>BETA: Pointer click drift (maximum distance). If the pointer moves more than this distance while holding a button down, it is considered dragging (rather than clicking). Helps prevent objects from being unintentionally nudged if the pointer is moved whilst clicking. 指针点击漂移（最大距离）。如果指针在按住按钮的同时移动超过此距离，则被视为拖动（而不是单击）。有助于防止在单击时移动指针时无意中轻推对象</p>
+</li>
+<li>
+<p>Reroute Beta. 转接节点测试</p>
+<p>BETA: Opt-in to the reroute beta test. Enables the new native reroutes. Reroutes can be added by holding alt and dragging from a link line, or on the link menu. Disabling this option is non-destructive- reroutes are hidden. 选择转接节点测试。启用新的转接节点。通过按住alt并从连接线或连接菜单上拖动，可以添加转接节点。禁用此选项是非破坏性的-转接节点被隐藏</p>
+</li>
+</ul>
+<h3 id="appearance-外观">Appearance 外观</h3>
+<ul>
+<li>
+<p>Color Palette 主题</p>
+</li>
+<li>
+<p>Node</p>
+<p>Node opacity. 节点不透明度</p>
+</li>
+<li>
+<p>Node Widget</p>
+<p>Textarea widget font size. 文本区域小部件字体大小</p>
+</li>
+<li>
+<p>Sidebar</p>
+<p>Sidebar size. 侧边栏尺寸</p>
+<p>Sidebar location. 侧边栏位置</p>
+</li>
+</ul>
+<h3 id="mask-editor-蒙版编辑">Mask Editor 蒙版编辑</h3>
+<ul>
+<li>
+<p>Brush Adjustment 笔刷调整</p>
+<p>BETA: Lock brush adjustment to dominant axis. When enabled, brush adjustments will only affect size OR hardness based on which direction you move more. 将笔刷调整锁定到主导轴. 启用后，刷子调整只会根据您移动的方向影响尺寸或硬度</p>
+<p>BETA: Brush adjustment speed multiplier. Controls how quickly the brush size and hardness change when adjusting. Higher values mean faster changes. 笔刷调整速度倍数. 控制调整时画笔大小和硬度的变化速度。值越高，变化越快</p>
+</li>
+<li>
+<p>New Editor</p>
+<p>BETA: Use new mask editor. 启动新的蒙版编辑</p>
+</li>
+</ul>
+<h3 id="comfy-desktop-桌面设置">Comfy-Desktop 桌面设置</h3>
+<ul>
+<li>
+<p>General 一般设置</p>
+<p>Send anonymous crash reports. 发送匿名事件报告</p>
+<p>Automatically check for updates. 自动检查更新</p>
+</li>
+</ul>
+<h3 id="keybinding-编辑快捷键-可自定义">Keybinding 编辑快捷键 (可自定义)</h3>
+<ul>
+<li>
+<p>Comfy.NewBlankWorkflow 新建工作流</p>
+</li>
+<li>
+<p>Comfy.OpenWorkflow 打开工作流 <code>Ctrl+o</code></p>
+</li>
+<li>
+<p>Comfy.LoadDefaultWorkflow 加载默认工作流</p>
+</li>
+<li>
+<p>Comfy.SaveWorkflow 保存工作流 <code>Ctrl+s</code></p>
+</li>
+<li>
+<p>Comfy.SaveWorkflowAs 工作流另存为</p>
+</li>
+<li>
+<p>Comfy.ExportWorkflow 导出工作流</p>
+</li>
+<li>
+<p>Comfy.ExportWorkflowAPI 导出工作流(API)</p>
+</li>
+<li>
+<p>Comfy.Undo 撤销</p>
+</li>
+<li>
+<p>Comfy.Redo 重做</p>
+</li>
+<li>
+<p>Comfy.ClearWorkflow 删除工作流 <code>Backspace</code></p>
+</li>
+<li>
+<p>Comfy.Canvas.ResetView 重设视图</p>
+</li>
+<li>
+<p>Comfy.OpenClipspace 打开 Clipspace</p>
+</li>
+<li>
+<p>Comfy.RefreshNodeDefinitions 刷新节点 <code>r</code></p>
+</li>
+<li>
+<p>Comfy.Interrupt 停止 <code>Ctrl+Alt+Enter</code></p>
+</li>
+<li>
+<p>Comfy.ClearPendingTasks 清除等待任务</p>
+</li>
+<li>
+<p>Comfy.BrowseTemplates 打开默认工作流模板</p>
+</li>
+<li>
+<p>Comfy.Canvas.ZoomIn 放大 <code>Alt+=</code></p>
+</li>
+<li>
+<p>Comfy.Canvas.ZoomOut 缩小 <code>Alt+-</code></p>
+</li>
+<li>
+<p>Comfy.Canvas.FitView 适应窗口 <code>.</code></p>
+</li>
+<li>
+<p>Comfy.Canvas.ToggleLock 切换 选择/拖动 模式</p>
+</li>
+<li>
+<p>Comfy.Canvas.ToggleLinkVisibility 切换连接线 可见/不可见</p>
+</li>
+<li>
+<p>Comfy.QueuePrompt <code>Ctrl+Enter</code></p>
+</li>
+<li>
+<p>Comfy.QueuePromptFront <code>Ctrl+Shift+Enter</code></p>
+</li>
+<li>
+<p>Comfy.ShowSettingsDialog 打开设置面板 <code>Ctrl+,</code></p>
+</li>
+<li>
+<p>Comfy.Graph.GroupSelectedNodes 将选定节点一组 <code>Ctrl+g</code></p>
+</li>
+<li>
+<p>Workspace.NextOpenedWorkflow 切换到下一个打开的工作流</p>
+</li>
+<li>
+<p>Workspace.PreviousOpenedWorkflow 切换到上一个打开的工作流</p>
+</li>
+<li>
+<p>Comfy.Canvas.ToggleSelectedNodes.Mute 屏蔽选择的节点 <code>Ctrl+m</code></p>
+</li>
+<li>
+<p>Comfy.Canvas.ToggleSelectedNodes.Bypass 禁用选择的节点 <code>Ctrl+b</code></p>
+</li>
+<li>
+<p>Comfy.Canvas.ToggleSelectedNodes.Pin</p>
+</li>
+<li>
+<p>Comfy.Canvas.ToggleSelected.Pin 锁定或解锁选择的节点或组 <code>p</code></p>
+</li>
+<li>
+<p>Comfy.Canvas.ToggleSelectedNodes.Collapse 折叠选择的节点 <code>Alt+c</code></p>
+</li>
+<li>
+<p>Comfy.ToggleTheme 切换主题</p>
+</li>
+<li>
+<p>Workspace.ToggleBottomPanel 切换底部面板</p>
+</li>
+<li>
+<p>Workspace.ToggleFocusMode 隐藏/打开 菜单栏 <code>f</code></p>
+</li>
+<li>
+<p>Comfy.Graph.FitGroupToContents  根据内容调整组</p>
+</li>
+<li>
+<p>Workspace.ToggleSidebarTab.queue 隐藏/打开 侧边栏队列历史 <code>q</code></p>
+</li>
+<li>
+<p>Workspace.ToggleSidebarTab.node-library 隐藏/打开 侧边栏节点库 <code>n</code></p>
+</li>
+<li>
+<p>Workspace.ToggleSidebarTab.model-library 隐藏/打开 侧边栏模型 <code>m</code></p>
+</li>
+<li>
+<p>Workspace.ToggleSidebarTab.workflows 隐藏/打开 侧边栏工作流 <code>w</code></p>
+</li>
+<li>
+<p>Workspace.ToggleBottomPanelTab.logs-terminal 打开/隐藏 logs Ctrl+`</p>
+</li>
+<li>
+<p>Workspace.ToggleBottomPanelTab.command-terminal 打开/隐藏 终端</p>
+</li>
+<li>
+<p>Comfy.GroupNode.ConvertSelectedNodesToGroupNode 将所选节点转换为组节点 <code>Alt+g</code></p>
+</li>
+<li>
+<p>Comfy.GroupNode.UngroupSelectedGroupNodes 放弃分组所选的组节点 <code>Alt+Shift+G</code></p>
+</li>
+<li>
+<p>Comfy.GroupNode.ManageGroupNodes 管理组节点</p>
+</li>
+<li>
+<p>Comfy-Desktop.Folders.OpenLogsFolder 打开 logs 文件夹</p>
+</li>
+<li>
+<p>Comfy-Desktop.Folders.OpenModelsFolder 打开模型文件夹</p>
+</li>
+<li>
+<p>Comfy-Desktop.Folders.OpenOutputsFolder 打开输出文件夹</p>
+</li>
+<li>
+<p>Comfy-Desktop.Folders.OpenInputsFolder 打开输入文件夹</p>
+</li>
+<li>
+<p>Comfy-Desktop.Folders.OpenCustomNodesFolder 打开节点文件夹</p>
+</li>
+<li>
+<p>Comfy-Desktop.Folders.OpenModelConfig 打开模型路径配置文件</p>
+</li>
+<li>
+<p>Comfy-Desktop.OpenDevTools 打开开发工具</p>
+</li>
+<li>
+<p>Comfy-Desktop.OpenFeedbackPage 打开反馈页</p>
+</li>
+<li>
+<p>Comfy-Desktop.Reinstall 重装</p>
+</li>
+<li>
+<p>Comfy-Desktop.Restart 重启</p>
+</li>
+</ul>
+<h3 id="extension-扩展">Extension 扩展</h3>
+<ul>
+<li>
+<p>Comfy.ColorPalette 调色板</p>
+</li>
+<li>
+<p>Comfy.NodeTitleEditor 节点标题编辑</p>
+</li>
+<li>
+<p>Comfy.NodeBadge 节点标志</p>
+</li>
+<li>
+<p>Comfy.WidgetInputs 组件输入</p>
+</li>
+<li>
+<p>Comfy.Clipspace</p>
+</li>
+<li>
+<p>Comfy.ContextMenuFilter 快捷菜单过滤器</p>
+</li>
+<li>
+<p>Comfy.DynamicPrompts 动态提示</p>
+</li>
+<li>
+<p>Comfy.EditAttention 编辑 Attention</p>
+</li>
+<li>
+<p>Comfy.GroupNode 组节点</p>
+</li>
+<li>
+<p>Comfy.GroupOptions 组选项</p>
+</li>
+<li>
+<p>Comfy.InvertMenuScrolling 反转菜单滚动</p>
+</li>
+<li>
+<p>Comfy.Keybinds 密钥绑定</p>
+</li>
+<li>
+<p>Comfy.MaskEditor 编辑蒙版</p>
+</li>
+<li>
+<p>Comfy.NodeTemplates 节点模板</p>
+</li>
+<li>
+<p>Comfy.NoteNode 注释节点</p>
+</li>
+<li>
+<p>Comfy.RerouteNode 转接节点</p>
+</li>
+<li>
+<p>Comfy.SaveImageExtraOutput 保存图像额外输出</p>
+</li>
+<li>
+<p>Comfy.SimpleTouchSupport 简单触控支持</p>
+</li>
+<li>
+<p>Comfy.SlotDefaults 连接点默认</p>
+</li>
+<li>
+<p>Comfy.UploadImage 上传图片</p>
+</li>
+<li>
+<p>Comfy.WebcamCapture 网络摄像头捕获</p>
+</li>
+<li>
+<p>Comfy.AudioWidget 音频组件</p>
+</li>
+<li>
+<p>Comfy.UploadAudio 上传音频</p>
+</li>
+<li>
+<p>Comfy.Load3D 加载 3d</p>
+</li>
+<li>
+<p>Comfy.Load3DAnimation 加载 3d 动画</p>
+</li>
+<li>
+<p>Comfy.Preview3D 预览 3d</p>
+</li>
+<li>
+<p>Comfy.ElectronAdapter</p>
+</li>
+<li>
+<p>Comfy.Manager.NodeFixer 节点修复器</p>
+</li>
+<li>
+<p>Comfy.ManagerMenu 管理菜单</p>
+</li>
+</ul>
+<h3 id="server-config">Server-Config</h3>
+<p>未添加</p>
+<h3 id="about">About</h3>
+<p>关于 ComfyUI, 系统信息, 设备信息等</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+          <a id="logo" href="/">
+            <img width="280px" src="/hb.png"></img>
+            <br><font face="serif" size="5" color="#FF0000"><b>明 文 视 界</b></font>
+          </a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="搜索...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['zh'];
+        </script>
+        <script src="/js/auto-complete.js?1733108965" defer></script>
+        <script src="/js/lunr.min.js?1733108965" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1733108965" defer></script>
+        <script src="/js/lunr.multi.min.js?1733108965" defer></script>
+        <script src="/js/lunr.zh.min.js?1733108965" defer></script>
+        <script src="/js/search.js?1733108965" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics">
+          <li data-nav-id="/01_aigc_object/" title="ACGC 项目资源集" class="dd-item"><input type="checkbox" id="section-33ed1d2a346ed20d642e8be7edffce65" class="toggle"/><label for="section-33ed1d2a346ed20d642e8be7edffce65" ></label><a href="/01_aigc_object/">ACGC 项目资源集</a><ul>
+          <li data-nav-id="/01_aigc_object/01_object/" title="项目的官方网站" class="dd-item"><a href="/01_aigc_object/01_object/">项目的官方网站</a></li>
+          <li data-nav-id="/01_aigc_object/02_github/" title="项目的 GitHub 主页" class="dd-item"><a href="/01_aigc_object/02_github/">项目的 GitHub 主页</a></li>
+          <li data-nav-id="/01_aigc_object/03_hugging/" title="Hugging Face Space" class="dd-item"><a href="/01_aigc_object/03_hugging/">Hugging Face Space</a></li>
+          <li data-nav-id="/01_aigc_object/04_web/" title="AIGC 相关网站" class="dd-item"><a href="/01_aigc_object/04_web/">AIGC 相关网站</a></li>
+          <li data-nav-id="/01_aigc_object/05_doc/" title="相关文档资料" class="dd-item"><a href="/01_aigc_object/05_doc/">相关文档资料</a></li></ul></li>
+          <li data-nav-id="/02_comfyui/" title="ComfyUI 教程资源" class="dd-item parent"><input type="checkbox" id="section-b139ed5ac8d7ecf0bdd93cad7cc2ee6f" class="toggle" checked/><label for="section-b139ed5ac8d7ecf0bdd93cad7cc2ee6f" ></label><a href="/02_comfyui/">ComfyUI 教程资源</a><ul>
+          <li data-nav-id="/02_comfyui/01_interface/" title="界面介绍" class="dd-item active"><a href="/02_comfyui/01_interface/">界面介绍</a></li>
+          <li data-nav-id="/02_comfyui/02_basic/" title="基本概念" class="dd-item"><a href="/02_comfyui/02_basic/">基本概念</a></li>
+          <li data-nav-id="/02_comfyui/03_built-in/" title="内置节点" class="dd-item"><a href="/02_comfyui/03_built-in/">内置节点</a></li>
+          <li data-nav-id="/02_comfyui/04_common-nodes/" title="常用自定义节点" class="dd-item"><a href="/02_comfyui/04_common-nodes/">常用自定义节点</a></li></ul></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title"></div>
+          <ul>
+            <li><a class="padding" href="/about">About</a></li>
+          </ul>
+        </div>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="black" value="black" selected>Black</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> 清理历史记录</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">      <p>粤ICP备 <a href="https://beian.miit.gov.cn/#/Integrated/index">20041225号</a></p>
+      <p></a><img src="/beian.png" >粤公网安备<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030702003010"> 44030702003010号</a>
+      <p>©2022 <a href="https://wuhao.online">吴明文</a></p>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1733108965" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1733108965" defer></script>
+    <script src="/js/featherlight.min.js?1733108965" defer></script>
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1733108965" defer></script>
+    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
+    </script>
+    <script src="https://unpkg.com/rapidoc/dist/rapidoc-min.js" defer></script>
+    <script>
+      window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
+    </script>
+    <script src="/js/theme.js?1733108965" defer></script>
+  </body>
+</html>
