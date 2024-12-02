@@ -11,6 +11,10 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 搜索问答
 
+[纳米搜索](https://n.cn/) 2024-12-02
+
+[书生·浦语](https://internlm-chat.intern-ai.org.cn/) 2024-12-02
+
 [Kimi](https://kimi.moonshot.cn/)
 
 [chatgpt](https://chatgpt.com/)
@@ -64,6 +68,8 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 [WHEE - 高品质的AI素材生成器](https://www.whee.com/)
 
 ### 视频
+
+[VidAU Creative Center](https://app.vidau.ai/site/creativeCenter) 2024-12-02
 
 [kaze.ai - AI-powered Free Online Removing Watermark and Logos Tool](https://kaze.ai/) 2024-11-27
 
@@ -181,6 +187,8 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 代码
 
+[Codeium · Free AI Code Completion & Chat](https://codeium.com/) 2024-12-02
+
 [MarsCode - AI IDE](https://www.marscode.com/home)
 
 [Cursor](https://www.cursor.com/)
@@ -208,6 +216,24 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 [Excalidraw](https://excalidraw.com/)
 
 ### 等待中的项目
+
+[AnchorCrafter](https://cangcz.github.io/Anchor-Crafter/) 2024-12-02
+
+[Generative Omnimatte: Learning to Decompose Video into Layers](https://gen-omnimatte.github.io/) 2024-12-02
+
+[lehduong/OneDiffusion](https://github.com/lehduong/OneDiffusion) 2024-12-02
+
+[LipDub AI | The most realistic AI lip sync and video translation](https://www.lipdub.ai/) 2024-12-02
+
+[MyTimeMachine: Personalized Facial Age Transformation](https://mytimemachine.github.io/) 2024-12-02
+
+[Buffer Anytime: Zero-Shot Video Depth and Normal from Image Priors](https://bufferanytime.github.io/) 2024-12-02
+
+[MultiFoley](https://ificl.github.io/MultiFoley/) 2024-12-02
+
+[Sonic: Shifting Focus to Global Audio Perception in Audio-driven Portrait Animation](https://jixiaozhong.github.io/Sonic/) 2024-12-02
+
+[lewandofskee/MobileMamba: Official implementation of `MobileMamba: Lightweight Multi-Receptive Visual Mamba Network.'](https://github.com/lewandofskee/MobileMamba) 2024-12-02
 
 [Baking Gaussian Splatting into Diffusion Denoiser for Fast and Scalable Single-stage Image-to-3D Generation](https://caiyuanhao1998.github.io/project/DiffusionGS/) 2024-11-27
 
@@ -309,6 +335,18 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 视频
 
+[hmrishavbandy/FlipSketch: FlipSketch: Flipping Static Drawings to Text-Guided Sketch Animations](https://github.com/hmrishavbandy/FlipSketch) 2024-12-02
+
+[KwaiVGI/LivePortrait: Bring portraits to life!](https://github.com/KwaiVGI/LivePortrait) 2024-12-02
+
+[C0untFloyd/roop-unleashed: Evolved Fork of roop with Web Server and lots of additions](https://github.com/C0untFloyd/roop-unleashed) 2024-12-02
+
+[jdh-algo/JoyVASA](https://github.com/jdh-algo/JoyVASA) 2024-12-02
+
+[PKU-YuanGroup/ConsisID: Identity-Preserving Text-to-Video Generation by Frequency Decomposition](https://github.com/PKU-YuanGroup/ConsisID) 2024-12-02
+
+[rhymes-ai/Allegro: Allegro is a powerful text-to-video model that generates high-quality videos up to 6 seconds at 15 FPS and 720p resolution from simple text input.](https://github.com/rhymes-ai/Allegro) 2024-12-02
+
 [k4yt3x/video2x: A machine learning-based lossless video super resolution framework. Est. Hack the Valley II, 2018.](https://github.com/k4yt3x/video2x) 2024-11-27
 
 [facefusion/facefusion: Industry leading face manipulation platform](https://github.com/facefusion/facefusion) 2024-11-27
@@ -384,6 +422,8 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 [Lightricks/LTX-Video: Official repository for LTX-Video](https://github.com/Lightricks/LTX-Video)
 
 ### ComfyUI
+
+[sipie800/ComfyUI-PuLID-Flux-Enhanced](https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced) 2024-12-02
 
 [EvilBT/ComfyUI_SLK_joy_caption_two: ComfyUI Node](https://github.com/EvilBT/ComfyUI_SLK_joy_caption_two?tab=readme-ov-file) 2024-11-27
 
@@ -525,6 +565,8 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 训练脚本
 
+[hiyouga/LLaMA-Factory: Unified Efficient Fine-Tuning of 100+ LLMs (ACL 2024)](https://github.com/hiyouga/LLaMA-Factory) 2024-12-02
+
 [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts)
 
 [cocktailpeanut/fluxgym: Dead simple FLUX LoRA training UI with LOW VRAM support](https://github.com/cocktailpeanut/fluxgym)
@@ -538,6 +580,8 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 [Nerogar/OneTrainer: OneTrainer is a one-stop solution for all your stable diffusion training needs.](https://github.com/Nerogar/OneTrainer)
 
 ### 图像设计
+
+[chengyou-jia/ChatGen](https://github.com/chengyou-jia/ChatGen?tab=readme-ov-file) 2024-12-02
 
 [erwold/qwen2vl-flux](https://github.com/erwold/qwen2vl-flux) 2024-11-27
 
@@ -685,6 +729,16 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 
 ### 其他
 
+[showlab/ShowUI: Repository for ShowUI: One Vision-Language-Action Model for GUI Visual Agent](https://github.com/showlab/ShowUI) 2024-12-02
+
+[turboderp/exllamav2: A fast inference library for running LLMs locally on modern consumer-class GPUs](https://github.com/turboderp/exllamav2) 2024-12-02
+
+[instructor-ai/instructor: structured outputs for llms](https://github.com/instructor-ai/instructor) 2024-12-02
+
+[Comprehensive Guide to Prompting Techniques - Instructor](https://python.useinstructor.com/prompting/) 2024-12-02
+
+[huggingface/transformers.js: State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!](https://github.com/huggingface/transformers.js) 2024-12-02
+
 [Ucas-HaoranWei/GOT-OCR2.0: Official code implementation of General OCR Theory: Towards OCR-2.0 via a Unified End-to-end Model](https://github.com/Ucas-HaoranWei/GOT-OCR2.0)
 
 [deepseek-ai/DeepSeek-VL: DeepSeek-VL: Towards Real-World Vision-Language Understanding](https://github.com/deepseek-ai/DeepSeek-VL)
@@ -740,6 +794,16 @@ AI 发展日新月异, 以下项目是目前 (2024-11-23) 搜集整理的非常�
 [gpt-omni/mini-omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities。](https://github.com/gpt-omni/mini-omni2)
 
 ## Hugging Face
+
+[Qwen2vl Flux Mini Demo - a Hugging Face Space by Djrango](https://huggingface.co/spaces/Djrango/qwen2vl-flux-mini-demo) 2024-12-02
+
+[IC Light V2-Vary - a Hugging Face Space by lllyasviel](https://huggingface.co/spaces/lllyasviel/iclight-v2-vary) 2024-12-02
+
+[IllusionDiffusion - a Hugging Face Space by AP123](https://huggingface.co/spaces/AP123/IllusionDiffusion) 2024-12-02
+
+[ReplaceAnything - a Hugging Face Space by modelscope](https://huggingface.co/spaces/modelscope/ReplaceAnything) 2024-12-02
+
+[QwQ-32B-Preview - a Hugging Face Space by Qwen](https://huggingface.co/spaces/Qwen/QwQ-32B-preview) 2024-12-02
 
 [OminiControl - a Hugging Face Space by Yuanshi](https://huggingface.co/spaces/Yuanshi/OminiControl) 2024-11-27
 
