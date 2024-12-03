@@ -5,7 +5,62 @@
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30f/512.gif" alt="🌏" width="32" height="32">
 </picture>
 
-AI 发展日新月异, 以下项目是自 2024-11-23 起, 搜集整理的非常棒的项目/应用/资源... 后面新添加, 都会标注日期.
+AI 发展日新月异, 以下项目是目自 2024-11-23 起, 搜集整理的非常棒的项目/应用/资源... 后面新添加, 都会标注日期.
+
+
+## 项目官方网站
+
+[语鲸](https://lingowhale.com/home) 2024-12-03
+
+[深言达意 – 找词找句](https://www.shenyandayi.com/) 2024-12-03
+
+[爱校对官网-免费高效的错别字检查工具](https://www.ijiaodui.com/) 2024-12-03
+
+[Learn About](https://learning.google.com/experiments/learn-about?) 2024-12-03
+
+[World Labs](https://www.worldlabs.ai/) 2024-12-03
+
+[通义tongyi.ai_你的全能AI助手-通义千问](https://tongyi.aliyun.com/) 2024-12-03
+
+[天工AI - 搜索更深度，阅读更多彩](https://www.tiangong.cn/) 2024-12-03
+
+[讯飞星火大模型-AI大语言模型-星火大模型-科大讯飞](https://xinghuo.xfyun.cn/desk) 2024-12-03
+
+[文心一言](https://yiyan.baidu.com/) 2024-12-03
+
+[Home • Hume AI](https://www.hume.ai/) 2024-12-03
+
+[Cohere | The leading AI platform for enterprise](https://cohere.com/) 2024-12-03
+
+[腾讯混元文生视频](https://video.hunyuan.tencent.com/) 2024-12-03
+
+[PixelDance - PixelDance AI - 领先的AI视频生成平台](https://pixeldance.io/zh) 2024-12-03
+
+## GitHub 项目
+
+[hiroi-sora/Umi-OCR: OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。](https://github.com/hiroi-sora/Umi-OCR) 2024-12-03
+
+[Significant-Gravitas/AutoGPT: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.](https://github.com/Significant-Gravitas/AutoGPT) 2024-12-03
+
+[OpenBMB/ChatDev: Create Customized Software using Natural Language Idea (through LLM-powered Multi-Agent Collaboration)](https://github.com/OpenBMB/ChatDev) 2024-12-03
+
+[prs-eth/RollingDepth: Video Depth without Video Models](https://github.com/prs-eth/rollingdepth) 2024-12-03
+
+[Tencent/HunyuanVideo](https://github.com/Tencent/HunyuanVideo) 2024-12-03
+
+## Hugging Face
+
+[TryOffDiff - a Hugging Face Space by rizavelioglu](https://huggingface.co/spaces/rizavelioglu/tryoffdiff) 2024-12-03
+
+## 等待中的项目
+
+[Freditor](https://aigc3d.github.io/freditor/) 2024-12-03
+
+[mayuelala/FollowYourClick: [arXiv 2024] Follow-Your-Click: This repo is the official implementation of "Follow-Your-Click: Open-domain Regional Image Animation via Short Prompts"](https://github.com/mayuelala/FollowYourClick?tab=readme-ov-file) 2024-12-03
+
+------
+------
+------
 
 ## 项目网站
 

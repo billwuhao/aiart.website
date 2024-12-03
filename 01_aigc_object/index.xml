@@ -11,7 +11,20 @@
       <link>/01_aigc_object/01_object/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_object/</guid>
-      <description>搜索问答 纳米搜索 2024-12-02
+      <description>未分类 语鲸 2024-12-03
+深言达意 – 找词找句 2024-12-03
+爱校对官网-免费高效的错别字检查工具 2024-12-03
+Learn About 2024-12-03
+World Labs 2024-12-03
+通义tongyi.ai_你的全能AI助手-通义千问 2024-12-03
+天工AI - 搜索更深度，阅读更多彩 2024-12-03
+讯飞星火大模型-AI大语言模型-星火大模型-科大讯飞 2024-12-03
+文心一言 2024-12-03
+Home • Hume AI 2024-12-03
+Cohere | The leading AI platform for enterprise 2024-12-03
+腾讯混元文生视频 2024-12-03
+PixelDance - PixelDance AI - 领先的AI视频生成平台 2024-12-03
+搜索问答 纳米搜索 2024-12-02
 书生·浦语 2024-12-02
 Kimi
 chatgpt
@@ -22,49 +35,32 @@ Meta AI
 豆包 - 抖音旗下 AI 智能助手
 Google AI Studio
 Claude
-知乎直答
-360搜
-Poe
-HuggingChat
-视频, 语音, 绘图等综合 智谱清言
-即梦AI - 一站式AI创作平台
-可灵 AI - 新一代 AI 创意生产力平台
-海螺 AI
-跃问
-Luma Dream Machine | AI Video Generator
-KREA AI - AIGC集合-风格-图有免费
-Home - Leonardo.Ai
-AI Test Kitchen
-LimeWire
-Le Chat - Mistral AI
-WHEE - 高品质的AI素材生成器
-视频 VidAU Creative Center 2024-12-02</description>
+知乎直答</description>
     </item>
     <item>
       <title>项目的 GitHub 主页</title>
       <link>/01_aigc_object/02_github/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/02_github/</guid>
-      <description>视频 hmrishavbandy/FlipSketch: FlipSketch: Flipping Static Drawings to Text-Guided Sketch Animations 2024-12-02
-KwaiVGI/LivePortrait: Bring portraits to life! 2024-12-02
-C0untFloyd/roop-unleashed: Evolved Fork of roop with Web Server and lots of additions 2024-12-02
-jdh-algo/JoyVASA 2024-12-02
-PKU-YuanGroup/ConsisID: Identity-Preserving Text-to-Video Generation by Frequency Decomposition 2024-12-02
-rhymes-ai/Allegro: Allegro is a powerful text-to-video model that generates high-quality videos up to 6 seconds at 15 FPS and 720p resolution from simple text input. 2024-12-02
-k4yt3x/video2x: A machine learning-based lossless video super resolution framework.</description>
+      <description>未分类 hiroi-sora/Umi-OCR: OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。 2024-12-03
+Significant-Gravitas/AutoGPT: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. 2024-12-03
+OpenBMB/ChatDev: Create Customized Software using Natural Language Idea (through LLM-powered Multi-Agent Collaboration) 2024-12-03
+prs-eth/RollingDepth: Video Depth without Video Models 2024-12-03
+Tencent/HunyuanVideo 2024-12-03
+视频 hmrishavbandy/FlipSketch: FlipSketch: Flipping Static Drawings to Text-Guided Sketch Animations 2024-12-02</description>
     </item>
     <item>
       <title>Hugging Face Space</title>
       <link>/01_aigc_object/03_hugging/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/03_hugging/</guid>
-      <description>项目的 Hugging Face Space Qwen2vl Flux Mini Demo - a Hugging Face Space by Djrango 2024-12-02
+      <description>TryOffDiff - a Hugging Face Space by rizavelioglu 2024-12-03
+项目的 Hugging Face Space Qwen2vl Flux Mini Demo - a Hugging Face Space by Djrango 2024-12-02
 IC Light V2-Vary - a Hugging Face Space by lllyasviel 2024-12-02
 IllusionDiffusion - a Hugging Face Space by AP123 2024-12-02
 ReplaceAnything - a Hugging Face Space by modelscope 2024-12-02
 QwQ-32B-Preview - a Hugging Face Space by Qwen 2024-12-02
-OminiControl - a Hugging Face Space by Yuanshi 2024-11-27
-ACE-Chat - a Hugging Face Space by scepter-studio</description>
+OminiControl - a Hugging Face Space by Yuanshi 2024-11-27</description>
     </item>
     <item>
       <title>AIGC 相关网站</title>
@@ -103,6 +99,23 @@ hesamsheikh/ml-retreat: Machine Learning Journal for Intermediate to Advanced To
 Midjourney Documentation and User Guide
 归档(可以不用看) Resources for GAN Artists
 Disco Diffusion Portrait Study (by @enviraldesign) - Google 文档</description>
+    </item>
+    <item>
+      <title>等待中的项目</title>
+      <link>/01_aigc_object/06_wait/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/06_wait/</guid>
+      <description>等待中的项目是指只有论文或介绍, 还不能用的项目.
+Freditor 2024-12-03
+mayuelala/FollowYourClick: [arXiv 2024] Follow-Your-Click: This repo is the official implementation of &amp;ldquo;Follow-Your-Click: Open-domain Regional Image Animation via Short Prompts&amp;rdquo; 2024-12-03
+AnchorCrafter 2024-12-02
+Generative Omnimatte: Learning to Decompose Video into Layers 2024-12-02
+lehduong/OneDiffusion 2024-12-02
+LipDub AI | The most realistic AI lip sync and video translation 2024-12-02
+MyTimeMachine: Personalized Facial Age Transformation 2024-12-02
+Buffer Anytime: Zero-Shot Video Depth and Normal from Image Priors 2024-12-02
+MultiFoley 2024-12-02
+Sonic: Shifting Focus to Global Audio Perception in Audio-driven Portrait Animation 2024-12-02</description>
     </item>
   </channel>
 </rss>
