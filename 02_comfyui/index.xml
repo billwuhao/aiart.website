@@ -34,7 +34,11 @@ Default UI: 设置桌面启动时在主菜单中显示的默认状态.</descript
       <link>/02_comfyui/02_basic/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/02_comfyui/02_basic/</guid>
-      <description> </description>
+      <description>上一章我们详细梳理了官方桌面版本的界面&amp;mdash;-各种功能, 设置, 快捷键, 扩展等等.
+这一章我们就来详细介绍基本概念, 其实也算不上基本概念, 就是对一些关键词的大白话描述, 能够简单理解就行, 需要深入研究, 问 AI 能够将实现细节, 以及背后的数学原理都讲清楚. 这里的基本概念仅限于图像生成, 而文本,音频和视频等生成将在后面介绍.
+基本概念非常重要, 可以说, 在这个 AI 时代, 掌握基本概念是急速学习的秘诀. 不管学什么, 基本概念掌握了, 你就能够比较标准的组织相关领域的语言, 然后向装着全世界知识的 AI 提问, 他就能够给你很好的答案, 你也能够相对轻松地理解, 然后继续追问, 大踏步向着更专业迈进&amp;hellip;
+从基本工作流开始 一个完整的 ComfyUI 生图工作流, 大致可以分为 4 个阶段:
+加载模型 输入, 预处理和设置参数 执行生成 后处理和输出结果 加载模型 目前知名的大模型有 SD 1.4, SD 1.5, SD 1.5 LCM, SD 1.5 Hyper, SDXL 1.0, SDXL Turbo, SDXL Lightning, SDXL Hyper, SD 3.5 Medium, SD 3.5 Large, SD 3.</description>
     </item>
     <item>
       <title>内置节点</title>

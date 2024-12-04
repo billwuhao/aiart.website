@@ -10,18 +10,18 @@
     <title>基本概念 - aiart.website</title>
     <link href="/02_comfyui/02_basic/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1733232693" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1733232693" rel="stylesheet"></noscript>
-    <link href="/css/featherlight.min.css?1733232693" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1733232693" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1733232693" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1733232693" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1733232693" rel="stylesheet">
-    <link href="/css/nucleus.css?1733232693" rel="stylesheet">
-    <link href="/css/fonts.css?1733232693" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1733232693" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1733232693" rel="stylesheet">
-    <link href="/css/theme-black.css?1733232693" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1733232693" rel="stylesheet">
-    <link href="/css/variant.css?1733232693" rel="stylesheet">
-    <link href="/css/print.css?1733232693" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1733232693"></script>
+    <link href="/css/fontawesome-all.min.css?1733291390" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1733291390" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1733291390" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1733291390" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1733291390" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1733291390" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1733291390" rel="stylesheet">
+    <link href="/css/nucleus.css?1733291390" rel="stylesheet">
+    <link href="/css/fonts.css?1733291390" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1733291390" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1733291390" rel="stylesheet">
+    <link href="/css/theme-black.css?1733291390" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1733291390" rel="stylesheet">
+    <link href="/css/variant.css?1733291390" rel="stylesheet">
+    <link href="/css/print.css?1733291390" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1733291390"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -37,7 +37,7 @@
       var baseUriFull='/';
       window.variants && variants.init( [ 'black' ] );
     </script>
-    <script src="/js/jquery.min.js?1733232693" defer></script>
+    <script src="/js/jquery.min.js?1733291390" defer></script>
   </head>
   <body class="mobile-support html" data-url="/02_comfyui/02_basic/">
     <div id="body" class="default-animation">
@@ -61,7 +61,11 @@
             <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#heading"></a></li>
+    <li><a href="#从基本工作流开始">从基本工作流开始</a></li>
+    <li><a href="#加载模型">加载模型</a></li>
+    <li><a href="#输入-预处理和设置参数">输入, 预处理和设置参数</a></li>
+    <li><a href="#执行生成">执行生成</a></li>
+    <li><a href="#后处理和输出结果">后处理和输出结果</a></li>
   </ul>
 </nav>
             </div>
@@ -75,7 +79,247 @@
           <article class="default">
 <h1>基本概念</h1>
 
-<h2 id="heading"></h2>
+<p>上一章我们详细梳理了官方桌面版本的界面&mdash;-各种功能, 设置, 快捷键, 扩展等等.</p>
+<p>这一章我们就来详细介绍基本概念, 其实也算不上基本概念, 就是对一些关键词的大白话描述, 能够简单理解就行, 需要深入研究, 问 AI 能够将实现细节, 以及背后的数学原理都讲清楚. 这里的基本概念仅限于图像生成, 而文本,音频和视频等生成将在后面介绍.</p>
+<p>基本概念非常重要, 可以说, 在这个 AI 时代, 掌握基本概念是急速学习的秘诀. 不管学什么, 基本概念掌握了, 你就能够比较标准的组织相关领域的语言, 然后向装着全世界知识的 AI 提问, 他就能够给你很好的答案, 你也能够相对轻松地理解, 然后继续追问, 大踏步向着更专业迈进&hellip;</p>
+<h2 id="从基本工作流开始">从基本工作流开始</h2>
+<p><img src="2024-12-03_23-11-35-1.jpg" alt="alt text"></p>
+<p>一个完整的 ComfyUI 生图工作流, 大致可以分为 4 个阶段:</p>
+<ul>
+<li>加载模型</li>
+<li>输入, 预处理和设置参数</li>
+<li>执行生成</li>
+<li>后处理和输出结果</li>
+</ul>
+<h2 id="加载模型">加载模型</h2>
+<p>目前知名的大模型有 <code>SD 1.4</code>, <code>SD 1.5</code>, <code>SD 1.5 LCM</code>, <code>SD 1.5 Hyper</code>, <code>SDXL 1.0</code>, <code>SDXL Turbo</code>, <code>SDXL Lightning</code>, <code>SDXL Hyper</code>, <code>SD 3.5 Medium</code>, <code>SD 3.5 Large</code>, <code>SD 3.5 Large Turbo</code>, <code>Pony</code>, <code>Flux .1S</code>, <code>Flux.1 D</code>, <code>Stable Cascade</code>, <code>PixArt</code>, <code>Hunyuan</code>, <code>Kolors</code> 等, 以及社区基于底模训练的各种版本, 非常丰富.</p>
+<p>其中, 最常用的是 SD1.5, SDXL, SD3.5, Flux 四大类.</p>
+<p>除了大模型, 还有与大模型配套的模型和组件, 主要有 CLIP, VAE, Lora, Controlnet 等.</p>
+<p>对这些模型, 需要清楚下面几点:</p>
+<ul>
+<li>
+<p>大模型是基底, 生图时, 不同的大模型一般需要不同的 CLIP, VAE, Lora, Controlnet 等.</p>
+</li>
+<li>
+<p>CLIP 是连接文本和图像的桥梁, 将输入的提示词 &ldquo;翻译&rdquo; 给计算机, 或反过来.</p>
+</li>
+<li>
+<p>VAE 则是将我们人类看到的图像, 处理成计算机能理解的信号, 或反过来.</p>
+</li>
+<li>
+<p>Lora 是基于特定大模型训练而来, 它就像一个 &ldquo;说明书&rdquo;, 告诉大模型, &ldquo;你要给我这个样子的&rdquo;, &ldquo;你要给我这个风格的&rdquo;&hellip; 因此训练 Lora 需要对用来训练的图像打标 (也就是将图像翻译成提示词), 做出一个说明书来, 生成的时候, 又用这个说明书 (触发词) 指导大模型生成. 基于同一个大模型版本训练的 Lora, 一般都能用, 但是出不出效果, 就要看训练 Lora 的人用的底模具体是哪个版本.</p>
+</li>
+<li>
+<p>Controlnet 则是基于大模型版本训练, 相同版本的大模型都能用, 通常用于 图像到图像 的生成. 它像一个 &ldquo;结构图&rdquo;, 告诉大模型, &ldquo;你要按照我这个结构来画&rdquo;, 不要将 &ldquo;春树秋霜图&rdquo; 画成 &ldquo;小鸡食米图&rdquo;.</p>
+</li>
+<li>
+<p>FP32, FP16, FP8, BF16 等, 表示模型权重的 数据类型 或 精度, FP32 提供高精度计算，FP16 和 BF16 提供更高效的计算, BF16 专门用于加速计算, 在精度方面，BF16 比 FP16 更能保留重要的信息，FP8 用于高效的计算，但会有精度损失. (还有整数精度的 INT8, INT16, INT32)</p>
+</li>
+<li>
+<p>常见的模型的格式有:</p>
+<p>.ckpt 文件：广泛使用，兼容性好。 但可能包含冗余信息，文件较大。</p>
+<p>.safetensors 文件： 更安全，高效，文件较小。 需要特定的加载器支持。</p>
+<p>.pt 或 .pth 文件： PyTorch 原生格式，兼容性好。 文件可能较大，需要 PyTorch 环境支持。</p>
+<p>.bin 文件格式通常用于存储二进制数据，在深度学习和机器学习领域，.bin 文件则常用于存储模型的权重和配置信息</p>
+</li>
+</ul>
+<p>大模型可以将 CLIP 和 VAE 合并在一起, 这种版本的大模型, 加载时一般使用 <code>Load Checkpoint</code> 加载器:</p>
+<p><img src="image.png" alt="alt text"></p>
+<p>否则, 加载大模型时, 一般使用 <code>Load Diffusion Model</code> 加载器 (这种大模型通常是 扩散模型Diffusion Model 和 UNet 模型), 并且 CLIP 和 VAE 需要单独加载:</p>
+<p><img src="image-1.png" alt="alt text"></p>
+<p>Lora 和 Controlnet 则需要单独加载.</p>
+<h2 id="输入-预处理和设置参数">输入, 预处理和设置参数</h2>
+<ul>
+<li>
+<p>提示词（Prompt）: 就是对你要生成的图像的自然语言描述. 正向提示词就是你要生成的结果; 负向提示词则是你不希望出现的结果.</p>
+</li>
+<li>
+<p>文本预处理</p>
+<p>分词：将文本分割成单词或子词，以便进行编码. 文本编码：将提示词转换为模型可以理解的嵌入向量。</p>
+<p>提示词通过 CLIP 编码, 引导模型生成与描述词相符的图像. 提示词可以不输入, 也会生成随机噪声, 指导生成大模型 &ldquo;记忆中&rdquo; 的随机图像.</p>
+</li>
+<li>
+<p>初始图像（Initial Image）</p>
+<p>输入图像：在某些情况下，可以提供一个初始图像，模型会基于这个图像进行生成或变换。图像变换：如风格迁移、图像修复或图像增强等任务。</p>
+</li>
+<li>
+<p>图像预处理</p>
+<p>调整大小：将输入图像调整到模型所需的尺寸。归一化：将图像像素值归一化到模型所需的范围（通常是 0 到 1）。数据增强：如旋转、翻转、裁剪等，用于增加数据多样性.</p>
+</li>
+<li>
+<p>Latent Image: 潜空间图像, 我们不理解但人工智能 &ldquo;看&rdquo; 得懂的图像. 如果需要用到 图生图, 则需要 VAE 编码为 Latent Image, 否则就生成一个空的 Latent Image, 它们都需要设置宽/高 (或者参考原图宽/高).</p>
+<p>如果用到 图像缩放, 裁剪, 图生图, 图像重绘, 用 Controlnet 预处理, 条件组合, 参考 Lora 等, 则需要各种预处理以及参数设置. 具体细节将在下一章 <code>内置节点</code> 对各种预处理节点详细介绍.</p>
+</li>
+</ul>
+<h2 id="执行生成">执行生成</h2>
+<p>执行生成, 就是采样器按照之前的各种预处理条件, 和设置的参数, 拿起神笔开始泼墨挥毫画画的过程.</p>
+<p>参数详解:</p>
+<ul>
+<li>
+<p>seed: 种子, 真的就是一颗种子, 埋到土里, 能长小花还是小草, 这颗种子很重要. 种子可以用来确定生成图像的构图 (宽高比, 采样器不变).</p>
+</li>
+<li>
+<p>图像生成后, 可以选择 fixed(固定), increment(增加), decrement(减小), randomize(随机化) 种子.</p>
+</li>
+<li>
+<p>steps: 采样过程中的迭代次数, 步数 直接影响生成图像的质量、细节和计算效率。步数越多，生成过程的细节越丰富，生成结果的质量通常会更高，但同时，生成的时间和计算资源消耗也会增加, 需要一个平衡点. 复杂, 细节多的就增加步数.</p>
+</li>
+<li>
+<p>CFG: 同一个模型, 较高的 CFG 值, 图像会更符合输入条件，生成内容更加集中和精确，但可能牺牲创意和多样性。适用于需要精确控制生成内容的任务。较低的 CFG 值, 图像生成过程更具随机性和创意，适用于需要多样性或探索更多可能性的任务，但可能导致与输入条件不太一致的结果. 不同模型, CFG 值的最佳范围可能不同.</p>
+</li>
+<li>
+<p>采样器: 目前 ComfyUI 有</p>
+<p>euler<br>
+euler_cfg_pp<br>
+euler_ancestral<br>
+euler_ancestral_cfg_pp<br>
+heun<br>
+heunpp2<br>
+dpm_2<br>
+dpm_2_ancestral<br>
+Lms<br>
+dpm_fast<br>
+dpm_adaptive<br>
+dpmpp_2s_ancestral<br>
+dpmpp_2s_ancestral_cfg_pp<br>
+dpmpp_sde<br>
+dpmpp_sde_gpu<br>
+dpmpp_2m<br>
+dpmpp_2m_cfg_pp<br>
+dpmpp_2m_sde<br>
+dpmpp_2m_sde_gpu<br>
+dpmpp_3m_sde<br>
+dpmpp_3m_sde_gpu<br>
+ddpm<br>
+Lcm<br>
+ipndm<br>
+ipndm_v<br>
+deis<br>
+ddim<br>
+uni_pc<br>
+uni_pc_bh2</p>
+</li>
+</ul>
+<p>各种采样器都有什么特点, 优缺点, 自行 ChatGPT.</p>
+<p>对于需要快速生成的场景，可以选择 DPM_Fast、DDIM 等高效采样器.</p>
+<p>如果想要速度快、收敛性好、质量也不错，且想试试新东西的话，最好选择：<br>
+DPM++ 2M Karras<br>
+UniPC</p>
+<p>如果想要比较好的质量，同时不在意是否收敛的话，可以选择：<br>
+DPM++ SDE Karras<br>
+DDIM</p>
+<p>如果想要稳定、可复现的结果，不要用任何带有随机性的采样器，比如祖先采样器.</p>
+<p>如果想生成一些简单的结果，可以用 Euler 或 Heun. 在使用 Heun 时，可以调低一些步数来节省时间.</p>
+<ul>
+<li>调度器 scheduler: 目前 ComfyUI 有</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>调度器</th>
+<th>优点</th>
+<th>缺点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Normal</td>
+<td>稳定，易于实现</td>
+<td>生成质量一般，缺乏针对特定任务的优化</td>
+</tr>
+<tr>
+<td>Karras</td>
+<td>高质量生成，适合细节丰富的图像</td>
+<td>计算开销大，复杂度高</td>
+</tr>
+<tr>
+<td>Exponential</td>
+<td>快速收敛，适合快速生成</td>
+<td>生成质量较差，可能缺乏细节</td>
+</tr>
+<tr>
+<td>SGM Uniform</td>
+<td>噪声均匀，生成过程可控</td>
+<td>计算开销大，生成速度较慢</td>
+</tr>
+<tr>
+<td>Simple</td>
+<td>高效，计算简单</td>
+<td>生成质量低，缺乏灵活性</td>
+</tr>
+<tr>
+<td>DDIM Uniform</td>
+<td>高效，生成质量较好</td>
+<td>噪声控制不如指数衰减精细</td>
+</tr>
+<tr>
+<td>Beta</td>
+<td>灵活，适应性强，能够定制噪声衰减曲线</td>
+<td>调整复杂，计算开销较高</td>
+</tr>
+<tr>
+<td>Linear Quadratic</td>
+<td>生成图像细节丰富，适合高精度任务</td>
+<td>计算资源消耗大，生成速度较慢</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>denoise: 去噪过程的强度或程度. 较强的去噪, 有助于生成清晰, 细节丰富的图像，但可能牺牲图像的多样性和创意，并增加计算时间. 较弱的去噪, 在图生图时, 和原图更像.</li>
+</ul>
+<p><strong>不同的模型, 模型作者在训练时, 使用的步数, CFG, 采样器, 调度器等, 对模型有重要影响. 因此使用作者推荐的参数, 是不错的选择.</strong></p>
+<h2 id="后处理和输出结果">后处理和输出结果</h2>
+<p>后处理则主要是对生成的图像进行放大 (可能需要加载放大模型), VAE 将潜空间图像解码为我们需要的图像, 预览, 对比生成结果以及保存图像等, 后面详细介绍.</p>
+<ul>
+<li>
+<p>图像放大（Upscaling）</p>
+<p>图像放大是将低分辨率图像转换为高分辨率图像的过程。这通常需要使用放大模型（Upscaling Model）来提高图像的细节和清晰度.</p>
+<p>列举一些放大模型:</p>
+<pre><code>  LDSR
+  RealESRGAN
+  ScuNET
+  Aura-SR
+  SUPIR
+  ESRGAN
+  DAT
+  SRGAN
+  RCAN
+  RDN
+  EDSR
+  LapSRN
+  VDSR
+  DRCN
+  DRRN
+  MemNet
+  CARN
+  MSRN
+  SRResNet
+  SRCNN
+  FSRCNN
+  ESPCN
+  SRFBN
+  SAN
+  RNAN
+  IMDN
+  HAN
+  DBPN
+  MDSR
+  CAR
+  LIIF
+  SwinIR
+  RRDB
+  RFDN
+  LAPAR
+  OISR
+</code></pre>
+<p>这里 <code>https://openmodeldb.info/</code> 有更多, 不同的放大模型针对性不一样, 有全能的, 有脸部的, 有风景的, 有动漫的, 有照片的&hellip; 等等等等</p>
+<p>不用模型, 潜空间放大也行, 小显存电脑, 用分块放大效果也很好, 后面会详解.</p>
+</li>
+<li>
+<p>VAE（Variational Autoencoder）解码. VAE 将潜空间图像解码为我们需要的图像.</p>
+</li>
+</ul>
+<p>最后的输出结果还可以接入下一个工作流, 继续魔法创作. 甚至将多个工作流组装成大型生产线.</p>
 
             <footer class="footline">
             </footer>
@@ -99,12 +343,12 @@
         <script>
           var contentLangs=['zh'];
         </script>
-        <script src="/js/auto-complete.js?1733232693" defer></script>
-        <script src="/js/lunr.min.js?1733232693" defer></script>
-        <script src="/js/lunr.stemmer.support.min.js?1733232693" defer></script>
-        <script src="/js/lunr.multi.min.js?1733232693" defer></script>
-        <script src="/js/lunr.zh.min.js?1733232693" defer></script>
-        <script src="/js/search.js?1733232693" defer></script>
+        <script src="/js/auto-complete.js?1733291390" defer></script>
+        <script src="/js/lunr.min.js?1733291390" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1733291390" defer></script>
+        <script src="/js/lunr.multi.min.js?1733291390" defer></script>
+        <script src="/js/lunr.zh.min.js?1733291390" defer></script>
+        <script src="/js/search.js?1733291390" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
@@ -164,9 +408,9 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1733232693" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1733232693" defer></script>
-    <script src="/js/featherlight.min.js?1733232693" defer></script>
+    <script src="/js/clipboard.min.js?1733291390" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1733291390" defer></script>
+    <script src="/js/featherlight.min.js?1733291390" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -196,7 +440,7 @@
       useMathJax( JSON.parse("{}") );
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="/js/jquery.svg.pan.zoom.js?1733232693" defer></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1733291390" defer></script>
     <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
@@ -205,6 +449,6 @@
     <script>
       window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
     </script>
-    <script src="/js/theme.js?1733232693" defer></script>
+    <script src="/js/theme.js?1733291390" defer></script>
   </body>
 </html>
