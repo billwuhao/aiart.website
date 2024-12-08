@@ -8,9 +8,9 @@
     <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/02_comfyui/03_built-in/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>内置节点01</title>
-      <link>/02_comfyui/03_built-in/01-built-in/01-built-in/</link>
+      <link>/02_comfyui/03_built-in/01-built-in/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/02_comfyui/03_built-in/01-built-in/01-built-in/</guid>
+      <guid>/02_comfyui/03_built-in/01-built-in/</guid>
       <description>许多节点的参数, 背后有很深入的数学原理, 我们如果只是使用它, 不必去深究, 先看一看, 有一个印象, 然后在使用中去调参, 看看参数对结果有什么影响, 就能慢慢熟悉.
 其实简单使用, 很多节点都用不到.
 utils 功能节点 Primitive 元节点 Primitive 节点的主要作用是提供基本数据类型（数字、字符串、布尔值等）供其他节点使用。非常适合初始化参数、调试流程或作为其他复杂操作的输入
@@ -29,16 +29,16 @@ Ksampler(Advanced) 高级K采样器节点 它大部分参数和 K 是一样的, 
     </item>
     <item>
       <title>内置节点02</title>
-      <link>/02_comfyui/03_built-in/02-built-in/02-built-in/</link>
+      <link>/02_comfyui/03_built-in/02-built-in/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/02_comfyui/03_built-in/02-built-in/02-built-in/</guid>
+      <guid>/02_comfyui/03_built-in/02-built-in/</guid>
       <description></description>
     </item>
     <item>
       <title>内置节点03</title>
-      <link>/02_comfyui/03_built-in/03-built-in/03-built-in/</link>
+      <link>/02_comfyui/03_built-in/03-built-in/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/02_comfyui/03_built-in/03-built-in/03-built-in/</guid>
+      <guid>/02_comfyui/03_built-in/03-built-in/</guid>
       <description></description>
     </item>
   </channel>
