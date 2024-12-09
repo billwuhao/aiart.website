@@ -11,6 +11,86 @@ AI 发展日新月异, 以下项目是目自 2024-11-23 起, 搜集整理的非�
 
 ## 项目官方网站
 
+[Fish Audio: Free Generative AI Text To Speech & Voice Cloning](https://fish.audio/zh-CN/) 2024-12-09
+
+[Generative Foundation Model - Amazon Nova - AWS](https://aws.amazon.com/cn/ai/generative-ai/nova/?) 2024-12-09
+
+[RunComfy: Top ComfyUI Platform - Fast & Easy, No Setup](https://www.runcomfy.com/) 2024-12-09
+
+[提示工程指南 | Prompt Engineering Guide](https://www.promptingguide.ai/zh) 2024-12-09
+
+[Prompt Engineering Guide | Prompt Engineering Guide](https://www.promptingguide.ai/) 2024-12-09
+
+[Hailuo AI Audio: Create lifelike speech](https://www.hailuo.ai/audio) 2024-12-09
+
+## GitHub 项目
+
+[FunAudioLLM/CosyVoice: Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability.](https://github.com/FunAudioLLM/CosyVoice) 2024-12-09
+
+[FunAudioLLM/SenseVoice: Multilingual Voice Understanding Model](https://github.com/FunAudioLLM/SenseVoice) 2024-12-09
+
+[modelscope/FunASR: A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc.](https://github.com/modelscope/FunASR) 2024-12-09
+
+[yformer/EfficientTAM: Efficient Track Anything](https://github.com/yformer/EfficientTAM) 2024-12-09
+
+[jingyaogong/minimind: 「大模型」3小时完全从0训练26M的小参数GPT，个人显卡即可推理训练！](https://github.com/jingyaogong/minimind) 2024-12-09
+
+[kijai/ComfyUI-HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper) 2024-12-09
+
+[jianchang512/clone-voice: A sound cloning tool with a web interface, using your voice or any sound to record audio / 一个带web界面的声音克隆工具，使用你的音色或任意声音来录制音频](https://github.com/jianchang512/clone-voice) 2024-12-09
+
+[dair-ai/Prompt-Engineering-Guide: 🐙 Guides, papers, lecture, notebooks and resources for prompt engineering](https://github.com/dair-ai/Prompt-Engineering-Guide) 2024-12-09
+
+[memoavatar/memo: Memory-Guided Diffusion for Expressive Talking Video Generation](https://github.com/memoavatar/memo) 2024-12-09
+
+[1jsingh/negtome: Official Implementation for paper: Negative Token Merging: Image-based Adversarial Feature Guidance](https://github.com/1jsingh/negtome) 2024-12-09
+
+[microsoft/TRELLIS: Official repo for paper "Structured 3D Latents for Scalable and Versatile 3D Generation".](https://github.com/microsoft/TRELLIS) 2024-12-09
+
+[Francis-Rings/StableAnimator: We present StableAnimator, the first end-to-end ID-preserving video diffusion framework, which synthesizes high-quality videos without any post-processing, conditioned on a reference image and a sequence of poses.](https://github.com/Francis-Rings/StableAnimator) 2024-12-09
+
+## Hugging Face
+
+[CosyVoice-300M · 创空间](https://www.modelscope.cn/studios/iic/CosyVoice-300M) 2024-12-09
+
+[ChatTTS Speaker - a Hugging Face Space by taa](https://huggingface.co/spaces/taa/ChatTTS_Speaker) 2024-12-09
+
+[Flux Fill Outpainting - a Hugging Face Space by multimodalart](https://huggingface.co/spaces/multimodalart/flux-fill-outpaint) 2024-12-09
+
+[Flux.1-dev Upscaler - a Hugging Face Space by jasperai](https://huggingface.co/spaces/jasperai/Flux.1-dev-Controlnet-Upscaler) 2024-12-09
+
+[Flux.1-dev Upscaler - a Hugging Face Space by Nymbo](https://huggingface.co/spaces/Nymbo/Flux.1-dev-Controlnet-Upscaler) 2024-12-09
+
+## 等待中的项目
+
+[Muse](https://muse.art/) 2024-12-09
+
+[Introducing Veo and Imagen 3 on Vertex AI | Google Cloud Blog](https://cloud.google.com/blog/products/ai-machine-learning/introducing-veo-and-imagen-3-on-vertex-ai?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy24q4-googlecloud-blog-ai-in_feed-no-brand-global&utm_content=-&utm_term=-&linkId=11948812) 2024-12-09
+
+[FLOAT](https://deepbrainai-research.github.io/float/) 2024-12-09
+
+[Genie 2: A large-scale foundation world model - Google DeepMind](https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/) 2024-12-09
+
+[SOLAMI: Social Vision-Language-Action Modeling for Immersive Interaction with 3D Autonomous Characters](https://solami-ai.github.io/) 2024-12-09
+
+[Digital Life Project](https://digital-life-project.com/) 2024-12-09
+
+[I2VControl: Disentangled and Unified Video Motion Synthesis Control](https://wanquanf.github.io/I2VControl) 2024-12-09
+
+[DualPM: Dual Posed-Canonical Point Maps for 3D Shape and Pose Reconstruction](https://dualpm.github.io/) 2024-12-09
+
+[fugatto.github.io](https://fugatto.github.io/) 2024-12-09
+
+[CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models](https://cat-4d.github.io/) 2024-12-09
+
+[SNOOPI: Supercharged One-step Diffusion Distillation with Proper Guidance](https://snoopi-onestep.github.io/) 2024-12-09
+
+[vision-xl](https://vision-xl.github.io/) 2024-12-09
+
+---------
+
+## 项目官方网站
+
 [语鲸](https://lingowhale.com/home) 2024-12-03
 
 [深言达意 – 找词找句](https://www.shenyandayi.com/) 2024-12-03
