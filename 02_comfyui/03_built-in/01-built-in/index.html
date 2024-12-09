@@ -10,18 +10,18 @@
     <title>内置节点01 - aiart.website</title>
     <link href="/02_comfyui/03_built-in/01-built-in/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1733734820" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1733734820" rel="stylesheet"></noscript>
-    <link href="/css/featherlight.min.css?1733734820" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1733734820" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1733734820" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1733734820" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1733734820" rel="stylesheet">
-    <link href="/css/nucleus.css?1733734820" rel="stylesheet">
-    <link href="/css/fonts.css?1733734820" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1733734820" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1733734820" rel="stylesheet">
-    <link href="/css/theme-black.css?1733734820" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1733734820" rel="stylesheet">
-    <link href="/css/variant.css?1733734820" rel="stylesheet">
-    <link href="/css/print.css?1733734820" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1733734820"></script>
+    <link href="/css/fontawesome-all.min.css?1733741278" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1733741278" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1733741278" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1733741278" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1733741278" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1733741278" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1733741278" rel="stylesheet">
+    <link href="/css/nucleus.css?1733741278" rel="stylesheet">
+    <link href="/css/fonts.css?1733741278" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1733741278" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1733741278" rel="stylesheet">
+    <link href="/css/theme-black.css?1733741278" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1733741278" rel="stylesheet">
+    <link href="/css/variant.css?1733741278" rel="stylesheet">
+    <link href="/css/print.css?1733741278" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1733741278"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -37,7 +37,7 @@
       var baseUriFull='/';
       window.variants && variants.init( [ 'black' ] );
     </script>
-    <script src="/js/jquery.min.js?1733734820" defer></script>
+    <script src="/js/jquery.min.js?1733741278" defer></script>
   </head>
   <body class="mobile-support html" data-url="/02_comfyui/03_built-in/01-built-in/">
     <div id="body" class="default-animation">
@@ -104,7 +104,7 @@
 <p>连接到文本编码器, 他是字符串</p>
 <p><img src="image-3.png" alt="alt text"></p>
 <p>连接到采样器节点, 则可以用来选择采样器</p>
-<p><img src="image-4.png" alt="alt text"></p>
+<p><img src="image-4.jpg" alt="alt text"></p>
 <p>例如这样连接两个采样器节点之后, 可以让两者使用同一个采样器, 还能控制采样器变化, 甚至使用正则表达式过滤采样器 (具体用法高阶在介绍)</p>
 <p>元节点作为布尔值类型时, 可以用作控制流程节点的 分支 或 功能开关 (具体用法高阶在介绍)</p>
 <p>Primitive 节点就像编程中的变量或常量，虽然功能简单，但在构建复杂流程时非常基础和重要</p>
@@ -139,11 +139,11 @@
 <h4 id="samplercustom-自定义采样器节点">SamplerCustom 自定义采样器节点</h4>
 <p><img src="image-10.png" alt="alt text"></p>
 <p>用于实现自定义采样逻辑的节点，它允许用户对图像生成的采样过程进行更灵活的控制. 将采样器和调度器分成单独节点 (提供了更多的选择, 这些选择后面会具体介绍), 将采样过程的中间结果 denoised_output 也输出</p>
-<p><img src="image-11.png" alt="alt text"></p>
+<p><img src="image-11.jpg" alt="alt text"></p>
 <h4 id="samplercustomadvanced-高级自定义采样器节点">SamplerCustomAdvanced 高级自定义采样器节点</h4>
 <p><img src="image-12.png" alt="alt text"></p>
 <p>高级的, 则将噪声, 引导条件, 采样器, 调度器都单独分开了</p>
-<p><img src="image-13.png" alt="alt text"></p>
+<p><img src="image-13.jpg" alt="alt text"></p>
 <h4 id="samplers-其他采样器">samplers 其他采样器</h4>
 <ul>
 <li>KsamplerSelect 基础采样器</li>
@@ -349,12 +349,12 @@
         <script>
           var contentLangs=['zh'];
         </script>
-        <script src="/js/auto-complete.js?1733734820" defer></script>
-        <script src="/js/lunr.min.js?1733734820" defer></script>
-        <script src="/js/lunr.stemmer.support.min.js?1733734820" defer></script>
-        <script src="/js/lunr.multi.min.js?1733734820" defer></script>
-        <script src="/js/lunr.zh.min.js?1733734820" defer></script>
-        <script src="/js/search.js?1733734820" defer></script>
+        <script src="/js/auto-complete.js?1733741278" defer></script>
+        <script src="/js/lunr.min.js?1733741278" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1733741278" defer></script>
+        <script src="/js/lunr.multi.min.js?1733741278" defer></script>
+        <script src="/js/lunr.zh.min.js?1733741278" defer></script>
+        <script src="/js/search.js?1733741278" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
@@ -417,9 +417,9 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1733734820" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1733734820" defer></script>
-    <script src="/js/featherlight.min.js?1733734820" defer></script>
+    <script src="/js/clipboard.min.js?1733741278" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1733741278" defer></script>
+    <script src="/js/featherlight.min.js?1733741278" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -449,7 +449,7 @@
       useMathJax( JSON.parse("{}") );
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="/js/jquery.svg.pan.zoom.js?1733734820" defer></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1733741278" defer></script>
     <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
@@ -458,6 +458,6 @@
     <script>
       window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
     </script>
-    <script src="/js/theme.js?1733734820" defer></script>
+    <script src="/js/theme.js?1733741278" defer></script>
   </body>
 </html>
