@@ -7,20 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/02_comfyui/03_built-in/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>内置节点 2</title>
-      <link>/02_comfyui/03_built-in/02-built-in/</link>
-      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/02_comfyui/03_built-in/02-built-in/</guid>
-      <description>加载器 Load Checkpoint Checkpoint 模型加载器, 用于加载包含了 CLIP, VAE 和 基本模型 的加载器
-Load VAE VAE 模型加载器, 用于加载 VAE 模型加载器
-Load LoRA LoRA 模型加载器, 用于加载 Lora 模型, 它的作用是调节 扩散模型(基本模型) 和 CLIP 模型, 让生成结果向 LoRA 靠近. 多个 Lora 可以连接起来. 第 2,3 个参数用于调节基本模型和 CLIP 模型权重
-LoraLoaderModelOnly 该加载器与上一个不同之处在于, 它只调节 基本模型.
-Load ControlNet Model ControlNet 模型加载器.
-Load ControlNet Model (diff) ControlNet 模型加载器的 diff 版本, 与上者不同之处在于需要输入模型.
-Load Style Model 风格模型加载器, 加载用于迁移图像风格的模型.
-Load CLIP Vision 加载 CLIP 视觉模型, 模型用于图像编码，提取图像的特征 (CLIP 则是文本编码).</description>
-    </item>
-    <item>
       <title>内置节点 1</title>
       <link>/02_comfyui/03_built-in/01-built-in/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
@@ -40,6 +26,20 @@ Note 注释节点 注释节点就是用来注释你的工作流用的, 让其他
 Reroute 转接节点 转接节点就像水管的三通管, 四通管&amp;hellip;
 sampling 采样器节点 Ksampler K采样器节点 前面已经介绍过, 再次提一下, 他是图像生成的核心节点, 任务是使用提供的模型, 正负条件, 设置的参数, 选择的采样器等对潜空间图像去噪, 输出你想要的图像 (还需要 VAE 解码)
 Ksampler(Advanced) 高级K采样器节点 它大部分参数和 K 是一样的, 它最大的特点是随机性增加, 灵活性更大</description>
+    </item>
+    <item>
+      <title>内置节点 2</title>
+      <link>/02_comfyui/03_built-in/02-built-in/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/02_comfyui/03_built-in/02-built-in/</guid>
+      <description>加载器 Load Checkpoint Checkpoint 模型加载器, 用于加载包含了 CLIP, VAE 和 基本模型 的加载器
+Load VAE VAE 模型加载器, 用于加载 VAE 模型加载器
+Load LoRA LoRA 模型加载器, 用于加载 Lora 模型, 它的作用是调节 扩散模型(基本模型) 和 CLIP 模型, 让生成结果向 LoRA 靠近. 多个 Lora 可以连接起来. 第 2,3 个参数用于调节基本模型和 CLIP 模型权重
+LoraLoaderModelOnly 该加载器与上一个不同之处在于, 它只调节 基本模型.
+Load ControlNet Model ControlNet 模型加载器.
+Load ControlNet Model (diff) ControlNet 模型加载器的 diff 版本, 与上者不同之处在于需要输入模型.
+Load Style Model 风格模型加载器, 加载用于迁移图像风格的模型.
+Load CLIP Vision 加载 CLIP 视觉模型, 模型用于图像编码，提取图像的特征 (CLIP 则是文本编码).</description>
     </item>
     <item>
       <title>内置节点 3</title>
