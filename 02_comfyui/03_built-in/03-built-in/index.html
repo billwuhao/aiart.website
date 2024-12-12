@@ -10,18 +10,18 @@
     <title>内置节点 3 - aiart.website</title>
     <link href="/02_comfyui/03_built-in/03-built-in/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1733826935" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1733826935" rel="stylesheet"></noscript>
-    <link href="/css/featherlight.min.css?1733826935" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1733826935" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1733826935" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1733826935" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1733826935" rel="stylesheet">
-    <link href="/css/nucleus.css?1733826935" rel="stylesheet">
-    <link href="/css/fonts.css?1733826935" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1733826935" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1733826935" rel="stylesheet">
-    <link href="/css/theme-black.css?1733826935" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1733826935" rel="stylesheet">
-    <link href="/css/variant.css?1733826935" rel="stylesheet">
-    <link href="/css/print.css?1733826935" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1733826935"></script>
+    <link href="/css/fontawesome-all.min.css?1733969463" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1733969463" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1733969463" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1733969463" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1733969463" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1733969463" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1733969463" rel="stylesheet">
+    <link href="/css/nucleus.css?1733969463" rel="stylesheet">
+    <link href="/css/fonts.css?1733969463" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1733969463" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1733969463" rel="stylesheet">
+    <link href="/css/theme-black.css?1733969463" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1733969463" rel="stylesheet">
+    <link href="/css/variant.css?1733969463" rel="stylesheet">
+    <link href="/css/print.css?1733969463" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1733969463"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -37,7 +37,7 @@
       var baseUriFull='/';
       window.variants && variants.init( [ 'black' ] );
     </script>
-    <script src="/js/jquery.min.js?1733826935" defer></script>
+    <script src="/js/jquery.min.js?1733969463" defer></script>
   </head>
   <body class="mobile-support html" data-url="/02_comfyui/03_built-in/03-built-in/">
     <div id="body" class="default-animation">
@@ -49,6 +49,7 @@
             <span id="sidebar-toggle-span">
               <a href="#" id="sidebar-toggle" title='导航 (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
             </span>
+            <span id="toc-menu" title='目录 (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
               <meta itemprop="itemListOrder" content="Descending" />
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="4" /><a itemprop="item" href="/"><span itemprop="name">aiart.website</span></a> > </li>
@@ -56,6 +57,93 @@
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/02_comfyui/03_built-in/"><span itemprop="name">内置节点</span></a> > </li>
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/02_comfyui/03_built-in/03-built-in/" aria-disabled="true"><span itemprop="name">内置节点 3</span></a></li>
             </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#高级节点">高级节点</a>
+      <ul>
+        <li><a href="#load-clip">Load CLIP</a></li>
+        <li><a href="#load-diffusion-model">Load Diffusion Model</a></li>
+        <li><a href="#dualcliploader">DualCLIPLoader</a></li>
+        <li><a href="#diffusersloader">DiffusersLoader</a></li>
+        <li><a href="#triplecliploader">TripleCLIPLoader</a></li>
+        <li><a href="#conditioningzeroout">ConditioningZeroOut</a></li>
+        <li><a href="#conditioningsettimesteprange">ConditioningSetTimestepRange</a></li>
+        <li><a href="#cliptextencodesdxlrefiner">CLIPTextEncodeSDXLRefiner</a></li>
+        <li><a href="#cliptextencodesdxl">CLIPTextEncodeSDXL</a></li>
+        <li><a href="#cliptextencodesd3">CLIPTextEncodeSD3</a></li>
+        <li><a href="#cliptextencodehunyuandit">CLIPTextEncodeHunyuanDiT</a></li>
+        <li><a href="#cliptextencodeflux">CLIPTextEncodeFlux</a></li>
+        <li><a href="#fluxguidance">FluxGuidance</a></li>
+        <li><a href="#modelmergesimple">ModelMergeSimple</a></li>
+        <li><a href="#modelmergeblocks">ModelMergeBlocks</a></li>
+        <li><a href="#modelmergesubtract">ModelMergeSubtract</a></li>
+        <li><a href="#modelmergeadd">ModelMergeAdd</a></li>
+        <li><a href="#save-checkpoint">Save Checkpoint</a></li>
+        <li><a href="#clipmergesimple">CLIPMergeSimple</a></li>
+        <li><a href="#clipmergesubtract">CLIPMergeSubtract</a></li>
+        <li><a href="#clipmergeadd">CLIPMergeAdd</a></li>
+        <li><a href="#clipsave">CLIPSave</a></li>
+        <li><a href="#vaesave">VAESave</a></li>
+        <li><a href="#modelsave">ModelSave</a></li>
+        <li><a href="#imageonlycheckpointsave">ImageOnlyCheckpointSave</a></li>
+        <li><a href="#modelmergesd1">ModelMergeSD1</a></li>
+        <li><a href="#modelmergesd2">ModelMergeSD2</a></li>
+        <li><a href="#modelmergesdxl">ModelMergeSDXL</a></li>
+        <li><a href="#modelmergesd3_2b">ModelMergeSD3_2B</a></li>
+        <li><a href="#modelmergeauraflow">ModelMergeAuraflow</a></li>
+        <li><a href="#modelmergeflux1">ModelMergeFlux1</a></li>
+        <li><a href="#modelmergesd35_large">ModelMergeSD35_Large</a></li>
+        <li><a href="#modelmergemochipreview">ModelMergeMochiPreview</a></li>
+        <li><a href="#modelmergeltxv">ModelMergeLTXV</a></li>
+        <li><a href="#modelsamplingdiscrete">ModelSamplingDiscrete</a></li>
+        <li><a href="#modelsamplingcontinuousedm">ModelSamplingContinuousEDM</a></li>
+        <li><a href="#modelsamplingcontinuousv">ModelSamplingContinuousV</a></li>
+        <li><a href="#modelsamplingstablecascade">ModelSamplingStableCascade</a></li>
+        <li><a href="#modelsamplingsd3">ModelSamplingSD3</a></li>
+        <li><a href="#modelsamplingauraflow">ModelSamplingAuraFlow</a></li>
+        <li><a href="#modelsamplingflux">ModelSamplingFlux</a></li>
+        <li><a href="#rescalecfg">RescaleCFG</a></li>
+        <li><a href="#modelsamplingltxv">ModelSamplingLTXV</a></li>
+        <li><a href="#tomepatchmodel">TomePatchModel</a></li>
+        <li><a href="#freeu">FreeU</a></li>
+        <li><a href="#freeu-v2">FreeU V2</a></li>
+        <li><a href="#hypertile">HyperTile</a></li>
+        <li><a href="#patchmodeladddownscale-kohya-deep-shrink">PatchModelAddDownscale (Kohya Deep Shrink)</a></li>
+        <li><a href="#perturbedattentionguidance">PerturbedAttentionGuidance</a></li>
+        <li><a href="#saveaudio">SaveAudio</a></li>
+        <li><a href="#loadaudio">LoadAudio</a></li>
+        <li><a href="#previewaudio">PreviewAudio</a></li>
+        <li><a href="#savelmagewebsocket">SavelmageWebsocket</a></li>
+        <li><a href="#beta-skiplayerguidancesd3">BETA SkipLayerGuidanceSD3</a></li>
+        <li><a href="#beta-skiplayerguidancedit">BETA SkipLayerGuidanceDiT</a></li>
+        <li><a href="#beta-create-hook-lora">BETA Create Hook LoRA</a></li>
+        <li><a href="#beta-create-hook-lora-mo">BETA Create Hook LoRA (MO)</a></li>
+        <li><a href="#beta-create-hook-model-as-lora">BETA Create Hook Model as LoRA</a></li>
+        <li><a href="#beta-create-hook-model-as-lora-mo">BETA Create Hook Model as LoRA (MO)</a></li>
+        <li><a href="#beta-set-hook-keyframes">BETA Set Hook Keyframes</a></li>
+        <li><a href="#beta-create-hook-keyframe">BETA Create Hook Keyframe</a></li>
+        <li><a href="#beta-create-hook-keyframes-interp">BETA Create Hook Keyframes Interp.</a></li>
+        <li><a href="#beta-create-hook-keyframes-from-floats">BETA Create Hook Keyframes From Floats</a></li>
+        <li><a href="#beta-combine-hooks-2">BETA Combine Hooks [2]</a></li>
+        <li><a href="#beta-combine-hooks-4">BETA Combine Hooks [4]</a></li>
+        <li><a href="#beta-combine-hooks-8">BETA Combine Hooks [8]</a></li>
+        <li><a href="#beta-cond-set-props">BETA Cond Set Props</a></li>
+        <li><a href="#beta-cond-set-props-combine">BETA Cond Set Props Combine</a></li>
+        <li><a href="#beta-cond-set-default-combine">BETA Cond Set Default Combine</a></li>
+        <li><a href="#beta-cond-pair-set-props">BETA Cond Pair Set Props</a></li>
+        <li><a href="#beta-cond-pair-set-props-combine">BETA Cond Pair Set Props Combine</a></li>
+        <li><a href="#beta-cond-pair-set-default-combine">BETA Cond Pair Set Default Combine</a></li>
+        <li><a href="#beta-cond-pair-combine">BETA Cond Pair Combine</a></li>
+        <li><a href="#beta-set-clip-hooks">BETA Set CLIP Hooks</a></li>
+        <li><a href="#beta-timesteps-range">BETA Timesteps Range</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
           </div>
         </div>
       </nav>
@@ -66,6 +154,355 @@
           <article class="default">
 <h1>内置节点 3</h1>
 
+<h2 id="高级节点">高级节点</h2>
+<h3 id="load-clip">Load CLIP</h3>
+<p><img src="https://aiart.website/images/image-01.png" alt=""></p>
+<p>加载 CLIP 模型, CLIP 应用类型选择:</p>
+<p>stable_diffusion: clip-l</p>
+<p>stable_cascade: clip-g</p>
+<p>sd3: t5/clip-g/clip-l</p>
+<p>stable_audio: t5</p>
+<p>mochi: t5</p>
+<p>Itxv: t5</p>
+<pre tabindex="0"><code>stable_diffusion
+stable_cascade
+sd3
+stable_audio
+mochi
+Itxv
+</code></pre><h3 id="load-diffusion-model">Load Diffusion Model</h3>
+<p><img src="https://aiart.website/images/image-1-01.png" alt=""></p>
+<p>加载 UNET 模型, 权重类型:</p>
+<pre tabindex="0"><code>default
+fp8_e4m3fn
+fp8_e4m3fn_fast 
+fp8_e5m2
+</code></pre><ol>
+<li>
+<p>default:</p>
+<p>通常指的是模型的原始精度，大多数情况下是 FP32 (单精度浮点数) 或 FP16 (半精度浮点数)。</p>
+<p>具体取决于模型在训练时使用的精度。</p>
+<p>default 提供最高的数值精度，但内存占用也最大，计算速度相对较慢。</p>
+</li>
+<li>
+<p>fp8_e4m3fn:</p>
+<p>这是一种 8 位浮点数格式，具体来说是 E4M3FN 变体。</p>
+<p>E4M3FN 指的是：</p>
+<p>E4: 4 位指数 (Exponent)</p>
+<p>M3: 3 位尾数 (Mantissa)</p>
+<p>FN: 指示浮点数表示法，包括正负无穷和 NaN (Not a Number)。</p>
+<p>fp8_e4m3fn 比 FP32 或 FP16 占用更少的内存，并且可以加速计算。</p>
+<p>但是，由于精度降低，可能会引入一些数值误差，导致生成质量略微下降。</p>
+</li>
+<li>
+<p>fp8_e4m3fn_fast:</p>
+<p>这与 fp8_e4m3fn 相同，都是 E4M3FN 格式的 8 位浮点数。</p>
+<p>_fast 后缀通常表示它使用了更快的硬件指令或算法来进行类型转换或计算，以牺牲一些潜在的精度为代价。</p>
+<p>目标是在 fp8_e4m3fn 的基础上进一步提升速度。</p>
+</li>
+<li>
+<p>fp8_e5m2:</p>
+<p>这是另一种 8 位浮点数格式，具体来说是 E5M2 变体。</p>
+<p>E5M2 指的是：</p>
+<p>E5: 5 位指数 (Exponent)</p>
+<p>M2: 2 位尾数 (Mantissa)</p>
+<p>相比 fp8_e4m3fn，fp8_e5m2 拥有更大的指数范围，但尾数精度更低。</p>
+<p>这使得 fp8_e5m2 能够表示更大范围的数值，但在表示精度上不如 fp8_e4m3fn。</p>
+<p>在某些情况下，fp8_e5m2 可能更适合处理具有较大动态范围的模型权重。</p>
+</li>
+</ol>
+<h3 id="dualcliploader">DualCLIPLoader</h3>
+<p><img src="https://aiart.website/images/image-2-01.png" alt=""></p>
+<p>双 CLIP 加载器, 应用类型选择:</p>
+<pre tabindex="0"><code>sdxl
+sd3
+flux
+</code></pre><p>sdxl: clip-l, clip-g</p>
+<p>sd3: clip-l, clip-g 或 clip-l, t5 或 clip-g, t5</p>
+<p>flux: clip-l, t5</p>
+<h3 id="diffusersloader">DiffusersLoader</h3>
+<p>已弃用</p>
+<h3 id="triplecliploader">TripleCLIPLoader</h3>
+<p><img src="https://aiart.website/images/image-3-01.png" alt=""></p>
+<p>三 CLIP 加载器, 适用于 SD3, 同时加载 clip-g, clip-l, t5</p>
+<h3 id="conditioningzeroout">ConditioningZeroOut</h3>
+<p><img src="https://aiart.website/images/image-4-01.png" alt=""></p>
+<p>条件零化, 生成无条件信号</p>
+<h3 id="conditioningsettimesteprange">ConditioningSetTimestepRange</h3>
+<p><img src="https://aiart.website/images/image-5-01.png" alt=""></p>
+<p>在特定的时间步范围内应用 conditioning, 更精细地控制 conditioning 在扩散过程的哪个阶段起作用</p>
+<h3 id="cliptextencodesdxlrefiner">CLIPTextEncodeSDXLRefiner</h3>
+<p><img src="https://aiart.website/images/image-6-01.png" alt=""></p>
+<p>SDXL Refiner 模型文本编码, ascore 参数用于 Aesthetic Score (美学分数) 的条件控制, 它允许你引导模型生成更符合特定美学评分的图像</p>
+<h3 id="cliptextencodesdxl">CLIPTextEncodeSDXL</h3>
+<p><img src="https://aiart.website/images/image-7-01.png" alt=""></p>
+<p>SDXL 文本编码:</p>
+<p>width: 生成图像的目标宽度（以像素为单位）。</p>
+<p>height: 生成图像的目标高度（以像素为单位）。</p>
+<p>crop_w: 在编码 conditioning 之前，对内部生成的图像进行中心裁剪的宽度偏移量（可以为正或负）。通常设为0。</p>
+<p>crop_h: 在编码 conditioning 之前，对内部生成的图像进行中心裁剪的高度偏移量（可以为正或负）。通常设为0。</p>
+<p>target_width: 用于计算内部生成图像大小的宽度目标值，通常和width一致。</p>
+<p>target_height: 用于计算内部生成图像大小的高度目标值，通常和height一致。</p>
+<p>text_g: clip_g 编码的文本。</p>
+<p>text_l: clip_l 编码的文本。</p>
+<h3 id="cliptextencodesd3">CLIPTextEncodeSD3</h3>
+<p><img src="https://aiart.website/images/image-8-01.png" alt=""></p>
+<p>SD3 模型的文本编码:</p>
+<p>clip_l: clip_l 编码的文本</p>
+<p>clip_g: clip_g 编码的文本</p>
+<p>t5xxl: t5xxl 编码的文本</p>
+<p>empty_padding: 一个特殊的填充表示，用于在输入文本较短时进行填充，以适应模型对固定长度输入的需要</p>
+<h3 id="cliptextencodehunyuandit">CLIPTextEncodeHunyuanDiT</h3>
+<p><img src="https://aiart.website/images/image-9-01.png" alt=""></p>
+<p>HunyuanDiT 模型文本编码, bert/mt5xl 模型分别编码</p>
+<h3 id="cliptextencodeflux">CLIPTextEncodeFlux</h3>
+<p><img src="https://aiart.website/images/image-10-01.png" alt=""></p>
+<p>flux 文本编码, guidance 调节引导强度,</p>
+<h3 id="fluxguidance">FluxGuidance</h3>
+<p><img src="https://aiart.website/images/image-11-01.png" alt=""></p>
+<p>条件转 flux 引导, 并调节引导强度</p>
+<h3 id="modelmergesimple">ModelMergeSimple</h3>
+<p><img src="https://aiart.website/images/image-12-01.png" alt=""></p>
+<p>合并模型 1 和 2, 当 ratio 为 1 时, 保留 1, 0 时保留 2, 其他值按比例合并</p>
+<h3 id="modelmergeblocks">ModelMergeBlocks</h3>
+<p><img src="https://aiart.website/images/image-13-01.png" alt=""></p>
+<p>分层融合模型, 模型 2 的 输入层/中间层/输出层 按比例融合进 模型 1</p>
+<h3 id="modelmergesubtract">ModelMergeSubtract</h3>
+<p><img src="https://aiart.website/images/image-14-01.png" alt=""></p>
+<p>模型 1 减去 模型 2 进行融合, multiplier 减去的强度</p>
+<h3 id="modelmergeadd">ModelMergeAdd</h3>
+<p><img src="https://aiart.website/images/image-15-01.png" alt=""></p>
+<p>将 模型 2 添加到 模型 1 中</p>
+<h3 id="save-checkpoint">Save Checkpoint</h3>
+<p><img src="https://aiart.website/images/image-16-01.png" alt=""></p>
+<p>保存模型(可包含clip/vae)</p>
+<h3 id="clipmergesimple">CLIPMergeSimple</h3>
+<p><img src="https://aiart.website/images/image-17-01.png" alt=""></p>
+<p>CLIP 合并</p>
+<h3 id="clipmergesubtract">CLIPMergeSubtract</h3>
+<p><img src="https://aiart.website/images/image-18-01.png" alt=""></p>
+<p>CLIP1 - CLIP2</p>
+<h3 id="clipmergeadd">CLIPMergeAdd</h3>
+<p><img src="https://aiart.website/images/image-19-01.png" alt=""></p>
+<p>CLIP 2 加到 CLIP 1 中</p>
+<h3 id="clipsave">CLIPSave</h3>
+<p><img src="https://aiart.website/images/image-20-01.png" alt=""></p>
+<p>保存 CLIP</p>
+<h3 id="vaesave">VAESave</h3>
+<p><img src="https://aiart.website/images/image-21-01.png" alt=""></p>
+<p>保存 VAE</p>
+<h3 id="modelsave">ModelSave</h3>
+<p><img src="https://aiart.website/images/image-22-01.png" alt=""></p>
+<p>保存模型</p>
+<h3 id="imageonlycheckpointsave">ImageOnlyCheckpointSave</h3>
+<p><img src="https://aiart.website/images/image-23-01.png" alt=""></p>
+<p>保存仅图像模型 (只能图生图的模型)</p>
+<h3 id="modelmergesd1">ModelMergeSD1</h3>
+<p><img src="https://aiart.website/images/image-24-01.png" alt=""></p>
+<p>SD1 模型无缝集成到一个统一的框架中, 1 决定模型初始结构, 2 扩展模型能力:</p>
+<p>time_embed: 调整模型中的时间嵌入</p>
+<p>label_emb: 调整标签嵌入</p>
+<p>input_blocks/middle_block/out_blocks: 输入层/中间层/输出层</p>
+<p>out: 调整最终输出</p>
+<h3 id="modelmergesd2">ModelMergeSD2</h3>
+<p><img src="https://aiart.website/images/image-25-01.png" alt=""></p>
+<p>同 SD1</p>
+<h3 id="modelmergesdxl">ModelMergeSDXL</h3>
+<p><img src="https://aiart.website/images/image-26-01.png" alt=""></p>
+<p>同 SD1</p>
+<h3 id="modelmergesd3_2b">ModelMergeSD3_2B</h3>
+<p><img src="https://aiart.website/images/image-27-01.png" alt=""></p>
+<p>SD3_2B 模型合并</p>
+<h3 id="modelmergeauraflow">ModelMergeAuraflow</h3>
+<p><img src="https://aiart.website/images/image-28-01.png" alt=""><br>
+<img src="https://aiart.website/images/image-46-01.png" alt=""></p>
+<p>Auraflow 模型合并</p>
+<h3 id="modelmergeflux1">ModelMergeFlux1</h3>
+<p><img src="https://aiart.website/images/image-29-01.png" alt=""><br>
+<img src="https://aiart.website/images/image-30-01.png" alt=""></p>
+<p>Flux1 模型合并</p>
+<h3 id="modelmergesd35_large">ModelMergeSD35_Large</h3>
+<p><img src="https://aiart.website/images/image-31-01.png" alt=""><br>
+<img src="https://aiart.website/images/image-32-01.png" alt=""></p>
+<p>SD35_Large 模型合并</p>
+<h3 id="modelmergemochipreview">ModelMergeMochiPreview</h3>
+<p><img src="https://aiart.website/images/image-33-01.png" alt=""><br>
+<img src="https://aiart.website/images/image-34-01.png" alt=""></p>
+<p>MochiPreview 模型合并</p>
+<h3 id="modelmergeltxv">ModelMergeLTXV</h3>
+<p><img src="https://aiart.website/images/image-35-01.png" alt=""><br>
+<img src="https://aiart.website/images/image-36-01.png" alt=""></p>
+<p>LTXV 模型合并</p>
+<h3 id="modelsamplingdiscrete">ModelSamplingDiscrete</h3>
+<p><img src="https://aiart.website/images/image-37-01.png" alt=""></p>
+<p>模型采样离散, 修改模型的采样行为</p>
+<pre tabindex="0"><code>eps
+v_prediction 
+lcm
+x0
+</code></pre><h3 id="modelsamplingcontinuousedm">ModelSamplingContinuousEDM</h3>
+<p><img src="https://aiart.website/images/image-38-01.png" alt=""></p>
+<p>集成连续 EDM (基于能量的扩散模型) 采样技术来增强模型的采样能力:</p>
+<pre tabindex="0"><code>v_prediction
+edm_playground_v2.5
+eps
+</code></pre><h3 id="modelsamplingcontinuousv">ModelSamplingContinuousV</h3>
+<p><img src="https://aiart.website/images/image-39-01.png" alt=""></p>
+<p>集成连续 V</p>
+<h3 id="modelsamplingstablecascade">ModelSamplingStableCascade</h3>
+<p><img src="https://aiart.website/images/image-40-01.png" alt=""></p>
+<p>shift 调整采样分布, 调整 StableCascade 采样能力</p>
+<h3 id="modelsamplingsd3">ModelSamplingSD3</h3>
+<p><img src="https://aiart.website/images/image-41-01.png" alt=""></p>
+<p>调整 SD3 的采样能力</p>
+<h3 id="modelsamplingauraflow">ModelSamplingAuraFlow</h3>
+<p><img src="https://aiart.website/images/image-42-01.png" alt=""></p>
+<p>调整 AuraFlow 的采样能力</p>
+<h3 id="modelsamplingflux">ModelSamplingFlux</h3>
+<p><img src="https://aiart.website/images/image-43-01.png" alt=""></p>
+<p>调整 Flux 的采样能力</p>
+<h3 id="rescalecfg">RescaleCFG</h3>
+<p><img src="https://aiart.website/images/image-44-01.png" alt=""></p>
+<p>按系数缩放 CFG 范围</p>
+<h3 id="modelsamplingltxv">ModelSamplingLTXV</h3>
+<p><img src="https://aiart.website/images/image-45-01.png" alt=""></p>
+<p>调整 LTXV 的采样能力</p>
+<h3 id="tomepatchmodel">TomePatchModel</h3>
+<p><img src="https://aiart.website/images/image-69-01.png" alt=""></p>
+<p>ratio: 调整模型注意力机制</p>
+<h3 id="freeu">FreeU</h3>
+<p><img src="https://aiart.website/images/image-70-01.png" alt=""></p>
+<p>大幅提高扩散模型样本质量的方法, <a href="https://github.com/ChenyangSi/FreeU">https://github.com/ChenyangSi/FreeU</a></p>
+<p>推荐参数:</p>
+<ul>
+<li>
+<p>SD1.4: （will be updated soon）</p>
+<p>b1: 1.3, b2: 1.4, s1: 0.9, s2: 0.2</p>
+</li>
+<li>
+<p>SD1.5: (will be updated soon)</p>
+<p>b1: 1.5, b2: 1.6, s1: 0.9, s2: 0.2</p>
+</li>
+<li>
+<p>SD2.1</p>
+<p>b1: 1.4, b2: 1.6, s1: 0.9, s2: 0.2</p>
+</li>
+<li>
+<p>SDXL</p>
+<p>b1: 1.3, b2: 1.4, s1: 0.9, s2: 0.2 SDXL results</p>
+</li>
+<li>
+<p>推荐尝试参数范围</p>
+<p>b1: 1 ≤ b1 ≤ 1.2</p>
+<p>b2: 1.2 ≤ b2 ≤ 1.6</p>
+<p>s1: s1 ≤ 1</p>
+<p>s2: s2 ≤ 1</p>
+</li>
+</ul>
+<h3 id="freeu-v2">FreeU V2</h3>
+<p><img src="https://aiart.website/images/image-71-01.png" alt=""></p>
+<p><a href="https://github.com/WASasquatch/FreeU_Advanced">https://github.com/WASasquatch/FreeU_Advanced</a></p>
+<h3 id="hypertile">HyperTile</h3>
+<p><img src="https://aiart.website/images/image-72-01.png" alt=""></p>
+<p>优化U-Net和VAE模型中的自我关注层的方法, <a href="https://github.com/tfernd/HyperTile">https://github.com/tfernd/HyperTile</a></p>
+<h3 id="patchmodeladddownscale-kohya-deep-shrink">PatchModelAddDownscale (Kohya Deep Shrink)</h3>
+<p><img src="https://aiart.website/images/image-73-01.png" alt=""></p>
+<p>通过对特定块进行缩小和放大操作来修改模型，控制分辨率并优化性能:</p>
+<ul>
+<li>
+<p>block_number 区块号</p>
+<p>此整数参数指定模型内将应用缩小操作的块号。默认值为 3，最小值为 1，最大值为 32。调整此参数允许您针对模型的特定层进行缩小。</p>
+</li>
+<li>
+<p>downscale_factor 缩减因子</p>
+<p>该浮点参数确定所选块将缩小的因子。默认值为 2.0，最小值为 0.1，最大值为 9.0。较高的缩小因子将更显着地降低分辨率。</p>
+</li>
+<li>
+<p>start_percent 起始百分比</p>
+<p>此浮点参数将缩小操作的起点定义为模型处理的百分比。默认值为 0.0，范围为 0.0 到 1.0。这使您可以控制模型执行期间开始缩小的时间。</p>
+</li>
+<li>
+<p>end_percent 结束百分比</p>
+<p>此浮点参数将缩小操作的结束点设置为模型处理的百分比。默认值为 0.35，范围为 0.0 到 1.0。此参数可帮助您定义缩小效果的持续时间。</p>
+</li>
+<li>
+<p>downscale_after_skip 跳过后缩小规模</p>
+<p>此布尔参数指示模型内的跳过连接后是否应发生缩小。默认值为 True。设置此参数可帮助您控制与跳过连接相关的精确缩小点。</p>
+</li>
+<li>
+<p>downscale_method 缩小方法</p>
+<p>该参数指定用于缩小尺寸的方法</p>
+<pre tabindex="0"><code>bicubic
+nearest-exact
+bilinear
+area
+bislerp
+</code></pre></li>
+<li>
+<p>upscale_method 放大方法</p>
+<p>该参数定义了缩小操作后用于放大的方法</p>
+</li>
+</ul>
+<h3 id="perturbedattentionguidance">PerturbedAttentionGuidance</h3>
+<p><img src="https://aiart.website/images/image-74-01.png" alt=""></p>
+<p>扰动注意引导, 自校正采样, <a href="https://github.com/sunovivid/Perturbed-Attention-Guidance">https://github.com/sunovivid/Perturbed-Attention-Guidance</a></p>
+<h3 id="saveaudio">SaveAudio</h3>
+<p><img src="https://aiart.website/images/image-75-01.png" alt=""></p>
+<p>保存音频</p>
+<h3 id="loadaudio">LoadAudio</h3>
+<p><img src="https://aiart.website/images/image-76-01.png" alt=""></p>
+<p>加载音频</p>
+<h3 id="previewaudio">PreviewAudio</h3>
+<p><img src="https://aiart.website/images/image-77-01.png" alt=""></p>
+<p>预览音频</p>
+<h3 id="savelmagewebsocket">SavelmageWebsocket</h3>
+<p><img src="https://aiart.website/images/image-78-01.png" alt=""></p>
+<p>保存图像以用 api 获取</p>
+<p><strong>以下测试功能暂不介绍:</strong></p>
+<h3 id="beta-skiplayerguidancesd3">BETA SkipLayerGuidanceSD3</h3>
+<p><img src="https://aiart.website/images/image-47-01.png" alt=""></p>
+<h3 id="beta-skiplayerguidancedit">BETA SkipLayerGuidanceDiT</h3>
+<p><img src="https://aiart.website/images/image-48-01.png" alt=""></p>
+<h3 id="beta-create-hook-lora">BETA Create Hook LoRA</h3>
+<p><img src="https://aiart.website/images/image-49-01.png" alt=""></p>
+<h3 id="beta-create-hook-lora-mo">BETA Create Hook LoRA (MO)</h3>
+<p><img src="https://aiart.website/images/image-50-01.png" alt=""></p>
+<h3 id="beta-create-hook-model-as-lora">BETA Create Hook Model as LoRA</h3>
+<p><img src="https://aiart.website/images/image-51-01.png" alt=""></p>
+<h3 id="beta-create-hook-model-as-lora-mo">BETA Create Hook Model as LoRA (MO)</h3>
+<p><img src="https://aiart.website/images/image-52-01.png" alt=""></p>
+<h3 id="beta-set-hook-keyframes">BETA Set Hook Keyframes</h3>
+<p><img src="https://aiart.website/images/image-53-01.png" alt=""></p>
+<h3 id="beta-create-hook-keyframe">BETA Create Hook Keyframe</h3>
+<p><img src="https://aiart.website/images/image-54-01.png" alt=""></p>
+<h3 id="beta-create-hook-keyframes-interp">BETA Create Hook Keyframes Interp.</h3>
+<p><img src="https://aiart.website/images/image-55-01.png" alt=""></p>
+<h3 id="beta-create-hook-keyframes-from-floats">BETA Create Hook Keyframes From Floats</h3>
+<p><img src="https://aiart.website/images/image-56-01.png" alt=""></p>
+<h3 id="beta-combine-hooks-2">BETA Combine Hooks [2]</h3>
+<p><img src="https://aiart.website/images/image-57-01.png" alt=""></p>
+<h3 id="beta-combine-hooks-4">BETA Combine Hooks [4]</h3>
+<p><img src="https://aiart.website/images/image-58-01.png" alt=""></p>
+<h3 id="beta-combine-hooks-8">BETA Combine Hooks [8]</h3>
+<p><img src="https://aiart.website/images/image-59-01.png" alt=""></p>
+<h3 id="beta-cond-set-props">BETA Cond Set Props</h3>
+<p><img src="https://aiart.website/images/image-60-01.png" alt=""></p>
+<h3 id="beta-cond-set-props-combine">BETA Cond Set Props Combine</h3>
+<p><img src="https://aiart.website/images/image-61-01.png" alt=""></p>
+<h3 id="beta-cond-set-default-combine">BETA Cond Set Default Combine</h3>
+<p><img src="https://aiart.website/images/image-62-01.png" alt=""></p>
+<h3 id="beta-cond-pair-set-props">BETA Cond Pair Set Props</h3>
+<p><img src="https://aiart.website/images/image-63-01.png" alt=""></p>
+<h3 id="beta-cond-pair-set-props-combine">BETA Cond Pair Set Props Combine</h3>
+<p><img src="https://aiart.website/images/image-64-01.png" alt=""></p>
+<h3 id="beta-cond-pair-set-default-combine">BETA Cond Pair Set Default Combine</h3>
+<p><img src="https://aiart.website/images/image-65-01.png" alt=""></p>
+<h3 id="beta-cond-pair-combine">BETA Cond Pair Combine</h3>
+<p><img src="https://aiart.website/images/image-66-01.png" alt=""></p>
+<h3 id="beta-set-clip-hooks">BETA Set CLIP Hooks</h3>
+<p><img src="https://aiart.website/images/image-67-01.png" alt=""></p>
+<h3 id="beta-timesteps-range">BETA Timesteps Range</h3>
+<p><img src="https://aiart.website/images/image-68-01.png" alt=""></p>
 
             <footer class="footline">
             </footer>
@@ -89,12 +526,12 @@
         <script>
           var contentLangs=['zh'];
         </script>
-        <script src="/js/auto-complete.js?1733826935" defer></script>
-        <script src="/js/lunr.min.js?1733826935" defer></script>
-        <script src="/js/lunr.stemmer.support.min.js?1733826935" defer></script>
-        <script src="/js/lunr.multi.min.js?1733826935" defer></script>
-        <script src="/js/lunr.zh.min.js?1733826935" defer></script>
-        <script src="/js/search.js?1733826935" defer></script>
+        <script src="/js/auto-complete.js?1733969463" defer></script>
+        <script src="/js/lunr.min.js?1733969463" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1733969463" defer></script>
+        <script src="/js/lunr.multi.min.js?1733969463" defer></script>
+        <script src="/js/lunr.zh.min.js?1733969463" defer></script>
+        <script src="/js/search.js?1733969463" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
@@ -158,9 +595,9 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1733826935" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1733826935" defer></script>
-    <script src="/js/featherlight.min.js?1733826935" defer></script>
+    <script src="/js/clipboard.min.js?1733969463" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1733969463" defer></script>
+    <script src="/js/featherlight.min.js?1733969463" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -190,7 +627,7 @@
       useMathJax( JSON.parse("{}") );
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="/js/jquery.svg.pan.zoom.js?1733826935" defer></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1733969463" defer></script>
     <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
@@ -199,6 +636,6 @@
     <script>
       window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
     </script>
-    <script src="/js/theme.js?1733826935" defer></script>
+    <script src="/js/theme.js?1733969463" defer></script>
   </body>
 </html>

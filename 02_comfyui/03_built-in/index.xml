@@ -46,7 +46,25 @@ Load CLIP Vision 加载 CLIP 视觉模型, 模型用于图像编码，提取图�
       <link>/02_comfyui/03_built-in/03-built-in/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/02_comfyui/03_built-in/03-built-in/</guid>
-      <description></description>
+      <description>高级节点 Load CLIP 加载 CLIP 模型, CLIP 应用类型选择:
+stable_diffusion: clip-l
+stable_cascade: clip-g
+sd3: t5/clip-g/clip-l
+stable_audio: t5
+mochi: t5
+Itxv: t5
+stable_diffusionstable_cascadesd3stable_audiomochiItxv Load Diffusion Model 加载 UNET 模型, 权重类型:
+defaultfp8_e4m3fnfp8_e4m3fn_fast fp8_e5m2 default:
+通常指的是模型的原始精度，大多数情况下是 FP32 (单精度浮点数) 或 FP16 (半精度浮点数)。
+具体取决于模型在训练时使用的精度。
+default 提供最高的数值精度，但内存占用也最大，计算速度相对较慢。
+fp8_e4m3fn:
+这是一种 8 位浮点数格式，具体来说是 E4M3FN 变体。
+E4M3FN 指的是：
+E4: 4 位指数 (Exponent)
+M3: 3 位尾数 (Mantissa)
+FN: 指示浮点数表示法，包括正负无穷和 NaN (Not a Number)。
+fp8_e4m3fn 比 FP32 或 FP16 占用更少的内存，并且可以加速计算。</description>
     </item>
   </channel>
 </rss>
