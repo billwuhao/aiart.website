@@ -11,6 +11,76 @@ AI 发展日新月异, 以下项目是目自 2024-11-23 起, 搜集整理的非�
 
 ## 项目官方网站
 
+[New Chat | glhf.chat](https://glhf.chat/chat/create) 2024-12-15
+
+[edify-3d Model by Shutterstock | NVIDIA NIM](https://build.nvidia.com/shutterstock/edify-3d) 2024-12-15
+
+[豆包 MarsCode - 工作台](https://www.marscode.cn/dashboard) 2024-12-15
+
+[Devin](https://devin.ai/) 2024-12-15
+
+[DeepSeek - 探索未至之境](https://chat.deepseek.com/) 2024-12-15
+
+[Sora](https://sora.com/) 2024-12-15
+
+[DeepLearning.AI - Learning Platform](https://learn.deeplearning.ai/) 2024-12-15
+
+[D5渲染器官网 | 实时光追渲染技术，重塑3D创作工作流](https://www.d5render.cn/) 2024-12-15
+
+[PromptPerfect - AI Prompt Generator and Optimizer](https://promptperfect.jina.ai/interactive) 2024-12-15
+
+[Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/) 2024-12-15
+
+## GitHub 项目
+
+[hacksider/Deep-Live-Cam: real time face swap and one-click video deepfake with only a single image](https://github.com/hacksider/Deep-Live-Cam) 2024-12-15
+
+[datawhalechina/llm-cookbook: 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版](https://github.com/datawhalechina/llm-cookbook) 2024-12-15
+
+[f/awesome-chatgpt-prompts: This repo includes ChatGPT prompt curation to use ChatGPT better.](https://github.com/f/awesome-chatgpt-prompts) 2024-12-15
+
+[Stability-AI/stable-audio-tools: Generative models for conditional audio generation](https://github.com/Stability-AI/stable-audio-tools) 2024-12-15
+
+[isarandi/nlf: [NeurIPS 2024] Neural Localizer Fields for Continuous 3D Human Pose and Shape Estimation](https://github.com/isarandi/nlf) 2024-12-15
+
+[Stability-AI/stable-fast-3d: SF3D: Stable Fast 3D Mesh Reconstruction with UV-unwrapping and Illumination Disentanglement](https://github.com/Stability-AI/stable-fast-3d) 2024-12-15
+
+[lihxxx/DisPose: This repository is the official implementation of DisPose](https://github.com/lihxxx/DisPose) 2024-12-15
+
+[fkryan/gazelle](https://github.com/fkryan/gazelle) 2024-12-15
+
+[tdrussell/diffusion-pipe: A pipeline parallel training script for diffusion models.](https://github.com/tdrussell/diffusion-pipe) 2024-12-15
+
+[openai/openai-cookbook: Examples and guides for using the OpenAI API](https://github.com/openai/openai-cookbook) 2024-12-15
+
+[promptslab/Awesome-Prompt-Engineering: This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc](https://github.com/promptslab/Awesome-Prompt-Engineering) 2024-12-15
+
+[thunlp/Delta-CoMe: Delta-CoMe can achieve near loss-less 1-bit compressin which has been accepted by NeurIPS 2024](https://github.com/thunlp/Delta-CoMe) 2024-12-15
+
+## Hugging Face
+
+[FlowEdit - a Hugging Face Space by fallenshock](https://huggingface.co/spaces/fallenshock/FlowEdit) 2024-12-15
+
+## 等待中的项目
+
+[Project Astra - Google DeepMind](https://deepmind.google/technologies/project-astra/) 2024-12-15
+
+[Project Mariner - Google DeepMind](https://deepmind.google/technologies/project-mariner/) 2024-12-15
+
+[Jules (Confidential)](https://labs.google.com/jules/home) 2024-12-15
+
+[MotionShop: Zero-Shot Motion Transfer in Video Diffusion Models with Mixture of Score Guidance](https://motionshop-diffusion.github.io/) 2024-12-15
+
+[SwiftEdit](https://swift-edit.github.io/) 2024-12-15
+
+[Michael Fischer](https://mfischer-ucl.github.io/sama/) 2024-12-15
+
+[Using Diffusion Priors for Video Amodal Segmentation](https://diffusion-vas.github.io/) 2024-12-15
+
+---------
+
+## 项目官方网站
+
 [Fish Audio: Free Generative AI Text To Speech & Voice Cloning](https://fish.audio/zh-CN/) 2024-12-09
 
 [Generative Foundation Model - Amazon Nova - AWS](https://aws.amazon.com/cn/ai/generative-ai/nova/?) 2024-12-09
