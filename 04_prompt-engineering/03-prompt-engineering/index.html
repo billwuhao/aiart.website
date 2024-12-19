@@ -7,8 +7,8 @@
     <meta name="generator" content="Relearn 5.2.1+tip">
     <meta name="description" content="">
     <meta name="author" content="吴明文">
-    <title>提示工程资源, 案例集 - aiart.website</title>
-    <link href="/03_prompts/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
+    <title>提示工程日常使用案例大全 - aiart.website</title>
+    <link href="/04_prompt-engineering/03-prompt-engineering/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
     <link href="/css/fontawesome-all.min.css?1734605783" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1734605783" rel="stylesheet"></noscript>
     <link href="/css/featherlight.min.css?1734605783" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1734605783" rel="stylesheet"></noscript>
@@ -39,7 +39,7 @@
     </script>
     <script src="/js/jquery.min.js?1734605783" defer></script>
   </head>
-  <body class="mobile-support html" data-url="/03_prompts/">
+  <body class="mobile-support html" data-url="/04_prompt-engineering/03-prompt-engineering/">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
@@ -51,8 +51,9 @@
             </span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
               <meta itemprop="itemListOrder" content="Descending" />
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/"><span itemprop="name">aiart.website</span></a> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/03_prompts/" aria-disabled="true"><span itemprop="name">提示工程资源, 案例集</span></a></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="/"><span itemprop="name">aiart.website</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/04_prompt-engineering/"><span itemprop="name">自然语言提示工程入门</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/04_prompt-engineering/03-prompt-engineering/" aria-disabled="true"><span itemprop="name">提示工程日常使用案例大全</span></a></li>
             </ol>
           </div>
         </div>
@@ -62,68 +63,10 @@
           <div id="head-tags">
           </div>
           <article class="default">
-<h1>提示工程资源, 案例集</h1>
+<h1>提示工程日常使用案例大全</h1>
 
-<p><strong>提示工程</strong> 这个词是随着生成式 AI 诞生的, 尤其是 2020 年 GPT-3 和 2021 年 Disco Diffusion 的发布, 引发了提示工程热潮. 由于生成文本 和 绘画质量好坏, 跟提示词的好坏有很重要的关系, 于是人们开始研究, 怎样设计提示词, 提示工程就流行了起来.</p>
-<p>随着大模型能力提升, 提示工程似乎没那么重要了, 现在能用比较普通和直白的语言, 就能得到不错的答案. 但对于更专业性, 更复杂的应用场景, 提示工程还是非常重要的, 同时, 个人的语言表达能力, 现在变得更加重要. &ldquo;学好数理化, 走遍天下都不怕&rdquo;, 即将变成 &ldquo;学好语文和英语, 开口世界归自己&rdquo;, 真是风水轮流转, 相信开口就能把事情做了的时代就在不远的将来. 翻译软件越来越强大, 英语对大多数人可能不再重要, 但对于想改变世界, 创造 AI 而不是使用 AI, 站在科技风口浪尖的人来说, 仍然极为重要.</p>
-<p>写好提示词 或者说 准确地表达, 是基础中的基础, 无论 AI 写作, AI 绘画, AI 音乐, AI 视频, 用 AI 来学习, 用 AI 来解决各种问题, 以及 测试和调整大模型等等, 归根到底要语言基本功扎实, 才能准确高效的得到结果.</p>
-<p>我现在每天都离不开 ChatGPT(或者其他 AI). 我相信, AI 一定会成为每一个人时时刻刻陪伴在身边的超级大脑, 于是我决定搜非常棒的提示工程资料, 教程, 案例等放这里, 以便随时查阅.</p>
-<p><strong>提示工程 (Prompt Engineering)</strong>: 是指为 AI 模型设计和优化输入文本（即“提示”或“指令”）的过程，以确保模型生成的输出符合预期或更高质量。提示工程包括选择合适的语言、结构、语境和细节来指导 AI 生成更准确、相关、有用或创造性的响应。</p>
-<p>提示工程（Prompt Engineering）的作用:</p>
-<ul>
-<li>
-<p>提高输出质量：通过精心设计的提示，可以显著提高 AI 模型的输出准确性和相关性。</p>
-</li>
-<li>
-<p>减少偏见和错误：良好的提示可以帮助减少 AI 生成的内容中的偏见或错误，因为它引导模型关注正确的方面。</p>
-</li>
-<li>
-<p>增强用户体验：在应用中，用户与 AI 的交互体验很大程度上依赖于提示的质量，好的提示可以让用户更容易获得所需信息或服务。</p>
-</li>
-<li>
-<p>创新和创造力：在生成性任务中，如文本生成、图像创建等，提示工程可以激发模型的创造性输出，推动应用的创新。</p>
-</li>
-<li>
-<p>效率提升：精确的提示可以减少后续的修订工作，提高生成内容的效率。</p>
-</li>
-</ul>
-<p>提示工程（Prompt Engineering）的学习方法:</p>
-<ul>
-<li>理解基础知识：</li>
-</ul>
-<p>学习 AI 模型的工作原理，特别是如何处理和理解语言输入。了解你所使用的 AI 模型的特性，如其训练数据、预置的偏见或特定的能力。</p>
-<ul>
-<li>实践与试错：</li>
-</ul>
-<p>进行大量的实践，尝试不同的提示结构、语言风格、长度和复杂度。使用A/B测试来比较不同提示的效果，分析哪些元素对输出质量产生影响。</p>
-<ul>
-<li>学习社区资源：</li>
-</ul>
-<p>参与 AI 和 NLP （自然语言处理）的社区，如 GitHub 上的项目、论坛（如Reddit）、Stack Overflow等，学习他人的提示工程实践和技巧。查看开源的提示库或模型文档中提供的示例提示。</p>
-<ul>
-<li>迭代优化：</li>
-</ul>
-<p>基于反馈和生成的输出不断优化你的提示。每次迭代都应该尝试改进一个或几个元素。使用工具或脚本来自动化提示的测试和评价过程。</p>
-<ul>
-<li>专门化学习：</li>
-</ul>
-<p>根据具体应用领域（如法律、医学、客服等）学习行业特定术语和交流方式，以便设计更专业的提示。</p>
-<ul>
-<li>学习心理学和语言学：</li>
-</ul>
-<p>了解语言如何影响思维和行为可以帮助设计更有效的提示。研究语言学可以帮助优化语法、语义和语用学方面的提示。</p>
-<ul>
-<li>课程和培训：</li>
-</ul>
-<p>参与在线课程或工作坊，这些课程可能专注于 NLP 或 AI 应用中的提示工程。</p>
-<ul>
-<li>保持更新：</li>
-</ul>
-<p>AI 技术发展迅速，保持对新模型、技术和最佳实践的关注是必要的。</p>
-
-<ul class="children children-li children-sort-weight">
-<li><a href="/03_prompts/01-prompt-sources/" >提示工程资源整理</a></li><ul></ul>
-</ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
             <footer class="footline">
             </footer>
@@ -171,12 +114,12 @@
           <li data-nav-id="/02_comfyui/03_built-in/02-built-in/" title="内置节点 2" class="dd-item"><a href="/02_comfyui/03_built-in/02-built-in/">内置节点 2</a></li>
           <li data-nav-id="/02_comfyui/03_built-in/03-built-in/" title="内置节点 3" class="dd-item"><a href="/02_comfyui/03_built-in/03-built-in/">内置节点 3</a></li></ul></li>
           <li data-nav-id="/02_comfyui/04_common-nodes/" title="常用自定义节点" class="dd-item"><a href="/02_comfyui/04_common-nodes/">常用自定义节点</a></li></ul></li>
-          <li data-nav-id="/03_prompts/" title="提示工程资源, 案例集" class="dd-item active parent"><input type="checkbox" id="section-019abe92d153661cf1e3ed2ecad53b65" class="toggle" checked/><label for="section-019abe92d153661cf1e3ed2ecad53b65" ></label><a href="/03_prompts/">提示工程资源, 案例集</a><ul>
+          <li data-nav-id="/03_prompts/" title="提示工程资源, 案例集" class="dd-item"><input type="checkbox" id="section-019abe92d153661cf1e3ed2ecad53b65" class="toggle"/><label for="section-019abe92d153661cf1e3ed2ecad53b65" ></label><a href="/03_prompts/">提示工程资源, 案例集</a><ul>
           <li data-nav-id="/03_prompts/01-prompt-sources/" title="提示工程资源整理" class="dd-item"><a href="/03_prompts/01-prompt-sources/">提示工程资源整理</a></li></ul></li>
-          <li data-nav-id="/04_prompt-engineering/" title="自然语言提示工程入门" class="dd-item"><input type="checkbox" id="section-e5b35d3b038fb5ec64923f071f9232c3" class="toggle"/><label for="section-e5b35d3b038fb5ec64923f071f9232c3" ></label><a href="/04_prompt-engineering/">自然语言提示工程入门</a><ul>
+          <li data-nav-id="/04_prompt-engineering/" title="自然语言提示工程入门" class="dd-item parent"><input type="checkbox" id="section-e5b35d3b038fb5ec64923f071f9232c3" class="toggle" checked/><label for="section-e5b35d3b038fb5ec64923f071f9232c3" ></label><a href="/04_prompt-engineering/">自然语言提示工程入门</a><ul>
           <li data-nav-id="/04_prompt-engineering/04-prompt-engineering/" title="高级提示工程概述" class="dd-item"><a href="/04_prompt-engineering/04-prompt-engineering/">高级提示工程概述</a></li>
           <li data-nav-id="/04_prompt-engineering/01-prompt-engineering/" title="开胃点心, 从几个案例开始" class="dd-item"><a href="/04_prompt-engineering/01-prompt-engineering/">开胃点心, 从几个案例开始</a></li>
-          <li data-nav-id="/04_prompt-engineering/03-prompt-engineering/" title="提示工程日常使用案例大全" class="dd-item"><a href="/04_prompt-engineering/03-prompt-engineering/">提示工程日常使用案例大全</a></li>
+          <li data-nav-id="/04_prompt-engineering/03-prompt-engineering/" title="提示工程日常使用案例大全" class="dd-item active"><a href="/04_prompt-engineering/03-prompt-engineering/">提示工程日常使用案例大全</a></li>
           <li data-nav-id="/04_prompt-engineering/02-prompt-engineering/" title="提示工程日常使用技巧" class="dd-item"><a href="/04_prompt-engineering/02-prompt-engineering/">提示工程日常使用技巧</a></li></ul></li>
         </ul>
         <div id="shortcuts">

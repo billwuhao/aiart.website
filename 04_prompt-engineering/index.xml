@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>自然语言提示工程入门 on aiart.website</title>
+    <link>/04_prompt-engineering/</link>
+    <description>Recent content in 自然语言提示工程入门 on aiart.website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/04_prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>高级提示工程概述</title>
+      <link>/04_prompt-engineering/04-prompt-engineering/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/04_prompt-engineering/04-prompt-engineering/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>开胃点心, 从几个案例开始</title>
+      <link>/04_prompt-engineering/01-prompt-engineering/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/04_prompt-engineering/01-prompt-engineering/</guid>
+      <description>我们先来欣赏几个例子 (所有内容均是免费版 AI 生成, 高级收费版, 效果会更好):
+背单词 &amp;ndash; 不同大模型测试
+给你的任务是生成单词记忆卡: 每次给你一个单词, 然后输出一个单词记忆卡, markdown 格式为主, 必要时使用兼容 markdown 的 html, svg 等格式. 我的需求是能够深刻理解单词的来源, 内涵, 并且很容易记住. 请仔细思考, 深思熟虑:- 单词, 放在开头, 绿色字体, 18号, 居中.- 音标及翻译(标明所有词性).- 词源背景.- 拆解词根, 并在词根上联想出一个一句话的生动故事.- 一个精彩的英文例句及翻译.- 简约的 SVG 格式配图, 居中, 突出单词意思, 配色温暖, 清新, 复古.以上每一项一个段落, 段落之间必须空一个空行, 排版美观, 层次清晰. 中文输出, 只要结果, 绝对不要输出结果是音标, 翻译, 词源, 词根, 例句等等标注.首先给你单词的单词是 program, 仅输出卡片, 不输出任何解释及无关内容. Claude
+[&amp;lsquo;prəʊɡræm] n. 程序，方案，节目，计划 v. 规划，编程，设计，制订</description>
+    </item>
+    <item>
+      <title>提示工程日常使用案例大全</title>
+      <link>/04_prompt-engineering/03-prompt-engineering/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/04_prompt-engineering/03-prompt-engineering/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>提示工程日常使用技巧</title>
+      <link>/04_prompt-engineering/02-prompt-engineering/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/04_prompt-engineering/02-prompt-engineering/</guid>
+      <description> </description>
+    </item>
+  </channel>
+</rss>

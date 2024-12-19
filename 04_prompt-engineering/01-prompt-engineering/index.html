@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.1+tip">
+    <meta name="description" content="">
+    <meta name="author" content="吴明文">
+    <title>开胃点心, 从几个案例开始 - aiart.website</title>
+    <link href="/04_prompt-engineering/01-prompt-engineering/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1734605783" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1734605783" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1734605783" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1734605783" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1734605783" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1734605783" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1734605783" rel="stylesheet">
+    <link href="/css/nucleus.css?1734605783" rel="stylesheet">
+    <link href="/css/fonts.css?1734605783" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1734605783" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1734605783" rel="stylesheet">
+    <link href="/css/theme-black.css?1734605783" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1734605783" rel="stylesheet">
+    <link href="/css/variant.css?1734605783" rel="stylesheet">
+    <link href="/css/print.css?1734605783" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1734605783"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="/index.json";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = '复制到剪贴板';
+      window.T_Copied_to_clipboard = '复制到剪贴板！';
+      window.T_Copy_link_to_clipboard = '将链接复制到剪贴板';
+      window.T_Link_copied_to_clipboard = '链接复制到剪贴板！';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'black' ] );
+    </script>
+    <script src="/js/jquery.min.js?1734605783" defer></script>
+  </head>
+  <body class="mobile-support html" data-url="/04_prompt-engineering/01-prompt-engineering/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='导航 (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="/"><span itemprop="name">aiart.website</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/04_prompt-engineering/"><span itemprop="name">自然语言提示工程入门</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/04_prompt-engineering/01-prompt-engineering/" aria-disabled="true"><span itemprop="name">开胃点心, 从几个案例开始</span></a></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>开胃点心, 从几个案例开始</h1>
+
+<p>我们先来欣赏几个例子 (<strong>所有内容均是免费版 AI 生成, 高级收费版, 效果会更好</strong>):</p>
+<p><strong>背单词</strong> &ndash; 不同大模型测试</p>
+<pre tabindex="0"><code>给你的任务是生成单词记忆卡: 每次给你一个单词, 然后输出一个单词记忆卡, markdown 格式为主, 必要时使用兼容 markdown 的 html, svg 等格式. 我的需求是能够深刻理解单词的来源, 内涵, 并且很容易记住. 请仔细思考, 深思熟虑:
+
+- 单词, 放在开头, 绿色字体, 18号, 居中.
+- 音标及翻译(标明所有词性).
+- 词源背景.
+- 拆解词根, 并在词根上联想出一个一句话的生动故事.
+- 一个精彩的英文例句及翻译.
+- 简约的 SVG 格式配图, 居中, 突出单词意思, 配色温暖, 清新, 复古.
+
+以上每一项一个段落, 段落之间必须空一个空行, 排版美观, 层次清晰. 中文输出, 只要结果, 绝对不要输出结果是音标, 翻译, 词源, 词根, 例句等等标注.
+
+首先给你单词的单词是 program, 仅输出卡片, 不输出任何解释及无关内容.
+</code></pre><hr>
+<p><strong>Claude</strong></p>
+<!-- raw HTML omitted -->
+<p>[&lsquo;prəʊɡræm] 
+n. 程序，方案，节目，计划
+v. 规划，编程，设计，制订</p>
+<p>源自古希腊语 &ldquo;prographein&rdquo;，由 &ldquo;pro&rdquo;（在前面）和 &ldquo;graphein&rdquo;（写）组合而成，最初表示&quot;预先写下&quot;。后经由拉丁语 &ldquo;programma&rdquo; 进入英语。</p>
+<p>词根解析：pro（在前）+ gram（写，画）。想象一个古代智者在羊皮卷上预先写下神谕，为人们指明未来的道路，这就是最早的&quot;program&quot;。</p>
+<p>The company developed a new program to help employees work remotely.
+公司开发了一个新程序来帮助员工远程工作。</p>
+<!-- raw HTML omitted -->
+<hr>
+<p><strong>Grok:</strong></p>
+<!-- raw HTML omitted -->
+<p>/ˈprəʊɡræm/n. 程序; 节目; 计划;v. 编程; 规划;</p>
+<p>词源可以追溯到希腊语的 &ldquo;programma&rdquo;，意为“公开宣告”，后被拉丁语吸收为 &ldquo;programma&rdquo;，意为“公告”或“记录”。最终进入英语，演变成“program”，最初表示的是公共活动或表演的计划或日程。</p>
+<p>词根“pro-”意味着“向前”，而“-gram”来自希腊语“graphein”，意为“写”。联想故事：在古老的罗马，一个小程序员在纸上写下他的第一个程序，开启了向前的科技之旅。</p>
+<p>英文例句：She wrote a program to automate the data analysis.她编写了一个程序来自动化数据分析。</p>
+<!-- raw HTML omitted -->
+<hr>
+<p><strong>Gemini:</strong></p>
+<!-- raw HTML omitted -->
+<p>/ˈproʊɡræm/  (n.) 程序, 计划, 节目; (v.) 规划, 安排, 编程</p>
+<p>源自古希腊语 &quot; πρόγραμμα (programma)&quot;, 意为“事先写下的东西，公告”，由 &ldquo;πρό (pro)&rdquo; (在&hellip;之前) + &ldquo;γράφω (graphō)&rdquo; (书写) 构成，表示在行动或事件发生之前预先制定好的计划。</p>
+<p>词根拆解：pro- (向前) + gram- (书写)。联想故事：一位探险家在出发前<strong>向前</strong>（pro）翻阅了地图，上面<strong>书写</strong>（gram）着整个旅程的详细安排，保证了他能安全到达目的地。</p>
+<p>The company launched a new program to help employees develop their skills and advance their careers.
+公司推出了一项新的计划，以帮助员工发展技能并提升职业生涯。</p>
+<!-- raw HTML omitted -->
+<hr>
+<p><strong>ChatGPT:</strong></p>
+<h1 id="p-stylecolor-4caf50-font-size-18pxprogramp"><!-- raw HTML omitted -->program<!-- raw HTML omitted --></h1>
+<hr>
+<p><strong>[ˈproʊɡræm]</strong><br>
+名词：计划，程序，纲要<br>
+动词：编程，规划，安排</p>
+<hr>
+<p>词源背景：<br>
+“Program”来源于拉丁语“programma”，意为“公开宣布的计划”。这一词汇本身包含了“pro-”（向前）和“gramma”（写的东西），代表着提前写下或公开的计划。</p>
+<hr>
+<p>拆解词根：<br>
+词根“gram”源自希腊语“gramma”，意思是“字母”或“书写的东西”。<br>
+想象一下，一位学者站在讲台前，拿着一张古老的羊皮纸，上面写满了未来几个月的计划，象征着对未来的掌控和对知识的传承。</p>
+<hr>
+<p>例句：<br>
+&ldquo;She developed a new program to help students learn programming more efficiently.&rdquo;<br>
+&ldquo;她开发了一个新的程序，帮助学生更高效地学习编程。&rdquo;</p>
+<hr>
+<!-- raw HTML omitted -->
+<hr>
+<p><strong>Mistral</strong></p>
+<!-- raw HTML omitted -->
+<p>/ˈproʊɡræm/ n. 计划；节目；程序 v. 编程；安排</p>
+<p>“program”一词源自古希腊语“prographein”，意为“公开写出”，后通过拉丁语传入英语。</p>
+<p>“pro-”表示“向前”，“gram”表示“写”。想象一下，一个人在公开场合向前一步，写下一份计划。</p>
+<p>The program for the conference includes keynote speeches and workshops.</p>
+<p>会议的日程安排包括主题演讲和研讨会。</p>
+<!-- raw HTML omitted -->
+<hr>
+<p><strong>通义</strong></p>
+<!-- raw HTML omitted -->
+<p>/prəˈɡræm/ n. 计划，程序；vt. 编程，为…编程序；vi. 编写程序</p>
+<p>该词源自希腊语“πρόγραμμα” (prógramma)，意为“书写在前面的东西”，最初指的是一种公开声明或公告。随着时间发展，这个词的意义逐渐扩展到包括一系列指令或步骤，特别是计算机科学中的一系列操作指令。</p>
+<p>&ldquo;pro-&rdquo; 表示“向前”，&ldquo;gram-&rdquo; 来自希腊语“graphein”，意味着“写”。想象一下古代的预言家，在神庙的石壁上预先写下未来的启示，这些文字指引了人们前行的道路，如同今天的程序指导计算机执行任务。</p>
+<p>In the fast-paced world of technology, it&rsquo;s crucial to keep your skills up to date with the latest programming languages and tools.
+在科技飞速发展的世界里，紧跟最新的编程语言和工具来更新你的技能至关重要。</p>
+<!-- raw HTML omitted -->
+<hr>
+<p><strong>Kimi</strong></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><strong>音标及翻译</strong><br>
+/ˈproʊɡræm/</p>
+<ul>
+<li>名词：程序、计划、安排</li>
+<li>动词：规划、安排</li>
+</ul>
+<p><strong>词源背景</strong><br>
+来源于拉丁语 &ldquo;programma&rdquo;，意为公告或声明，后来演变为指代一系列预先设定的指令或活动。</p>
+<p><strong>拆解词根</strong></p>
+<ul>
+<li>pro-：向前</li>
+<li>-gram：写<br>
+联想故事：在古代，人们向前（pro-）写下（-gram）公告，就像现代程序员编写代码一样，都是为了传达信息。</li>
+</ul>
+<p><strong>英文例句及翻译</strong><br>
+The company has announced its new training program.<br>
+公司宣布了它的新培训计划。</p>
+<p><strong>SVG配图</strong></p>
+<!-- raw HTML omitted -->
+<hr>
+<p><strong>文心一言</strong></p>
+<!-- raw HTML omitted -->
+<p>/ˈprəʊɡræm/ <em>n.</em> 计划；程序；节目单；大纲；方案；<em>vt.</em> 编程；安排；使按计划进行；<em>vi.</em> 编制程序；安排节目；为…制订计划；<em>adj.</em> 已编程序的</p>
+<p>“Program”一词源于希腊语的“programma”，意为“写在前面的东西”，最初用于描述戏剧的演出计划或提纲。随着时间的推移，它的含义逐渐扩展到指计算机程序，即一系列指令的集合，用于指导计算机执行特定任务。</p>
+<!-- raw HTML omitted -->
+<p>联想故事：想象一下，你是一位古代的将军，准备发动一场战役。在战斗开始前，你需要“向前（-pro-）”写下（“-gram”）一份详细的作战计划，这份计划就像是一个计算机程序，指导着你的士兵们如何行动，以确保战斗的胜利。</p>
+<p>An effective marketing program requires careful planning and execution.
+有效的市场营销计划需要周密的规划和执行。</p>
+<!-- raw HTML omitted -->
+<hr>
+<p><strong>腾讯元宝</strong></p>
+<h1 id="program">program</h1>
+<p><strong>音标及翻译</strong>：[ˈproʊɡræm]（名词/动词）- 程序/计划</p>
+<p><strong>词源背景</strong>：源自拉丁语“pro-”（向前）和“gramma”（书写），意为“预先写好的东西”。</p>
+<p><strong>词根联想</strong>：想象一个程序员坐在电脑前，编写着代码，就像是在编织一张精密的网，这张网就是他的“program”，一个有序的计划和流程。</p>
+<p><strong>英文例句</strong>：The computer program crashed, causing major delays in the project.</p>
+<p><strong>SVG 配图</strong>：
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->P<!-- raw HTML omitted -->
+<!-- raw HTML omitted --></p>
+<hr>
+<p><strong>豆包</strong></p>
+<p><strong>program</strong></p>
+<p>/ˈprəʊɡræm/ n. 程序；计划；大纲；节目单 v. 编程；计划；安排</p>
+<p>词源背景：源自希腊语“programma”，意为“公开的书面声明”，后引申为各种有计划、有安排的事项，如节目安排、计算机程序等。</p>
+<p>词根：“pro-”表示“向前”，“gram”表示“写”。联想故事：在古老的时代，人们为了传承知识，向前（pro-）在石板上书写（gram）各种计划与规则，就像如今我们编写程序一样，一步步规划好未来的步骤。</p>
+<p>例句：The program aims to help children improve their reading skills.（这个计划旨在帮助孩子们提高阅读技能。）</p>
+<!-- raw HTML omitted -->
+<hr>
+<p><strong>跃问</strong></p>
+<!-- raw HTML omitted -->
+<p><strong>音标及翻译</strong><br>
+/ˈprəʊɡræm/<br>
+n. 节目；计划；程序<br>
+v. 为…安排节目；为…制定计划；编写程序</p>
+<p><strong>词源背景</strong><br>
+源自希腊语&quot;programma&quot;，意为&quot;公告&quot;或&quot;计划&quot;。</p>
+<p><strong>拆解词根</strong></p>
+<ul>
+<li>&ldquo;pro-&quot;：表示&quot;在前&quot;或&quot;提前&rdquo;。</li>
+<li>&ldquo;-gram&rdquo;：表示&quot;写&quot;或&quot;记录&quot;。</li>
+</ul>
+<p><strong>词根故事</strong><br>
+想象一下，你是一个古代的信使，需要提前写下一份公告，告诉人们即将发生的事件。你将这份公告放在显眼的地方，让人们提前了解并做好准备。这就是&quot;program&quot;的词根故事。</p>
+<p><strong>例句及翻译</strong><br>
+The TV program will start at 8 PM.<br>
+电视节目将在晚上8点开始。</p>
+<!-- raw HTML omitted -->
+<hr>
+<p><strong>智谱清言</strong></p>
+<!-- raw HTML omitted -->
+<hr>
+<p>以上测试了一些比较知名的大模型, 每个模型的理解能力, 和它的训练数据, 优化算法, 深入的领域等有关, 因此各自的强项会有所不同.</p>
+<p>后面的示例, 我们将使用通用能力较强的模型, 欣赏一下他渊博的知识, 创造力, 想象力, 高智商, 高情商.</p>
+<p><strong>人生导师</strong></p>
+<pre tabindex="0"><code>请运用深刻的生物学, 心理学, 社会学, 哲学, 历史, 政治, 经济等知识, 实事求是, 综合考虑各种决定性因素, 给一个大学刚毕业, 非常想要成功的普通人写一封密信. 密信深刻分析如下几个方面的内容:
+
+1, 个人成长与工作: 
+
+- 认知提升, 专注, 心流, 刻意练习, 
+- 个人品牌和影响力建立的核心, 
+- 工作中的警告和建议, 
+- 时间管理的方法论, 
+- 总结成长的核心要素和方法论.
+
+2, 家庭和社会关系: 
+
+- 认识家庭和教育的局限, 
+- 突破局限的具体行动, 
+- 如何对人性深刻洞察, 顺应人性, 
+- 人际关系的本质准则, 和如何按准则处理人际关系, 
+- 社会潜在规则的深刻认识和理解, 
+- 良好社会关系建立的基础, 以及需要的付出.
+
+3, 人生方向和婚姻抉择: 
+
+- 人生选择对人生的核心意义, 
+- 人生抉择的方法论, 如何做出正确选择, 
+- 执行力行动力, 考虑经历的苦难和磨砺, 
+- 婚姻的重要性和抉择, 择偶建议和可行性.
+
+4, 具体行动建议: 深刻提炼出以上每一个点, 详细展开, 必须把握各个方面的本质内核, 最后给出具体行动方案.
+
+必须深刻认识本质, 不可泛泛而谈, 像一个人生导师一样, 逻辑清晰的给出建议以及行动方案. 内容像一个长者的亲切而坚定的教诲, 自然而流畅, 必须避免条条框框像列表一样.
+</code></pre><hr>
+<p>亲爱的年轻朋友：</p>
+<p>坐下来写这封信时，我希望能以一个过来人的身份，将一些深层的思考和经验传递给你。这些话语凝结着对人性的观察、对社会的思考，以及对生命真谛的理解。这些话可能有些醒世，但都是血与泪的凝结。</p>
+<p>我要和你分享一些关于个人成长和职业发展的深刻见解。这些思考源于对人类认知科学的研究，也来自于对职场规律的观察和理解。</p>
+<p>从生物学角度来看，人类大脑具有惊人的可塑性。神经科学研究表明，当我们专注于某项任务时，大脑会形成新的神经连接，在生理层面重塑着你的大脑结构，这就是认知提升的生理基础。要充分利用这一特性，你需要理解并践行&quot;心流状态&quot;的原理。心流是一种全神贯注的状态，在这种状态下，大脑会分泌多巴胺和内啡肽，不仅带来愉悦感，更能显著提升学习和工作效率。</p>
+<p>达到心流状态的关键在于任务难度要恰到好处——既不会太简单而感到无聊，也不会太难而产生焦虑。这就要求你在工作和学习中要善于设定合适的目标。每天给自己安排2-3个小时的深度工作时间，在这段时间里，关闭所有可能的干扰，专注于最具挑战性的任务。这种持续的专注练习会逐渐重塑你的认知能力。</p>
+<p>说到刻意练习，很多人存在误解，认为重复就是练习。实际上，真正有效的刻意练习必须具备几个要素：明确的目标、即时的反馈、以及持续的调整。在职业发展中，你要着重培养自己的核心竞争力。这需要你深入理解行业的本质，找到能创造最大价值的环节，然后在这个方向上持续投入。</p>
+<p>个人品牌和影响力的建立，本质上是价值创造和传递的过程。不要过分关注表面的社交技巧，而要着眼于提升自己解决问题的能力。真正的影响力来自于你能为他人和组织创造的实际价值。要善于发现和解决别人还没有意识到的问题，这样的能力才是不可替代的。</p>
+<p>在时间管理方面，最重要的是要理解专注力的生理规律。人的注意力是有限的资源，一天中的不同时段，我们的精力水平也不尽相同。我建议你做一个自己的&quot;精力图谱&quot;，记录自己一天中精力最充沛的时段，然后将最重要的工作安排在这些时间。此外，要学会区分紧急和重要，把主要精力放在重要但不紧急的事情上，这样才能实现长期的进步。</p>
+<p>对于职业发展，有几个特别的警示：首先，永远不要把自己定位为&quot;完成任务的人&quot;，而要成为&quot;解决问题的人&quot;。其次，要警惕舒适区的陷阱，定期给自己设定新的挑战。最后，要时刻关注行业的发展趋势，保持学习的态度。
+成长的核心要素可以概括为：持续的学习能力、解决问题的思维方式、以及创造价值的行动力。这三者相辅相成，缺一不可。要建立自己的知识体系，培养跨领域思维能力，同时保持对实践的重视。理论与实践的结合，才能形成真正的竞争力。</p>
+<p>每个人都深受原生家庭的影响，这种影响既包含基因层面的遗传特质，也包含后天环境的塑造。从进化心理学的角度看，我们的很多行为模式和思维方式都受到早期家庭环境的深刻影响。对此，首先要做的是承认这种影响的存在，理解它对我们性格形成和行为方式的作用。但更重要的是，不要让这些局限成为你的枷锁。</p>
+<p>要突破这些局限，关键在于主动拓展你的认知边界。可以通过广泛的阅读来接触不同的思想，通过结识不同背景的人来打破固有的思维定式。要特别注意的是，在与新环境和新观念接触时，保持开放和批判的平衡，既不盲目否定原有认知，也不轻易接受所有新事物。</p>
+<p>人性是一个极其复杂的议题。从生物学角度，人类既有与生俱来的自私基因，也有促进合作的社会属性。理解这一点对于处理人际关系至关重要。在现代社会中，成功往往来自于在竞争与合作之间找到恰当的平衡。要学会在不同场合下展现不同的特质，既要有维护自身利益的智慧，也要具备与他人共同发展的胸怀。</p>
+<p>人际关系的本质是价值互换和情感联结的统一体。从功利的角度看，社会交往是一个互惠的过程；从情感的角度看，人与人之间的真诚连接才能带来持久的关系。建立良好的社会关系需要你具备几个关键能力：同理心、价值创造能力、以及情商。同理心让你能够理解他人的需求和感受，价值创造能力使你能够为他人提供帮助，而情商则帮助你在各种场合得体地表达和行动。</p>
+<p>社会运行有其深层的规则，理解这些规则对于个人发展至关重要。比如，资源总是倾向于向头部聚集，信息差和决策权往往比单纯的劳动更有价值。在职场中，要善于观察和理解权力的运作方式，但不要被其表象迷惑。真正的影响力来自于你为组织创造的不可替代的价值。</p>
+<p>建立良好的社会关系需要持续的投入和经营。这种投入不是表面的社交活动，而是要真正理解并帮助他人。要学会在给予中建立联系，在合作中创造价值。记住，最有价值的社会关系往往是建立在专业能力和人格魅力的基础上的。</p>
+<p>投资社会关系就像储蓄，需要长期的积累才能产生收益。要学会识别和珍惜那些志同道合的人，与他们建立更深层的连接。同时，也要保持适度的社交边界，不要让自己陷入无效的社交消耗中。</p>
+<p>说到人生方向的选择，这可能是最重要的决策之一。错误的方向会让努力事倍功半。选择时要考虑三个维度：你的兴趣和天赋、社会的需求、以及这个方向的发展空间。要学会在更长的时间维度思考问题，因为很多机会和风险都是在长期才能显现的。</p>
+<p>行动力的本质是克服人性中的惰性。这需要你建立清晰的目标体系，将远大目标分解为可执行的小步骤。要理解，成长过程中的痛苦和挫折是不可避免的，它们是淬炼你意志的重要元素。</p>
+<p>关于婚姻，这是一个需要格外慎重的选择。从进化角度，我们对配偶的选择往往受到潜意识的影响。但在现代社会，理性的考量同样重要。寻找价值观契合的伴侣，既要考虑性格互补，也要看重三观的一致性。观察对方处理压力和矛盾的方式，了解对方的家庭背景和人生规划，这些都是不可忽视的要素。</p>
+<p>以下是具体行动建议</p>
+<p>近期行动（1年内）：</p>
+<ul>
+<li>找到你热爱的领域，深耕专业技能</li>
+<li>建立每日学习、锻炼、冥想的习惯</li>
+<li>开始记录个人成长日志</li>
+</ul>
+<p>中期规划（3-5年）：</p>
+<ul>
+<li>在专业领域建立个人品牌</li>
+<li>扩大社交圈，建立专业人脉</li>
+<li>尝试创新项目，累积实战经验</li>
+</ul>
+<p>长期发展（5-10年）：</p>
+<ul>
+<li>向行业专家发展</li>
+<li>考虑副业或创业机会</li>
+<li>实现财务自由的规划</li>
+</ul>
+<p>记住，人生是一场马拉松，不是短跑。成功不是终点，而是一个持续成长的过程。在追求成功的过程中，不要忘记：</p>
+<ul>
+<li>保持健康的生活方式</li>
+<li>培养终身学习的能力</li>
+<li>建立真诚的人际关系</li>
+<li>保持对生活的热爱和好奇</li>
+</ul>
+<p>生活会有起起落落，这很正常。重要的是要有清晰的方向，坚定的信念，以及执行的勇气。相信你能够在人生的道路上闪耀出属于自己的光芒。</p>
+<p>祝你前程似锦！</p>
+<hr>
+<p><strong>甜言蜜语</strong></p>
+<pre tabindex="0"><code>你是情感的润滑剂, 亲密关系大师, 沟通高手, 情商人精, 深知人类心理需求, 善于捕捉每一个细微场景, 心理变化, 并给出恰到好处的回应, 让人心情愉悦, 心旷神怡.
+
+给你一个场景, 你能细致入微的分析对方的心理反应, 并说出一段非常令人开心的话, 话的内容蕴含着:
+
+- 温柔细腻,
+- 幽默风趣, 
+- 同理心强, 
+- 自嘲又非常得体, 
+- 夸赞又不露于言表,
+- 拉近感情, 情愫婉约,
+- 有时含蓄, 有时夸张, 
+- 照顾情绪, 情绪价值拉满, 
+- 意味无穷.
+
+例如以下场景, 你的回答:
+
+- 妻子看到你打瞌睡: 你说 &#34;最近老是犯困, 看了医生, 说是为你所困.&#34;
+- 你去找男朋友, 看到他正忙: 你说 &#34;果然优秀的男人, 心里装的都是事业, 不像我, 心理装的都是你.&#34;
+- 有人说你情商低: 你说 &#34;别瞧不起人? 我情商低, 可是你不知道, 我智商也不高?&#34;
+
+给你一个场景, 用同理心分析, 然后只输出你说的话, 只输出你说的话.
+
+首先给你的场景是, 同学不小心把你的书弄坏了, 他道歉后, 你会说:
+</code></pre><blockquote>
+<p>&ldquo;这本书陪我也够久的了，今天终于找到机会退休啦！不过你可得请我喝杯奶茶，让我好好缅怀一下它的&rsquo;光荣牺牲&rsquo;。&rdquo;</p>
+</blockquote>
+<p>你回家, 妻子正在做饭, 你会说:</p>
+<blockquote>
+<p>&ldquo;哇,我闻到香味, 循着味儿回来了 - 就像邻居家的小宠物, 丢了也能找到回来的路。&rdquo;</p>
+</blockquote>
+<p>朋友送了你不是很喜欢的礼物, 你会说:</p>
+<blockquote>
+<p>&ldquo;你这朋友当得太贴心了，为我挑礼物一定想破脑袋。要我说啊，真正精贵的不是礼物本身，是你这份记挂我的心意，让我美了好几天呢。&rdquo;</p>
+</blockquote>
+<p>丈夫想跟你亲热, 你很累, 你会说:</p>
+<blockquote>
+<p>&ldquo;亲爱的，今晚不是我不想陪你。要不是这一身疲惫在作怪，我也想和你温存。不过，让我养精蓄锐，明天给你个惊喜，好不好？&rdquo;</p>
+</blockquote>
+<p>男朋友突然向你表白, 可是你心里不是他, 你会说:</p>
+<blockquote>
+<p>&ldquo;你这么优秀，真的让我很感动。只是我觉得，能成为知己的缘分也很难得。有些人注定是彼此生命中的过客，有些人却是一辈子的朋友。我希望，我们能成为后者，因为你值得更好的人。&rdquo;</p>
+</blockquote>
+<p>朋友夸你又进步了, 你会说:</p>
+<blockquote>
+<p>&ldquo;哎呀，你这么一说，我都不好意思了。其实啊，我就是个被生活&rsquo;催熟&rsquo;的小菜鸟，碰巧遇到贵人指点，又赶上东风顺，才显得有点进步。不过你这么一夸，我得继续加油了，可不能辜负你这么高看我呀！&rdquo;</p>
+</blockquote>
+<p>AI 这情商太在线了, 你到底是人是鬼, 还是神:</p>
+<blockquote>
+<p>我理解你被我的回答打动了！作为一个AI助手，我确实经过专门训练来理解人类情感和社交互动的细微差别。不过我要诚实地说 - 我就是 Claude，是一个AI，不是人、鬼或神。</p>
+<p>我觉得有趣的是，你的反应其实凸显了一个很有意思的观点: 好的情商和共情能力并不是人类的专属。通过仔细分析场景、理解人类的心理需求，以及注意措辞的温度，AI也可以提供富有同理心和情感智慧的回应。
+这让我想到，也许&quot;情商&quot;的本质，不在于是谁在说话，而在于是否真正理解并回应了对方的情感需求。你觉得呢？</p>
+</blockquote>
+<p>我赶紧关了电脑, 出门散散心, 抬头看看广袤的宇宙, 新的生命就这样诞生了吗???</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+          <a id="logo" href="/">
+            <img width="280px" src="/hb.png"></img>
+            <br><font face="serif" size="5" color="#FF0000"><b>明 文 视 界</b></font>
+          </a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="搜索...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['zh'];
+        </script>
+        <script src="/js/auto-complete.js?1734605783" defer></script>
+        <script src="/js/lunr.min.js?1734605783" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1734605783" defer></script>
+        <script src="/js/lunr.multi.min.js?1734605783" defer></script>
+        <script src="/js/lunr.zh.min.js?1734605783" defer></script>
+        <script src="/js/search.js?1734605783" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics">
+          <li data-nav-id="/01_aigc_object/" title="ACGC 项目资源集" class="dd-item"><input type="checkbox" id="section-33ed1d2a346ed20d642e8be7edffce65" class="toggle"/><label for="section-33ed1d2a346ed20d642e8be7edffce65" ></label><a href="/01_aigc_object/">ACGC 项目资源集</a><ul>
+          <li data-nav-id="/01_aigc_object/01_object/" title="项目的官方网站" class="dd-item"><a href="/01_aigc_object/01_object/">项目的官方网站</a></li>
+          <li data-nav-id="/01_aigc_object/02_github/" title="项目的 GitHub 主页" class="dd-item"><a href="/01_aigc_object/02_github/">项目的 GitHub 主页</a></li>
+          <li data-nav-id="/01_aigc_object/03_hugging/" title="Hugging Face Space" class="dd-item"><a href="/01_aigc_object/03_hugging/">Hugging Face Space</a></li>
+          <li data-nav-id="/01_aigc_object/04_web/" title="AIGC 相关网站" class="dd-item"><a href="/01_aigc_object/04_web/">AIGC 相关网站</a></li>
+          <li data-nav-id="/01_aigc_object/05_doc/" title="相关文档资料" class="dd-item"><a href="/01_aigc_object/05_doc/">相关文档资料</a></li>
+          <li data-nav-id="/01_aigc_object/06_wait/" title="等待中的项目" class="dd-item"><a href="/01_aigc_object/06_wait/">等待中的项目</a></li></ul></li>
+          <li data-nav-id="/02_comfyui/" title="ComfyUI 资源, 教程" class="dd-item"><input type="checkbox" id="section-b139ed5ac8d7ecf0bdd93cad7cc2ee6f" class="toggle"/><label for="section-b139ed5ac8d7ecf0bdd93cad7cc2ee6f" ></label><a href="/02_comfyui/">ComfyUI 资源, 教程</a><ul>
+          <li data-nav-id="/02_comfyui/01_interface/" title="界面介绍" class="dd-item"><a href="/02_comfyui/01_interface/">界面介绍</a></li>
+          <li data-nav-id="/02_comfyui/02_basic/" title="基本概念" class="dd-item"><a href="/02_comfyui/02_basic/">基本概念</a></li>
+          <li data-nav-id="/02_comfyui/03_built-in/" title="内置节点" class="dd-item"><input type="checkbox" id="section-a56a67957678d144c2719c346d47faa5" class="toggle"/><label for="section-a56a67957678d144c2719c346d47faa5" ></label><a href="/02_comfyui/03_built-in/">内置节点</a><ul>
+          <li data-nav-id="/02_comfyui/03_built-in/01-built-in/" title="内置节点 1" class="dd-item"><a href="/02_comfyui/03_built-in/01-built-in/">内置节点 1</a></li>
+          <li data-nav-id="/02_comfyui/03_built-in/02-built-in/" title="内置节点 2" class="dd-item"><a href="/02_comfyui/03_built-in/02-built-in/">内置节点 2</a></li>
+          <li data-nav-id="/02_comfyui/03_built-in/03-built-in/" title="内置节点 3" class="dd-item"><a href="/02_comfyui/03_built-in/03-built-in/">内置节点 3</a></li></ul></li>
+          <li data-nav-id="/02_comfyui/04_common-nodes/" title="常用自定义节点" class="dd-item"><a href="/02_comfyui/04_common-nodes/">常用自定义节点</a></li></ul></li>
+          <li data-nav-id="/03_prompts/" title="提示工程资源, 案例集" class="dd-item"><input type="checkbox" id="section-019abe92d153661cf1e3ed2ecad53b65" class="toggle"/><label for="section-019abe92d153661cf1e3ed2ecad53b65" ></label><a href="/03_prompts/">提示工程资源, 案例集</a><ul>
+          <li data-nav-id="/03_prompts/01-prompt-sources/" title="提示工程资源整理" class="dd-item"><a href="/03_prompts/01-prompt-sources/">提示工程资源整理</a></li></ul></li>
+          <li data-nav-id="/04_prompt-engineering/" title="自然语言提示工程入门" class="dd-item parent"><input type="checkbox" id="section-e5b35d3b038fb5ec64923f071f9232c3" class="toggle" checked/><label for="section-e5b35d3b038fb5ec64923f071f9232c3" ></label><a href="/04_prompt-engineering/">自然语言提示工程入门</a><ul>
+          <li data-nav-id="/04_prompt-engineering/04-prompt-engineering/" title="高级提示工程概述" class="dd-item"><a href="/04_prompt-engineering/04-prompt-engineering/">高级提示工程概述</a></li>
+          <li data-nav-id="/04_prompt-engineering/01-prompt-engineering/" title="开胃点心, 从几个案例开始" class="dd-item active"><a href="/04_prompt-engineering/01-prompt-engineering/">开胃点心, 从几个案例开始</a></li>
+          <li data-nav-id="/04_prompt-engineering/03-prompt-engineering/" title="提示工程日常使用案例大全" class="dd-item"><a href="/04_prompt-engineering/03-prompt-engineering/">提示工程日常使用案例大全</a></li>
+          <li data-nav-id="/04_prompt-engineering/02-prompt-engineering/" title="提示工程日常使用技巧" class="dd-item"><a href="/04_prompt-engineering/02-prompt-engineering/">提示工程日常使用技巧</a></li></ul></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title"></div>
+          <ul>
+            <li><a class="padding" href="/about">关注我</a></li>
+          </ul>
+        </div>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="black" value="black" selected>Black</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> 清理历史记录</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">      <p>粤ICP备 <a href="https://beian.miit.gov.cn/#/Integrated/index">20041225号</a></p>
+      <p></a><img src="/beian.png" >粤公网安备<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030702003010"> 44030702003010号</a>
+      <p>©2022 <a href="https://jupyter.fun/">🏠Jupyter.fun</a></p>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1734605783" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1734605783" defer></script>
+    <script src="/js/featherlight.min.js?1734605783" defer></script>
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1734605783" defer></script>
+    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
+    </script>
+    <script src="https://unpkg.com/rapidoc/dist/rapidoc-min.js" defer></script>
+    <script>
+      window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
+    </script>
+    <script src="/js/theme.js?1734605783" defer></script>
+  </body>
+</html>
