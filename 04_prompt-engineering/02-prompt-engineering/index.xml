@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>提示工程日常使用技巧 on aiart.website</title>
+    <title>2. 提示工程日常使用技巧 on aiart.website</title>
     <link>/04_prompt-engineering/02-prompt-engineering/</link>
-    <description>Recent content in 提示工程日常使用技巧 on aiart.website</description>
+    <description>Recent content in 2. 提示工程日常使用技巧 on aiart.website</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/04_prompt-engineering/02-prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>热身, 熟悉基本概念和编写要点</title>
+      <title>2.1. 热身, 熟悉基本概念和编写要点</title>
       <link>/04_prompt-engineering/02-prompt-engineering/daily-skills01/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/04_prompt-engineering/02-prompt-engineering/daily-skills01/</guid>
@@ -21,35 +21,35 @@ GPT-4 (OpenAI): 毋庸置疑，GPT-4 目前仍然是能力非常全面的模型�
 强大的通用能力: 在各种自然语言处理任务上表现出色，包括文本生成、翻译、问答、摘要、代码生成等。 更强的推理能力: 相较于之前的版本，GPT-4 在复杂推理、逻辑分析和解决难题方面有了显著提升。 更长的上下文理解: 能够处理和理解更长的文本输入，使其在处理需要长程依赖的任务时更具优势。 多模态能力 (部分): GPT-4 也具备初步的多模态能力，可以理解和生成图像描述等。 Gemini (Google): 作为 Google 的旗舰级大语言模型，Gemini 系列展现了强大的实力和创新。</description>
     </item>
     <item>
-      <title>零样本和少样本提示</title>
+      <title>2.2. 零样本和少样本提示</title>
       <link>/04_prompt-engineering/02-prompt-engineering/daily-skills02/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/04_prompt-engineering/02-prompt-engineering/daily-skills02/</guid>
       <description> </description>
     </item>
     <item>
-      <title>思维链提示</title>
+      <title>2.3. 思维链提示</title>
       <link>/04_prompt-engineering/02-prompt-engineering/daily-skills03/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/04_prompt-engineering/02-prompt-engineering/daily-skills03/</guid>
       <description> </description>
     </item>
     <item>
-      <title>角色扮演提示</title>
+      <title>2.4. 角色扮演提示</title>
       <link>/04_prompt-engineering/02-prompt-engineering/daily-skills04/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/04_prompt-engineering/02-prompt-engineering/daily-skills04/</guid>
       <description> </description>
     </item>
     <item>
-      <title>将提示拆分为提示链</title>
+      <title>2.5. 将提示拆分为提示链</title>
       <link>/04_prompt-engineering/02-prompt-engineering/daily-skills05/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/04_prompt-engineering/02-prompt-engineering/daily-skills05/</guid>
       <description> </description>
     </item>
     <item>
-      <title>故事提示</title>
+      <title>2.6. 故事提示</title>
       <link>/04_prompt-engineering/02-prompt-engineering/daily-skills06/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/04_prompt-engineering/02-prompt-engineering/daily-skills06/</guid>
