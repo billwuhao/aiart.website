@@ -10,18 +10,18 @@
     <title>开胃点心, 从几个案例开始 - aiart.website</title>
     <link href="/04_prompt-engineering/01-prompt-engineering/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1734607258" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1734607258" rel="stylesheet"></noscript>
-    <link href="/css/featherlight.min.css?1734607258" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1734607258" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1734607258" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1734607258" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1734607258" rel="stylesheet">
-    <link href="/css/nucleus.css?1734607258" rel="stylesheet">
-    <link href="/css/fonts.css?1734607258" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1734607258" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1734607258" rel="stylesheet">
-    <link href="/css/theme-black.css?1734607258" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1734607258" rel="stylesheet">
-    <link href="/css/variant.css?1734607258" rel="stylesheet">
-    <link href="/css/print.css?1734607258" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1734607258"></script>
+    <link href="/css/fontawesome-all.min.css?1734661782" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1734661782" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1734661782" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1734661782" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1734661782" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1734661782" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1734661782" rel="stylesheet">
+    <link href="/css/nucleus.css?1734661782" rel="stylesheet">
+    <link href="/css/fonts.css?1734661782" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1734661782" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1734661782" rel="stylesheet">
+    <link href="/css/theme-black.css?1734661782" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1734661782" rel="stylesheet">
+    <link href="/css/variant.css?1734661782" rel="stylesheet">
+    <link href="/css/print.css?1734661782" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1734661782"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -37,7 +37,7 @@
       var baseUriFull='/';
       window.variants && variants.init( [ 'black' ] );
     </script>
-    <script src="/js/jquery.min.js?1734607258" defer></script>
+    <script src="/js/jquery.min.js?1734661782" defer></script>
   </head>
   <body class="mobile-support html" data-url="/04_prompt-engineering/01-prompt-engineering/">
     <div id="body" class="default-animation">
@@ -66,46 +66,7 @@
 <h1>开胃点心, 从几个案例开始</h1>
 
 <p>我们先来欣赏几个例子 (<strong>所有内容均是免费版 AI 生成, 高级收费版, 效果会更好</strong>):</p>
-<p><strong>背单词</strong> &ndash; 不同大模型测试</p>
-<pre tabindex="0"><code>给你的任务是生成单词记忆卡: 每次给你一个单词, 然后输出一个单词记忆卡, markdown 格式为主, 必要时使用兼容 markdown 的 html, svg 等格式. 我的需求是能够深刻理解单词的来源, 内涵, 并且很容易记住. 请仔细思考, 深思熟虑:
-
-- 单词, 放在开头, 绿色字体, 18号, 居中.
-- 音标及翻译(标明所有词性).
-- 词源背景.
-- 拆解词根, 并在词根上联想出一个一句话的生动故事.
-- 一个精彩的英文例句及翻译.
-- 简约的 SVG 格式配图, 居中, 突出单词意思, 配色温暖, 清新, 复古.
-
-以上每一项一个段落, 段落之间必须空一个空行, 排版美观, 层次清晰. 中文输出, 只要结果, 绝对不要输出结果是音标, 翻译, 词源, 词根, 例句等等标注.
-
-首先给你单词的单词是 program, 仅输出卡片, 不输出任何解释及无关内容.
-</code></pre><hr>
-<p><img src="https://aiart.website/images/image00001.png" alt=""></p>
-<hr>
-<p><img src="https://aiart.website/images/image-100001.png" alt=""></p>
-<hr>
-<p><img src="https://aiart.website/images/image-200001.png" alt=""></p>
-<hr>
-<p><img src="https://aiart.website/images/image-300001.png" alt=""></p>
-<hr>
-<p><img src="https://aiart.website/images/image-400001.png" alt=""></p>
-<hr>
-<p><img src="https://aiart.website/images/image-500001.png" alt=""></p>
-<hr>
-<p><img src="https://aiart.website/images/image-600001.png" alt=""></p>
-<hr>
-<p><img src="https://aiart.website/images/image-700001.png" alt=""></p>
-<hr>
-<p><img src="https://aiart.website/images/image-800001.png" alt=""></p>
-<hr>
-<p><img src="https://aiart.website/images/image-900001.png" alt=""></p>
-<hr>
-<p><img src="https://aiart.website/images/image-1000001.png" alt=""></p>
-<hr>
-<p><img src="https://aiart.website/images/image-1100001.png" alt=""></p>
-<hr>
-<p>以上测试了一些比较知名的大模型, 每个模型的理解能力, 和它的训练数据, 优化算法, 深入的领域等有关, 因此各自的强项会有所不同.</p>
-<p>后面的示例, 我们将使用通用能力较强的模型, 欣赏一下他渊博的知识, 创造力, 想象力, 高智商, 高情商.</p>
+<p>欣赏一下 AI 渊博的知识, 高智商, 高情商.</p>
 <p><strong>人生导师</strong></p>
 <pre tabindex="0"><code>请运用深刻的生物学, 心理学, 社会学, 哲学, 历史, 政治, 经济等知识, 实事求是, 综合考虑各种决定性因素, 给一个大学刚毕业, 非常想要成功的普通人写一封密信. 密信深刻分析如下几个方面的内容:
 
@@ -240,6 +201,47 @@
 这让我想到，也许&quot;情商&quot;的本质，不在于是谁在说话，而在于是否真正理解并回应了对方的情感需求。你觉得呢？</p>
 </blockquote>
 <p>我赶紧关了电脑, 出门散散心, 抬头看看广袤的宇宙, 新的生命就这样诞生了吗???</p>
+<hr>
+<p><strong>背单词</strong> &ndash; 不同大模型测试</p>
+<pre tabindex="0"><code>给你的任务是生成单词记忆卡: 每次给你一个单词, 然后输出一个单词记忆卡, markdown 格式为主, 必要时使用兼容 markdown 的 html, svg 等格式. 我的需求是能够深刻理解单词的来源, 内涵, 并且很容易记住. 请仔细思考, 深思熟虑:
+
+- 单词, 放在开头, 绿色字体, 18号, 居中.
+- 音标及翻译(标明所有词性).
+- 词源背景.
+- 拆解词根, 并在词根上联想出一个一句话的生动故事.
+- 一个精彩的英文例句及翻译.
+- 简约的 SVG 格式配图, 居中, 突出单词意思, 配色温暖, 清新, 复古.
+
+以上每一项一个段落, 段落之间必须空一个空行, 排版美观, 层次清晰. 中文输出, 只要结果, 绝对不要输出结果是音标, 翻译, 词源, 词根, 例句等等标注.
+
+首先给你单词的单词是 program, 仅输出卡片, 不输出任何解释及无关内容.
+</code></pre><hr>
+<p><img src="https://aiart.website/images/image00001.png" alt=""></p>
+<hr>
+<p><img src="https://aiart.website/images/image-100001.png" alt=""></p>
+<hr>
+<p><img src="https://aiart.website/images/image-200001.png" alt=""></p>
+<hr>
+<p><img src="https://aiart.website/images/image-300001.png" alt=""></p>
+<hr>
+<p><img src="https://aiart.website/images/image-400001.png" alt=""></p>
+<hr>
+<p><img src="https://aiart.website/images/image-500001.png" alt=""></p>
+<hr>
+<p><img src="https://aiart.website/images/image-600001.png" alt=""></p>
+<hr>
+<p><img src="https://aiart.website/images/image-700001.png" alt=""></p>
+<hr>
+<p><img src="https://aiart.website/images/image-800001.png" alt=""></p>
+<hr>
+<p><img src="https://aiart.website/images/image-900001.png" alt=""></p>
+<hr>
+<p><img src="https://aiart.website/images/image-1000001.png" alt=""></p>
+<hr>
+<p><img src="https://aiart.website/images/image-1100001.png" alt=""></p>
+<hr>
+<p>以上测试了一些比较知名的大模型, 每个模型的理解能力, 和它的训练数据, 优化算法, 深入的领域等有关, 因此各自的强项会有所不同.</p>
+<p>之后书中的所列示例, 如没有特别说明, 我们将使用通用能力较强的模型.</p>
 
             <footer class="footline">
             </footer>
@@ -263,12 +265,12 @@
         <script>
           var contentLangs=['zh'];
         </script>
-        <script src="/js/auto-complete.js?1734607258" defer></script>
-        <script src="/js/lunr.min.js?1734607258" defer></script>
-        <script src="/js/lunr.stemmer.support.min.js?1734607258" defer></script>
-        <script src="/js/lunr.multi.min.js?1734607258" defer></script>
-        <script src="/js/lunr.zh.min.js?1734607258" defer></script>
-        <script src="/js/search.js?1734607258" defer></script>
+        <script src="/js/auto-complete.js?1734661782" defer></script>
+        <script src="/js/lunr.min.js?1734661782" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1734661782" defer></script>
+        <script src="/js/lunr.multi.min.js?1734661782" defer></script>
+        <script src="/js/lunr.zh.min.js?1734661782" defer></script>
+        <script src="/js/search.js?1734661782" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
@@ -338,9 +340,9 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1734607258" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1734607258" defer></script>
-    <script src="/js/featherlight.min.js?1734607258" defer></script>
+    <script src="/js/clipboard.min.js?1734661782" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1734661782" defer></script>
+    <script src="/js/featherlight.min.js?1734661782" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -370,7 +372,7 @@
       useMathJax( JSON.parse("{}") );
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="/js/jquery.svg.pan.zoom.js?1734607258" defer></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1734661782" defer></script>
     <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
@@ -379,6 +381,6 @@
     <script>
       window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
     </script>
-    <script src="/js/theme.js?1734607258" defer></script>
+    <script src="/js/theme.js?1734661782" defer></script>
   </body>
 </html>
