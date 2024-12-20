@@ -6,5 +6,54 @@
     <description>Recent content in 提示工程日常使用技巧 on aiart.website</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/04_prompt-engineering/02-prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>热身, 熟悉基本概念和编写要点</title>
+      <link>/04_prompt-engineering/02-prompt-engineering/daily-skills01/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/04_prompt-engineering/02-prompt-engineering/daily-skills01/</guid>
+      <description>本书中所说 提示工程, 仅指设计提示词以指导大语言模型生成期望的文本的方法. 不包括生成图像, 音频, 视频等提示词编写的方法, 以及将来一定会出现的, 通过设计提示词让 AI 智能体, 机器人做各种事, 完成各种任务的方法.
+设计生成文本的提示词, 是基础中的基础, 因为对 AI 来讲, 生成提示词也完全不是问题, 也就是我们可以设计提示词让 AI 生成提示词, 然后再用生成的提示词用于生成图像, 音频, 视频, 甚至指导 AI 完成任务. 这就是我所说的提示工程的重要性所在.
+提示的方式基本分成两种, 提问题的方式, 和下达指令的方式.
+问题和指令 提问题的方式, 和我们使用搜索引擎的很像, 比如搜 &amp;ldquo;什么是什么&amp;rdquo;, &amp;ldquo;什么怎么做&amp;rdquo;, &amp;ldquo;什么最好&amp;rdquo;, &amp;ldquo;xx 方程怎么解&amp;rdquo; 等等, 但是有本质的区别是, AI 能给出传统搜索引擎搜不到的答案, 它会根据自己学习到的知识, 给你组织答案.
+例如:
+目前最强的大语言模型有哪些? 列举 5 个, 简要说说强在哪里? 目前最强的大语言模型（LLMs）领域发展迅速，很难说有绝对的“最强”，因为不同的模型在不同任务和能力侧重上有所不同。 不过，以下列举 5 个目前被广泛认为是顶尖且具有代表性的 LLMs，并简要说明它们的优势所在：
+GPT-4 (OpenAI): 毋庸置疑，GPT-4 目前仍然是能力非常全面的模型之一。
+强大的通用能力: 在各种自然语言处理任务上表现出色，包括文本生成、翻译、问答、摘要、代码生成等。 更强的推理能力: 相较于之前的版本，GPT-4 在复杂推理、逻辑分析和解决难题方面有了显著提升。 更长的上下文理解: 能够处理和理解更长的文本输入，使其在处理需要长程依赖的任务时更具优势。 多模态能力 (部分): GPT-4 也具备初步的多模态能力，可以理解和生成图像描述等。 Gemini (Google): 作为 Google 的旗舰级大语言模型，Gemini 系列展现了强大的实力和创新。</description>
+    </item>
+    <item>
+      <title>零样本和少样本提示</title>
+      <link>/04_prompt-engineering/02-prompt-engineering/daily-skills02/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/04_prompt-engineering/02-prompt-engineering/daily-skills02/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>思维链提示</title>
+      <link>/04_prompt-engineering/02-prompt-engineering/daily-skills03/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/04_prompt-engineering/02-prompt-engineering/daily-skills03/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>角色扮演提示</title>
+      <link>/04_prompt-engineering/02-prompt-engineering/daily-skills04/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/04_prompt-engineering/02-prompt-engineering/daily-skills04/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>将提示拆分为提示链</title>
+      <link>/04_prompt-engineering/02-prompt-engineering/daily-skills05/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/04_prompt-engineering/02-prompt-engineering/daily-skills05/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>故事提示</title>
+      <link>/04_prompt-engineering/02-prompt-engineering/daily-skills06/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/04_prompt-engineering/02-prompt-engineering/daily-skills06/</guid>
+      <description> </description>
+    </item>
   </channel>
 </rss>

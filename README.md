@@ -11,6 +11,64 @@ AI 发展日新月异, 以下项目是目自 2024-11-23 起, 搜集整理的非�
 
 ## 项目官方网站
 
+[Zenodo](https://zenodo.org/) 2024-12-20
+
+[Whisk](https://labs.google/fx/zh/tools/whisk) 2024-12-20
+
+[labs.google/fx](https://labs.google/fx/zh) 2024-12-20
+
+[无问芯穹一站式AI平台](https://cloud.infini-ai.com/platform/ai) 2024-12-20
+
+[VideoLingo - AI Subtitles Translation](https://videolingo.io/zh) 2024-12-20
+
+## GitHub 项目
+
+[RedAIGC/Flux-version-LayerDiffuse](https://github.com/RedAIGC/Flux-version-LayerDiffuse) 2024-12-20
+
+[microsoft/markitdown: Python tool for converting files and office documents to Markdown.](https://github.com/microsoft/markitdown) 2024-12-20
+
+[franciszzj/Leffa: Learning Flow Fields in Attention for Controllable Person Image Generation](https://github.com/franciszzj/Leffa) 2024-12-20
+
+[wzhouxiff/ObjCtrl-2.5D: ObjCtrl-2.5D](https://github.com/wzhouxiff/ObjCtrl-2.5D) 2024-12-20
+
+[ali-vilab/FreeScale: Code for FreeScale, a tuning-free method for higher-resolution visual generation](https://github.com/ali-vilab/FreeScale) 2024-12-20
+
+[tumurzakov/AnimateDiff: AnimationDiff with train](https://github.com/tumurzakov/AnimateDiff) 2024-12-20
+
+[hkchengrex/MMAudio: [arXiv 2024] Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis](https://github.com/hkchengrex/MMAudio) 2024-12-20
+
+[TencentARC/BrushEdit: The official implementation of paper "BrushEdit: All-In-One Image Inpainting and Editing"](https://github.com/TencentARC/BrushEdit) 2024-12-20
+
+[TencentARC/ColorFlow: The official implementation of paper "ColorFlow: Retrieval-Augmented Image Sequence Colorization"](https://github.com/TencentARC/ColorFlow) 2024-12-20
+
+[IamCreateAI/Ruyi-Models](https://github.com/IamCreateAI/Ruyi-Models/tree/main) 2024-12-20
+
+[Genesis-Embodied-AI/Genesis: A generative world for general-purpose robotics & embodied AI learning.](https://github.com/Genesis-Embodied-AI/Genesis) 2024-12-20
+
+[Kedreamix/Linly-Dubbing: 智能视频多语言AI配音/翻译工具 - Linly-Dubbing — “AI赋能，语言无界”](https://github.com/Kedreamix/Linly-Dubbing) 2024-12-20
+
+[genmoai/mochi: The best OSS video generation models](https://github.com/genmoai/mochi/tree/main) 2024-12-20
+
+[guoyww/AnimateDiff: Official implementation of AnimateDiff.](https://github.com/guoyww/animatediff/) 2024-12-20
+
+## Hugging Face
+
+[BrushEdit - a Hugging Face Space by TencentARC](https://huggingface.co/spaces/TencentARC/BrushEdit) 2024-12-20
+
+[TRELLIS - a Hugging Face Space by JeffreyXiang](https://huggingface.co/spaces/JeffreyXiang/TRELLIS) 2024-12-20
+
+## 等待中的项目
+
+[Motion Prompting: Controlling Video Generation with Motion Trajectories](https://motion-prompting.github.io/) 2024-12-20
+
+[snap-research.github.io/wonderland/](https://snap-research.github.io/wonderland/) 2024-12-20
+
+[X-Portrait 2: Highly Expressive Portrait Animation](https://byteaigc.github.io/X-Portrait2/) 2024-12-20
+
+---------
+
+## 项目官方网站
+
 [New Chat | glhf.chat](https://glhf.chat/chat/create) 2024-12-15
 
 [edify-3d Model by Shutterstock | NVIDIA NIM](https://build.nvidia.com/shutterstock/edify-3d) 2024-12-15
