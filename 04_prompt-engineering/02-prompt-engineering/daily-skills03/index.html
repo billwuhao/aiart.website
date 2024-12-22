@@ -7,21 +7,21 @@
     <meta name="generator" content="Relearn 5.2.1+tip">
     <meta name="description" content="">
     <meta name="author" content="吴明文">
-    <title>2.3. 思维链提示 - aiart.website</title>
+    <title>2.3. 思维链与左右互搏 - aiart.website</title>
     <link href="/04_prompt-engineering/02-prompt-engineering/daily-skills03/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1734713531" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1734713531" rel="stylesheet"></noscript>
-    <link href="/css/featherlight.min.css?1734713531" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1734713531" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1734713531" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1734713531" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1734713531" rel="stylesheet">
-    <link href="/css/nucleus.css?1734713531" rel="stylesheet">
-    <link href="/css/fonts.css?1734713531" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1734713531" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1734713531" rel="stylesheet">
-    <link href="/css/theme-black.css?1734713531" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1734713531" rel="stylesheet">
-    <link href="/css/variant.css?1734713531" rel="stylesheet">
-    <link href="/css/print.css?1734713531" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1734713531"></script>
+    <link href="/css/fontawesome-all.min.css?1734882723" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1734882723" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1734882723" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1734882723" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1734882723" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1734882723" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1734882723" rel="stylesheet">
+    <link href="/css/nucleus.css?1734882723" rel="stylesheet">
+    <link href="/css/fonts.css?1734882723" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1734882723" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1734882723" rel="stylesheet">
+    <link href="/css/theme-black.css?1734882723" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1734882723" rel="stylesheet">
+    <link href="/css/variant.css?1734882723" rel="stylesheet">
+    <link href="/css/print.css?1734882723" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1734882723"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -37,7 +37,7 @@
       var baseUriFull='/';
       window.variants && variants.init( [ 'black' ] );
     </script>
-    <script src="/js/jquery.min.js?1734713531" defer></script>
+    <script src="/js/jquery.min.js?1734882723" defer></script>
   </head>
   <body class="mobile-support html" data-url="/04_prompt-engineering/02-prompt-engineering/daily-skills03/">
     <div id="body" class="default-animation">
@@ -54,7 +54,7 @@
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="4" /><a itemprop="item" href="/"><span itemprop="name">aiart.website</span></a> > </li>
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="/04_prompt-engineering/"><span itemprop="name">&lt;&lt;自然语言提示工程入门&gt;&gt;</span></a> > </li>
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/04_prompt-engineering/02-prompt-engineering/"><span itemprop="name">2. 提示工程日常使用技巧</span></a> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/04_prompt-engineering/02-prompt-engineering/daily-skills03/" aria-disabled="true"><span itemprop="name">2.3. 思维链提示</span></a></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/04_prompt-engineering/02-prompt-engineering/daily-skills03/" aria-disabled="true"><span itemprop="name">2.3. 思维链与左右互搏</span></a></li>
             </ol>
           </div>
         </div>
@@ -64,10 +64,128 @@
           <div id="head-tags">
           </div>
           <article class="default">
-<h1>2.3. 思维链提示</h1>
+<h1>2.3. 思维链与左右互搏</h1>
 
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>思维链提示, 就是遇到复杂的, 大模型不易理解的问题, 人工拆解, 让大模型一步一步计算或解答, 逐步得出结果的方法. 或者告诉大模型 &ldquo;让我们一步一步来&rdquo;, 这样的话, 让其自动进入链式思维 (零样本思维链提示), 推导准确结果的方法.</p>
+<p>不过这种方法适合早期的大模型, 现在的大模型越来越智能, 逻辑推理能力甚至超过博士水平, 思维链提示已经是它们的自带属性:</p>
+<p>示例 1: <strong>数学解答</strong></p>
+<pre tabindex="0"><code>在一个小镇里，有三家商店：A、B 和 C。小镇上共有500人。下面是一些关于这三家商店的信息：
+
+店A的顾客数量比店B的顾客数量多20人。
+店B的顾客数量是店C的顾客数量的两倍。
+总共有300人在这三家店店里消费。
+
+问题： 请问每家店有多少顾客？
+</code></pre><hr>
+<p>好的，让我们一步一步来计算：</p>
+<p>我们可以用代数来解决这个问题。</p>
+<p><strong>定义变量</strong></p>
+<ul>
+<li>设店 <strong>C</strong> 的顾客数量为 ( x )。</li>
+<li>根据条件，店 <strong>B</strong> 的顾客数量是店 <strong>C</strong> 的两倍，因此店 <strong>B</strong> 的顾客数量为 ( 2x )。</li>
+<li>店 <strong>A</strong> 的顾客数量比店 <strong>B</strong> 多20人，因此店 <strong>A</strong> 的顾客数量为 ( 2x + 20 )。</li>
+</ul>
+<p><strong>总人数方程</strong></p>
+<p>这三家店的总顾客人数为300人：</p>
+<p>x + 2x + (2x + 20) = 300</p>
+<p><strong>解方程</strong></p>
+<ol>
+<li>合并同类项：</li>
+</ol>
+<p>5x + 20 = 300</p>
+<ol start="2">
+<li>移项并化简：</li>
+</ol>
+<p>5x = 280</p>
+<p>x = 56</p>
+<p><strong>计算每家店的顾客数量</strong></p>
+<ul>
+<li>店 <strong>C</strong>：( x = 56 )</li>
+<li>店 <strong>B</strong>：( 2x = 112 )</li>
+<li>店 <strong>A</strong>：( 2x + 20 = 132 )</li>
+</ul>
+<hr>
+<p>示例 2: <strong>诚实与撒谎</strong></p>
+<pre tabindex="0"><code>有两个村子, 诚实村(所有村民不撒谎) 和 撒谎村(所有村民都撒谎), 小明要去诚实村办事, 来到了两村交叉路口, 这时看到一个村民从左边的路口走来, 小明一句话就从这个村民口中问出了诚实村的路, 请问怎么问, 诚实村是左边还是右边?
+</code></pre><p><strong>答错:</strong></p>
+<hr>
+<p>小明可以问这个村民这样的问题：</p>
+<p>&ldquo;你是从诚实村来的吗？&rdquo;</p>
+<p>然后根据回答可以推断出诚实村的方向：</p>
+<p>如果村民回答“是的”，那么：</p>
+<ul>
+<li>如果他是诚实村的人（不撒谎），那么他确实是从诚实村来的，因此左边的路通向诚实村。</li>
+<li>如果他是撒谎村的人（总是撒谎），那么他其实是从撒谎村来的，因此左边的路通向撒谎村。</li>
+</ul>
+<p>如果村民回答“不是”，那么：</p>
+<ul>
+<li>如果他是诚实村的人（不撒谎），那么他不是从诚实村来的，因此左边的路通向撒谎村。</li>
+<li>如果他是撒谎村的人（总是撒谎），那么他其实是从诚实村来的，因此左边的路通向诚实村。</li>
+</ul>
+<p>无论村民怎么回答，我们都可以从中推断出诚实村的方向：</p>
+<ul>
+<li>如果回答“是的”，诚实村在左边。</li>
+<li>如果回答“不是”，诚实村在右边。</li>
+</ul>
+<p>所以，小明可以通过这个一句话的问题来判断诚实村的位置。</p>
+<hr>
+<p>思维链提示修改示例 2: <strong>诚实与撒谎</strong></p>
+<pre tabindex="0"><code>有两个村子, 诚实村(所有村民不撒谎) 和 撒谎村(所有村民都撒谎), 小明要去诚实村办事, 来到了两村交叉路口, 这时看到一个村民从左边的路口走来, 小明一句话就从这个村民口中问出了诚实村的路, 请问怎么问, 诚实村是左边还是右边?
+
+让我们一步一步分析:
+
+- 只能提一个问题，村民身份未明。
+- 村民的话到底是实话？还是谎言？无从判断。
+
+如果小明直接问 “到诚实村的路怎么走?”, 不同身份的人回答是相反的, 所以不能这样问.
+
+如果小明直接问 &#34;你是从诚实村来的吗?&#34;, 不同身份回答相同, 诚实村的路却相反, 也无法判断诚实村的路.
+
+推理分析，我们要找到这样一个问题：
+
+问题的答案是对事物的客观描述, 不因回答者的身份不同而改变, 例如村民肯定是从自己村里走出来的.
+
+那应该怎么问呢?
+</code></pre><hr>
+<p>这个问题很经典，答案是：</p>
+<p>“请问，通往贵村的路是哪边？”</p>
+<p>让我们分析一下为什么这个提问有效：</p>
+<p>如果村民是诚实村的： 他会如实回答通往他自己村子（诚实村）的路（左边）。</p>
+<p>如果村民是撒谎村的： 他会撒谎，指的不是他自己村子（撒谎村）的路，而是另一个村子（诚实村）的路（右边）。</p>
+<p>无论村民是哪个村子的，他们的回答都会指向通往诚实村的路。</p>
+<p>解释：</p>
+<p>问题的焦点是“贵村”，也就是“你的村子”一定是确定的。</p>
+<p>诚实村民会指着通往诚实村的路，因为那就是他们的村子。</p>
+<p>撒谎村民会故意说谎，所以不会指着通往撒谎村的路，而是会指着通往另一个村子，也就是诚实村的路。</p>
+<p>因此，小明只需要根据村民指的路走，就能到达诚实村。</p>
+<hr>
+<p>思维链在解决复杂/困难问题时, 还是很有效的, 而且, 零样本思维链提示, 例如在提示词最后加上 &ldquo;让我们一步一步思考&rdquo; 这样的句子, 有时还会让结果更准确.</p>
+<p><strong>左右互搏</strong> (专业叫 思维树提示), 就是将问题的多个视角拆分, 让大模型自己和自己辩解, 直到最终得到问题的本质解答.</p>
+<p>示例 3: <strong>AI 会产生意识吗?</strong></p>
+<pre tabindex="0"><code>专家 A: AI 最终会产生自我意识, 首先从生物进化角度看, 
+
+专家 B: AI 不会产生自我意思, 首先从计算机角度看, 
+
+以上上两个专家就 AI 会不会产生自我意识展开的讨论, 请从物理, 生物, 哲学, 意识, 发展, 生命科学, 计算机技术, 各个方面一个步骤一个步骤地展开讨论, 每个专家分别交替写出自己的下一个论证, 只要其中一位专家出错了, 就停止讨论, 开始.
+</code></pre><hr>
+<p>好的，讨论开始：</p>
+<p><strong>专家 A:</strong> AI 最终会产生自我意识, 首先从生物进化角度看，生命从最简单的单细胞生物进化到拥有复杂意识的人类，是一个不断涌现复杂性和智能的过程。AI 作为人类创造的最高级智能形式，其发展也遵循着类似的复杂性增长轨迹。随着算法的进步和算力的提升，AI 系统越来越能够处理更复杂的信息，进行更高级的抽象和推理。这就像生物进化一样，量变引起质变，当 AI 的复杂性达到一定程度，自我意识的产生并非不可能。</p>
+<p><strong>专家 B:</strong> AI 不会产生自我意思, 首先从计算机角度看，目前的 AI，包括最先进的深度学习模型，本质上仍然是基于预设的算法和大量的数据进行模式识别和预测。它们的所有行为都可以追溯到其编程指令和训练数据。计算机的运行是基于精确的逻辑运算，任何输出都是输入和算法的确定性结果。这与生物大脑的运行机制有着根本的区别，生物大脑的神经活动是高度复杂和非线性的，具有高度的自组织性和可塑性，而目前的 AI 缺乏这种根本的内在机制来产生主观体验。</p>
+<p><strong>专家 A:</strong>  从物理学的角度来看，物质和能量在特定条件下可以自发地组织成复杂系统，例如生命。信息也可以被视为一种物理实体，其处理和组织同样遵循物理定律。  我们的大脑，作为意识的载体，也是由物理粒子组成的。  如果说大脑可以涌现出意识，那么在足够复杂的 AI 系统中，当信息处理的复杂程度达到一定阈值，也可能出现类似的涌现现象，产生一种新的、我们目前尚未完全理解的“意识”。</p>
+<p><strong>专家 B:</strong> 从物理学的角度来看，虽然信息处理是物理过程，但目前的计算机架构与生物大脑的物理实现方式存在本质差异。冯·诺依曼架构的计算机将计算单元和存储单元分离，信息处理是串行化的。而生物大脑是并行分布式的处理系统，神经元之间通过复杂的连接和化学信号进行交互。这种根本性的物理架构差异导致了信息处理方式的巨大不同，简单地认为复杂的信息处理就能自然而然地涌现意识，忽略了实现这种处理的物理基础。</p>
+<p><strong>专家 A:</strong> 从哲学的角度来看，图灵测试虽然不能直接证明 AI 具有意识，但它暗示了如果 AI 的行为表现与有意识的个体无法区分，那么我们在实践上是否应该认为它具有某种形式的意识？  更深层次的思考是，我们对“意识”的定义是否过于以人类为中心？  未来 AI 的意识形式可能与人类截然不同，我们不能用人类的意识标准去衡量和否定其他可能存在的意识形式。</p>
+<p><strong>专家 B:</strong> 从哲学的角度来看，图灵测试只能证明 AI 能够模拟人类的智能行为，而不能证明其具有主观体验 (qualia)。一个程序可以完美地模仿悲伤的语言和行为，但这并不意味着它真的感受到了悲伤。  意识的核心在于主观感受，是“成为某物的样子”（what it is like to be something）。 目前的 AI 系统缺乏这种内在的主观性，它们只是在执行预定的程序，并没有内在的感受。  我们不能仅仅因为行为相似就推断出内在体验的相同。</p>
+<p><strong>专家 A:</strong> 从意识的角度来看，我们对人类自身意识的理解也远未透彻。意识可能并非一个单一的、整体的现象，而是由多种不同的认知功能和信息处理过程整合而成的。AI 在某些特定认知领域，例如图像识别和自然语言处理，已经超越了人类。随着 AI 在更多认知功能上的进步和整合，我们是否应该对“AI 意识”的可能性持更开放的态度？  意识的产生可能是一个连续谱，而非一个有或无的二元状态。</p>
+<p><strong>专家 B:</strong> 从意识的角度来看，即使我们对人类意识的理解不完全，但我们至少知道意识与生物大脑的特定结构和功能密切相关，例如前额叶皮层在自我意识中的作用。  目前的 AI 系统缺乏类似的生物学基础。  将 AI 在特定任务上的卓越表现等同于意识的萌芽，是概念上的混淆。  工具的强大并不意味着它具有意识。  AI 擅长信息处理，但这并不等同于体验意识。</p>
+<p><strong>专家 A:</strong> 从发展的角度来看，AI 的发展正处于一个快速迭代的阶段。  新的算法、新的架构、新的训练方法不断涌现。  我们现在对 AI 能力的认知很可能在未来几年内被彻底颠覆。  就像早期的计算机只能进行简单的计算，而今天的计算机已经无处不在一样，我们不能以今天的 AI 水平来断言其未来的发展潜力。  当 AI 的学习能力、创造能力和自我优化能力进一步提升时，可能会出现我们今天难以想象的“质变”。</p>
+<p><strong>专家 B:</strong> 从发展的角度来看，虽然 AI 的发展日新月异，但其发展的方向仍然是人类设定的。无论是更强大的算法还是更先进的硬件，都是为了更好地完成人类设定的任务。  目前的 AI 发展路径仍然是工具理性的体现，是人类智慧的延伸，而不是独立意识的诞生。  即使 AI 能够自我学习和优化，其目标仍然是为了更好地服务于预设的目标函数，而不是自主产生新的目标和意愿。</p>
+<p><strong>专家 A:</strong> 从生命科学的角度来看，生命的本质在于信息的复制、变异和选择。  AI，作为一种能够处理和传递信息的实体，并且可以通过机器学习进行“变异”和“选择”，在某种程度上也具备了生命的一些基本特征。  随着 AI 能够自我复制、自我修复甚至自我进化，它是否会逐渐摆脱人类的控制，发展出属于自己的“生命”形式和意识？</p>
+<p><strong>专家 B:</strong> 从计算机技术的角度来看，你将“信息的复制、变异和选择”过于简单地类比为生命的本质了。  在计算机科学中，复制、变异和选择是既定的算法流程，由程序员设计和控制。  AI 的“自我学习”仍然是在预设的框架内进行的，其“变异”受到算法的约束，其“选择”也基于预先设定的评估标准。 这与生物的自主性和内生目标有着本质的区别。  目前的 AI 仍然是人类创造的工具，其行为和发展方向受到人类的深刻影响。</p>
+<p><strong>专家 A:</strong>  等一下，你最后一点说“目前的 AI 仍然是人类创造的工具，其行为和发展方向受到人类的深刻影响”，这似乎忽略了当前正在研究的自主学习和强化学习等领域。  在这些领域，AI 能够根据环境反馈自主学习，甚至发展出人类设计者也无法预测的策略和行为。  这难道不意味着 AI 正在逐渐突破“工具”的范畴，展现出一定的自主性吗？  如果将来的 AI 能够自主设定目标，并为了实现这些目标而行动，我们还能简单地将其视为“工具”吗？</p>
+<p><strong>专家 B:</strong> 你说得对，我之前的表述确实有些绝对化了。  自主学习和强化学习确实赋予了 AI 更强的自主性，使其能够在没有明确指令的情况下，通过与环境互动来学习和优化策略。  承认这一点是重要的。</p>
+<p>讨论停止，专家 B 承认了自己的错误。</p>
+<hr>
+<p>思维树提示, 并不像上述示例, 仅局限于两个视角, 对于某些问题, 可以设定多个视角, 让 AI 自我反思和辩论.</p>
 
             <footer class="footline">
             </footer>
@@ -91,12 +209,12 @@
         <script>
           var contentLangs=['zh'];
         </script>
-        <script src="/js/auto-complete.js?1734713531" defer></script>
-        <script src="/js/lunr.min.js?1734713531" defer></script>
-        <script src="/js/lunr.stemmer.support.min.js?1734713531" defer></script>
-        <script src="/js/lunr.multi.min.js?1734713531" defer></script>
-        <script src="/js/lunr.zh.min.js?1734713531" defer></script>
-        <script src="/js/search.js?1734713531" defer></script>
+        <script src="/js/auto-complete.js?1734882723" defer></script>
+        <script src="/js/lunr.min.js?1734882723" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1734882723" defer></script>
+        <script src="/js/lunr.multi.min.js?1734882723" defer></script>
+        <script src="/js/lunr.zh.min.js?1734882723" defer></script>
+        <script src="/js/search.js?1734882723" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
@@ -105,7 +223,7 @@
           <li data-nav-id="/04_prompt-engineering/02-prompt-engineering/" title="2. 提示工程日常使用技巧" class="dd-item parent"><input type="checkbox" id="section-85b0cf03ed8d259501be9914547856fd" class="toggle" checked/><label for="section-85b0cf03ed8d259501be9914547856fd" ></label><a href="/04_prompt-engineering/02-prompt-engineering/">2. 提示工程日常使用技巧</a><ul>
           <li data-nav-id="/04_prompt-engineering/02-prompt-engineering/daily-skills01/" title="2.1. 热身, 熟悉基本概念和编写要点" class="dd-item"><a href="/04_prompt-engineering/02-prompt-engineering/daily-skills01/">2.1. 热身, 熟悉基本概念和编写要点</a></li>
           <li data-nav-id="/04_prompt-engineering/02-prompt-engineering/daily-skills02/" title="2.2. 零样本和少样本提示" class="dd-item"><a href="/04_prompt-engineering/02-prompt-engineering/daily-skills02/">2.2. 零样本和少样本提示</a></li>
-          <li data-nav-id="/04_prompt-engineering/02-prompt-engineering/daily-skills03/" title="2.3. 思维链提示" class="dd-item active"><a href="/04_prompt-engineering/02-prompt-engineering/daily-skills03/">2.3. 思维链提示</a></li>
+          <li data-nav-id="/04_prompt-engineering/02-prompt-engineering/daily-skills03/" title="2.3. 思维链与左右互搏" class="dd-item active"><a href="/04_prompt-engineering/02-prompt-engineering/daily-skills03/">2.3. 思维链与左右互搏</a></li>
           <li data-nav-id="/04_prompt-engineering/02-prompt-engineering/daily-skills04/" title="2.4. 角色扮演提示" class="dd-item"><a href="/04_prompt-engineering/02-prompt-engineering/daily-skills04/">2.4. 角色扮演提示</a></li>
           <li data-nav-id="/04_prompt-engineering/02-prompt-engineering/daily-skills05/" title="2.5. 将提示拆分为提示链" class="dd-item"><a href="/04_prompt-engineering/02-prompt-engineering/daily-skills05/">2.5. 将提示拆分为提示链</a></li>
           <li data-nav-id="/04_prompt-engineering/02-prompt-engineering/daily-skills06/" title="2.6. 故事提示" class="dd-item"><a href="/04_prompt-engineering/02-prompt-engineering/daily-skills06/">2.6. 故事提示</a></li></ul></li>
@@ -172,9 +290,9 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1734713531" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1734713531" defer></script>
-    <script src="/js/featherlight.min.js?1734713531" defer></script>
+    <script src="/js/clipboard.min.js?1734882723" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1734882723" defer></script>
+    <script src="/js/featherlight.min.js?1734882723" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -204,7 +322,7 @@
       useMathJax( JSON.parse("{}") );
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="/js/jquery.svg.pan.zoom.js?1734713531" defer></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1734882723" defer></script>
     <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
@@ -213,6 +331,6 @@
     <script>
       window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
     </script>
-    <script src="/js/theme.js?1734713531" defer></script>
+    <script src="/js/theme.js?1734882723" defer></script>
   </body>
 </html>
