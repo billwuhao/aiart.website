@@ -11,6 +11,118 @@ AI 发展日新月异, 以下项目是目自 2024-11-23 起, 搜集整理的非�
 
 ## 项目官方网站
 
+[Project Odyssey](https://www.projectodyssey.ai/) 2024-12-30
+
+[在线运行 ComfyUI 工作流并一键部署 API - ComfyOnline](https://www.comfyonline.app/zh) 2024-12-30
+
+[智谱AI开放平台](https://www.bigmodel.cn/) 2024-12-30
+
+[Replit – Build apps and sites with AI](https://replit.com/) 2024-12-30
+
+[AIGCPanel | 开源AI数字人系统](https://aigcpanel.com/) 2024-12-30
+
+[阶跃星辰开放平台](https://platform.stepfun.com/) 2024-12-30
+
+[Fireworks - Fastest Inference for Generative AI](https://fireworks.ai/) 2024-12-30
+
+[百川大模型-汇聚世界知识 创作妙笔生花-百川智能](https://platform.baichuan-ai.com/homePage) 2024-12-30
+
+[DomoAI | AI Art Generator & Video to Animation Converter](https://domoai.app/) 2024-12-30
+
+[CreateAI](https://www.iamcreate.ai/zh-CN/) 2024-12-30
+
+[Magnific AI — The magic image Upscaler & Enhancer](https://magnific.ai/) 2024-12-30
+
+[Odyssey](https://odyssey.systems/) 2024-12-30
+
+[Nexa AI | Enterprise-Grade On-Device AI for Every Device](https://nexa.ai/) 2024-12-30
+
+[Humane Ai Pin | See the World, Not Your Screen. | Humane](https://humane.com/) 2024-12-30
+
+[书生](https://intern-ai.org.cn/home) 2024-12-30
+
+[Taipy — Build Python Data & BI web applications](https://taipy.io/) 2024-12-30
+
+## GitHub 项目
+
+[facebookresearch/blt: Code for BLT research paper](https://github.com/facebookresearch/blt) 2024-12-30
+
+[VideoVerses/VideoVAEPlus](https://github.com/VideoVerses/VideoVAEPlus) 2024-12-30
+
+[TencentARC/DI-PCG: Code release of our paper "DI-PCG: Diffusion-based Efficient Inverse Procedural Content Generation for High-quality 3D Asset Creation".](https://github.com/TencentARC/DI-PCG) 2024-12-30
+
+[QwenLM/Qwen2-VL: Qwen2-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.](https://github.com/QwenLM/Qwen2-VL) 2024-12-30
+
+[web-infra-dev/midscene: An AI-powered automation SDK can control the page, perform assertions, and extract data in JSON format using natural language.](https://github.com/web-infra-dev/midscene) 2024-12-30
+
+[hpcaitech/Open-Sora: Open-Sora: Democratizing Efficient Video Production for All](https://github.com/hpcaitech/Open-Sora) 2024-12-30
+
+[osanseviero/geminiCoder: Create apps with Gemini](https://github.com/osanseviero/geminiCoder) 2024-12-30
+
+[IamCreateAI/Ruyi-Models](https://github.com/IamCreateAI/Ruyi-Models) 2024-12-30
+
+[rasbt/LLMs-from-scratch: Implement a ChatGPT-like LLM in PyTorch from scratch, step by step](https://github.com/rasbt/LLMs-from-scratch) 2024-12-30
+
+[getmaxun/maxun: 🔥 Open-source no-code web data extraction platform. Turn websites to APIs and spreadsheets with no-code robots in minutes! [In Beta]](https://github.com/getmaxun/maxun) 2024-12-30
+
+[SakanaAI/asal: Automating the Search for Artificial Life with Foundation Models!](https://github.com/SakanaAI/asal) 2024-12-30
+
+[fallenshock/FlowEdit: Official implementation of the paper: "FlowEdit: Inversion-Free Text-Based Editing Using Pre-Trained Flow Models"](https://github.com/fallenshock/FlowEdit) 2024-12-30
+
+[mingyuan-zhang/LMM: Large Motion Model for Unified Multi-Modal Motion Generation](https://github.com/mingyuan-zhang/LMM) 2024-12-30
+
+[TencentARC/StereoCrafter: A framework to convert any 2D videos to immersive stereoscopic 3D](https://github.com/TencentARC/StereoCrafter) 2024-12-30
+
+[THUDM/CogAgent: An open-sourced end-to-end VLM-based GUI Agent](https://github.com/THUDM/CogAgent) 2024-12-30
+
+[AriaUI/Aria-UI: Aria-UI: Visual Grounding for GUI Instructions](https://github.com/AriaUI/Aria-UI) 2024-12-30
+
+[modstart-lib/aigcpanel: AigcPanel 是一个简单易用的一站式AI数字人系统，支持视频合成、声音合成、声音克隆，简化本地模型管理、一键导入和使用AI模型。](https://github.com/modstart-lib/aigcpanel) 2024-12-30
+
+[krystalan/DRT-o1: DRT-o1: Optimized Deep Reasoning Translation via Long Chain-of-Thought](https://github.com/krystalan/DRT-o1) 2024-12-30
+
+[zsyOAOA/InvSR: Arbitrary-steps Image Super-resolution via Diffusion Inversion](https://github.com/zsyOAOA/InvSR) 2024-12-30
+
+[livekit/agents: Build real-time multimodal AI applications 🤖🎙️📹](https://github.com/livekit/agents) 2024-12-30
+
+[modelscope/ClearerVoice-Studio: An AI-Powered Speech Processing Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Enhancement, Separation, and Target Speaker Extraction, etc.](https://github.com/modelscope/ClearerVoice-Studio) 2024-12-30
+
+[baaivision/See3D: You See it, You Got it: Learning 3D Creation on Pose-Free Videos at Scale](https://github.com/baaivision/See3D) 2024-12-30
+
+[Nutlope/picMenu: Visualize menus in seconds with AI](https://github.com/Nutlope/picmenu) 2024-12-30
+
+[Avaiga/taipy: Turns Data and AI algorithms into production-ready web applications in no time.](https://github.com/Avaiga/taipy) 2024-12-30
+
+## Hugging Face
+
+[QVQ 72B Preview - a Hugging Face Space by Qwen](https://huggingface.co/spaces/Qwen/QVQ-72B-preview) 2024-12-30
+
+[LuminaBrush - a Hugging Face Space by lllyasviel](https://huggingface.co/spaces/lllyasviel/LuminaBrush) 2024-12-30
+
+[InvSR - a Hugging Face Space by OAOA](https://huggingface.co/spaces/OAOA/InvSR) 2024-12-30
+
+[ClearerVoice-Studio (Speech Enhancement, Separation and Extraction) - a Hugging Face Space by alibabasglab](https://huggingface.co/spaces/alibabasglab/ClearVoice) 2024-12-30
+
+## 等待中的项目
+
+[Lifting Motion to the 3D World via 2D Diffusion](https://lijiaman.github.io/projects/mvlift/) 2024-12-30
+
+[Synthesizing Moving People with 3D Control](https://boyiliee.github.io/3DHM.github.io/) 2024-12-30
+
+[pkulwj1994/diff_instruct_pp: We introduce Diff-Instruct++, a novel approach for human preference alignment of 1-step text-to-image generation.](https://github.com/pkulwj1994/diff_instruct_pp) 2024-12-30
+
+[MegaSaM](https://mega-sam.github.io/) 2024-12-30
+
+[Sketch2Sound](https://hugofloresgarcia.art/sketch2sound/) 2024-12-30
+
+[INFP: Audio-Driven Interactive Head Generation in Dyadic Conversations](https://grisoon.github.io/INFP/) 2024-12-30
+
+[From Slow Bidirectional to Fast Causal Video Generators](https://causvid.github.io/) 2024-12-30
+
+---------
+
+## 项目官方网站
+
 [Zenodo](https://zenodo.org/) 2024-12-20
 
 [Whisk](https://labs.google/fx/zh/tools/whisk) 2024-12-20

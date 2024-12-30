@@ -27,13 +27,11 @@
 内容主要分为 项目的官方网站, 项目的 GitHub 主页, 项目的 Hugging Face Space (可在线试用), AIGC 相关网站, 相关文档资料. 它们之间可能会有重叠的项目, 但非常少, 我做了去重, 确保唯一性.
 以下项目是截至 2024 年 12 月 9 日搜集整理并分类:
 项目的官方网站 项目的 GitHub 主页 Hugging Face Space AIGC 相关网站 相关文档资料 等待中的项目 后面新添加, 都会标注日期:
-项目官方网站 Zenodo 2024-12-20
-Whisk 2024-12-20
-labs.google/fx 2024-12-20
-无问芯穹一站式AI平台 2024-12-20
-VideoLingo - AI Subtitles Translation 2024-12-20
-GitHub 项目 RedAIGC/Flux-version-LayerDiffuse 2024-12-20
-microsoft/markitdown: Python tool for converting files and office documents to Markdown.</description>
+项目官方网站 Project Odyssey 2024-12-30
+在线运行 ComfyUI 工作流并一键部署 API - ComfyOnline 2024-12-30
+智谱AI开放平台 2024-12-30
+Replit – Build apps and sites with AI 2024-12-30
+AIGCPanel | 开源AI数字人系统 2024-12-30</description>
     </item>
     <item>
       <title>ComfyUI 资源, 教程</title>
