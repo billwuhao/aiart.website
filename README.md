@@ -11,6 +11,76 @@ AI 发展日新月异, 以下项目是目自 2024-11-23 起, 搜集整理的非�
 
 ## 项目官方网站
 
+[Lovable](https://lovable.dev/) 2025-01-02
+
+[Monica - ChatGPT AI Assistant | GPT-4o, Claude 3.5, Gemini 1.5](https://monica.im/) 2025-01-02
+
+[Voicenotes: Transcribe notes, meetings & ask AI](https://voicenotes.com/) 2025-01-02
+
+[YouMind - AI Creation System](https://youmind.ai/) 2025-01-02
+
+## GitHub 项目
+
+[IDEA-Research/GroundingDINO: [ECCV 2024] Official implementation of the paper "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection"](https://github.com/IDEA-Research/GroundingDINO) 2025-01-02
+
+[Yuan-ManX/ai-game-devtools: Here we will keep track of the latest AI Game Development Tools, including LLM, Agent, Code, Writer, Image, Texture, Shader, 3D Model, Animation, Video, Audio, Music, Singing Voice and Analytics. 🔥](https://github.com/Yuan-ManX/ai-game-devtools) 2025-01-02
+
+[yandex-research/switti: The code and models for the paper: Switti: Designing Scale-Wise Transformers for Text-to-Image Synthesis](https://github.com/yandex-research/switti) 2025-01-02
+
+[FreedomIntelligence/HuatuoGPT-o1: Medical o1, Towards medical complex reasoning with LLMs](https://github.com/FreedomIntelligence/HuatuoGPT-o1) 2025-01-02
+
+[vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs](https://github.com/vllm-project/vllm) 2025-01-02
+
+[sgl-project/sglang: SGLang is a fast serving framework for large language models and vision language models.](https://github.com/sgl-project/sglang) 2025-01-02
+
+[modelscope/DiffSynth-Studio: Enjoy the magic of Diffusion models!](https://github.com/modelscope/DiffSynth-Studio) 2025-01-02
+
+[cline/cline: Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.](https://github.com/cline/cline) 2025-01-02
+
+[OpenDriveLab/AgiBot-World: World's First Large-scale High-quality Robotic Manipulation Benchmark](https://github.com/OpenDriveLab/agibot-world) 2025-01-02
+
+[huggingface/smolagents: 🤗 smolagents: a barebones library for agents. Agents write python code to call tools and orchestrate other agents.](https://github.com/huggingface/smolagents) 2025-01-02
+
+[TMElyralab/MusePose: MusePose: a Pose-Driven Image-to-Video Framework for Virtual Human Generation](https://github.com/TMElyralab/MusePose) 2025-01-02
+
+[SpatialVision/Orient-Anything](https://github.com/SpatialVision/Orient-Anything) 2025-01-02
+
+[ixarchakos/try-off-anyone: Official repository of "TryOffAnyone: Tiled Cloth Generation from a Dressed Person"](https://github.com/ixarchakos/try-off-anyone) 2025-01-02
+
+## Hugging Face
+
+[MMAudio — generating synchronized audio from video/text - a Hugging Face Space by hkchengrex](https://huggingface.co/spaces/hkchengrex/MMAudio) 2025-01-02
+
+[Anychat - a Hugging Face Space by akhaliq](https://huggingface.co/spaces/akhaliq/anychat) 2025-01-02
+
+[FacePoke - a Hugging Face Space by jbilcke-hf](https://huggingface.co/spaces/jbilcke-hf/FacePoke) 2025-01-02
+
+[AI Comic Factory - a Hugging Face Space by jbilcke-hf](https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory) 2025-01-02
+
+[Switti - a Hugging Face Space by dbaranchuk](https://huggingface.co/spaces/dbaranchuk/Switti-1024) 2025-01-02
+
+[Dokdo Multimodal - a Hugging Face Space by ginipick](https://huggingface.co/spaces/ginipick/Dokdo-multimodal) 2025-01-02
+
+[Dokdo - a Hugging Face Space by ginigen](https://huggingface.co/spaces/ginigen/Dokdo) 2025-01-02
+
+## 等待中的项目
+
+[Feat2GS](https://fanegg.github.io/Feat2GS/) 2025-01-02
+
+[GenHMR: Generative Human Mesh Recovery](https://m-usamasaleem.github.io/publication/GenHMR/GenHMR.html) 2025-01-02
+
+[1.58-bit FLUX](https://chenglin-yang.github.io/1.58bit.flux.github.io/) 2025-01-02
+
+[HSfM](https://muelea.github.io/hsfm/) 2025-01-02
+
+[PERSE: Personalized 3D Generative Avatars from A Single Portrait](https://hyunsoocha.github.io/perse/) 2025-01-02
+
+[VMix: Improving Text-to-Image Diffusion Model with Cross-Attention Mixing Control](https://vmix-diffusion.github.io/VMix/) 2025-01-02
+
+---------
+
+## 项目官方网站
+
 [Project Odyssey](https://www.projectodyssey.ai/) 2024-12-30
 
 [在线运行 ComfyUI 工作流并一键部署 API - ComfyOnline](https://www.comfyonline.app/zh) 2024-12-30
