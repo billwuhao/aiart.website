@@ -11,6 +11,120 @@ AI 发展日新月异, 以下项目是目自 2024-11-23 起, 搜集整理的非�
 
 ## 项目官方网站
 
+[CreateAI](https://www.iamcreate.ai/en-US) 2025-01-14
+
+[MiniMax-与用户共创智能](https://minimaxi.com/) 2025-01-14
+
+[MiniPerplx](https://mplx.run/) 2025-01-14
+
+[Project IDX](https://idx.dev/) 2025-01-14
+
+[Dify Marketplace](https://marketplace.dify.ai/) 2025-01-14
+
+[即创 - 一站式智能创意生产与管理平台](https://aic.oceanengine.com/login) 2025-01-14
+
+[通义万相_AI创意作画_AI绘画_人工智能-阿里云](https://tongyi.aliyun.com/wanxiang/) 2025-01-14
+
+[Qwen](https://chat.qwenlm.ai/) 2025-01-14
+
+## GitHub 项目
+
+[DrewThomasson/ebook2audiobook: Convert ebooks to audiobooks with chapters and metadata using dynamic AI models and voice cloning. Supports 1,107+ languages!](https://github.com/DrewThomasson/ebook2audiobook) 2025-01-14
+
+[Snowfallingplum/SHMT: [NeurIPS 2024] SHMT: Self-supervised Hierarchical Makeup Transfer via Latent Diffusion Models](https://github.com/Snowfallingplum/SHMT) 2025-01-14
+
+[xyfJASON/ctrlora: Codebase for "CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation"](https://github.com/xyfJASON/ctrlora) 2025-01-14
+
+[VITA-MLLM/VITA: ✨✨VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction](https://github.com/VITA-MLLM/VITA) 2025-01-14
+
+[NJU-PCALab/STAR: STAR: Spatial-Temporal Augmentation with Text-to-Video Models for Real-World Video Super-Resolution](https://github.com/NJU-PCALab/STAR) 2025-01-14
+
+[wileewang/TransPixar](https://github.com/wileewang/TransPixar) 2025-01-14
+
+[Stability-AI/stable-point-aware-3d](https://github.com/Stability-AI/stable-point-aware-3d) 2025-01-14
+
+[SagiPolaczek/NeuralSVG: Official implementation of NerualSVG](https://github.com/SagiPolaczek/NeuralSVG) 2025-01-14
+
+[ali-vilab/TeaCache: Timestep Embedding Tells: It's Time to Cache for Video Diffusion Model](https://github.com/ali-vilab/TeaCache) 2025-01-14
+
+[LituRout/RF-Inversion：整流流反演（RF-Inversion） --- LituRout/RF-Inversion: Rectified Flow Inversion (RF-Inversion)](https://github.com/LituRout/RF-Inversion) 2025-01-14
+
+[fudan-generative-vision/hallo3: Hallo3: Highly Dynamic and Realistic Portrait Image Animation with Diffusion Transformer Networks](https://github.com/fudan-generative-vision/hallo3) 2025-01-14
+
+[sczhou/Upscale-A-Video: [CVPR 2024] Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution](https://github.com/sczhou/Upscale-A-Video) 2025-01-14
+
+[somanchiu/ReSwapper: ReSwapper aims to reproduce the implementation of inswapper. This repository provides code for training, inference, and includes pretrained weights.](https://github.com/somanchiu/ReSwapper) 2025-01-14
+
+[wangzhiyaoo/SVFR: Official implementation of SVFR.](https://github.com/wangzhiyaoo/SVFR) 2025-01-14
+
+## Hugging Face
+
+[Ebook2audiobook V2.0 Beta - a Hugging Face Space by drewThomasson](https://huggingface.co/spaces/drewThomasson/ebook2audiobook) 2025-01-14
+
+[LatentSync - a Hugging Face Space by fffiloni](https://huggingface.co/spaces/fffiloni/LatentSync) 2025-01-14
+
+## 等待中的项目
+
+[SeedVR](https://iceclear.github.io/projects/seedvr/) 2025-01-14
+
+[FaceLift: Single Image to 3D Head with View Generation and GS-LRM](https://www.wlyu.me/FaceLift/) 2025-01-14
+
+---------
+
+## 项目官方网站
+
+[Deepseek Artifacts - Experience the power of the world's best open source model.](https://deepseek-artifacts.vercel.app/?) 2025-01-05
+
+[TypingMind — LLM Frontend Chat UI for AI models](https://www.typingmind.com/?) 2025-01-05
+
+[STORM](https://storm.genie.stanford.edu/) 2025-01-05
+
+[CAD Software for Hardware Design | Zoo](https://zoo.dev/) 2025-01-05
+
+[让计算更简单 | OpenBayes 贝式计算](https://openbayes.com/) 2025-01-05
+
+## GitHub 项目
+
+[Fanghua-Yu/SUPIR: SUPIR aims at developing Practical Algorithms for Photo-Realistic Image Restoration In the Wild. Our new online demo is also released at suppixel.ai.](https://github.com/Fanghua-Yu/SUPIR) 2025-01-05
+
+[declare-lab/TangoFlux: TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching](https://github.com/declare-lab/TangoFlux) 2025-01-05
+
+[n8n-io/n8n: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.](https://github.com/n8n-io/n8n) 2025-01-05
+
+[FoundationVision/Infinity: Infinity ∞ : Scaling Bitwise AutoRegressive Modeling for High-Resolution Image Synthesis](https://github.com/FoundationVision/Infinity) 2025-01-05
+
+[supermemoryai/supermemory: Build your own second brain with supermemory. It's a ChatGPT for your bookmarks. Import tweets or save websites and content using the chrome extension.](https://github.com/supermemoryai/supermemory) 2025-01-05
+
+[jianzongwu/DiffSensei: Implementation of "DiffSensei: Bridging Multi-Modal LLMs and Diffusion Models for Customized Manga Generation"](https://github.com/jianzongwu/DiffSensei) 2025-01-05
+
+[bytedance/LatentSync: Taming Stable Diffusion for Lip Sync!](https://github.com/bytedance/LatentSync) 2025-01-05
+
+[DAMO-NLP-SG/multimodal_textbook: The official repository for "2.5 Years in Class: A Multimodal Textbook for Vision-Language Pretraining"](https://github.com/DAMO-NLP-SG/multimodal_textbook?tab=readme-ov-file) 2025-01-05
+
+[DAMO-NLP-SG/multimodal_textbook: The official repository for "2.5 Years in Class: A Multimodal Textbook for Vision-Language Pretraining"](https://github.com/DAMO-NLP-SG/multimodal_textbook) 2025-01-05
+
+[DAMO-NLP-SG/VideoRefer: The code for "VideoRefer Suite: Advancing Spatial-Temporal Object Understanding with Video LLM"](https://github.com/DAMO-NLP-SG/VideoRefer) 2025-01-05
+
+[hustvl/LightningDiT: [arXiv'25] Reconstruction vs. Generation: Taming Optimization Dilemma in Latent Diffusion Models](https://github.com/hustvl/LightningDiT) 2025-01-05
+
+## Hugging Face
+
+[TangoFlux - a Hugging Face Space by declare-lab](https://huggingface.co/spaces/declare-lab/TangoFlux) 2025-01-05
+
+[Kokoro TTS - a Hugging Face Space by hexgrad](https://huggingface.co/spaces/hexgrad/Kokoro-TTS) 2025-01-05
+
+[AniPortrait Official - a Hugging Face Space by ZJYang](https://huggingface.co/spaces/ZJYang/AniPortrait_official) 2025-01-05
+
+## 等待中的项目
+
+[VideoAnydoor: High-fidelity Video Object Insertion with Precise Motion Control](https://videoanydoor.github.io/) 2025-01-05
+
+[CodeElo](https://codeelo-bench.github.io/) 2025-01-05
+
+---------
+
+## 项目官方网站
+
 [Lovable](https://lovable.dev/) 2025-01-02
 
 [Monica - ChatGPT AI Assistant | GPT-4o, Claude 3.5, Gemini 1.5](https://monica.im/) 2025-01-02
