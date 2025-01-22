@@ -11,6 +11,84 @@ AI 发展日新月异, 以下项目是目自 2024-11-23 起, 搜集整理的非�
 
 ## 项目官方网站
 
+[万相营造](https://agi.taobao.com/) 2025-01-22
+
+[Eko - Production-ready Agent Framework for Developers](https://eko.fellou.ai/) 2025-01-22
+
+[Vidu AI - 全球领先的AI内容生产平台](https://www.vidu.cn/) 2025-01-22
+
+[Lumier AI](https://lumier.iaiuse.com/) 2025-01-22
+
+[Boards | Dream Machine](https://dream-machine.lumalabs.ai/) 2025-01-22
+
+[Grok](https://grok.com/) 2025-01-22
+
+[Kinetix | AI Technologies for Character Animation](https://www.kinetix.tech/) 2025-01-22
+
+[大模型检测](https://matrix.tencent.com/ai-detect/ai_gen) 2025-01-22
+
+[腾讯混元3D](https://3d.hunyuan.tencent.com/) 2025-01-22
+
+[Trae - Ship Faster with Trae](https://www.trae.ai/home) 2025-01-22
+
+[MatrixTeam-AI/RAIN](https://github.com/MatrixTeam-AI/RAIN) 2025-01-22
+
+[KREA](https://www.krea.ai/) 2025-01-22
+
+[Firecrawl](https://www.firecrawl.dev/) 2025-01-22
+
+[Jina AI - 您的搜索，如虎添翼！](https://jina.ai/) 2025-01-22
+
+[Build Full-Stack Web Applications in Minutes with Codev | AI App Builder](https://www.co.dev/) 2025-01-22
+
+[Llama Coder – AI Code Generator](https://llamacoder.together.ai/) 2025-01-22
+
+## GitHub 项目
+
+[mbzuai-oryx/LlamaV-o1: Rethinking Step-by-step Visual Reasoning in LLMs](https://github.com/mbzuai-oryx/LlamaV-o1) 2025-01-22
+
+[FellouAI/eko: Eko (Eko Keeps Operating) - Build Production-ready Agentic Workflow with Natural Language - eko.fellou.ai](https://github.com/FellouAI/eko) 2025-01-22
+
+[OpenBMB/MiniCPM-o: MiniCPM-o 2.6: A GPT-4o Level MLLM for Vision, Speech and Multimodal Live Streaming on Your Phone](https://github.com/OpenBMB/MiniCPM-o) 2025-01-22
+
+[MiniMax-AI/MiniMax-01](https://github.com/MiniMax-AI/MiniMax-01) 2025-01-22
+
+[ali-vilab/MangaNinjia: Official implementation of "MangaNinja: Line Art Colorization with Precise Reference Following"](https://github.com/ali-vilab/MangaNinjia) 2025-01-22
+
+[openai/whisper: Robust Speech Recognition via Large-Scale Weak Supervision](https://github.com/openai/whisper) 2025-01-22
+
+[rany2/edge-tts: Use Microsoft Edge's online text-to-speech service from Python WITHOUT needing Microsoft Edge or Windows or an API key](https://github.com/rany2/edge-tts) 2025-01-22
+
+[PRIME-RL/PRIME: Scalable RL solution for advanced reasoning of language models](https://github.com/PRIME-RL/PRIME) 2025-01-22
+
+[Tencent/Hunyuan3D-2: High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models.](https://github.com/Tencent/Hunyuan3D-2) 2025-01-22
+
+[VGenAI-Netflix-Eyeline-Research/Go-with-the-Flow: Motion-Controllable Video Diffusion via Warped Noise](https://github.com/VGenAI-Netflix-Eyeline-Research/Go-with-the-Flow) 2025-01-22
+
+[jixiaozhong/Sonic: Official implementation of "Sonic: Shifting Focus to Global Audio Perception in Portrait Animation"](https://github.com/jixiaozhong/Sonic) 2025-01-22
+
+## Hugging Face
+
+[CosyVoice2-0.5B - a Hugging Face Space by FunAudioLLM](https://huggingface.co/spaces/FunAudioLLM/CosyVoice2-0.5B) 2025-01-22
+
+[Make Custom Voices With KokoroTTS - a Hugging Face Space by ysharma](https://huggingface.co/spaces/ysharma/Make_Custom_Voices_With_KokoroTTS) 2025-01-22
+
+## 等待中的项目
+
+[ConceptMaster](https://yuzhou914.github.io/ConceptMaster/) 2025-01-22
+
+[Diffusion as Shader: 3D-aware Video Diffusion for Versatile Video Generation Control](https://igl-hkust.github.io/das/) 2025-01-22
+
+[MatterGen: a generative model for inorganic materials design - Microsoft Research](https://www.microsoft.com/en-us/research/publication/mattergen-a-generative-model-for-inorganic-materials-design/) 2025-01-22
+
+[YBYBZhang/FramePainter: [arXiv 2025] Official pytorch implementation of "FramePainter: Endowing Interactive Image Editing with Video Diffusion Priors"](https://github.com/YBYBZhang/FramePainter) 2025-01-22
+
+[AniGS](https://lingtengqiu.github.io/2024/AniGS/) 2025-01-22
+
+---------
+
+## 项目官方网站
+
 [CreateAI](https://www.iamcreate.ai/en-US) 2025-01-14
 
 [MiniMax-与用户共创智能](https://minimaxi.com/) 2025-01-14
