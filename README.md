@@ -11,6 +11,54 @@ AI 发展日新月异, 以下项目是目自 2024-11-23 起, 搜集整理的非�
 
 ## 项目官方网站
 
+[Vercel: Build and deploy the best web experiences with the Frontend Cloud](https://vercel.com/) 2025-01-27
+
+[GLM-PC](https://cogagent.aminer.cn/home#/) 2025-01-27
+
+[Comfy Copilot](https://www.comfycopilot.dev/) 2025-01-27
+
+## GitHub 项目
+
+[Mintplex-Labs/anything-llm: The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, and more.](https://github.com/Mintplex-Labs/anything-llm) 2025-01-27
+
+[chatchat-space/Langchain-Chatchat: Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain](https://github.com/chatchat-space/Langchain-Chatchat) 2025-01-27
+
+[mudler/LocalAI: :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P inference](https://github.com/mudler/LocalAI) 2025-01-27
+
+[bytedance/UI-TARS](https://github.com/bytedance/UI-TARS) 2025-01-27
+
+[bytedance/UI-TARS-desktop: A GUI Agent application based on UI-TARS(Vision-Lanuage Model) that allows you to control your computer using natural language.](https://github.com/bytedance/UI-TARS-desktop) 2025-01-27
+
+[bytedance/X-Dyna: [ArXiv 2024] X-Dyna: Expressive Dynamic Human Image Animation](https://github.com/bytedance/X-Dyna) 2025-01-27
+
+[baichuan-inc/Baichuan-M1-14B](https://github.com/baichuan-inc/Baichuan-M1-14B) 2025-01-27
+
+[BoyuanJiang/FitDiT: Official implementation of "FitDiT: Advancing the Authentic Garment Details for High-fidelity Virtual Try-on"](https://github.com/BoyuanJiang/FitDiT) 2025-01-27
+
+[hkust-nlp/simpleRL-reason: This is a replicate of DeepSeek-R1-Zero and DeepSeek-R1 training on small models with limited data](https://github.com/hkust-nlp/simpleRL-reason) 2025-01-27
+
+[huggingface/open-r1: Fully open reproduction of DeepSeek-R1](https://github.com/huggingface/open-r1) 2025-01-27
+
+[microsoft/AIOpsLab](https://github.com/microsoft/AIOpsLab) 2025-01-27
+
+[bytedance/pasa: PaSa -- an advanced paper search agent powered by large language models. It can autonomously make a series of decisions, including invoking search tools, reading papers, and selecting relevant references, to ultimately obtain comprehensive and accurate results for complex scholarly queries.](https://github.com/bytedance/pasa) 2025-01-27
+
+## Hugging Face
+
+[ARIA - a Hugging Face Space by vincentamato](https://huggingface.co/spaces/vincentamato/ARIA) 2025-01-27
+
+[Danbooru Tags Transformer V2 with WD Tagger & Florence 2 Flux Captioner - a Hugging Face Space by FiditeNemini](https://huggingface.co/spaces/FiditeNemini/danbooru-tags-transformer-v2-with-wd-tagger) 2025-01-27
+
+[FitDiT - a Hugging Face Space by BoyuanJiang](https://huggingface.co/spaces/BoyuanJiang/FitDiT) 2025-01-27
+
+## 等待中的项目
+
+[Text-to-Edit: Controllable End-to-End Video Ad Creation via Multimodal LLMs](https://text2edit.github.io/) 2025-01-27
+
+---------
+
+## 项目官方网站
+
 [万相营造](https://agi.taobao.com/) 2025-01-22
 
 [Eko - Production-ready Agent Framework for Developers](https://eko.fellou.ai/) 2025-01-22
