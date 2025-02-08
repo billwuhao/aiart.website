@@ -11,6 +11,78 @@ AI 发展日新月异, 以下项目是目自 2024-11-23 起, 搜集整理的非�
 
 ## 项目官方网站
 
+[SiliconFlow, Accelerate AGI to Benefit Humanity](https://siliconflow.cn/zh-cn/) 2025-02-08
+
+[DeepSeek R1 is now available on Azure AI Foundry and GitHub | Microsoft Azure Blog](https://azure.microsoft.com/en-us/blog/deepseek-r1-is-now-available-on-azure-ai-foundry-and-github/?msockid=12cdc161e1176f35192bd44fe0c56e90) 2025-02-08
+
+[DeepSeek-R1 Now Live With NVIDIA NIM | NVIDIA Blog](https://blogs.nvidia.com/blog/deepseek-r1-nim-microservice/) 2025-02-08
+
+[DeepSeek-R1 model now available in Amazon Bedrock Marketplace and Amazon SageMaker JumpStart | AWS Machine Learning Blog](https://aws.amazon.com/cn/blogs/machine-learning/deepseek-r1-model-now-available-in-amazon-bedrock-marketplace-and-amazon-sagemaker-jumpstart/) 2025-02-08
+
+[SiliconCloud](https://cloud.siliconflow.cn/models) 2025-02-08
+
+[Lambda Chat](https://lambda.chat/) 2025-02-08
+
+[Groq is Fast AI Inference](https://groq.com/) 2025-02-08
+
+[百度智能云-云智一体深入产业](https://cloud.baidu.com/?from=console) 2025-02-08
+
+[DeepSeek](https://chat.scnet.cn/#/home) 2025-02-08
+
+[Ai2 Playground](https://playground.allenai.org/) 2025-02-08
+
+[Unsloth AI - Open Source Fine-Tuning for LLMs](https://unsloth.ai/) 2025-02-08
+
+## GitHub 项目
+
+[LeCAR-Lab/ASAP](https://github.com/LeCAR-Lab/ASAP) 2025-02-08
+
+[nickscamara/open-deep-research: An open source deep research clone. AI Agent that reasons large amounts of web data extracted with Firecrawl](https://github.com/nickscamara/open-deep-research) 2025-02-08
+
+[mshumer/OpenDeepResearcher](https://github.com/mshumer/OpenDeepResearcher) 2025-02-08
+
+[jina-ai/node-DeepResearch: Keep searching, reading webpages, reasoning until it finds the answer (or exceeding the token budget)](https://github.com/jina-ai/node-DeepResearch) 2025-02-08
+
+[ngc660sec/NGCBot: 一个基于✨HOOK机制的微信机器人，支持🌱安全新闻定时推送【FreeBuf，先知，安全客，奇安信攻防社区】，👯Kfc文案，⚡漏洞查询，⚡手机号归属地查询，⚡知识库查询，🎉星座查询，⚡天气查询，🌱摸鱼日历，⚡微步威胁情报查询， 🐛视频，⚡图片，👯帮助菜单。📫 支持积分功能，⚡支持自动拉人，，🌱自动群发，👯Ai回复，⚡视频号解析，😄自定义程度丰富，小白也可轻松上手！](https://github.com/ngc660sec/NGCBot) 2025-02-08
+
+[Alpha-VLLM/Lumina-Image-2.0](https://github.com/Alpha-VLLM/Lumina-Image-2.0) 2025-02-08
+
+[PKU-Alignment/align-anything: Align Anything: Training All-modality Model with Feedback](https://github.com/PKU-Alignment/align-anything) 2025-02-08
+
+[unslothai/unsloth: Finetune Llama 3.3, DeepSeek-R1, Reasoning, Phi-4 & Gemma 2 LLMs 2x faster with 70% less memory](https://github.com/unslothai/unsloth) 2025-02-08
+
+[deepseek-ai/Janus: Janus-Series: Unified Multimodal Understanding and Generation Models](https://github.com/deepseek-ai/Janus) 2025-02-08
+
+[multimodal-art-projection/YuE: YuE: Open Full-song Music Generation Foundation Model, something similar to Suno.ai but open](https://github.com/multimodal-art-projection/YuE) 2025-02-08
+
+[lixiaowen-xw/DiffuEraser](https://github.com/lixiaowen-xw/DiffuEraser) 2025-02-08
+
+## Hugging Face
+
+[Chat With Janus-Pro-7B - a Hugging Face Space by deepseek-ai](https://huggingface.co/spaces/deepseek-ai/Janus-Pro-7B) 2025-02-08
+
+[Qwen2.5 Max Demo - a Hugging Face Space by Qwen](https://huggingface.co/spaces/Qwen/Qwen2.5-Max-Demo) 2025-02-08
+
+[Hunyuan3D-2.0 - a Hugging Face Space by tencent](https://huggingface.co/spaces/tencent/Hunyuan3D-2) 2025-02-08
+
+[Animagine XL 4.0 - a Hugging Face Space by cagliostrolab](https://huggingface.co/spaces/cagliostrolab/animagine-xl-4.0) 2025-02-08
+
+[BEN2 - a Hugging Face Space by PramaLLC](https://huggingface.co/spaces/PramaLLC/BEN2) 2025-02-08
+
+[Live Portrait - a Hugging Face Space by KwaiVGI](https://huggingface.co/spaces/KwaiVGI/LivePortrait) 2025-02-08
+
+[YuE - a Hugging Face Space by fffiloni](https://huggingface.co/spaces/fffiloni/YuE) 2025-02-08
+
+## 等待中的项目
+
+[omnihuman-lab.github.io](https://omnihuman-lab.github.io/) 2025-02-08
+
+[MatAnyone for Human Video Matting](https://pq-yang.github.io/projects/MatAnyone/) 2025-02-08
+
+---------
+
+## 项目官方网站
+
 [Vercel: Build and deploy the best web experiences with the Frontend Cloud](https://vercel.com/) 2025-01-27
 
 [GLM-PC](https://cogagent.aminer.cn/home#/) 2025-01-27
