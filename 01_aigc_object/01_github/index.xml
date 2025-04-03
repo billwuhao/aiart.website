@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub 开源项目 on aiart.website</title>
+    <link>/01_aigc_object/01_github/</link>
+    <description>Recent content in GitHub 开源项目 on aiart.website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/01_aigc_object/01_github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>视频</title>
+      <link>/01_aigc_object/01_github/01-git%E8%A7%86%E9%A2%91/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/01-git%E8%A7%86%E9%A2%91/</guid>
+      <description>SkyReels-V1 视频生成.
+VACE 阿里视频创作和编辑.
+Open-Sora 视频生成.
+MatAnyone 视频抠图.
+Wan2GP 低显存使用 wan2 视频生成.
+LTX-Video LTX-Video 视频生成, 最新 v0.95.
+HunyuanVideo-I2V 混元图生视频.
+Step-Video-TI2V 阶跃星辰视频生成.
+AccVideo 利用合成数据加速视频生成.
+Video-T1 视频生成增强技术.
+VideoWorld 像婴儿一样从未标记的视频中探索学习.
+Lumina-Video 视频生成.
+goku 视频生成模型.
+FlashVideo 高分辨率视频生成.
+Light-A-Video 视频重新打光.
+Step-Video-T2V 阶跃星辰视频生成.
+Wan2.1 阿里视频生成.
+Go-with-the-Flow 可控视频运动生成.
+RAIN 实时人物表情转动画生成.
+STAR 视频高分辨率生成.
+TransPixar 透明视频生成.
+SVFR 人脸修复.
+Upscale-A-Video 视频高清放大.
+VideoRefer 视频理解.
+VideoVAEPlus 视频重建修复.
+LMM 运动模型, 视频运动生成.
+AnimateDiff
+mochi
+Ruyi-Models
+DisPose 可控人像姿态引导.
+Deep-Live-Cam 实时换脸.
+StableAnimator 一致性视频生成框架.
+rollingdepth 视频深度估计.
+HunyuanVideo 混元视频.</description>
+    </item>
+    <item>
+      <title>语音</title>
+      <link>/01_aigc_object/01_github/02-git%E8%AF%AD%E9%9F%B3/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/02-git%E8%AF%AD%E9%9F%B3/</guid>
+      <description>index-tts bilibili 开源文本转语音.
+ClearerVoice-Studio 阿里音频处理模型.
+Spark-TTS 文本转语音, 声音多种语言克隆.
+r1-aqa 小米音频问答模型.
+YuE 开源音乐生成模型.
+Zonos 文本转语音, 情绪控制.
+InspireMusic 音乐, 歌曲, 音频生成框架.
+Step-Audio 语音交互, 文本转语音, 克隆声音.
+csm 语音生成新领域, 会话语音生成, 根据会话变化情绪, 只支持英文.
+DiffRhythm 开源快速音乐, 歌曲生成.
+NotaGen 大模型音乐谱曲, 生成曲谱.
+Orpheus-TTS 文本转语音生成, 克隆声音.
+Qwen2-Audio 阿里语音对话模型.
+InternVL 接近 GPT-4o 表现的开源多模态对话模型</description>
+    </item>
+    <item>
+      <title>图像</title>
+      <link>/01_aigc_object/01_github/03-git%E5%9B%BE%E5%83%8F/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/03-git%E5%9B%BE%E5%83%8F/</guid>
+      <description>EasyControl 高效灵活的图像生成控制.
+nunchaku 扩散模型 4 位量化技术, 大幅降低资源需求, 质量几乎无损失.
+AttentionDistillation 图像风格转换.
+LanPaint 推理版局部重绘 sd 生图.
+thera 模糊图像任意尺度超分放大.
+LBM 快速图片风格, 效果转换.
+star-vector 像素图转矢量图模型.
+ZenCtrl 图像生成全套控制框架.
+art-msra 微软可变多层透明图像生成.
+Finer-CAM 图像理解火眼金睛, 识别细微处.
+ELLA 图像生成增强语义对齐.
+ACE_plus 基于指令控制的图像创建和编辑.
+MakeAnything 以图像生成方式一步一步做任何东西.
+CogView4 智谱开源图像生成.
+InfiniteYou 字节基于 FLUX 人物一致性生成.
+BlobCtrl 腾讯开源图像控制, 编辑框架.
+catvton-flux 基于 FLUX 虚拟试穿.
+URAE 助力 FLUX 超高分辨率生成.
+MagicQuill 智能交互式图像编辑系统.
+sapiens 图像对象识别分割.
+Janus deepseek 多模态模型.
+Lumina-Image-2.0
+FitDiT 换装.
+MangaNinjia 线稿上色和精确参考.
+DiffSensei 漫画故事生成.
+Infinity 图像超分.
+SUPIR 照片高清修复.
+Sana 英伟达 Sana.</description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>/01_aigc_object/01_github/04-gitllm/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/04-gitllm/</guid>
+      <description>LLaDA 扩散大语言模型.
+ktransformers 低显存体验前沿大模型的框架.
+Magma 微软开源用于 AI 智能体开发的多模态基础模型.
+joycaption 未经审查视觉大模型, 反推提示词利器.
+cherry-studio 跨平台大模型聊天框架, 整合众多大模型, 支持 MCP.
+lobe-chat 整合众多大模型的 AI 聊天框架.
+hivechat 整合众多大模型的 AI 聊天框架.</description>
+    </item>
+    <item>
+      <title>3D</title>
+      <link>/01_aigc_object/01_github/05-git3d/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/05-git3d/</guid>
+      <description>MIDI-3D 单张图像生成 3D.
+LHM 秒级单张人像到 3d 生成.
+stable-virtual-camera stability AI 图生 3d.
+blender-mcp Blender 和 Claude AI 结合, 自动建模.
+TrajectoryCrafter 4d 视频生成.
+Kiss3DGen 图像生成 3d.
+Hunyuan3D-2 腾讯混元 3d.
+FlashVDM 混元 3d 生成加速技术.
+fast3r facebook 图像快速 3D 重建.
+cube 3D 生成系统和模型.
+pippo 单张图像生成人物多视角.
+PhysDreamer 通过物理交互生成 3d.</description>
+    </item>
+    <item>
+      <title>技术</title>
+      <link>/01_aigc_object/01_github/06-git%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/06-git%E6%8A%80%E6%9C%AF/</guid>
+      <description>Rankify 用于检索, 重新排序和检索增强生成的全面 Python 工具包.
+CFG-Zero-star 图像, 视频等模型 CFG 增强技术.
+InterMimic 人机交互物理引擎.
+PRefLexOR 材料领域应用, 自学习 AI 框架.
+Enhance-A-Video 生成视频增强技术.
+Second-Me 第二个你, 用 AI 克隆一个你.
+MCP 模型上下文协议.
+rf-detr 实时对象检测模型.
+compute-optimal-tts 小模型大能量技术探索.
+CodeIO 通过代码输入输出增强模型推理.
+FlashMLA Deepseek 开源 Hopper GPU 的高效 MLA 解码内核，针对可变长度序列服务进行了优化.
+Moonlight 可扩展大模型训练技术.
+DeepEP Deepseek 开源高效专家并行通信库.
+VisualThinker-R1-Zero 利用 DeepSeek-R1-Zero 技术实现视觉推理.
+SageAttention 量化注意力, 加速模型推理技术.
+flash-attention 快速存储高效的大模型注意力加速技术.
+peft 最先进的大模型参数微调技术.
+llama.cpp 大模型纯 C/C++ 加速推理.
+CTranslate2 Transformer 模型的快速推理引擎.
+SpargeAttn 一种无需训练的稀疏注意力，可以加速任何模型推理.
+DiffSynth-Studio 扩散模型优化技术.
+LightningDiT 克服模型优化困境.</description>
+    </item>
+    <item>
+      <title>数字人</title>
+      <link>/01_aigc_object/01_github/07-git%E6%95%B0%E5%AD%97%E4%BA%BA/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/07-git%E6%95%B0%E5%AD%97%E4%BA%BA/</guid>
+      <description>HeyGem.ai 数字人视频生成.
+Sonic 上半身数字人生成.
+hallo3 头像数字人.
+LatentSync 数字人口型同步.
+memo 表情说话视频生成.
+echomimic_v2 数字人.
+HelloMeme
+TANGO 音频, 手势数字人.</description>
+    </item>
+    <item>
+      <title>办公</title>
+      <link>/01_aigc_object/01_github/08-git%E5%8A%9E%E5%85%AC/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/08-git%E5%8A%9E%E5%85%AC/</guid>
+      <description>UI-TARS-desktop 自动操作电脑等设备, 自动办公.
+n8n 办公自动化.
+Stirling-PDF 各种 PDF 文件处理.
+dify 利用各种大模型实现办公自动化.
+OpenManus 自动控制设备, 自动办公.
+nanobrowser 使用自己的 API 或本地模型, web 自动化办公工具.
+owl 多 agent 实现世界任务自动化.
+ComfyUI-Copilot ComfyUI 智能助手.
+Umi-OCR 文字识别工具.</description>
+    </item>
+    <item>
+      <title>MCP</title>
+      <link>/01_aigc_object/01_github/09-gitmcp/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/09-gitmcp/</guid>
+      <description>Model Context Protocol Servers
+ableton-mcp Claude 与 Ableton Lives 交互并控制 Ableton, 实现了快速辅助音乐制作, 曲目创建和现场会话.
+awesome-mcp-servers 开源 MCP 服务资源合集.</description>
+    </item>
+    <item>
+      <title>脚本工具</title>
+      <link>/01_aigc_object/01_github/10-git%E8%84%9A%E6%9C%AC%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/10-git%E8%84%9A%E6%9C%AC%E5%B7%A5%E5%85%B7/</guid>
+      <description>diffusion-pipe 视频, 图像模型训练脚本.
+musubi-tuner 模型 lora 训练脚本.</description>
+    </item>
+    <item>
+      <title>金融</title>
+      <link>/01_aigc_object/01_github/11-git%E9%87%91%E8%9E%8D/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/11-git%E9%87%91%E8%9E%8D/</guid>
+      <description>OpenBB 为世界各地的每个人提供投资研究的免费且完全开源的金融平台.</description>
+    </item>
+    <item>
+      <title>生命科学</title>
+      <link>/01_aigc_object/01_github/12-git%E7%94%9F%E7%89%A9/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/12-git%E7%94%9F%E7%89%A9/</guid>
+      <description>evo2 生命所有领域的基因组建模和设计.</description>
+    </item>
+    <item>
+      <title>数学</title>
+      <link>/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/</guid>
+      <description>TheoremExplainAgent 数学定理的自动可视化多模态理解.</description>
+    </item>
+    <item>
+      <title>医疗</title>
+      <link>/01_aigc_object/01_github/14-git%E5%8C%BB%E7%96%97/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/14-git%E5%8C%BB%E7%96%97/</guid>
+      <description>MedRAX X 光胸片医学推理.</description>
+    </item>
+  </channel>
+</rss>

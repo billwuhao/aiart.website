@@ -1,45 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>&lt;&lt;自然语言提示工程入门&gt;&gt; on aiart.website</title>
-    <link>/04_prompt-engineering/</link>
-    <description>Recent content in &lt;&lt;自然语言提示工程入门&gt;&gt; on aiart.website</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/04_prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>1. 开胃点心, 从几个案例开始</title>
-      <link>/04_prompt-engineering/01-prompt-engineering/</link>
-      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/04_prompt-engineering/01-prompt-engineering/</guid>
-      <description>我们先来欣赏几个例子 (所有内容均是免费版 AI 生成, 高级收费版, 效果会更好):
-欣赏一下 AI 渊博的知识, 高智商, 高情商.
-人生导师
-请运用深刻的生物学, 心理学, 社会学, 哲学, 历史, 政治, 经济等知识, 实事求是, 综合考虑各种决定性因素, 给一个大学刚毕业, 非常想要成功的普通人写一封密信. 密信深刻分析如下几个方面的内容:1, 个人成长与工作: - 认知提升, 专注, 心流, 刻意练习, - 个人品牌和影响力建立的核心, - 工作中的警告和建议, - 时间管理的方法论, - 总结成长的核心要素和方法论.2, 家庭和社会关系: - 认识家庭和教育的局限, - 突破局限的具体行动, - 如何对人性深刻洞察, 顺应人性, - 人际关系的本质准则, 和如何按准则处理人际关系, - 社会潜在规则的深刻认识和理解, - 良好社会关系建立的基础, 以及需要的付出.3, 人生方向和婚姻抉择: - 人生选择对人生的核心意义, - 人生抉择的方法论, 如何做出正确选择, - 执行力行动力, 考虑经历的苦难和磨砺, - 婚姻的重要性和抉择, 择偶建议和可行性.4, 具体行动建议: 深刻提炼出以上每一个点, 详细展开, 必须把握各个方面的本质内核, 最后给出具体行动方案.</description>
-    </item>
-    <item>
-      <title>2. 提示工程日常使用技巧</title>
-      <link>/04_prompt-engineering/02-prompt-engineering/</link>
-      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/04_prompt-engineering/02-prompt-engineering/</guid>
-      <description>我们每天都在与数字世界进行着无声的对话。在这场对话中，有一种神秘的力量，正在悄然改变我们的生活方式 —— 那就是提示工程（Prompt Engineering）。
-想象一下，你站在一片广袤的数字草原上，四周是无尽的数据海洋。而你手中握着一把钥匙，那就是提示工程。每一个提示，都是一扇通向未知世界的门。你可以用它叩问智慧的大门，也可以用它指挥数字的舞步。
-提示工程，不仅仅是一种技术，更是一种艺术。有提示工程这把钥匙, 我们在数字世界中拥有可以尽情翱翔的无边无际的天空！
-从前, 要将知识的海水一点一点灌进脑子里, 现在, 我们直接在知识的海洋里遨游.
-2.1. 热身, 熟悉基本概念和编写要点 2.2. 零样本和少样本提示 2.3. 思维链与左右互搏 2.4. 角色扮演提示 2.5. 将提示拆分为提示链 2.6. 故事提示 </description>
-    </item>
-    <item>
-      <title>3. 提示工程日常使用案例大全</title>
-      <link>/04_prompt-engineering/03-prompt-engineering/</link>
-      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/04_prompt-engineering/03-prompt-engineering/</guid>
-      <description> </description>
-    </item>
-    <item>
-      <title>4. 高级提示工程概述</title>
-      <link>/04_prompt-engineering/04-prompt-engineering/</link>
-      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/04_prompt-engineering/04-prompt-engineering/</guid>
-      <description> </description>
-    </item>
-  </channel>
-</rss>

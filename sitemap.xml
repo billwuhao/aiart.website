@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/04_prompt-engineering/</loc>
+    <loc>/03_prompt-engineering/01-prompt-engineering/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/04_prompt-engineering/01-prompt-engineering/</loc>
-    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
-  </url>
-  <url>
-    <loc>/04_prompt-engineering/02-prompt-engineering/daily-skills01/</loc>
+    <loc>/03_prompt-engineering/02-prompt-engineering/daily-skills01/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
@@ -17,7 +13,7 @@
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/02_comfyui/</loc>
+    <loc>/01_aigc_object/01_github/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
@@ -37,19 +33,31 @@
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/03_prompts/</loc>
+    <loc>/01_aigc_object/01_github/01-git%E8%A7%86%E9%A2%91/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/03_prompts/01-prompt-sources/</loc>
+    <loc>/01_aigc_object/02_closed-cn/01-cn%E7%BB%BC%E5%90%88/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/04_prompt-engineering/02-prompt-engineering/</loc>
+    <loc>/01_aigc_object/03_closed-en/01-en%E7%BB%BC%E5%90%88/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/04_prompt-engineering/02-prompt-engineering/daily-skills02/</loc>
+    <loc>/03_prompt-engineering/02-prompt-engineering/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/03_prompt-engineering/02-prompt-engineering/daily-skills02/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/02_comfyui/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/02_closed-cn/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
@@ -57,15 +65,27 @@
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/01_aigc_object/01_object/</loc>
+    <loc>/01_aigc_object/02_closed-cn/02-cn%E8%A7%86%E9%A2%91/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/04_prompt-engineering/02-prompt-engineering/daily-skills03/</loc>
+    <loc>/01_aigc_object/03_closed-en/02-en%E8%A7%86%E9%A2%91/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/04_prompt-engineering/03-prompt-engineering/</loc>
+    <loc>/01_aigc_object/01_github/02-git%E8%AF%AD%E9%9F%B3/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/03_prompt-engineering/02-prompt-engineering/daily-skills03/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/03_prompt-engineering/03-prompt-engineering/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/03_closed-en/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
@@ -73,43 +93,139 @@
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/01_aigc_object/02_github/</loc>
+    <loc>/03_prompt-engineering/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/04_prompt-engineering/02-prompt-engineering/daily-skills04/</loc>
+    <loc>/01_aigc_object/01_github/03-git%E5%9B%BE%E5%83%8F/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/04_prompt-engineering/04-prompt-engineering/</loc>
+    <loc>/01_aigc_object/02_closed-cn/03-cn%E9%9F%B3%E9%A2%91/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/01_aigc_object/03_hugging/</loc>
+    <loc>/01_aigc_object/03_closed-en/03-en%E8%AF%AD%E9%9F%B3/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/02_comfyui/04_common-nodes/</loc>
+    <loc>/03_prompt-engineering/02-prompt-engineering/daily-skills04/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/04_prompt-engineering/02-prompt-engineering/daily-skills05/</loc>
+    <loc>/01_aigc_object/02_closed-cn/04-cn3d/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/01_aigc_object/04_web/</loc>
+    <loc>/03_prompt-engineering/04-prompt-engineering/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/04_prompt-engineering/02-prompt-engineering/daily-skills06/</loc>
+    <loc>/01_aigc_object/01_github/04-gitllm/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/01_aigc_object/05_doc/</loc>
+    <loc>/01_aigc_object/04_models_sources/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/01_aigc_object/06_wait/</loc>
+    <loc>/01_aigc_object/03_closed-en/04-en%E5%9B%BE%E5%83%8F/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/03_prompt-engineering/02-prompt-engineering/daily-skills05/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/01_github/05-git3d/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/02_closed-cn/05-cnllm/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/03_closed-en/05-enllm/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/03_prompt-engineering/05_prompts/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/05_waiting/_index-/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/03_prompt-engineering/02-prompt-engineering/daily-skills06/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/03_closed-en/06-en3d/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/02_closed-cn/06-cn%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/01_github/06-git%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/06_sources/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/02_closed-cn/07-cn%E5%8A%9E%E5%85%AC/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/03_closed-en/07-en%E5%8A%9E%E5%85%AC/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/07_others/_index-/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/01_github/07-git%E6%95%B0%E5%AD%97%E4%BA%BA/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/01_github/08-git%E5%8A%9E%E5%85%AC/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/03_closed-en/08-en%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/08_robots/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/01_github/09-gitmcp/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/01_github/10-git%E8%84%9A%E6%9C%AC%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/01_github/11-git%E9%87%91%E8%9E%8D/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/01_github/12-git%E7%94%9F%E7%89%A9/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/01_github/14-git%E5%8C%BB%E7%96%97/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>

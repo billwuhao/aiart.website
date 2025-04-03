@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>提示工程归档 on aiart.website</title>
+    <link>/03_prompt-engineering/</link>
+    <description>Recent content in 提示工程归档 on aiart.website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/03_prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. 开胃点心, 从几个案例开始</title>
+      <link>/03_prompt-engineering/01-prompt-engineering/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/03_prompt-engineering/01-prompt-engineering/</guid>
+      <description>我们先来欣赏几个例子 (所有内容均是免费版 AI 生成, 高级收费版, 效果会更好):
+欣赏一下 AI 渊博的知识, 高智商, 高情商.
+人生导师
+请运用深刻的生物学, 心理学, 社会学, 哲学, 历史, 政治, 经济等知识, 实事求是, 综合考虑各种决定性因素, 给一个大学刚毕业, 非常想要成功的普通人写一封密信. 密信深刻分析如下几个方面的内容:1, 个人成长与工作: - 认知提升, 专注, 心流, 刻意练习, - 个人品牌和影响力建立的核心, - 工作中的警告和建议, - 时间管理的方法论, - 总结成长的核心要素和方法论.2, 家庭和社会关系: - 认识家庭和教育的局限, - 突破局限的具体行动, - 如何对人性深刻洞察, 顺应人性, - 人际关系的本质准则, 和如何按准则处理人际关系, - 社会潜在规则的深刻认识和理解, - 良好社会关系建立的基础, 以及需要的付出.3, 人生方向和婚姻抉择: - 人生选择对人生的核心意义, - 人生抉择的方法论, 如何做出正确选择, - 执行力行动力, 考虑经历的苦难和磨砺, - 婚姻的重要性和抉择, 择偶建议和可行性.4, 具体行动建议: 深刻提炼出以上每一个点, 详细展开, 必须把握各个方面的本质内核, 最后给出具体行动方案.</description>
+    </item>
+    <item>
+      <title>2. 提示工程日常使用技巧</title>
+      <link>/03_prompt-engineering/02-prompt-engineering/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/03_prompt-engineering/02-prompt-engineering/</guid>
+      <description>我们每天都在与数字世界进行着无声的对话。在这场对话中，有一种神秘的力量，正在悄然改变我们的生活方式 —— 那就是提示工程（Prompt Engineering）。
+想象一下，你站在一片广袤的数字草原上，四周是无尽的数据海洋。而你手中握着一把钥匙，那就是提示工程。每一个提示，都是一扇通向未知世界的门。你可以用它叩问智慧的大门，也可以用它指挥数字的舞步。
+提示工程，不仅仅是一种技术，更是一种艺术。有提示工程这把钥匙, 我们在数字世界中拥有可以尽情翱翔的无边无际的天空！
+从前, 要将知识的海水一点一点灌进脑子里, 现在, 我们直接在知识的海洋里遨游.
+2.1. 热身, 熟悉基本概念和编写要点 2.2. 零样本和少样本提示 2.3. 思维链与左右互搏 2.4. 角色扮演提示 2.5. 将提示拆分为提示链 2.6. 故事提示 </description>
+    </item>
+    <item>
+      <title>3. 提示工程日常使用案例大全</title>
+      <link>/03_prompt-engineering/03-prompt-engineering/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/03_prompt-engineering/03-prompt-engineering/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>4. 高级提示工程概述</title>
+      <link>/03_prompt-engineering/04-prompt-engineering/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/03_prompt-engineering/04-prompt-engineering/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>提示工程资源, 案例集</title>
+      <link>/03_prompt-engineering/05_prompts/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/03_prompt-engineering/05_prompts/</guid>
+      <description>(由于 DeepSeek R1 的诞生, 我觉得没必要了, 停更.)
+提示工程 这个词是随着生成式 AI 诞生的, 尤其是 2020 年 GPT-3 和 2021 年 Disco Diffusion 的发布, 引发了提示工程热潮. 由于生成文本 和 绘画质量好坏, 跟提示词的好坏有很重要的关系, 于是人们开始研究, 怎样设计提示词, 提示工程就流行了起来.
+随着大模型能力提升, 提示工程似乎没那么重要了, 现在能用比较普通和直白的语言, 就能得到不错的答案. 但对于更专业性, 更复杂的应用场景, 提示工程还是非常重要的, 同时, 个人的语言表达能力, 现在变得更加重要. &amp;ldquo;学好数理化, 走遍天下都不怕&amp;rdquo;, 即将变成 &amp;ldquo;学好语文和英语, 开口世界归自己&amp;rdquo;, 真是风水轮流转, 相信开口就能把事情做了的时代就在不远的将来. 翻译软件越来越强大, 英语对大多数人可能不再重要, 但对于想改变世界, 创造 AI 而不是使用 AI, 站在科技风口浪尖的人来说, 仍然极为重要.
+写好提示词 或者说 准确地表达, 是基础中的基础, 无论 AI 写作, AI 绘画, AI 音乐, AI 视频, 用 AI 来学习, 用 AI 来解决各种问题, 以及 测试和调整大模型等等, 归根到底要语言基本功扎实, 才能准确高效的得到结果.</description>
+    </item>
+  </channel>
+</rss>

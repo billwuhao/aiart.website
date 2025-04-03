@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>国内项目 on aiart.website</title>
+    <link>/01_aigc_object/02_closed-cn/</link>
+    <description>Recent content in 国内项目 on aiart.website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/01_aigc_object/02_closed-cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>综合</title>
+      <link>/01_aigc_object/02_closed-cn/01-cn%E7%BB%BC%E5%90%88/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/02_closed-cn/01-cn%E7%BB%BC%E5%90%88/</guid>
+      <description>skyreels 昆仑万维官网.
+腾讯元宝
+Qwen 阿里 Qwen 全家桶.
+minimax 海螺视频, 语音, 图像.
+天工 AI.
+通义万象
+通义千问
+文心一言
+KIMI
+豆包
+跃问
+可灵
+即梦
+智谱清言
+万象营造</description>
+    </item>
+    <item>
+      <title>视频</title>
+      <link>/01_aigc_object/02_closed-cn/02-cn%E8%A7%86%E9%A2%91/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/02_closed-cn/02-cn%E8%A7%86%E9%A2%91/</guid>
+      <description>腾讯混元视频.
+vidu.</description>
+    </item>
+    <item>
+      <title>音频</title>
+      <link>/01_aigc_object/02_closed-cn/03-cn%E9%9F%B3%E9%A2%91/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/02_closed-cn/03-cn%E9%9F%B3%E9%A2%91/</guid>
+      <description>魔音工坊 音频处理.
+mureka 音乐生成.
+haimian 海绵音乐.
+网易天音
+海螺音乐</description>
+    </item>
+    <item>
+      <title>3D</title>
+      <link>/01_aigc_object/02_closed-cn/04-cn3d/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/02_closed-cn/04-cn3d/</guid>
+      <description>混元 3d</description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>/01_aigc_object/02_closed-cn/05-cnllm/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/02_closed-cn/05-cnllm/</guid>
+      <description>deepseek
+百川智能.
+秘塔搜索
+纳米搜索
+知乎直答</description>
+    </item>
+    <item>
+      <title>编程开发</title>
+      <link>/01_aigc_object/02_closed-cn/06-cn%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/02_closed-cn/06-cn%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/</guid>
+      <description>腾讯元器 agent 开发.
+腾讯元宝
+trae 字节编程开发工具.
+阿里云百炼.
+硅基流动.
+扣子</description>
+    </item>
+    <item>
+      <title>办公</title>
+      <link>/01_aigc_object/02_closed-cn/07-cn%E5%8A%9E%E5%85%AC/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/02_closed-cn/07-cn%E5%8A%9E%E5%85%AC/</guid>
+      <description>manus 办公自动化智能体.
+GLM-PC 控制电脑自动完成任务.</description>
+    </item>
+  </channel>
+</rss>

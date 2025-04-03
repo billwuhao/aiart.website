@@ -1,126 +1,120 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ACGC 项目资源集 on aiart.website</title>
+    <title>AI 项目资源集 on aiart.website</title>
     <link>/01_aigc_object/</link>
-    <description>Recent content in ACGC 项目资源集 on aiart.website</description>
+    <description>Recent content in AI 项目资源集 on aiart.website</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/01_aigc_object/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>项目的官方网站</title>
-      <link>/01_aigc_object/01_object/</link>
+      <title>GitHub 开源项目</title>
+      <link>/01_aigc_object/01_github/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/01_aigc_object/01_object/</guid>
-      <description>搜索问答 纳米搜索 2024-12-02
-书生·浦语 2024-12-02
-Kimi
-chatgpt
-秘塔
-perplexity
-Meta AI
-腾讯元宝
-豆包 - 抖音旗下 AI 智能助手
-Google AI Studio
-Cohere | The leading AI platform for enterprise 2024-12-03
-Claude
-知乎直答
-360搜
-Poe
-通义tongyi.ai_你的全能AI助手-通义千问 2024-12-03
-天工AI - 搜索更深度，阅读更多彩 2024-12-03
-讯飞星火大模型-AI大语言模型-星火大模型-科大讯飞 2024-12-03
-文心一言 2024-12-03
-HuggingChat
-语鲸 2024-12-03
-深言达意 – 找词找句 2024-12-03
-爱校对官网-免费高效的错别字检查工具 2024-12-03
-Learn About 2024-12-03
-视频, 语音, 绘图等综合 智谱清言
-即梦AI - 一站式AI创作平台
-可灵 AI - 新一代 AI 创意生产力平台
-海螺 AI</description>
+      <guid>/01_aigc_object/01_github/</guid>
+      <description> 视频 语音 图像 LLM 3D 技术 数字人 办公 MCP 脚本工具 金融 生命科学 数学 医疗 </description>
     </item>
     <item>
-      <title>项目的 GitHub 主页</title>
-      <link>/01_aigc_object/02_github/</link>
+      <title>国内项目</title>
+      <link>/01_aigc_object/02_closed-cn/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/01_aigc_object/02_github/</guid>
-      <description>视频 prs-eth/RollingDepth: Video Depth without Video Models 2024-12-03
-Tencent/HunyuanVideo 2024-12-03
-hmrishavbandy/FlipSketch: FlipSketch: Flipping Static Drawings to Text-Guided Sketch Animations 2024-12-02
-KwaiVGI/LivePortrait: Bring portraits to life! 2024-12-02
-C0untFloyd/roop-unleashed: Evolved Fork of roop with Web Server and lots of additions 2024-12-02
-jdh-algo/JoyVASA 2024-12-02
-PKU-YuanGroup/ConsisID: Identity-Preserving Text-to-Video Generation by Frequency Decomposition 2024-12-02
-rhymes-ai/Allegro: Allegro is a powerful text-to-video model that generates high-quality videos up to 6 seconds at 15 FPS and 720p resolution from simple text input.</description>
+      <guid>/01_aigc_object/02_closed-cn/</guid>
+      <description> 综合 视频 音频 3D LLM 编程开发 办公 </description>
     </item>
     <item>
-      <title>Hugging Face Space</title>
-      <link>/01_aigc_object/03_hugging/</link>
+      <title>国外项目</title>
+      <link>/01_aigc_object/03_closed-en/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/01_aigc_object/03_hugging/</guid>
-      <description>项目的 Hugging Face Space TryOffDiff - a Hugging Face Space by rizavelioglu 2024-12-03
-Qwen2vl Flux Mini Demo - a Hugging Face Space by Djrango 2024-12-02
-IC Light V2-Vary - a Hugging Face Space by lllyasviel 2024-12-02
-IllusionDiffusion - a Hugging Face Space by AP123 2024-12-02
-ReplaceAnything - a Hugging Face Space by modelscope 2024-12-02
-QwQ-32B-Preview - a Hugging Face Space by Qwen 2024-12-02
-OminiControl - a Hugging Face Space by Yuanshi 2024-11-27</description>
+      <guid>/01_aigc_object/03_closed-en/</guid>
+      <description> 综合 视频 语音 图像 LLM 3D 办公 编程开发 </description>
     </item>
     <item>
-      <title>AIGC 相关网站</title>
-      <link>/01_aigc_object/04_web/</link>
+      <title>模型资源平台</title>
+      <link>/01_aigc_object/04_models_sources/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/01_aigc_object/04_web/</guid>
-      <description>Discover and download free videos - Pixabay
-Danbooru: Anime Image Board
-Discover the Best GPTs
-AI工具集 | 700+ AI工具集合官网，国内外AI工具集导航大全
-Supertools | Best AI Tools Guide
-AIGC导航 | 1500+全品类AIGC创作工具_探索更多可能！
-插画交流网站[pixiv]
-ArtStation - Explore
-AIbase - 智能匹配最适合您的AI产品和网站
-Newsfeed - Sketchfab
-AI Model &amp;amp; API Providers Analysis | Artificial Analysis
-xAI
-GGAC数字艺术平台
-Weird Wonderful AI Art | ART of the future - now!</description>
+      <guid>/01_aigc_object/04_models_sources/</guid>
+      <description>runninghub 工作流, 模型, 应用资源.
+liblib 工作流, 模型, 应用资源.
+openart 工作流, 模型, 应用资源.
+仙宫云 云上玩 AI, 各种 AI 镜像资源.
+civitai C 站, 各种模型, 工作流.
+runcomfy
+comfyonline
+shakker.ai
+魔搭社区
+comfyworkflows
+openmodeldb 各种放大模型库.
+tensor.art
+端脑云
+Dify 市场</description>
     </item>
     <item>
-      <title>相关文档资料</title>
-      <link>/01_aigc_object/05_doc/</link>
+      <title>项目合集,学习资源</title>
+      <link>/01_aigc_object/06_sources/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/01_aigc_object/05_doc/</guid>
-      <description>使用 diffusers 训练你自己的 ControlNet 🧨
-Stable Diffusion QR Code 101
-E-Hentai/태그 - 나무위키
-魔咒百科词典
-So-VITS-SVC 4.1 整合包完全指南
-Stable Diffusion 3.5 Prompt Guide — Stability AI
-使用 ChatGPT 进行写作的学生指南 |开放人工智能 &amp;mdash; A Student’s Guide to Writing with ChatGPT | OpenAI
-richards199999/Thinking-Claude: Let your Claude able to think
-hesamsheikh/ml-retreat: Machine Learning Journal for Intermediate to Advanced Topics.
-Midjourney Documentation and User Guide
-归档(可以不用看) Resources for GAN Artists
-Disco Diffusion Portrait Study (by @enviraldesign) - Google 文档</description>
+      <guid>/01_aigc_object/06_sources/</guid>
+      <description>LAION-DISCO-12M 开源音乐数据集.
+anthropic-cookbook Claude 开发教程, 资源.
+generative-ai 谷歌 AI 开发资源和教程.
+OpenAI Academy OpenAI 学院, AI 技术免费学习资源.
+Ai2 PaperFinder 文献查找, 800 多万篇全文论文和 1.08亿 篇摘要的语料库进行广泛而深入的覆盖.
+ainews 每日全球 AI 新闻.
+llm-stats 全球大语言模型分析比较.
+Chatbot Arena 大模型基准测试开放平台.
+agents-course hugging face 开源智能体开发课程.
+hallucination-leaderboard 各大模型总结文档时产生幻觉概率排行榜.
+learn.deeplearning</description>
     </item>
     <item>
-      <title>等待中的项目</title>
-      <link>/01_aigc_object/06_wait/</link>
+      <title>机器人</title>
+      <link>/01_aigc_object/08_robots/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/01_aigc_object/06_wait/</guid>
-      <description>等待中的项目是指只有论文或介绍, 还不能用的项目.
-Freditor 2024-12-03
-mayuelala/FollowYourClick: [arXiv 2024] Follow-Your-Click: This repo is the official implementation of &amp;ldquo;Follow-Your-Click: Open-domain Regional Image Animation via Short Prompts&amp;rdquo; 2024-12-03
-AnchorCrafter 2024-12-02
-Generative Omnimatte: Learning to Decompose Video into Layers 2024-12-02
-lehduong/OneDiffusion 2024-12-02
-LipDub AI | The most realistic AI lip sync and video translation 2024-12-02
-MyTimeMachine: Personalized Facial Age Transformation 2024-12-02
-Buffer Anytime: Zero-Shot Video Depth and Normal from Image Priors 2024-12-02
-MultiFoley 2024-12-02
-Sonic: Shifting Focus to Global Audio Perception in Audio-driven Portrait Animation 2024-12-02</description>
+      <guid>/01_aigc_object/08_robots/</guid>
+      <description>波士顿动力.
+宇树科技
+wayve.ai 自动驾驶.
+1x 人形机器人.
+Figure 通用人形机器人.
+Clone World 肌肉骨骼，智能机器人.
+zoo.dev 硬件设计
+Genesis 通用机器人世界生成.</description>
+    </item>
+    <item>
+      <title>预告项目</title>
+      <link>/01_aigc_object/05_waiting/_index-/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/05_waiting/_index-/</guid>
+      <description>MoCha Meta 项目, 电影级会话视频生成.
+HunyuanPortrait 人像视频生成.
+chat-anyone 人像视频生成.
+Video-MME 多模态视频分析.
+bolt3d 谷歌 3D.
+MTV-Inpaint 多任务视频编辑.
+MotionAnything 让任何东西运动.
+DreamRelation 互动视频生成.
+vid2avatar-pro 视频创建 3d 人类角色.
+meshpad 手绘到 3D 编辑.
+video-painter 视频编辑.
+long-context-video 连贯视频生成.
+TaoAvatar 3d 全身超真实数字人生成.
+PiT 局部图像脑补全图.
+Phantom 字节幻影, 主题一致性视频生成.
+HumanDiT 人物全身动态视频生成.
+videojam 视频运动增强.
+TokenVerse 图像多概念融合.
+Magic-141 一分钟内生成一分钟视频.
+dynvfx 视频动态增加内容.
+animate-anyone-2 人物高保真视频生成.
+cinemaster 3d 感知和控制电影级视频生成框架.
+NeuralSVG 文本到矢量图生成.</description>
+    </item>
+    <item>
+      <title>其他</title>
+      <link>/01_aigc_object/07_others/_index-/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/07_others/_index-/</guid>
+      <description>AI 生成检测
+iclight-v2-vary IC Light 免费在线体验.
+iclight-v2 IC Light 免费在线体验.</description>
     </item>
   </channel>
 </rss>

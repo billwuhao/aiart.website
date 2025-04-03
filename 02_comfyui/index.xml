@@ -58,12 +58,5 @@ Internal Logic 内部逻辑. 这是节点的核心功能，由其背后的代码
 2, CLIP Text Encode (Prompt): CLIP 文本编码节点, 是通过输入的 CLIP 模型, 将输入的 自然语言提示词 编码为潜空间向量输出, 用来引导图像生成.
 3, Empty Latent Image: 空的潜空间图像, 该节点的作用就是创建空的潜空间图像, 通过参数指定宽, 高 和数量, 然后输出.</description>
     </item>
-    <item>
-      <title>常用自定义节点</title>
-      <link>/02_comfyui/04_common-nodes/</link>
-      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/02_comfyui/04_common-nodes/</guid>
-      <description> </description>
-    </item>
   </channel>
 </rss>

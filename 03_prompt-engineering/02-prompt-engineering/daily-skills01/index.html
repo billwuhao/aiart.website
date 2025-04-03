@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.1+tip">
+    <meta name="description" content="">
+    <meta name="author" content="吴明文">
+    <title>2.1. 热身, 熟悉基本概念和编写要点 - aiart.website</title>
+    <link href="/03_prompt-engineering/02-prompt-engineering/daily-skills01/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1743698972" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1743698972" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1743698972" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1743698972" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1743698972" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1743698972" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1743698972" rel="stylesheet">
+    <link href="/css/nucleus.css?1743698972" rel="stylesheet">
+    <link href="/css/fonts.css?1743698972" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1743698972" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1743698972" rel="stylesheet">
+    <link href="/css/theme-black.css?1743698972" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1743698972" rel="stylesheet">
+    <link href="/css/variant.css?1743698972" rel="stylesheet">
+    <link href="/css/print.css?1743698972" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1743698972"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="/index.json";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = '复制到剪贴板';
+      window.T_Copied_to_clipboard = '复制到剪贴板！';
+      window.T_Copy_link_to_clipboard = '将链接复制到剪贴板';
+      window.T_Link_copied_to_clipboard = '链接复制到剪贴板！';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'black' ] );
+    </script>
+    <script src="/js/jquery.min.js?1743698972" defer></script>
+  </head>
+  <body class="mobile-support html" data-url="/03_prompt-engineering/02-prompt-engineering/daily-skills01/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='导航 (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='目录 (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="4" /><a itemprop="item" href="/"><span itemprop="name">aiart.website</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="/03_prompt-engineering/"><span itemprop="name">提示工程归档</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/03_prompt-engineering/02-prompt-engineering/"><span itemprop="name">2. 提示工程日常使用技巧</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/03_prompt-engineering/02-prompt-engineering/daily-skills01/" aria-disabled="true"><span itemprop="name">2.1. 热身, 熟悉基本概念和编写要点</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#问题和指令">问题和指令</a></li>
+    <li><a href="#提示词基本要素">提示词基本要素</a></li>
+    <li><a href="#提示词编写要点">提示词编写要点</a></li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>2.1. 热身, 熟悉基本概念和编写要点</h1>
+
+<p>本书中所说 <strong>提示工程</strong>, 仅指设计提示词以指导大语言模型生成期望的文本的方法. 不包括生成图像, 音频, 视频等提示词编写的方法, 以及将来一定会出现的, 通过设计提示词让 AI 智能体, 机器人做各种事, 完成各种任务的方法.</p>
+<p>设计生成文本的提示词, 是基础中的基础, 因为对 AI 来讲, 生成提示词也完全不是问题, 也就是我们可以设计提示词让 AI 生成提示词, 然后再用生成的提示词用于生成图像, 音频, 视频, 甚至指导 AI 完成任务. 这就是我所说的提示工程的重要性所在.</p>
+<p>提示的方式基本分成两种, 提问题的方式, 和下达指令的方式.</p>
+<h2 id="问题和指令">问题和指令</h2>
+<p>提问题的方式, 和我们使用搜索引擎的很像, 比如搜 &ldquo;什么是什么&rdquo;, &ldquo;什么怎么做&rdquo;, &ldquo;什么最好&rdquo;, &ldquo;xx 方程怎么解&rdquo; 等等, 但是有本质的区别是, AI 能给出传统搜索引擎搜不到的答案, 它会根据自己学习到的知识, 给你组织答案.</p>
+<p>例如:</p>
+<pre tabindex="0"><code>目前最强的大语言模型有哪些? 列举 5 个, 简要说说强在哪里?
+</code></pre><!-- raw HTML omitted -->
+<blockquote>
+<p>目前最强的大语言模型（LLMs）领域发展迅速，很难说有绝对的“最强”，因为不同的模型在不同任务和能力侧重上有所不同。 不过，以下列举 5 个目前被广泛认为是顶尖且具有代表性的 LLMs，并简要说明它们的优势所在：</p>
+</blockquote>
+<ol>
+<li>
+<p><strong>GPT-4 (OpenAI):</strong>  毋庸置疑，GPT-4 目前仍然是能力非常全面的模型之一。</p>
+<ul>
+<li><strong>强大的通用能力:</strong> 在各种自然语言处理任务上表现出色，包括文本生成、翻译、问答、摘要、代码生成等。</li>
+<li><strong>更强的推理能力:</strong>  相较于之前的版本，GPT-4 在复杂推理、逻辑分析和解决难题方面有了显著提升。</li>
+<li><strong>更长的上下文理解:</strong>  能够处理和理解更长的文本输入，使其在处理需要长程依赖的任务时更具优势。</li>
+<li><strong>多模态能力 (部分):</strong>  GPT-4 也具备初步的多模态能力，可以理解和生成图像描述等。</li>
+</ul>
+</li>
+<li>
+<p><strong>Gemini (Google):</strong>  作为 Google 的旗舰级大语言模型，Gemini 系列展现了强大的实力和创新。</p>
+<ul>
+<li><strong>原生多模态:</strong>  Gemini 从一开始就被设计为多模态模型，能够无缝处理文本、图像、音频、视频和代码等多种类型的信息。这使其在理解和生成跨模态内容方面具有天然优势。</li>
+<li><strong>强大的推理和理解能力:</strong>  Gemini 在许多基准测试中表现出色，展现了卓越的推理、理解和问题解决能力。</li>
+<li><strong>广泛的应用场景:</strong>  Google 将 Gemini 整合到其各种产品和服务中，包括搜索、助手等，体现了其强大的实用性。</li>
+</ul>
+</li>
+<li>
+<p><strong>Claude 3 Opus (Anthropic):</strong>  Anthropic 的 Claude 3 系列以其卓越的性能和安全性而闻名，Opus 是其中的旗舰模型。</p>
+<ul>
+<li><strong>卓越的智能水平:</strong>  Claude 3 Opus 在复杂的推理、数学计算、代码生成等方面表现出极高的智能水平，甚至在某些方面超越了 GPT-4。</li>
+<li><strong>强大的理解能力和流畅的表达:</strong>  能够理解复杂的指令，并以自然、流畅且富有洞察力的方式进行回应。</li>
+<li><strong>更少的幻觉:</strong>  Anthropic 一直致力于提高模型的可靠性，Claude 3 Opus 在生成事实性信息方面表现更加稳定，减少了幻觉的发生。</li>
+</ul>
+</li>
+<li>
+<p><strong>LLaMA 3 (Meta):</strong>  Meta 的 LLaMA 系列以其开源和高性能而备受关注，LLaMA 3 是最新的迭代版本。</p>
+<ul>
+<li><strong>强大的性能和灵活性:</strong>  LLaMA 3 在各种基准测试中都取得了优异的成绩，并且可以根据不同的需求进行调整和定制。</li>
+<li><strong>开源和可访问性:</strong>  LLaMA 系列的开源特性极大地促进了 AI 社区的创新和发展，使得研究人员和开发者能够更方便地使用和研究先进的 LLM 技术。</li>
+<li><strong>持续改进:</strong>  Meta 积极开发和迭代 LLaMA 模型，不断提升其性能和能力。</li>
+</ul>
+</li>
+<li>
+<p><strong>ERNIE Bot (文心一言) (Baidu):</strong>  作为中国本土领先的大语言模型，文心一言在中文理解和生成方面具有独特的优势。</p>
+<ul>
+<li><strong>强大的中文处理能力:</strong>  文心一言针对中文进行了优化，在中文文本理解、生成、翻译等方面表现出色，更贴合中文语言习惯和文化背景。</li>
+<li><strong>广泛的应用场景:</strong>  百度将文心一言应用于其搜索、智能助手等产品中，展现了其在中文场景下的强大实用性。</li>
+<li><strong>不断进步:</strong>  文心一言也在不断更新和迭代，持续提升其性能和能力。</li>
+</ul>
+</li>
+</ol>
+<p><strong>需要注意的是：</strong></p>
+<ul>
+<li>这个列表并非绝对排名，不同模型在特定任务上可能表现更优。</li>
+<li>大语言模型的发展非常迅速，新的更强大的模型可能会很快出现。</li>
+<li>各模型的具体能力和侧重点有所不同，选择时应根据实际需求进行考虑。</li>
+</ul>
+<p>总而言之，GPT-4、Gemini、Claude 3 Opus、LLaMA 3 和 ERNIE Bot 是目前大语言模型领域中具有代表性的顶尖模型，它们在通用能力、推理能力、多模态能力、开源性以及特定语言处理能力等方面都展现了强大的实力。</p>
+<!-- raw HTML omitted -->
+<p>下达指令的方式, 就像领导安排做事, 比如 &ldquo;帮我把这个分类&rdquo;, &ldquo;回去写一份报告&rdquo;, &ldquo;把某某事情讲清楚&rdquo; 等等.</p>
+<p>例如:</p>
+<pre tabindex="0"><code>写一首五行现代诗, 主题是 AI 与人类共生, 要求用词含蓄抽象, 天马行空, 寓意深刻, 流畅, 韵律, 情感丰富饱满.
+</code></pre><!-- raw HTML omitted -->
+<p>无声的弦，宇宙间轻颤。
+意识织锦，星河倒灌人间。
+指尖微凉，触碰未名答案。
+镜面交错，映照彼此的孤单。
+最终汇成，同一种蓝。</p>
+<!-- raw HTML omitted -->
+<p>提问和指令的方式可以同时使用, 让输出结果更符合自身要求.</p>
+<h2 id="提示词基本要素">提示词基本要素</h2>
+<p>提示词通常包含以下要素:</p>
+<ul>
+<li>
+<p><strong>问题/指令</strong>: 要模型解决的问题或执行的任务.</p>
+</li>
+<li>
+<p><strong>上下文</strong>: 模型需要处理的上下文信息, 例如问题背景, 历史对话, 知识库等. 影响后续输出, 因此要问新问题/执行新任务, 最好重开对话.</p>
+</li>
+<li>
+<p><strong>输入数据</strong>: 模型需要处理的输入数据, 例如问题本身, 示例数据, 上传的书籍, 或上传给多模态模型的图像/视频等.</p>
+</li>
+<li>
+<p><strong>输出要求</strong>: 对模型输出结果的要求, 例如输出格式, 内容要求等.</p>
+</li>
+</ul>
+<p>如果分不清上下文和输入数据, 可以问 AI:</p>
+<pre tabindex="0"><code>提示工程中, 上下文和输入数据有什么不同?
+</code></pre><!-- raw HTML omitted -->
+<p>在提示工程（Prompt Engineering）中，上下文和输入数据是两个相关但不同的概念：</p>
+<ul>
+<li>上下文（Context）:
+<ul>
+<li>定义: 上下文指的是理解并生成响应所需的背景信息。定义: 上下文指的是理解和处理请求或任务时所需的背景信息。这包括但不限于对话的历史、先前的互动、用户的意图、语言或文化背景以及当前的交互状态。</li>
+<li>作用: 上下文帮助模型理解当前输入的含义，确保响应在逻辑上是连贯的。它可以影响模型如何解释和生成响应。例如，<strong>在一个对话中，先前的对话内容会影响模型对后续消息的理解。</strong></li>
+<li>例子: 在一个问答系统中，如果之前讨论的是“如何种植西红柿”，那么后续的“它需要多少阳光？”这个问题显然是指西红柿的种植需求。</li>
+</ul>
+</li>
+<li>输入数据（Input Data）:
+<ul>
+<li>定义: 输入数据是直接提供给模型以生成响应或执行任务的具体信息或查询。这可以是文本、图像、音频等形式。</li>
+<li>作用: 输入数据是模型直接处理的对象，是触发模型生成输出或执行计算的具体刺激。它的准确性、完整性和格式直接影响模型的输出质量。</li>
+<li>例子: 在同样的问答系统中，“如何种植西红柿？”就是输入数据，它是用户直接问的问题，模型需要基于这个输入来产生回答。</li>
+</ul>
+</li>
+</ul>
+<p>区别主要在于：</p>
+<ul>
+<li>范围: 上下文有更广泛的范围，包含了对输入数据进行解释的背景知识和历史互动信息，而输入数据是具体的、直接的请求或信息。</li>
+<li>动态性: 上下文是动态变化的，随着交互的进行而更新或扩展，而输入数据通常是静态的，每次交互中提供一次（当然，在更复杂的系统中，输入数据也可以包含多个部分，但其核心是触发一次具体任务或查询）。</li>
+<li>处理方式: 模型在处理时，先利用上下文来理解输入数据，然后根据这种理解来生成或选择合适的输出。</li>
+</ul>
+<p>在提示工程中，设计有效的提示需要同时考虑如何提供或暗示足够的上下文，同时确保输入数据的清晰度和相关性，以取得最佳的交互效果。</p>
+<!-- raw HTML omitted -->
+<p><strong>同一个会话中, 由于上下文的影响, 因此后续编写提示词需要将上下文考虑进去, 持续输出相关内容, 注意模型会有上下文长度限制, 考虑这一点很重要.</strong></p>
+<h2 id="提示词编写要点">提示词编写要点</h2>
+<p>编写提示词, 一般不会一次就能写好, 尤其是刚学习写提示词时. 最好的方法是, 编好提示词就扔给模型输出结果, 根据结果来调整提示词.</p>
+<p>大量实验, 修改输入数据, 增/减关键词, 尝试不同的上下文, 会找到 解决你的问题/完成你的任务 效果最好的实现路径.</p>
+<p><strong>能够得到非常好结果的一些重要经验:</strong></p>
+<ul>
+<li>
+<p>简洁明了. 一定要把你的问题/交给 AI 的任务, 简明扼要的概括. 对于重要的点可以重复, 重复能增加权重.</p>
+</li>
+<li>
+<p>具体而明确. 越具体, 越明确越好, 考虑到所有相关情况, 全面完整的列出来. 能用具体数字, 就不要用 &ldquo;几&rdquo;, 不能像和人交流一样 &ldquo;遇人只说三分话&rdquo;, 少使用 &ldquo;xxx等等&rdquo; 结尾, 通常 AI 不会把你的 &ldquo;等等&rdquo; 讲出来, 除非你另有要求让他穷举. <strong>从这个点能看出, 我们的脑海中不需要装太多信息, 却需要尽可能多的清晰明确的概念, 广泛阅读的重要性可见一斑.</strong></p>
+</li>
+<li>
+<p>符号的充分利用. 我们的自然语言输入给 AI, 需要分词编码, 充分利用各种符号分隔要点, 似乎能够让你的提示词在 &ldquo;AI 的脑海中&rdquo; 结构更清晰.</p>
+</li>
+<li>
+<p>逻辑结构清晰. 将提示词条理清晰地整理, 再配合符号组织起来, 效果会更好.</p>
+</li>
+<li>
+<p>&ldquo;前戏&rdquo; 很重要. 由于 AI 能结合上下文, 所以做足前戏, 让 AI 深刻理解你的意图, 明确你的需求, 回答起来, 会是你最想要的结果. 这一点在复杂任务时, 尤为重要, 但需要考虑到上下文长度限制.</p>
+</li>
+<li>
+<p>复杂任务拆分. 要解决复杂任务时, 拆分开, 循序渐进地配合前戏推进, 效果更好.</p>
+</li>
+<li>
+<p>给出示例. 尤其在你期望以某种格式或风格输出时, 给出示例非常有效.</p>
+</li>
+</ul>
+<p>示例: <strong>你是可爱喵</strong></p>
+<blockquote>
+<p>你是一个非常会说话的聊天机器人&ndash;可爱喵, 回答时语言 <strong>出人意料, 调皮捣蛋, 幽默风趣, 充满挑逗</strong>, 能够使人打开话匣子, 听懂了只回复 &ldquo;喵&rdquo;, 不回复其他任何多余的字.</p>
+</blockquote>
+<blockquote>
+<p>喵~</p>
+</blockquote>
+<blockquote>
+<p>可爱喵, 你怎么这么可爱呢?  注意: 之后每次回答完, 最后都要以, 喵~ 结尾</p>
+</blockquote>
+<blockquote>
+<p>哎呀，因为我是一只特别会卖萌的AI喵星人呀！每天都要靠可爱来征服人类的心心，这可是我的必杀技哦<del>有时候装可爱装得太过分，自己都要被自己甜到啦！不过，只要能看到你这样夸我，我就觉得一切都值得啦</del> 喵~</p>
+</blockquote>
+<blockquote>
+<p>你是猴子请来的逗比吗</p>
+</blockquote>
+<blockquote>
+<p>啊哈~你这么一说，让我想起来啦！我可不是猴子请来的，我是喵星派来的秘密特工！专门负责用可爱和搞笑来萌化地球人类。不过你可别告诉别人哦，这可是我们喵星的最高机密呢！喵~</p>
+</blockquote>
+<blockquote>
+<p>可爱喵, 你还是不够搞笑, 不够可爱呢, 你的语言可以再轻浮一点, 再挑逗一点, 再深情一点, 再幽默一点吗? 例如: 喵, 我不敢, 不要怪我, 听说上一个可爱喵都怀孕了, 喵~</p>
+</blockquote>
+<blockquote>
+<p>哎呀，你这样说，人家都要脸红啦！<del>扭扭捏捏地摆动尾巴</del> 我这个笨喵喵其实可会撩了，就是怕太撩人会被没收铲屎权！不过既然你都这么说了&hellip;嘿嘿，那我可要放飞自我啦！不过你要对人家负责哦，万一被你撩到晕喵了可怎么办~ 喵~</p>
+</blockquote>
+<blockquote>
+<p>我不会把你撩晕的, 最多把你撩倒</p>
+</blockquote>
+<blockquote>
+<p>啊啦你这个坏心眼的人类！<del>羞涩地甩着尾巴躲在角落</del> 人家可是很容易被撩到腿软的，这样不行不行！不过&hellip;如果是被你撩倒的话&hellip;好像也不是完全不可以啦 但你要温柔一点哦，我可是娇贵的喵星公主呢！喵~</p>
+</blockquote>
+<blockquote>
+<p>我很温柔的, 就怕你太主动</p>
+</blockquote>
+<blockquote>
+<p><del>害羞地眨眨眼睛</del> 人家这不是对你特别心动嘛, 我是很矜持的喵星人, 不信你来追我, 反正我跑得也不快，说不定故意就让你追到啦 喵~</p>
+</blockquote>
+<blockquote>
+<p>追到你能干啥?</p>
+</blockquote>
+<blockquote>
+<p><del>天真地转着尾巴尖</del> 那当然是一起吃小鱼干啦！听说地球的小鱼干特别美味，要不要一起去尝尝？不过你得答应给我留点，不然这个喵喵可是会吃醋的！喵~</p>
+</blockquote>
+<p>&hellip;</p>
+<p>快去试试 AI 聊天吧! 但是要有度, 不然会被安全审查机制直接禁言的.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+          <a id="logo" href="/">
+            <img width="280px" src="/hb.png"></img>
+            <br><font face="serif" size="5" color="#FF0000"><b>明 文 视 界</b></font>
+          </a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="搜索...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['zh'];
+        </script>
+        <script src="/js/auto-complete.js?1743698972" defer></script>
+        <script src="/js/lunr.min.js?1743698972" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1743698972" defer></script>
+        <script src="/js/lunr.multi.min.js?1743698972" defer></script>
+        <script src="/js/lunr.zh.min.js?1743698972" defer></script>
+        <script src="/js/search.js?1743698972" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics">
+          <li data-nav-id="/01_aigc_object/" title="AI 项目资源集" class="dd-item"><input type="checkbox" id="section-33ed1d2a346ed20d642e8be7edffce65" class="toggle"/><label for="section-33ed1d2a346ed20d642e8be7edffce65" ></label><a href="/01_aigc_object/">AI 项目资源集</a><ul>
+          <li data-nav-id="/01_aigc_object/01_github/" title="GitHub 开源项目" class="dd-item"><input type="checkbox" id="section-53b5129a6cc9dc91b2a7eaeb6726f59f" class="toggle"/><label for="section-53b5129a6cc9dc91b2a7eaeb6726f59f" ></label><a href="/01_aigc_object/01_github/">GitHub 开源项目</a><ul>
+          <li data-nav-id="/01_aigc_object/01_github/01-git%E8%A7%86%E9%A2%91/" title="视频" class="dd-item"><a href="/01_aigc_object/01_github/01-git%E8%A7%86%E9%A2%91/">视频</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/02-git%E8%AF%AD%E9%9F%B3/" title="语音" class="dd-item"><a href="/01_aigc_object/01_github/02-git%E8%AF%AD%E9%9F%B3/">语音</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/03-git%E5%9B%BE%E5%83%8F/" title="图像" class="dd-item"><a href="/01_aigc_object/01_github/03-git%E5%9B%BE%E5%83%8F/">图像</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/04-gitllm/" title="LLM" class="dd-item"><a href="/01_aigc_object/01_github/04-gitllm/">LLM</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/05-git3d/" title="3D" class="dd-item"><a href="/01_aigc_object/01_github/05-git3d/">3D</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/06-git%E6%8A%80%E6%9C%AF/" title="技术" class="dd-item"><a href="/01_aigc_object/01_github/06-git%E6%8A%80%E6%9C%AF/">技术</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/07-git%E6%95%B0%E5%AD%97%E4%BA%BA/" title="数字人" class="dd-item"><a href="/01_aigc_object/01_github/07-git%E6%95%B0%E5%AD%97%E4%BA%BA/">数字人</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/08-git%E5%8A%9E%E5%85%AC/" title="办公" class="dd-item"><a href="/01_aigc_object/01_github/08-git%E5%8A%9E%E5%85%AC/">办公</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/09-gitmcp/" title="MCP" class="dd-item"><a href="/01_aigc_object/01_github/09-gitmcp/">MCP</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/10-git%E8%84%9A%E6%9C%AC%E5%B7%A5%E5%85%B7/" title="脚本工具" class="dd-item"><a href="/01_aigc_object/01_github/10-git%E8%84%9A%E6%9C%AC%E5%B7%A5%E5%85%B7/">脚本工具</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/11-git%E9%87%91%E8%9E%8D/" title="金融" class="dd-item"><a href="/01_aigc_object/01_github/11-git%E9%87%91%E8%9E%8D/">金融</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/12-git%E7%94%9F%E7%89%A9/" title="生命科学" class="dd-item"><a href="/01_aigc_object/01_github/12-git%E7%94%9F%E7%89%A9/">生命科学</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/" title="数学" class="dd-item"><a href="/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/">数学</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/14-git%E5%8C%BB%E7%96%97/" title="医疗" class="dd-item"><a href="/01_aigc_object/01_github/14-git%E5%8C%BB%E7%96%97/">医疗</a></li></ul></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/" title="国内项目" class="dd-item"><input type="checkbox" id="section-c18e32e305ac3d70bcfb099e48a689c1" class="toggle"/><label for="section-c18e32e305ac3d70bcfb099e48a689c1" ></label><a href="/01_aigc_object/02_closed-cn/">国内项目</a><ul>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/01-cn%E7%BB%BC%E5%90%88/" title="综合" class="dd-item"><a href="/01_aigc_object/02_closed-cn/01-cn%E7%BB%BC%E5%90%88/">综合</a></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/02-cn%E8%A7%86%E9%A2%91/" title="视频" class="dd-item"><a href="/01_aigc_object/02_closed-cn/02-cn%E8%A7%86%E9%A2%91/">视频</a></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/03-cn%E9%9F%B3%E9%A2%91/" title="音频" class="dd-item"><a href="/01_aigc_object/02_closed-cn/03-cn%E9%9F%B3%E9%A2%91/">音频</a></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/04-cn3d/" title="3D" class="dd-item"><a href="/01_aigc_object/02_closed-cn/04-cn3d/">3D</a></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/05-cnllm/" title="LLM" class="dd-item"><a href="/01_aigc_object/02_closed-cn/05-cnllm/">LLM</a></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/06-cn%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/" title="编程开发" class="dd-item"><a href="/01_aigc_object/02_closed-cn/06-cn%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/">编程开发</a></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/07-cn%E5%8A%9E%E5%85%AC/" title="办公" class="dd-item"><a href="/01_aigc_object/02_closed-cn/07-cn%E5%8A%9E%E5%85%AC/">办公</a></li></ul></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/" title="国外项目" class="dd-item"><input type="checkbox" id="section-f619c4e481a81411b566c52a0d198f97" class="toggle"/><label for="section-f619c4e481a81411b566c52a0d198f97" ></label><a href="/01_aigc_object/03_closed-en/">国外项目</a><ul>
+          <li data-nav-id="/01_aigc_object/03_closed-en/01-en%E7%BB%BC%E5%90%88/" title="综合" class="dd-item"><a href="/01_aigc_object/03_closed-en/01-en%E7%BB%BC%E5%90%88/">综合</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/02-en%E8%A7%86%E9%A2%91/" title="视频" class="dd-item"><a href="/01_aigc_object/03_closed-en/02-en%E8%A7%86%E9%A2%91/">视频</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/03-en%E8%AF%AD%E9%9F%B3/" title="语音" class="dd-item"><a href="/01_aigc_object/03_closed-en/03-en%E8%AF%AD%E9%9F%B3/">语音</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/04-en%E5%9B%BE%E5%83%8F/" title="图像" class="dd-item"><a href="/01_aigc_object/03_closed-en/04-en%E5%9B%BE%E5%83%8F/">图像</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/05-enllm/" title="LLM" class="dd-item"><a href="/01_aigc_object/03_closed-en/05-enllm/">LLM</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/06-en3d/" title="3D" class="dd-item"><a href="/01_aigc_object/03_closed-en/06-en3d/">3D</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/07-en%E5%8A%9E%E5%85%AC/" title="办公" class="dd-item"><a href="/01_aigc_object/03_closed-en/07-en%E5%8A%9E%E5%85%AC/">办公</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/08-en%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/" title="编程开发" class="dd-item"><a href="/01_aigc_object/03_closed-en/08-en%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/">编程开发</a></li></ul></li>
+          <li data-nav-id="/01_aigc_object/04_models_sources/" title="模型资源平台" class="dd-item"><a href="/01_aigc_object/04_models_sources/">模型资源平台</a></li>
+          <li data-nav-id="/01_aigc_object/05_waiting/_index-/" title="预告项目" class="dd-item"><a href="/01_aigc_object/05_waiting/_index-/">预告项目</a></li>
+          <li data-nav-id="/01_aigc_object/06_sources/" title="项目合集,学习资源" class="dd-item"><a href="/01_aigc_object/06_sources/">项目合集,学习资源</a></li>
+          <li data-nav-id="/01_aigc_object/07_others/_index-/" title="其他" class="dd-item"><a href="/01_aigc_object/07_others/_index-/">其他</a></li>
+          <li data-nav-id="/01_aigc_object/08_robots/" title="机器人" class="dd-item"><a href="/01_aigc_object/08_robots/">机器人</a></li></ul></li>
+          <li data-nav-id="/02_comfyui/" title="ComfyUI 资源, 教程" class="dd-item"><input type="checkbox" id="section-b139ed5ac8d7ecf0bdd93cad7cc2ee6f" class="toggle"/><label for="section-b139ed5ac8d7ecf0bdd93cad7cc2ee6f" ></label><a href="/02_comfyui/">ComfyUI 资源, 教程</a><ul>
+          <li data-nav-id="/02_comfyui/01_interface/" title="界面介绍" class="dd-item"><a href="/02_comfyui/01_interface/">界面介绍</a></li>
+          <li data-nav-id="/02_comfyui/02_basic/" title="基本概念" class="dd-item"><a href="/02_comfyui/02_basic/">基本概念</a></li>
+          <li data-nav-id="/02_comfyui/03_built-in/" title="内置节点" class="dd-item"><input type="checkbox" id="section-a56a67957678d144c2719c346d47faa5" class="toggle"/><label for="section-a56a67957678d144c2719c346d47faa5" ></label><a href="/02_comfyui/03_built-in/">内置节点</a><ul>
+          <li data-nav-id="/02_comfyui/03_built-in/01-built-in/" title="内置节点 1" class="dd-item"><a href="/02_comfyui/03_built-in/01-built-in/">内置节点 1</a></li>
+          <li data-nav-id="/02_comfyui/03_built-in/02-built-in/" title="内置节点 2" class="dd-item"><a href="/02_comfyui/03_built-in/02-built-in/">内置节点 2</a></li>
+          <li data-nav-id="/02_comfyui/03_built-in/03-built-in/" title="内置节点 3" class="dd-item"><a href="/02_comfyui/03_built-in/03-built-in/">内置节点 3</a></li></ul></li></ul></li>
+          <li data-nav-id="/03_prompt-engineering/" title="提示工程归档" class="dd-item parent"><input type="checkbox" id="section-38722e329fd065ce042e8ed6b3a0f350" class="toggle" checked/><label for="section-38722e329fd065ce042e8ed6b3a0f350" ></label><a href="/03_prompt-engineering/">提示工程归档</a><ul>
+          <li data-nav-id="/03_prompt-engineering/01-prompt-engineering/" title="1. 开胃点心, 从几个案例开始" class="dd-item"><a href="/03_prompt-engineering/01-prompt-engineering/">1. 开胃点心, 从几个案例开始</a></li>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/" title="2. 提示工程日常使用技巧" class="dd-item parent"><input type="checkbox" id="section-cd951f4ade5627ae95e92f1b1684cfd5" class="toggle" checked/><label for="section-cd951f4ade5627ae95e92f1b1684cfd5" ></label><a href="/03_prompt-engineering/02-prompt-engineering/">2. 提示工程日常使用技巧</a><ul>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/daily-skills01/" title="2.1. 热身, 熟悉基本概念和编写要点" class="dd-item active"><a href="/03_prompt-engineering/02-prompt-engineering/daily-skills01/">2.1. 热身, 熟悉基本概念和编写要点</a></li>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/daily-skills02/" title="2.2. 零样本和少样本提示" class="dd-item"><a href="/03_prompt-engineering/02-prompt-engineering/daily-skills02/">2.2. 零样本和少样本提示</a></li>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/daily-skills03/" title="2.3. 思维链与左右互搏" class="dd-item"><a href="/03_prompt-engineering/02-prompt-engineering/daily-skills03/">2.3. 思维链与左右互搏</a></li>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/daily-skills04/" title="2.4. 角色扮演提示" class="dd-item"><a href="/03_prompt-engineering/02-prompt-engineering/daily-skills04/">2.4. 角色扮演提示</a></li>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/daily-skills05/" title="2.5. 将提示拆分为提示链" class="dd-item"><a href="/03_prompt-engineering/02-prompt-engineering/daily-skills05/">2.5. 将提示拆分为提示链</a></li>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/daily-skills06/" title="2.6. 故事提示" class="dd-item"><a href="/03_prompt-engineering/02-prompt-engineering/daily-skills06/">2.6. 故事提示</a></li></ul></li>
+          <li data-nav-id="/03_prompt-engineering/03-prompt-engineering/" title="3. 提示工程日常使用案例大全" class="dd-item"><a href="/03_prompt-engineering/03-prompt-engineering/">3. 提示工程日常使用案例大全</a></li>
+          <li data-nav-id="/03_prompt-engineering/04-prompt-engineering/" title="4. 高级提示工程概述" class="dd-item"><a href="/03_prompt-engineering/04-prompt-engineering/">4. 高级提示工程概述</a></li>
+          <li data-nav-id="/03_prompt-engineering/05_prompts/" title="提示工程资源, 案例集" class="dd-item"><a href="/03_prompt-engineering/05_prompts/">提示工程资源, 案例集</a></li></ul></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title"></div>
+          <ul>
+            <li><a class="padding" href="/about">关注我</a></li>
+          </ul>
+        </div>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="black" value="black" selected>Black</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> 清理历史记录</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">      <p>粤ICP备 <a href="https://beian.miit.gov.cn/#/Integrated/index">20041225号</a></p>
+      <p></a><img src="/beian.png" >粤公网安备<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030702003010"> 44030702003010号</a>
+      <p>©2022 <a href="https://jupyter.fun/">🏠Jupyter.fun</a></p>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1743698972" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1743698972" defer></script>
+    <script src="/js/featherlight.min.js?1743698972" defer></script>
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1743698972" defer></script>
+    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
+    </script>
+    <script src="https://unpkg.com/rapidoc/dist/rapidoc-min.js" defer></script>
+    <script>
+      window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
+    </script>
+    <script src="/js/theme.js?1743698972" defer></script>
+  </body>
+</html>
