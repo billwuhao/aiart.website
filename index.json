@@ -270,7 +270,7 @@
     "description": "",
     "tags": null,
     "title": "预告项目",
-    "uri": "/01_aigc_object/05_waiting/_index-/"
+    "uri": "/01_aigc_object/05_waiting/"
   },
   {
     "content": " ",
@@ -326,7 +326,7 @@
     "description": "",
     "tags": null,
     "title": "其他",
-    "uri": "/01_aigc_object/07_others/_index-/"
+    "uri": "/01_aigc_object/07_others/"
   },
   {
     "content": "HeyGem.ai 数字人视频生成.\nSonic 上半身数字人生成.\nhallo3 头像数字人.\nLatentSync 数字人口型同步.\nmemo 表情说话视频生成.\nechomimic_v2 数字人.\nHelloMeme\nTANGO 音频, 手势数字人.\n",

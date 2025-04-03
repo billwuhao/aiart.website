@@ -48,41 +48,10 @@ tensor.art
 Dify 市场</description>
     </item>
     <item>
-      <title>项目合集,学习资源</title>
-      <link>/01_aigc_object/06_sources/</link>
-      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/01_aigc_object/06_sources/</guid>
-      <description>LAION-DISCO-12M 开源音乐数据集.
-anthropic-cookbook Claude 开发教程, 资源.
-generative-ai 谷歌 AI 开发资源和教程.
-OpenAI Academy OpenAI 学院, AI 技术免费学习资源.
-Ai2 PaperFinder 文献查找, 800 多万篇全文论文和 1.08亿 篇摘要的语料库进行广泛而深入的覆盖.
-ainews 每日全球 AI 新闻.
-llm-stats 全球大语言模型分析比较.
-Chatbot Arena 大模型基准测试开放平台.
-agents-course hugging face 开源智能体开发课程.
-hallucination-leaderboard 各大模型总结文档时产生幻觉概率排行榜.
-learn.deeplearning</description>
-    </item>
-    <item>
-      <title>机器人</title>
-      <link>/01_aigc_object/08_robots/</link>
-      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/01_aigc_object/08_robots/</guid>
-      <description>波士顿动力.
-宇树科技
-wayve.ai 自动驾驶.
-1x 人形机器人.
-Figure 通用人形机器人.
-Clone World 肌肉骨骼，智能机器人.
-zoo.dev 硬件设计
-Genesis 通用机器人世界生成.</description>
-    </item>
-    <item>
       <title>预告项目</title>
-      <link>/01_aigc_object/05_waiting/_index-/</link>
+      <link>/01_aigc_object/05_waiting/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/01_aigc_object/05_waiting/_index-/</guid>
+      <guid>/01_aigc_object/05_waiting/</guid>
       <description>MoCha Meta 项目, 电影级会话视频生成.
 HunyuanPortrait 人像视频生成.
 chat-anyone 人像视频生成.
@@ -108,13 +77,44 @@ cinemaster 3d 感知和控制电影级视频生成框架.
 NeuralSVG 文本到矢量图生成.</description>
     </item>
     <item>
-      <title>其他</title>
-      <link>/01_aigc_object/07_others/_index-/</link>
+      <title>项目合集,学习资源</title>
+      <link>/01_aigc_object/06_sources/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
-      <guid>/01_aigc_object/07_others/_index-/</guid>
+      <guid>/01_aigc_object/06_sources/</guid>
+      <description>LAION-DISCO-12M 开源音乐数据集.
+anthropic-cookbook Claude 开发教程, 资源.
+generative-ai 谷歌 AI 开发资源和教程.
+OpenAI Academy OpenAI 学院, AI 技术免费学习资源.
+Ai2 PaperFinder 文献查找, 800 多万篇全文论文和 1.08亿 篇摘要的语料库进行广泛而深入的覆盖.
+ainews 每日全球 AI 新闻.
+llm-stats 全球大语言模型分析比较.
+Chatbot Arena 大模型基准测试开放平台.
+agents-course hugging face 开源智能体开发课程.
+hallucination-leaderboard 各大模型总结文档时产生幻觉概率排行榜.
+learn.deeplearning</description>
+    </item>
+    <item>
+      <title>其他</title>
+      <link>/01_aigc_object/07_others/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/07_others/</guid>
       <description>AI 生成检测
 iclight-v2-vary IC Light 免费在线体验.
 iclight-v2 IC Light 免费在线体验.</description>
+    </item>
+    <item>
+      <title>机器人</title>
+      <link>/01_aigc_object/08_robots/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/08_robots/</guid>
+      <description>波士顿动力.
+宇树科技
+wayve.ai 自动驾驶.
+1x 人形机器人.
+Figure 通用人形机器人.
+Clone World 肌肉骨骼，智能机器人.
+zoo.dev 硬件设计
+Genesis 通用机器人世界生成.</description>
     </item>
   </channel>
 </rss>

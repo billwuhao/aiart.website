@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>预告项目 on aiart.website</title>
-    <link>/01_aigc_object/05_waiting/_index-/</link>
+    <link>/01_aigc_object/05_waiting/</link>
     <description>Recent content in 预告项目 on aiart.website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/01_aigc_object/05_waiting/_index-/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/01_aigc_object/05_waiting/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
