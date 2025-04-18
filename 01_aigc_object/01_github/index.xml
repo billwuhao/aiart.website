@@ -64,7 +64,12 @@ DiffRhythm 开源快速音乐, 歌曲生成.
 NotaGen 大模型音乐谱曲, 生成曲谱.
 Orpheus-TTS 文本转语音生成, 克隆声音.
 Qwen2-Audio 阿里语音对话模型.
-InternVL 接近 GPT-4o 表现的开源多模态对话模型</description>
+InternVL 接近 GPT-4o 表现的开源多模态对话模型
+whisper 语音识别.
+seed-vc 零样本声音转换, 歌唱.
+AudioX 语音生成.
+MegaTTS3 声音克隆.
+OuteTTS 声音克隆, 情绪控制.</description>
     </item>
     <item>
       <title>图像</title>
@@ -111,7 +116,13 @@ Magma 微软开源用于 AI 智能体开发的多模态基础模型.
 joycaption 未经审查视觉大模型, 反推提示词利器.
 cherry-studio 跨平台大模型聊天框架, 整合众多大模型, 支持 MCP.
 lobe-chat 整合众多大模型的 AI 聊天框架.
-hivechat 整合众多大模型的 AI 聊天框架.</description>
+hivechat 整合众多大模型的 AI 聊天框架.
+open-deep-research 深度研究开源实现.
+PaSa 文献综合检索智能体.
+MiniCPM-o GPT-4o 级别的手机端大语言模型.
+VITA 手机端实时视频语音交互.
+DRT 基于大模型深度推理的翻译.
+Dream 扩散大语言模型.</description>
     </item>
     <item>
       <title>3D</title>
@@ -129,7 +140,15 @@ FlashVDM 混元 3d 生成加速技术.
 fast3r facebook 图像快速 3D 重建.
 cube 3D 生成系统和模型.
 pippo 单张图像生成人物多视角.
-PhysDreamer 通过物理交互生成 3d.</description>
+PhysDreamer 通过物理交互生成 3d.
+Feat2GS 3d 视图生成.
+HSfM 人物, 场景, 镜头三维重建.
+DualPM 三维形状, 姿态重建.
+StereoCrafter 2d 视频转沉浸式 3d.
+See3D 开放世界 3d 创建.
+stable-point-aware-3d 单图像 3d 物体重建.
+TripoSR 单图像快速三维重建.
+TRELLIS 图/文 生成 3d.</description>
     </item>
     <item>
       <title>技术</title>
@@ -157,7 +176,8 @@ llama.cpp 大模型纯 C/C++ 加速推理.
 CTranslate2 Transformer 模型的快速推理引擎.
 SpargeAttn 一种无需训练的稀疏注意力，可以加速任何模型推理.
 DiffSynth-Studio 扩散模型优化技术.
-LightningDiT 克服模型优化困境.</description>
+LightningDiT 克服模型优化困境.
+unsloth 微调和量化大模型.</description>
     </item>
     <item>
       <title>数字人</title>
@@ -171,7 +191,9 @@ LatentSync 数字人口型同步.
 memo 表情说话视频生成.
 echomimic_v2 数字人.
 HelloMeme
-TANGO 音频, 手势数字人.</description>
+TANGO 音频, 手势数字人.
+FLOAT 音频驱动头像说话.
+AnchorCrafter 销售数字人生成.</description>
     </item>
     <item>
       <title>办公</title>
@@ -186,7 +208,16 @@ OpenManus 自动控制设备, 自动办公.
 nanobrowser 使用自己的 API 或本地模型, web 自动化办公工具.
 owl 多 agent 实现世界任务自动化.
 ComfyUI-Copilot ComfyUI 智能助手.
-Umi-OCR 文字识别工具.</description>
+Umi-OCR 文字识别工具.
+AutoGPT 自动化任务执行, 办公.
+zerox 图像, pdf 文本识别转换.
+multimodal_textbook 多模态授课.
+UI-TARS 字节开源智能体模型.
+agents🤖🎙️📹 实时语音智能体框架.
+maxun 几分钟内将网站数据转换为 API 或电子表格.
+Aria-UI 来自 GUI 说明的上下文感知.
+midscene AI 操作浏览器.
+excalidraw 虚拟手绘白板.</description>
     </item>
     <item>
       <title>MCP</title>
@@ -195,7 +226,9 @@ Umi-OCR 文字识别工具.</description>
       <guid>/01_aigc_object/01_github/09-gitmcp/</guid>
       <description>Model Context Protocol Servers
 ableton-mcp Claude 与 Ableton Lives 交互并控制 Ableton, 实现了快速辅助音乐制作, 曲目创建和现场会话.
-awesome-mcp-servers 开源 MCP 服务资源合集.</description>
+awesome-mcp-servers 开源 MCP 服务资源合集.
+MCP Servers MCP 服务资源合集.
+github-mcp-server</description>
     </item>
     <item>
       <title>脚本工具</title>
@@ -203,7 +236,15 @@ awesome-mcp-servers 开源 MCP 服务资源合集.</description>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/10-git%E8%84%9A%E6%9C%AC%E5%B7%A5%E5%85%B7/</guid>
       <description>diffusion-pipe 视频, 图像模型训练脚本.
-musubi-tuner 模型 lora 训练脚本.</description>
+musubi-tuner 模型 lora 训练脚本.
+ai-toolkit 模型训练脚本.
+OneTrainer
+lora-scripts 秋叶训练器.
+kohya_ss
+fluxgym
+LLaMA-Factory 高效统一的大模型训练工具.
+xtuner 高效灵活模型训练.
+SimpleTuner:</description>
     </item>
     <item>
       <title>金融</title>
@@ -217,7 +258,8 @@ musubi-tuner 模型 lora 训练脚本.</description>
       <link>/01_aigc_object/01_github/12-git%E7%94%9F%E7%89%A9/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/12-git%E7%94%9F%E7%89%A9/</guid>
-      <description>evo2 生命所有领域的基因组建模和设计.</description>
+      <description>evo2 生命所有领域的基因组建模和设计.
+asal 自动搜索人工生命.</description>
     </item>
     <item>
       <title>数学</title>
@@ -231,7 +273,41 @@ musubi-tuner 模型 lora 训练脚本.</description>
       <link>/01_aigc_object/01_github/14-git%E5%8C%BB%E7%96%97/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/14-git%E5%8C%BB%E7%96%97/</guid>
-      <description>MedRAX X 光胸片医学推理.</description>
+      <description>MedRAX X 光胸片医学推理.
+Baichuan-M1-14B 百川医疗大模型.
+HuatuoGPT-o1 复杂医学推理模型.</description>
+    </item>
+    <item>
+      <title>化学</title>
+      <link>/01_aigc_object/01_github/15-git%E5%8C%96%E5%AD%A6/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/15-git%E5%8C%96%E5%AD%A6/</guid>
+      <description>MatterGen 微软开源, 无机化学材料生成模型.
+materials 材料科学基础模型.</description>
+    </item>
+    <item>
+      <title>机器人</title>
+      <link>/01_aigc_object/01_github/16-git%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/16-git%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
+      <description>Genesis 通用机器人世界生成.
+LeCAR-Lab/ASAP 机器人敏捷技能学习.
+AgiBot-World 机器人世界操作智能化系统.</description>
+    </item>
+    <item>
+      <title>编程开发</title>
+      <link>/01_aigc_object/01_github/17-git%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/01_aigc_object/01_github/17-git%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/</guid>
+      <description>ChatDev) 多智能体自然语言编程开发.
+cline 自主编程智能体.
+n8n 自定义流程引擎.
+taipy 数据和算法立即转化为 web 应用.
+SWE-agent
+MetaGPT 多智能体自然语言编程开发.
+screenshot-to-code 屏幕截图转代码.
+google/adk-python
+codex</description>
     </item>
   </channel>
 </rss>

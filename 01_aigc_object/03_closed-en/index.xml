@@ -27,7 +27,8 @@ leonardo.ai
 Google labs
 mistral.ai
 SORA
-chatnio 整合众多模型应用.</description>
+chatnio 整合众多模型应用.
+Genspark Genspark 超级智能体.</description>
     </item>
     <item>
       <title>视频</title>
@@ -42,7 +43,9 @@ topview.ai 电商营销视频生成.
 higgsfield.ai 视频生成.
 captions.ai 说话视频生成.
 aiuni.ai
-domoai</description>
+domoai
+LipDub AI 高质量唇形同步.
+sync.so 高质量唇形同步.</description>
     </item>
     <item>
       <title>语音</title>
@@ -57,7 +60,8 @@ supertone 文本到语音.
 elevenlabs
 udio
 stableaudio
-谷歌 beat blender</description>
+谷歌 beat blender
+Muse 文本到 MIDI 生成.</description>
     </item>
     <item>
       <title>图像</title>
@@ -79,7 +83,8 @@ gemini 谷歌 Gemini 全家桶.
 MGX 免费使用 Claude, gpt 4o.
 perplexity AI 搜索.
 claude.ai
-storm.genie.stanford</description>
+storm.genie.stanford
+OpenRouter</description>
     </item>
     <item>
       <title>3D</title>
@@ -125,7 +130,8 @@ VS code
 comfycopilot
 idx.dev
 odyssey.world
-figma 设计.</description>
+figma 设计.
+Firebase Studio</description>
     </item>
   </channel>
 </rss>

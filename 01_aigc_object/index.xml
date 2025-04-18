@@ -11,7 +11,7 @@
       <link>/01_aigc_object/01_github/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/</guid>
-      <description> 视频 语音 图像 LLM 3D 技术 数字人 办公 MCP 脚本工具 金融 生命科学 数学 医疗 </description>
+      <description> 视频 语音 图像 LLM 3D 技术 数字人 办公 MCP 脚本工具 金融 生命科学 数学 医疗 化学 机器人 编程开发 </description>
     </item>
     <item>
       <title>国内项目</title>
@@ -74,7 +74,13 @@ Magic-141 一分钟内生成一分钟视频.
 dynvfx 视频动态增加内容.
 animate-anyone-2 人物高保真视频生成.
 cinemaster 3d 感知和控制电影级视频生成框架.
-NeuralSVG 文本到矢量图生成.</description>
+NeuralSVG 文本到矢量图生成.
+omnihuman-lab.github.io 口型同步.
+Text-to-Edit 广告视频生成.
+ConceptMaster 多人物一致性视频生成.
+FaceLift 单张图像生成 3d 头像.
+SeedVR 任何分辨率视频高清修复.
+VideoAnydoor 视频中可控插入对象.</description>
     </item>
     <item>
       <title>项目合集,学习资源</title>
@@ -91,7 +97,19 @@ llm-stats 全球大语言模型分析比较.
 Chatbot Arena 大模型基准测试开放平台.
 agents-course hugging face 开源智能体开发课程.
 hallucination-leaderboard 各大模型总结文档时产生幻觉概率排行榜.
-learn.deeplearning</description>
+learn.deeplearning
+Artificial Analysis 模型可视化分析比较.
+LLMs-from-scratch 从头实现大语言模型书籍.
+minimind 3 小时从零训练小参数大模型.
+ai-game-devtools AI 资源集合.
+openai-cookbook OpenAI 开发指南.
+awesome-chatgpt-prompts 大模型提示词写作大全.
+llm-cookbook 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版.
+Awesome-Prompt-Engineering 提示工程资源集合.
+Prompt-Engineering-Guide 提示工程指南.
+Awesome-LLM 大语言模型资源集合.
+Awesome-Chinese-LLM 中文大语言模型资源集合.
+llama-recipes Llama 构建：推理、微调、RAG的入门指南</description>
     </item>
     <item>
       <title>其他</title>
@@ -113,8 +131,7 @@ wayve.ai 自动驾驶.
 1x 人形机器人.
 Figure 通用人形机器人.
 Clone World 肌肉骨骼，智能机器人.
-zoo.dev 硬件设计
-Genesis 通用机器人世界生成.</description>
+zoo.dev 硬件设计</description>
     </item>
   </channel>
 </rss>
