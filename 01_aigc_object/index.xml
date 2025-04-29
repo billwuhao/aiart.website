@@ -11,21 +11,21 @@
       <link>/01_aigc_object/01_github/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/</guid>
-      <description> 视频 语音 图像 LLM 3D 技术 数字人 办公 MCP 脚本工具 金融 生命科学 数学 医疗 化学 机器人 编程开发 </description>
+      <description> 视频 语音 图像 LLM 3D 技术 数字人 办公智能体 MCP 脚本工具 金融 生命科学 数学 医疗 化学 机器人 编程开发 </description>
     </item>
     <item>
       <title>国内项目</title>
       <link>/01_aigc_object/02_closed-cn/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/02_closed-cn/</guid>
-      <description> 综合 视频 音频 3D LLM 编程开发 办公 </description>
+      <description> 综合 视频 音频 3D LLM 编程开发 办公智能体 </description>
     </item>
     <item>
       <title>国外项目</title>
       <link>/01_aigc_object/03_closed-en/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/03_closed-en/</guid>
-      <description> 综合 视频 语音 图像 LLM 3D 办公 编程开发 </description>
+      <description> 综合 视频 语音 图像 LLM 3D 办公智能体 编程开发 </description>
     </item>
     <item>
       <title>模型资源平台</title>
@@ -45,7 +45,8 @@ comfyworkflows
 openmodeldb 各种放大模型库.
 tensor.art
 端脑云
-Dify 市场</description>
+Dify 市场
+OneThingAI算力云, GPU算力平台</description>
     </item>
     <item>
       <title>预告项目</title>
@@ -131,7 +132,8 @@ wayve.ai 自动驾驶.
 1x 人形机器人.
 Figure 通用人形机器人.
 Clone World 肌肉骨骼，智能机器人.
-zoo.dev 硬件设计</description>
+zoo.dev 硬件设计
+Reachy 开源机器人.</description>
     </item>
   </channel>
 </rss>

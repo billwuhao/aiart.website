@@ -69,7 +69,9 @@ whisper 语音识别.
 seed-vc 零样本声音转换, 歌唱.
 AudioX 语音生成.
 MegaTTS3 声音克隆.
-OuteTTS 声音克隆, 情绪控制.</description>
+OuteTTS 声音克隆, 情绪控制.
+nari-labs/dia 一次克隆生成超真实会话语音模型.
+MoonshotAI/Kimi-Audio Kimi 音频理解, 生成, 转换模型.</description>
     </item>
     <item>
       <title>图像</title>
@@ -193,10 +195,12 @@ echomimic_v2 数字人.
 HelloMeme
 TANGO 音频, 手势数字人.
 FLOAT 音频驱动头像说话.
-AnchorCrafter 销售数字人生成.</description>
+AnchorCrafter 销售数字人生成.
+Fantasy-AMAP/fantasy-talking
+HumanAIGC-Engineering/OpenAvatarChat 阿里数字人框架.</description>
     </item>
     <item>
-      <title>办公</title>
+      <title>办公智能体</title>
       <link>/01_aigc_object/01_github/08-git%E5%8A%9E%E5%85%AC/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/08-git%E5%8A%9E%E5%85%AC/</guid>
@@ -217,7 +221,12 @@ agents🤖🎙️📹 实时语音智能体框架.
 maxun 几分钟内将网站数据转换为 API 或电子表格.
 Aria-UI 来自 GUI 说明的上下文感知.
 midscene AI 操作浏览器.
-excalidraw 虚拟手绘白板.</description>
+excalidraw 虚拟手绘白板.
+microsoft/markitdown 转换文件/文档为 markdown.
+browserbase/stagehand 智能浏览器框架.
+kortix-ai/suna 通用智能体.
+microsoft/UFO 桌面智能体系统.
+simular-ai/Agent-S 操作计算机的智能体.</description>
     </item>
     <item>
       <title>MCP</title>
@@ -228,7 +237,8 @@ excalidraw 虚拟手绘白板.</description>
 ableton-mcp Claude 与 Ableton Lives 交互并控制 Ableton, 实现了快速辅助音乐制作, 曲目创建和现场会话.
 awesome-mcp-servers 开源 MCP 服务资源合集.
 MCP Servers MCP 服务资源合集.
-github-mcp-server</description>
+github-mcp-server
+microsoft/playwright-mcp playwright 自动化 mcp 协议.</description>
     </item>
     <item>
       <title>脚本工具</title>
@@ -307,7 +317,10 @@ SWE-agent
 MetaGPT 多智能体自然语言编程开发.
 screenshot-to-code 屏幕截图转代码.
 google/adk-python
-codex</description>
+codex
+wandb/openui 自然语言构建 UI 交互.
+fuma-nama/fumadocs 为项目生成漂亮文档.
+pad-ws/pad.ws 在浏览器中边画边开发.</description>
     </item>
   </channel>
 </rss>

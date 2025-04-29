@@ -28,7 +28,9 @@ Google labs
 mistral.ai
 SORA
 chatnio 整合众多模型应用.
-Genspark Genspark 超级智能体.</description>
+Genspark Genspark 超级智能体.
+character.ai
+The OS for Human-AI Interaction</description>
     </item>
     <item>
       <title>视频</title>
@@ -97,7 +99,7 @@ meshy.ai
 tripo3d</description>
     </item>
     <item>
-      <title>办公</title>
+      <title>办公智能体</title>
       <link>/01_aigc_object/03_closed-en/07-en%E5%8A%9E%E5%85%AC/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/03_closed-en/07-en%E5%8A%9E%E5%85%AC/</guid>
@@ -131,7 +133,8 @@ comfycopilot
 idx.dev
 odyssey.world
 figma 设计.
-Firebase Studio</description>
+Firebase Studio
+DeepWiki 为 GitHub 开源项目生成文档解读.</description>
     </item>
   </channel>
 </rss>
