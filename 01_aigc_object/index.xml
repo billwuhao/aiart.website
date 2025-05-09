@@ -46,7 +46,8 @@ openmodeldb 各种放大模型库.
 tensor.art
 端脑云
 Dify 市场
-OneThingAI算力云, GPU算力平台</description>
+OneThingAI算力云, GPU算力平台
+魔乐社区:</description>
     </item>
     <item>
       <title>预告项目</title>
@@ -133,7 +134,8 @@ wayve.ai 自动驾驶.
 Figure 通用人形机器人.
 Clone World 肌肉骨骼，智能机器人.
 zoo.dev 硬件设计
-Reachy 开源机器人.</description>
+Reachy 开源机器人.
+VideoMimic: 视频动作机器人迁移, 机器人看看视频就学习动作</description>
     </item>
   </channel>
 </rss>

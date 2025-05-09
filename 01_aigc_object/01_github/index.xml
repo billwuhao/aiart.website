@@ -71,7 +71,9 @@ AudioX 语音生成.
 MegaTTS3 声音克隆.
 OuteTTS 声音克隆, 情绪控制.
 nari-labs/dia 一次克隆生成超真实会话语音模型.
-MoonshotAI/Kimi-Audio Kimi 音频理解, 生成, 转换模型.</description>
+MoonshotAI/Kimi-Audio Kimi 音频理解, 生成, 转换模型.
+ACE-Step: 音乐生成基础模型, 高质量, 快速生成音乐, 编辑, 扩展等.
+TechSinger: 多语言歌唱声音合成</description>
     </item>
     <item>
       <title>图像</title>
@@ -197,7 +199,9 @@ TANGO 音频, 手势数字人.
 FLOAT 音频驱动头像说话.
 AnchorCrafter 销售数字人生成.
 Fantasy-AMAP/fantasy-talking
-HumanAIGC-Engineering/OpenAvatarChat 阿里数字人框架.</description>
+HumanAIGC-Engineering/OpenAvatarChat 阿里数字人框架.
+DICE-Talk: 生动多样情感数字人
+KeySync: 高分辨率数字人</description>
     </item>
     <item>
       <title>办公智能体</title>
@@ -276,7 +280,8 @@ asal 自动搜索人工生命.</description>
       <link>/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/</guid>
-      <description>TheoremExplainAgent 数学定理的自动可视化多模态理解.</description>
+      <description>TheoremExplainAgent 数学定理的自动可视化多模态理解.
+Sphere-AI-Lab/FormalMATH-Bench: 大规模形式化数学基准</description>
     </item>
     <item>
       <title>医疗</title>
@@ -302,7 +307,8 @@ materials 材料科学基础模型.</description>
       <guid>/01_aigc_object/01_github/16-git%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
       <description>Genesis 通用机器人世界生成.
 LeCAR-Lab/ASAP 机器人敏捷技能学习.
-AgiBot-World 机器人世界操作智能化系统.</description>
+AgiBot-World 机器人世界操作智能化系统.
+roboterax/video-prediction-policy: 通用机器人视觉预测</description>
     </item>
     <item>
       <title>编程开发</title>
