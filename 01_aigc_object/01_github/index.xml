@@ -230,7 +230,9 @@ microsoft/markitdown 转换文件/文档为 markdown.
 browserbase/stagehand 智能浏览器框架.
 kortix-ai/suna 通用智能体.
 microsoft/UFO 桌面智能体系统.
-simular-ai/Agent-S 操作计算机的智能体.</description>
+simular-ai/Agent-S 操作计算机的智能体.
+bytedance/deer-flow: 深度搜索, 智能办公框架
+CodePhiliaX/Chat2DB: AI 驱动数据库工具</description>
     </item>
     <item>
       <title>MCP</title>
@@ -242,7 +244,8 @@ ableton-mcp Claude 与 Ableton Lives 交互并控制 Ableton, 实现了快速辅
 awesome-mcp-servers 开源 MCP 服务资源合集.
 MCP Servers MCP 服务资源合集.
 github-mcp-server
-microsoft/playwright-mcp playwright 自动化 mcp 协议.</description>
+microsoft/playwright-mcp playwright 自动化 mcp 协议.
+luminati-io/brightdata-mcp: 强大的 MCP 服务器</description>
     </item>
     <item>
       <title>脚本工具</title>
@@ -258,7 +261,9 @@ kohya_ss
 fluxgym
 LLaMA-Factory 高效统一的大模型训练工具.
 xtuner 高效灵活模型训练.
-SimpleTuner:</description>
+SimpleTuner:
+XueZeyue/DanceGRPO: 字节模型训练脚本
+lodestone-rock/flow: 图像生成模型训练</description>
     </item>
     <item>
       <title>金融</title>
@@ -281,7 +286,8 @@ asal 自动搜索人工生命.</description>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/</guid>
       <description>TheoremExplainAgent 数学定理的自动可视化多模态理解.
-Sphere-AI-Lab/FormalMATH-Bench: 大规模形式化数学基准</description>
+Sphere-AI-Lab/FormalMATH-Bench: 大规模形式化数学基准
+jihe520/MathModelAgent: 专为数学建模设计的 Agent</description>
     </item>
     <item>
       <title>医疗</title>
@@ -298,7 +304,8 @@ HuatuoGPT-o1 复杂医学推理模型.</description>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/15-git%E5%8C%96%E5%AD%A6/</guid>
       <description>MatterGen 微软开源, 无机化学材料生成模型.
-materials 材料科学基础模型.</description>
+materials 材料科学基础模型.
+facebookresearch/fairchem: 化学机器学习方法库</description>
     </item>
     <item>
       <title>机器人</title>
