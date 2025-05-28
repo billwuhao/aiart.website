@@ -30,7 +30,9 @@ SORA
 chatnio 整合众多模型应用.
 Genspark Genspark 超级智能体.
 character.ai
-The OS for Human-AI Interaction</description>
+The OS for Human-AI Interaction
+Akool: 实时视频: 实时翻译, 实时换脸, 实时数字人&amp;hellip;
+Akool: 实时视频: 实时翻译, 实时换脸, 实时数字人&amp;hellip;</description>
     </item>
     <item>
       <title>视频</title>
@@ -47,7 +49,11 @@ captions.ai 说话视频生成.
 aiuni.ai
 domoai
 LipDub AI 高质量唇形同步.
-sync.so 高质量唇形同步.</description>
+sync.so 高质量唇形同步.
+Flow: 谷歌电影制作应用
+Sparkify: 谷歌动画
+Flow: 谷歌电影制作应用
+Sparkify: 谷歌动画</description>
     </item>
     <item>
       <title>语音</title>
@@ -63,7 +69,8 @@ elevenlabs
 udio
 stableaudio
 谷歌 beat blender
-Muse 文本到 MIDI 生成.</description>
+Muse 文本到 MIDI 生成.
+Lyria: 谷歌音乐生成</description>
     </item>
     <item>
       <title>图像</title>
@@ -110,7 +117,8 @@ illuminate.google 将你输入的内容转化为音频对话.
 llamaocr 图片文档转 markdown.
 neo 自动化机器学习过程.
 excalidraw 超级好用流程, 讲课在线手绘板.
-Lovart: 世界首个设计只能体</description>
+Lovart: 世界首个设计只能体
+MagicPath: 网页设计</description>
     </item>
     <item>
       <title>编程开发</title>
@@ -137,7 +145,9 @@ figma 设计.
 Firebase Studio
 DeepWiki 为 GitHub 开源项目生成文档解读.
 Devv 2.0: 10分钟创建应用
-Jules: 谷歌开发助手</description>
+Jules: 谷歌开发助手
+Framer: 网站开发
+Rork: 手机应用开发</description>
     </item>
   </channel>
 </rss>

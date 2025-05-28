@@ -126,7 +126,19 @@ PaSa 文献综合检索智能体.
 MiniCPM-o GPT-4o 级别的手机端大语言模型.
 VITA 手机端实时视频语音交互.
 DRT 基于大模型深度推理的翻译.
-Dream 扩散大语言模型.</description>
+Dream 扩散大语言模型.
+nvidia-cosmos/cosmos-reason1: 多模态模型理解物理世界
+DMindAI/DMind-1: 专为web3设计大语言模型
+Gen-Verse/MMaDA: 多模态扩散大语言模型
+yix8/VisualPlanning: 纯视觉推理模型
+NetManAIOps/ChatTS: 时序大模型
+Tongyi-Zhiwen/QwenLong-L1: 阿里长上下文推理模型
+nvidia-cosmos/cosmos-reason1: 多模态模型理解物理世界
+DMindAI/DMind-1: 专为web3设计大语言模型
+Gen-Verse/MMaDA: 多模态扩散大语言模型
+yix8/VisualPlanning: 纯视觉推理模型
+NetManAIOps/ChatTS: 时序大模型
+Tongyi-Zhiwen/QwenLong-L1: 阿里长上下文推理模型</description>
     </item>
     <item>
       <title>3D</title>
@@ -201,7 +213,11 @@ AnchorCrafter 销售数字人生成.
 Fantasy-AMAP/fantasy-talking
 HumanAIGC-Engineering/OpenAvatarChat 阿里数字人框架.
 DICE-Talk: 生动多样情感数字人
-KeySync: 高分辨率数字人</description>
+KeySync: 高分辨率数字人
+Tencent-Hunyuan/HunyuanPortrait: 混元肖像数字人
+Tencent-Hunyuan/HunyuanVideo-Avatar: 混元数字人
+Tencent-Hunyuan/HunyuanPortrait: 混元肖像数字人
+Tencent-Hunyuan/HunyuanVideo-Avatar: 混元数字人</description>
     </item>
     <item>
       <title>办公智能体</title>
@@ -296,7 +312,9 @@ jihe520/MathModelAgent: 专为数学建模设计的 Agent</description>
       <guid>/01_aigc_object/01_github/14-git%E5%8C%BB%E7%96%97/</guid>
       <description>MedRAX X 光胸片医学推理.
 Baichuan-M1-14B 百川医疗大模型.
-HuatuoGPT-o1 复杂医学推理模型.</description>
+HuatuoGPT-o1 复杂医学推理模型.
+Google-Health/medgemma: 谷歌医疗大模型
+Google-Health/medgemma: 谷歌医疗大模型</description>
     </item>
     <item>
       <title>化学</title>

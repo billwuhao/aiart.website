@@ -91,7 +91,11 @@ NoCode: 美团零代码应用生成平台
       <guid>/01_aigc_object/02_closed-cn/07-cn%E5%8A%9E%E5%85%AC/</guid>
       <description>manus 办公自动化智能体.
 GLM-PC 控制电脑自动完成任务.
-ListenHub: 超真实的AI播客生成器</description>
+ListenHub: 超真实的AI播客生成器
+Skywork: 天工智能体
+VideoTutor: 自动生成教学视频
+Skywork: 天工智能体
+VideoTutor: 自动生成教学视频</description>
     </item>
   </channel>
 </rss>
