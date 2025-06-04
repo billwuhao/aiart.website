@@ -80,7 +80,8 @@ Lyria: 谷歌音乐生成</description>
       <description>ideogram 图像生成, 编辑处理.
 recraft.ai 设计师的图像生成, 编辑工具.
 firefly.adobe
-midjourney</description>
+midjourney
+Black Forest Labs: Flux 图像编辑</description>
     </item>
     <item>
       <title>LLM</title>
@@ -118,7 +119,9 @@ llamaocr 图片文档转 markdown.
 neo 自动化机器学习过程.
 excalidraw 超级好用流程, 讲课在线手绘板.
 Lovart: 世界首个设计只能体
-MagicPath: 网页设计</description>
+MagicPath: 网页设计
+Fairies AI: Computer Magic 通用智能体
+AI Agentic Browser: 智能体浏览器</description>
     </item>
     <item>
       <title>编程开发</title>
@@ -147,7 +150,8 @@ DeepWiki 为 GitHub 开源项目生成文档解读.
 Devv 2.0: 10分钟创建应用
 Jules: 谷歌开发助手
 Framer: 网站开发
-Rork: 手机应用开发</description>
+Rork: 手机应用开发
+YouWare: 网站开发智能体</description>
     </item>
   </channel>
 </rss>

@@ -138,7 +138,10 @@ DMindAI/DMind-1: 专为web3设计大语言模型
 Gen-Verse/MMaDA: 多模态扩散大语言模型
 yix8/VisualPlanning: 纯视觉推理模型
 NetManAIOps/ChatTS: 时序大模型
-Tongyi-Zhiwen/QwenLong-L1: 阿里长上下文推理模型</description>
+Tongyi-Zhiwen/QwenLong-L1: 阿里长上下文推理模型
+google-ai-edge/gallery: 手机上玩本地大模型
+3DLLM-Mem: 让 AI 像人一样理解真实世界,长时记忆,空间感知
+facebookresearch/Multi-SpatialMLLM: 多模态空间理解</description>
     </item>
     <item>
       <title>3D</title>
@@ -303,7 +306,8 @@ asal 自动搜索人工生命.</description>
       <guid>/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/</guid>
       <description>TheoremExplainAgent 数学定理的自动可视化多模态理解.
 Sphere-AI-Lab/FormalMATH-Bench: 大规模形式化数学基准
-jihe520/MathModelAgent: 专为数学建模设计的 Agent</description>
+jihe520/MathModelAgent: 专为数学建模设计的 Agent
+google-deepmind/formal-conjectures: 谷歌形式化数学猜想库</description>
     </item>
     <item>
       <title>医疗</title>
