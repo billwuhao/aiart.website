@@ -5,58 +5,114 @@
     <link>/02_comfyui/</link>
     <description>Recent content in ComfyUI 资源, 教程 on aiart.website</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
     <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/02_comfyui/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>界面介绍</title>
       <link>/02_comfyui/01_interface/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/02_comfyui/01_interface/</guid>
-      <description>默认工作流 长这样, 具体细节将在后面 基本概念 介绍.
-调节视图的组件 分别是 放大, 缩小 (这两个和鼠标中键滚动一样), 适应, 选择/平移 模式 (选择模式可选择节点, 平移模式拖动整个工作流移动, 快捷键是空格键, 按住空格键, 拖动鼠标就平移) 和 显示/关闭 连接线.
-&amp;ldquo;运行&amp;rdquo; 管理区域 从左到右分别是 管理器, 卸载模型, 释放, 分享, 队列, 批次, 停止, 清除排队, 显示logs/终端, 隐藏菜单:
-卸载模型 (将加载到显存/内存里的模型卸载)
-释放模型和节点缓存
-分享(将工作流分享出去)
-队列, 分别是 点击执行, 生成完成后执行, 改变工作流后执行:
-运行次数
-停止运行当前任务
-清除等待中的任务
-打开底部 logs 和 终端
-隐藏菜单
-管理器 Skip update check: 跳过更新检查
-DB: 配置检索 节点/模型 信息的位置。默认一天内的缓存, 如果设置为本地，则忽略通道，如果设置为通道（远程），则每次打开列表时都会获取最新信息。
-Channel: 配置通道，以便从自定义节点列表（包括缺失节点）或模型列表中检索数据。请注意，这里使用了本地缓存信息。
-Preview method: 配置在采样过程如何预览图像生成的过程。None 不显示最快, 其他有微小的影响.
-Default UI: 设置桌面启动时在主菜单中显示的默认状态.</description>
+      <description>&lt;h2 id=&#34;默认工作流&#34;&gt;默认工作流&lt;/h2&gt;
+&lt;p&gt;长这样, 具体细节将在后面 &lt;code&gt;基本概念&lt;/code&gt; 介绍.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;image.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;调节视图的组件&#34;&gt;调节视图的组件&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;image-1.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;分别是 &lt;code&gt;放大&lt;/code&gt;, &lt;code&gt;缩小&lt;/code&gt; (这两个和鼠标中键滚动一样), &lt;code&gt;适应&lt;/code&gt;, &lt;code&gt;选择/平移 模式&lt;/code&gt; (选择模式可选择节点, 平移模式拖动整个工作流移动, 快捷键是空格键, 按住空格键, 拖动鼠标就平移) 和 &lt;code&gt;显示/关闭 连接线&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;运行-管理区域&#34;&gt;&amp;ldquo;运行&amp;rdquo; 管理区域&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;image-2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;从左到右分别是 管理器, 卸载模型, 释放, 分享, 队列, 批次, 停止, 清除排队, 显示logs/终端, 隐藏菜单:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;卸载模型 (将加载到显存/内存里的模型卸载)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;释放模型和节点缓存&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分享(将工作流分享出去)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;image-4.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;队列, 分别是 &lt;code&gt;点击执行&lt;/code&gt;, &lt;code&gt;生成完成后执行&lt;/code&gt;, &lt;code&gt;改变工作流后执行&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;image-6.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;运行次数&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;停止运行当前任务&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;清除等待中的任务&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开底部 &lt;code&gt;logs&lt;/code&gt; 和 &lt;code&gt;终端&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;image-3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;隐藏菜单&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;管理器&#34;&gt;管理器&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;image-5.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Skip update check: 跳过更新检查&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DB: 配置检索 节点/模型 信息的位置。默认一天内的缓存, 如果设置为本地，则忽略通道，如果设置为通道（远程），则每次打开列表时都会获取最新信息。&lt;/p&gt;</description>
     </item>
     <item>
       <title>基本概念</title>
       <link>/02_comfyui/02_basic/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/02_comfyui/02_basic/</guid>
-      <description>上一章我们详细梳理了官方桌面版本的界面&amp;mdash;-各种功能, 设置, 快捷键, 扩展等等.
-这一章我们就来详细介绍基本概念, 其实也算不上基本概念, 就是对一些关键词的大白话描述, 能够简单理解就行, 需要深入研究, 问 AI 能够将实现细节, 以及背后的数学原理都讲清楚. 这里的基本概念仅限于图像生成, 而文本,音频和视频等生成将在后面介绍.
-基本概念非常重要, 可以说, 在这个 AI 时代, 掌握基本概念是急速学习的秘诀. 不管学什么, 基本概念掌握了, 你就能够比较标准的组织相关领域的语言, 然后向装着全世界知识的 AI 提问, 他就能够给你很好的答案, 你也能够相对轻松地理解, 然后继续追问, 大踏步向着更专业迈进&amp;hellip;
-从基本工作流开始 一个完整的 ComfyUI 生图工作流, 大致可以分为 4 个阶段:
-加载模型 输入, 预处理和设置参数 执行生成 后处理和输出结果 加载模型 目前知名的大模型有 SD 1.4, SD 1.5, SD 1.5 LCM, SD 1.5 Hyper, SDXL 1.0, SDXL Turbo, SDXL Lightning, SDXL Hyper, SD 3.5 Medium, SD 3.5 Large, SD 3.</description>
+      <description>&lt;p&gt;上一章我们详细梳理了官方桌面版本的界面&amp;mdash;-各种功能, 设置, 快捷键, 扩展等等.&lt;/p&gt;
+&lt;p&gt;这一章我们就来详细介绍基本概念, 其实也算不上基本概念, 就是对一些关键词的大白话描述, 能够简单理解就行, 需要深入研究, 问 AI 能够将实现细节, 以及背后的数学原理都讲清楚. 这里的基本概念仅限于图像生成, 而文本,音频和视频等生成将在后面介绍.&lt;/p&gt;
+&lt;p&gt;基本概念非常重要, 可以说, 在这个 AI 时代, 掌握基本概念是急速学习的秘诀. 不管学什么, 基本概念掌握了, 你就能够比较标准的组织相关领域的语言, 然后向装着全世界知识的 AI 提问, 他就能够给你很好的答案, 你也能够相对轻松地理解, 然后继续追问, 大踏步向着更专业迈进&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;从基本工作流开始&#34;&gt;从基本工作流开始&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;2024-12-03_23-11-35-1.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;一个完整的 ComfyUI 生图工作流, 大致可以分为 4 个阶段:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;加载模型&lt;/li&gt;
+&lt;li&gt;输入, 预处理和设置参数&lt;/li&gt;
+&lt;li&gt;执行生成&lt;/li&gt;
+&lt;li&gt;后处理和输出结果&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;加载模型&#34;&gt;加载模型&lt;/h2&gt;
+&lt;p&gt;目前知名的大模型有 &lt;code&gt;SD 1.4&lt;/code&gt;, &lt;code&gt;SD 1.5&lt;/code&gt;, &lt;code&gt;SD 1.5 LCM&lt;/code&gt;, &lt;code&gt;SD 1.5 Hyper&lt;/code&gt;, &lt;code&gt;SDXL 1.0&lt;/code&gt;, &lt;code&gt;SDXL Turbo&lt;/code&gt;, &lt;code&gt;SDXL Lightning&lt;/code&gt;, &lt;code&gt;SDXL Hyper&lt;/code&gt;, &lt;code&gt;SD 3.5 Medium&lt;/code&gt;, &lt;code&gt;SD 3.5 Large&lt;/code&gt;, &lt;code&gt;SD 3.5 Large Turbo&lt;/code&gt;, &lt;code&gt;Pony&lt;/code&gt;, &lt;code&gt;Flux .1S&lt;/code&gt;, &lt;code&gt;Flux.1 D&lt;/code&gt;, &lt;code&gt;Stable Cascade&lt;/code&gt;, &lt;code&gt;PixArt&lt;/code&gt;, &lt;code&gt;Hunyuan&lt;/code&gt;, &lt;code&gt;Kolors&lt;/code&gt; 等, 以及社区基于底模训练的各种版本, 非常丰富.&lt;/p&gt;</description>
     </item>
     <item>
       <title>内置节点</title>
       <link>/02_comfyui/03_built-in/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/02_comfyui/03_built-in/</guid>
-      <description>在 ComfyUI 中，节点是代表工作流中 特定操作 或 功能 的基本构建块, 是一个单独处理单元。将节点连接在一起以创建复杂的图像生成工作流。
-从本章开始, 需要操作节点和创建工作流, 文后附有 基本操作附录 和 快捷键附录, 了解它们将是非常有用的. 操作中反复翻看将大大提升效率.
-每个节点在 ComfyUI 的界面中通常是一个带有名称、输入、输出和参数控件的框
-节点通常包含:
-Inputs 输入. 输入是节点接收数据的连接点。每个输入都有其接受的特定数据类型，确保连接节点之间的兼容性。
-Outputs 输出. 输出是将数据发送到其他节点的连接点。与输入一样，输出也定义了数据类型，决定了它们传递的信息类型。
-Parameters 参数. 参数是控制节点行为的设置。这些可以包括数值、文本字符串或预定义选项的选择。
-Internal Logic 内部逻辑. 这是节点的核心功能，由其背后的代码定义。它确定节点如何处理其输入、使用其参数并生成其输出。
-一个简单完整的工作流 下面我们正式开始内置节点介绍. 先将一个完整的工作流组成介绍完, 再依次按分类介绍每个节点:
-1, Load Checkpoint: 这个节点任务是从文件夹加载模型, 而且必须是包含 基础模型, CLIP 和 VAE 的模型 (具体见上一章基本概念), 然后分别输出.
-2, CLIP Text Encode (Prompt): CLIP 文本编码节点, 是通过输入的 CLIP 模型, 将输入的 自然语言提示词 编码为潜空间向量输出, 用来引导图像生成.
-3, Empty Latent Image: 空的潜空间图像, 该节点的作用就是创建空的潜空间图像, 通过参数指定宽, 高 和数量, 然后输出.</description>
+      <description>&lt;p&gt;在 ComfyUI 中，节点是代表工作流中 特定操作 或 功能 的基本构建块, 是一个单独处理单元。将节点连接在一起以创建复杂的图像生成工作流。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从本章开始, 需要操作节点和创建工作流, 文后附有 &lt;code&gt;基本操作附录&lt;/code&gt; 和 &lt;code&gt;快捷键附录&lt;/code&gt;, 了解它们将是非常有用的. 操作中反复翻看将大大提升效率.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;每个节点在 ComfyUI 的界面中通常是一个带有名称、输入、输出和参数控件的框&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;image.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;节点通常包含:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Inputs 输入. 输入是节点接收数据的连接点。每个输入都有其接受的特定数据类型，确保连接节点之间的兼容性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Outputs 输出. 输出是将数据发送到其他节点的连接点。与输入一样，输出也定义了数据类型，决定了它们传递的信息类型。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parameters 参数. 参数是控制节点行为的设置。这些可以包括数值、文本字符串或预定义选项的选择。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Internal Logic 内部逻辑. 这是节点的核心功能，由其背后的代码定义。它确定节点如何处理其输入、使用其参数并生成其输出。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;一个简单完整的工作流&#34;&gt;一个简单完整的工作流&lt;/h2&gt;
+&lt;p&gt;下面我们正式开始内置节点介绍. 先将一个完整的工作流组成介绍完, 再依次按分类介绍每个节点:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;image-1.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;1, Load Checkpoint: 这个节点任务是从文件夹加载模型, 而且必须是包含 基础模型, CLIP 和 VAE 的模型 (具体见上一章基本概念), 然后分别输出.&lt;/p&gt;
+&lt;p&gt;2, CLIP Text Encode (Prompt): CLIP 文本编码节点, 是通过输入的 CLIP 模型, 将输入的 自然语言提示词 编码为潜空间向量输出, 用来引导图像生成.&lt;/p&gt;
+&lt;p&gt;3, Empty Latent Image: 空的潜空间图像, 该节点的作用就是创建空的潜空间图像, 通过参数指定宽, 高 和数量, 然后输出.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

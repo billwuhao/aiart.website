@@ -5,44 +5,125 @@
     <link>/</link>
     <description>Recent content on aiart.website</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
     <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI 项目资源集</title>
       <link>/01_aigc_object/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/</guid>
-      <description> “AI 一天，人间一年”，恰如其分地描绘了人工智能领域的飞速发展。短短一天，AI 世界可能就诞生了无数令人瞠目结舌的项目、应用、工具和资源，从开源到闭源，百花齐放，让人目不暇接。开源社区里，开发者们激情碰撞，新模型, 新技术, 层出不穷；而闭源领域，科技巨头们则暗自角力，每次更新都拍案叫绝, 每次突破都像在科技的画布上泼洒浓墨，令人兴奋不已。
-这些 “宝贝”，有提升效率的智能助手，有让人脑洞大开的创意工具，还有深入行业变革的垂直应用。为了不错过这些瑰宝，我把正使用非常棒的, 或非常前沿的, 或接触到待进一步了解的等等, 分类整理，随时翻阅、使用。AI 发展从通用智能到专业化落地，从技术实验到生活渗透，速度之快，堪称 “人间一年难追 AI 一日”。未来，AI 不仅是我们手中的工具，更可能是思想的延伸、创造的火花。这样的时代，你我怎能不雀跃？快来一起探索吧！
-GitHub 开源项目 视频 语音 图像 LLM 3D 技术 数字人 办公智能体 MCP 脚本工具 金融 生命科学 数学 医疗 化学 机器人 编程开发 国内项目 综合 视频 音频 3D LLM 编程开发 办公智能体 国外项目 综合 视频 语音 图像 LLM 3D 办公智能体 编程开发 模型资源平台 预告项目 项目合集,学习资源 其他 机器人 </description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;“AI 一天，人间一年”，恰如其分地描绘了人工智能领域的飞速发展。短短一天，AI 世界可能就诞生了无数令人瞠目结舌的项目、应用、工具和资源，从开源到闭源，百花齐放，让人目不暇接。开源社区里，开发者们激情碰撞，新模型, 新技术, 层出不穷；而闭源领域，科技巨头们则暗自角力，每次更新都拍案叫绝, 每次突破都像在科技的画布上泼洒浓墨，令人兴奋不已。&lt;/p&gt;
+&lt;p&gt;这些 “宝贝”，有提升效率的智能助手，有让人脑洞大开的创意工具，还有深入行业变革的垂直应用。为了不错过这些瑰宝，我把正使用非常棒的, 或非常前沿的, 或接触到待进一步了解的等等, 分类整理，随时翻阅、使用。AI 发展从通用智能到专业化落地，从技术实验到生活渗透，速度之快，堪称 “人间一年难追 AI 一日”。未来，AI 不仅是我们手中的工具，更可能是思想的延伸、创造的火花。这样的时代，你我怎能不雀跃？快来一起探索吧！&lt;/p&gt;
+
+&lt;ul class=&#34;children children-li children-sort-weight&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/&#34; &gt;GitHub 开源项目&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/01-git%E8%A7%86%E9%A2%91/&#34; &gt;视频&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/02-git%E8%AF%AD%E9%9F%B3/&#34; &gt;语音&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/03-git%E5%9B%BE%E5%83%8F/&#34; &gt;图像&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/04-gitllm/&#34; &gt;LLM&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/05-git3d/&#34; &gt;3D&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/06-git%E6%8A%80%E6%9C%AF/&#34; &gt;技术&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/07-git%E6%95%B0%E5%AD%97%E4%BA%BA/&#34; &gt;数字人&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/08-git%E5%8A%9E%E5%85%AC/&#34; &gt;办公智能体&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/09-gitmcp/&#34; &gt;MCP&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/10-git%E8%84%9A%E6%9C%AC%E5%B7%A5%E5%85%B7/&#34; &gt;脚本工具&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/11-git%E9%87%91%E8%9E%8D/&#34; &gt;金融&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/12-git%E7%94%9F%E7%89%A9/&#34; &gt;生命科学&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/&#34; &gt;数学&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/14-git%E5%8C%BB%E7%96%97/&#34; &gt;医疗&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/15-git%E5%8C%96%E5%AD%A6/&#34; &gt;化学&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/16-git%E6%9C%BA%E5%99%A8%E4%BA%BA/&#34; &gt;机器人&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/17-git%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/&#34; &gt;编程开发&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/&#34; &gt;国内项目&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/01-cn%E7%BB%BC%E5%90%88/&#34; &gt;综合&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/02-cn%E8%A7%86%E9%A2%91/&#34; &gt;视频&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/03-cn%E9%9F%B3%E9%A2%91/&#34; &gt;音频&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/04-cn3d/&#34; &gt;3D&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/05-cnllm/&#34; &gt;LLM&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/06-cn%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/&#34; &gt;编程开发&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/07-cn%E5%8A%9E%E5%85%AC/&#34; &gt;办公智能体&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/&#34; &gt;国外项目&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/01-en%E7%BB%BC%E5%90%88/&#34; &gt;综合&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/02-en%E8%A7%86%E9%A2%91/&#34; &gt;视频&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/03-en%E8%AF%AD%E9%9F%B3/&#34; &gt;语音&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/04-en%E5%9B%BE%E5%83%8F/&#34; &gt;图像&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/05-enllm/&#34; &gt;LLM&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/06-en3d/&#34; &gt;3D&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/07-en%E5%8A%9E%E5%85%AC/&#34; &gt;办公智能体&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/08-en%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/&#34; &gt;编程开发&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/04_models_sources/&#34; &gt;模型资源平台&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/05_waiting/&#34; &gt;预告项目&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/06_sources/&#34; &gt;项目合集,学习资源&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/07_others/&#34; &gt;其他&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/08_robots/&#34; &gt;机器人&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>ComfyUI 资源, 教程</title>
       <link>/02_comfyui/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/02_comfyui/</guid>
-      <description>ComfyUI 的特色:
-节点化工作流程: ComfyUI 允许用户通过节点构建复杂的图像生成流程，每个节点执行特定的功能，例如加载模型、处理图像、应用效果等。这种方式提供了高度的灵活性和自定义能力。
-低显存需求: 与其他类似工具相比，ComfyUI 对显存的要求较低，可以在较低配置的设备上运行。
-快速生成: 优化后的内部流程使其生成图片的速度较快，性能优于一些传统的 WebUI。
-插件支持: ComfyUI 支持丰富的插件生态，用户可以通过插件扩展功能。活跃的开源社区提供了丰富的插件和资源，提升了 ComfyUI 的功能性和适用性。
-适用于复杂场景: 特别擅长处理长期复杂的大型项目，能够将多步骤操作简化为连贯的工作流。
-跨平台支持: ComfyUI 不仅支持 NVIDIA GPU，还能在 CPU 上运行，提供了更广泛的设备兼容性。
-创意自由: 为艺术家、设计师和 AI 研究人员提供了强大的工具，使他们能够实现更精细的图像生成控制和实验。
-学习与教育: 尽管有一定的学习曲线，ComfyUI 为教育和培训提供了良好的平台，可以帮助学生理解图像处理和生成的原理。
-效率提升: 通过简化和自动化复杂的工作流程，ComfyUI 能够显著提升工作效率，特别是在需要频繁生成或修改图像的场景中。
-ComfyUI 学习资源集合 官网 ComfyUI 官方桌面版新手指南 ComfyUI Desktop User Guide 所有节点信息 ComfyUI Nodes Info 另一个非常非常棒的节点信息站 ComfyUI Node Documentation ComfyUI Community Manual 界面介绍 基本概念 内置节点 内置节点 1 内置节点 2 内置节点 3 </description>
+      <description>&lt;p&gt;&lt;strong&gt;ComfyUI 的特色&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;节点化工作流程: ComfyUI 允许用户通过节点构建复杂的图像生成流程，每个节点执行特定的功能，例如加载模型、处理图像、应用效果等。这种方式提供了高度的灵活性和自定义能力。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;低显存需求: 与其他类似工具相比，ComfyUI 对显存的要求较低，可以在较低配置的设备上运行。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;快速生成: 优化后的内部流程使其生成图片的速度较快，性能优于一些传统的 WebUI。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;插件支持: ComfyUI 支持丰富的插件生态，用户可以通过插件扩展功能。活跃的开源社区提供了丰富的插件和资源，提升了 ComfyUI 的功能性和适用性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;适用于复杂场景: 特别擅长处理长期复杂的大型项目，能够将多步骤操作简化为连贯的工作流。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;跨平台支持: ComfyUI 不仅支持 NVIDIA GPU，还能在 CPU 上运行，提供了更广泛的设备兼容性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创意自由: 为艺术家、设计师和 AI 研究人员提供了强大的工具，使他们能够实现更精细的图像生成控制和实验。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;学习与教育: 尽管有一定的学习曲线，ComfyUI 为教育和培训提供了良好的平台，可以帮助学生理解图像处理和生成的原理。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;效率提升: 通过简化和自动化复杂的工作流程，ComfyUI 能够显著提升工作效率，特别是在需要频繁生成或修改图像的场景中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;comfyui-学习资源集合&#34;&gt;ComfyUI 学习资源集合&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;官网 &lt;a href=&#34;https://www.comfy.org/&#34;&gt;ComfyUI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;官方桌面版新手指南 &lt;a href=&#34;https://comfyorg.notion.site/ComfyUI-Desktop-User-Guide-1146d73d365080a49058e8d629772f0a&#34;&gt;ComfyUI Desktop User Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;所有节点信息 &lt;a href=&#34;https://ltdrdata.github.io/&#34;&gt;ComfyUI Nodes Info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;另一个非常非常棒的节点信息站 &lt;a href=&#34;https://docs.getsalt.ai/md/Comfy/&#34;&gt;ComfyUI Node Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blenderneko.github.io/ComfyUI-docs/&#34;&gt;ComfyUI Community Manual&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul class=&#34;children children-li children-sort-weight&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;/02_comfyui/01_interface/&#34; &gt;界面介绍&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/02_comfyui/02_basic/&#34; &gt;基本概念&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/02_comfyui/03_built-in/&#34; &gt;内置节点&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/02_comfyui/03_built-in/01-built-in/&#34; &gt;内置节点 1&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/02_comfyui/03_built-in/02-built-in/&#34; &gt;内置节点 2&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/02_comfyui/03_built-in/03-built-in/&#34; &gt;内置节点 3&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/ul&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>提示工程归档</title>
       <link>/03_prompt-engineering/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/03_prompt-engineering/</guid>
-      <description>由于 DeepDeek R1 的诞生, 我觉得这个教程没必要了. 停更. 2025-02-25
-感谢您的到来, 您能打开这本书, 说明您对提示工程感兴趣, 或有了一定了解, 或已经认识到提示工程的重要性.
-本书所说的提示工程, 主要指提示词的编写, 设计, 优化等, 以求使 AI 的输出更符合甚至超越预期, 仅在 AI 使用的层面展开, 并不深入探讨算法设计, 模型优化等深层次的内容, 虽然这更加重要.
-在我看来, AI 提示词的编写, 应该是非常自然语言化的, 也就是只要会说话, 会打字, 人人都能够编写提示词, 而不是再学习一些编程语言如 Lisp, Python 等才能实现. 这种简洁直观的方式, 才能惠及所有人, 而且 AI 是有记忆和学习能力的, 人人都使用自然语言与 AI 交流, AI 也会变得更加亲近人, 成为人们亲密的知识顾问, 良师益友. 所以, 我在提示工程前面多加了自然语言四个字, 将这本书命名为 «自然语言提示工程入门».
-我们正处于一个技术革命的拐点. 人工智能不再是遥不可及的科幻概念, 而是已经悄然走进我们的日常生活. 现在的 AI 已经非常好用, 我相信, 在不久的将来, 与人工智能交谈会像与最聪明、最有耐心的朋友聊天一样自然.
-提示工程, 就是与 AI &amp;ldquo;说话&amp;rdquo; 的艺术. 看似简单, 实则大有学问. 就像下棋, 懂得基本套路和技巧, 小白也能成为高手.</description>
+      <description>&lt;p&gt;由于 DeepDeek R1 的诞生, 我觉得这个教程没必要了. 停更. 2025-02-25&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://aiart.website/images/tsc.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;感谢您的到来, 您能打开这本书, 说明您对提示工程感兴趣, 或有了一定了解, 或已经认识到提示工程的重要性.&lt;/p&gt;
+&lt;p&gt;本书所说的提示工程, 主要指提示词的编写, 设计, 优化等, 以求使 AI 的输出更符合甚至超越预期, 仅在 AI 使用的层面展开, 并不深入探讨算法设计, 模型优化等深层次的内容, 虽然这更加重要.&lt;/p&gt;
+&lt;p&gt;在我看来, AI 提示词的编写, 应该是非常自然语言化的, 也就是只要会说话, 会打字, 人人都能够编写提示词, 而不是再学习一些编程语言如 Lisp, Python 等才能实现. 这种简洁直观的方式, 才能惠及所有人, 而且 AI 是有记忆和学习能力的, 人人都使用自然语言与 AI 交流, AI 也会变得更加亲近人, 成为人们亲密的知识顾问, 良师益友. 所以, 我在&lt;strong&gt;提示工程&lt;/strong&gt;前面多加了&lt;strong&gt;自然语言&lt;/strong&gt;四个字, 将这本书命名为 «自然语言提示工程入门».&lt;/p&gt;
+&lt;p&gt;我们正处于一个技术革命的拐点. 人工智能不再是遥不可及的科幻概念, 而是已经悄然走进我们的日常生活. 现在的 AI 已经非常好用, 我相信, 在不久的将来, 与人工智能交谈会像与最聪明、最有耐心的朋友聊天一样自然.&lt;/p&gt;
+&lt;p&gt;提示工程, 就是与 AI &amp;ldquo;说话&amp;rdquo; 的艺术. 看似简单, 实则大有学问. 就像下棋, 懂得基本套路和技巧, 小白也能成为高手.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

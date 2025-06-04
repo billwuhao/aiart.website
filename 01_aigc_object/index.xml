@@ -5,138 +5,174 @@
     <link>/01_aigc_object/</link>
     <description>Recent content in AI 项目资源集 on aiart.website</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
     <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/01_aigc_object/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub 开源项目</title>
       <link>/01_aigc_object/01_github/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/</guid>
-      <description> 视频 语音 图像 LLM 3D 技术 数字人 办公智能体 MCP 脚本工具 金融 生命科学 数学 医疗 化学 机器人 编程开发 </description>
+      <description>&lt;ul class=&#34;children children-li children-sort-weight&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/01-git%E8%A7%86%E9%A2%91/&#34; &gt;视频&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/02-git%E8%AF%AD%E9%9F%B3/&#34; &gt;语音&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/03-git%E5%9B%BE%E5%83%8F/&#34; &gt;图像&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/04-gitllm/&#34; &gt;LLM&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/05-git3d/&#34; &gt;3D&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/06-git%E6%8A%80%E6%9C%AF/&#34; &gt;技术&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/07-git%E6%95%B0%E5%AD%97%E4%BA%BA/&#34; &gt;数字人&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/08-git%E5%8A%9E%E5%85%AC/&#34; &gt;办公智能体&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/09-gitmcp/&#34; &gt;MCP&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/10-git%E8%84%9A%E6%9C%AC%E5%B7%A5%E5%85%B7/&#34; &gt;脚本工具&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/11-git%E9%87%91%E8%9E%8D/&#34; &gt;金融&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/12-git%E7%94%9F%E7%89%A9/&#34; &gt;生命科学&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/&#34; &gt;数学&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/14-git%E5%8C%BB%E7%96%97/&#34; &gt;医疗&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/15-git%E5%8C%96%E5%AD%A6/&#34; &gt;化学&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/16-git%E6%9C%BA%E5%99%A8%E4%BA%BA/&#34; &gt;机器人&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/01_github/17-git%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/&#34; &gt;编程开发&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>国内项目</title>
       <link>/01_aigc_object/02_closed-cn/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/02_closed-cn/</guid>
-      <description> 综合 视频 音频 3D LLM 编程开发 办公智能体 </description>
+      <description>&lt;ul class=&#34;children children-li children-sort-weight&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/01-cn%E7%BB%BC%E5%90%88/&#34; &gt;综合&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/02-cn%E8%A7%86%E9%A2%91/&#34; &gt;视频&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/03-cn%E9%9F%B3%E9%A2%91/&#34; &gt;音频&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/04-cn3d/&#34; &gt;3D&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/05-cnllm/&#34; &gt;LLM&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/06-cn%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/&#34; &gt;编程开发&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/02_closed-cn/07-cn%E5%8A%9E%E5%85%AC/&#34; &gt;办公智能体&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>国外项目</title>
       <link>/01_aigc_object/03_closed-en/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/03_closed-en/</guid>
-      <description> 综合 视频 语音 图像 LLM 3D 办公智能体 编程开发 </description>
+      <description>&lt;ul class=&#34;children children-li children-sort-weight&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/01-en%E7%BB%BC%E5%90%88/&#34; &gt;综合&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/02-en%E8%A7%86%E9%A2%91/&#34; &gt;视频&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/03-en%E8%AF%AD%E9%9F%B3/&#34; &gt;语音&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/04-en%E5%9B%BE%E5%83%8F/&#34; &gt;图像&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/05-enllm/&#34; &gt;LLM&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/06-en3d/&#34; &gt;3D&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/07-en%E5%8A%9E%E5%85%AC/&#34; &gt;办公智能体&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/01_aigc_object/03_closed-en/08-en%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/&#34; &gt;编程开发&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>模型资源平台</title>
       <link>/01_aigc_object/04_models_sources/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/04_models_sources/</guid>
-      <description>runninghub 工作流, 模型, 应用资源.
-liblib 工作流, 模型, 应用资源.
-openart 工作流, 模型, 应用资源.
-仙宫云 云上玩 AI, 各种 AI 镜像资源.
-civitai C 站, 各种模型, 工作流.
-runcomfy
-comfyonline
-shakker.ai
-魔搭社区
-comfyworkflows
-openmodeldb 各种放大模型库.
-tensor.art
-端脑云
-Dify 市场
-OneThingAI算力云, GPU算力平台
-魔乐社区:</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.runninghub.cn/&#34;&gt;runninghub&lt;/a&gt; 工作流, 模型, 应用资源.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.liblib.art/&#34;&gt;liblib&lt;/a&gt; 工作流, 模型, 应用资源.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://openart.ai/home&#34;&gt;openart&lt;/a&gt; 工作流, 模型, 应用资源.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.xiangongyun.com/&#34;&gt;仙宫云&lt;/a&gt; 云上玩 AI, 各种 AI 镜像资源.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://civitai.com/&#34;&gt;civitai&lt;/a&gt; C 站, 各种模型, 工作流.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.runcomfy.com/&#34;&gt;runcomfy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.comfyonline.app/&#34;&gt;comfyonline&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.shakker.ai/&#34;&gt;shakker.ai&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.modelscope.cn/home&#34;&gt;魔搭社区&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://comfyworkflows.com/&#34;&gt;comfyworkflows&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://openmodeldb.info/&#34;&gt;openmodeldb&lt;/a&gt; 各种放大模型库.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://tensor.art/&#34;&gt;tensor.art&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cephalon.cloud/aigc&#34;&gt;端脑云&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://marketplace.dify.ai/&#34;&gt;Dify 市场&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://onethingai.com/&#34;&gt;OneThingAI算力云, GPU算力平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://modelers.cn/&#34;&gt;魔乐社区&lt;/a&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>预告项目</title>
       <link>/01_aigc_object/05_waiting/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/05_waiting/</guid>
-      <description>MoCha Meta 项目, 电影级会话视频生成.
-HunyuanPortrait 人像视频生成.
-chat-anyone 人像视频生成.
-Video-MME 多模态视频分析.
-bolt3d 谷歌 3D.
-MTV-Inpaint 多任务视频编辑.
-MotionAnything 让任何东西运动.
-DreamRelation 互动视频生成.
-vid2avatar-pro 视频创建 3d 人类角色.
-meshpad 手绘到 3D 编辑.
-video-painter 视频编辑.
-long-context-video 连贯视频生成.
-TaoAvatar 3d 全身超真实数字人生成.
-PiT 局部图像脑补全图.
-Phantom 字节幻影, 主题一致性视频生成.
-HumanDiT 人物全身动态视频生成.
-videojam 视频运动增强.
-TokenVerse 图像多概念融合.
-Magic-141 一分钟内生成一分钟视频.
-dynvfx 视频动态增加内容.
-animate-anyone-2 人物高保真视频生成.
-cinemaster 3d 感知和控制电影级视频生成框架.
-NeuralSVG 文本到矢量图生成.
-omnihuman-lab.github.io 口型同步.
-Text-to-Edit 广告视频生成.
-ConceptMaster 多人物一致性视频生成.
-FaceLift 单张图像生成 3d 头像.
-SeedVR 任何分辨率视频高清修复.
-VideoAnydoor 视频中可控插入对象.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://congwei1230.github.io/MoCha/&#34;&gt;MoCha&lt;/a&gt; Meta 项目, 电影级会话视频生成.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kkakkkka/HunyuanPortrait&#34;&gt;HunyuanPortrait&lt;/a&gt; 人像视频生成.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://humanaigc.github.io/chat-anyone/&#34;&gt;chat-anyone&lt;/a&gt; 人像视频生成.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/BradyFU/Video-MME&#34;&gt;Video-MME&lt;/a&gt; 多模态视频分析.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://szymanowiczs.github.io/bolt3d&#34;&gt;bolt3d&lt;/a&gt; 谷歌 3D.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mtv-inpaint.github.io/&#34;&gt;MTV-Inpaint&lt;/a&gt; 多任务视频编辑.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/steve-zeyu-zhang/MotionAnything&#34;&gt;MotionAnything&lt;/a&gt; 让任何东西运动.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dreamrelation.github.io/&#34;&gt;DreamRelation&lt;/a&gt; 互动视频生成.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://moygcc.github.io/vid2avatar-pro/&#34;&gt;vid2avatar-pro&lt;/a&gt; 视频创建 3d 人类角色.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://derkleineli.github.io/meshpad/&#34;&gt;meshpad&lt;/a&gt; 手绘到 3D 编辑.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://yxbian23.github.io/project/video-painter/&#34;&gt;video-painter&lt;/a&gt; 视频编辑.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://guoyww.github.io/projects/long-context-video/&#34;&gt;long-context-video&lt;/a&gt; 连贯视频生成.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pixelai-team.github.io/TaoAvatar/&#34;&gt;TaoAvatar&lt;/a&gt; 3d 全身超真实数字人生成.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/eladrich/PiT&#34;&gt;PiT&lt;/a&gt; 局部图像脑补全图.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Phantom-video/Phantom&#34;&gt;Phantom&lt;/a&gt; 字节幻影, 主题一致性视频生成.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://agnjason.github.io/HumanDiT-page/&#34;&gt;HumanDiT&lt;/a&gt; 人物全身动态视频生成.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://hila-chefer.github.io/videojam-paper.github.io/&#34;&gt;videojam&lt;/a&gt; 视频运动增强.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://token-verse.github.io/&#34;&gt;TokenVerse&lt;/a&gt; 图像多概念融合.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://magic-141.github.io/Magic-141/&#34;&gt;Magic-141&lt;/a&gt; 一分钟内生成一分钟视频.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dynvfx.github.io/&#34;&gt;dynvfx&lt;/a&gt; 视频动态增加内容.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://humanaigc.github.io/animate-anyone-2/&#34;&gt;animate-anyone-2&lt;/a&gt; 人物高保真视频生成.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cinemaster-dev.github.io/&#34;&gt;cinemaster&lt;/a&gt; 3d 感知和控制电影级视频生成框架.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/SagiPolaczek/NeuralSVG&#34;&gt;NeuralSVG&lt;/a&gt; 文本到矢量图生成.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://omnihuman-lab.github.io/&#34;&gt;omnihuman-lab.github.io&lt;/a&gt; 口型同步.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://text2edit.github.io/&#34;&gt;Text-to-Edit&lt;/a&gt; 广告视频生成.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://yuzhou914.github.io/ConceptMaster/&#34;&gt;ConceptMaster&lt;/a&gt; 多人物一致性视频生成.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.wlyu.me/FaceLift/&#34;&gt;FaceLift&lt;/a&gt; 单张图像生成 3d 头像.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/IceClear/SeedVR&#34;&gt;SeedVR&lt;/a&gt; 任何分辨率视频高清修复.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://videoanydoor.github.io/&#34;&gt;VideoAnydoor&lt;/a&gt; 视频中可控插入对象.&lt;/p&gt;</description>
     </item>
     <item>
       <title>项目合集,学习资源</title>
       <link>/01_aigc_object/06_sources/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/06_sources/</guid>
-      <description>LAION-DISCO-12M 开源音乐数据集.
-anthropic-cookbook Claude 开发教程, 资源.
-generative-ai 谷歌 AI 开发资源和教程.
-OpenAI Academy OpenAI 学院, AI 技术免费学习资源.
-Ai2 PaperFinder 文献查找, 800 多万篇全文论文和 1.08亿 篇摘要的语料库进行广泛而深入的覆盖.
-ainews 每日全球 AI 新闻.
-llm-stats 全球大语言模型分析比较.
-Chatbot Arena 大模型基准测试开放平台.
-agents-course hugging face 开源智能体开发课程.
-hallucination-leaderboard 各大模型总结文档时产生幻觉概率排行榜.
-learn.deeplearning
-Artificial Analysis 模型可视化分析比较.
-LLMs-from-scratch 从头实现大语言模型书籍.
-minimind 3 小时从零训练小参数大模型.
-ai-game-devtools AI 资源集合.
-openai-cookbook OpenAI 开发指南.
-awesome-chatgpt-prompts 大模型提示词写作大全.
-llm-cookbook 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版.
-Awesome-Prompt-Engineering 提示工程资源集合.
-Prompt-Engineering-Guide 提示工程指南.
-Awesome-LLM 大语言模型资源集合.
-Awesome-Chinese-LLM 中文大语言模型资源集合.
-llama-recipes Llama 构建：推理、微调、RAG的入门指南</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://huggingface.co/datasets/laion/LAION-DISCO-12M&#34;&gt;LAION-DISCO-12M&lt;/a&gt; 开源音乐数据集.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/anthropics/anthropic-cookbook&#34;&gt;anthropic-cookbook&lt;/a&gt; Claude 开发教程, 资源.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/GoogleCloudPlatform/generative-ai&#34;&gt;generative-ai&lt;/a&gt; 谷歌 AI 开发资源和教程.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://academy.openai.com/&#34;&gt;OpenAI Academy&lt;/a&gt; OpenAI 学院, AI 技术免费学习资源.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://paperfinder.allen.ai/chat&#34;&gt;Ai2 PaperFinder&lt;/a&gt; 文献查找, 800 多万篇全文论文和 1.08亿 篇摘要的语料库进行广泛而深入的覆盖.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://buttondown.com/ainews/archive/&#34;&gt;ainews&lt;/a&gt; 每日全球 AI 新闻.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://llm-stats.com/&#34;&gt;llm-stats&lt;/a&gt; 全球大语言模型分析比较.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lmarena.ai/&#34;&gt;Chatbot Arena&lt;/a&gt; 大模型基准测试开放平台.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/huggingface/agents-course&#34;&gt;agents-course&lt;/a&gt; hugging face 开源智能体开发课程.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/vectara/hallucination-leaderboard&#34;&gt;hallucination-leaderboard&lt;/a&gt; 各大模型总结文档时产生幻觉概率排行榜.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.deeplearning.ai/&#34;&gt;learn.deeplearning&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://artificialanalysis.ai/&#34;&gt;Artificial Analysis&lt;/a&gt; 模型可视化分析比较.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/rasbt/LLMs-from-scratch&#34;&gt;LLMs-from-scratch&lt;/a&gt; 从头实现大语言模型书籍.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/jingyaogong/minimind&#34;&gt;minimind&lt;/a&gt; 3 小时从零训练小参数大模型.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Yuan-ManX/ai-game-devtools&#34;&gt;ai-game-devtools&lt;/a&gt; AI 资源集合.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/openai/openai-cookbook&#34;&gt;openai-cookbook&lt;/a&gt; OpenAI 开发指南.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/f/awesome-chatgpt-prompts&#34;&gt;awesome-chatgpt-prompts&lt;/a&gt; 大模型提示词写作大全.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/datawhalechina/llm-cookbook&#34;&gt;llm-cookbook&lt;/a&gt; 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/promptslab/Awesome-Prompt-Engineering&#34;&gt;Awesome-Prompt-Engineering&lt;/a&gt; 提示工程资源集合.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;Prompt-Engineering-Guide&lt;/a&gt; 提示工程指南.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Hannibal046/Awesome-LLM&#34;&gt;Awesome-LLM&lt;/a&gt; 大语言模型资源集合.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/HqWu-HITCS/Awesome-Chinese-LLM&#34;&gt;Awesome-Chinese-LLM&lt;/a&gt; 中文大语言模型资源集合.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/meta-llama/llama-recipes&#34;&gt;llama-recipes&lt;/a&gt; Llama 构建：推理、微调、RAG的入门指南&lt;/p&gt;</description>
     </item>
     <item>
       <title>其他</title>
       <link>/01_aigc_object/07_others/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/07_others/</guid>
-      <description>AI 生成检测
-iclight-v2-vary IC Light 免费在线体验.
-iclight-v2 IC Light 免费在线体验.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://matrix.tencent.com/ai-detect/ai_gen&#34;&gt;AI 生成检测&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://huggingface.co/spaces/lllyasviel/iclight-v2-vary&#34;&gt;iclight-v2-vary&lt;/a&gt; IC Light 免费在线体验.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://huggingface.co/spaces/lllyasviel/iclight-v2&#34;&gt;iclight-v2&lt;/a&gt; IC Light 免费在线体验.&lt;/p&gt;</description>
     </item>
     <item>
       <title>机器人</title>
       <link>/01_aigc_object/08_robots/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/08_robots/</guid>
-      <description>波士顿动力.
-宇树科技
-wayve.ai 自动驾驶.
-1x 人形机器人.
-Figure 通用人形机器人.
-Clone World 肌肉骨骼，智能机器人.
-zoo.dev 硬件设计
-Reachy 开源机器人.
-VideoMimic: 视频动作机器人迁移, 机器人看看视频就学习动作
-UAV-Flow: 语言控制无人机精准飞行</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://bostondynamics.com/&#34;&gt;波士顿动力&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.unitree.com/cn&#34;&gt;宇树科技&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wayve.ai/&#34;&gt;wayve.ai&lt;/a&gt; 自动驾驶.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.1x.tech/&#34;&gt;1x&lt;/a&gt; 人形机器人.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.figure.ai/&#34;&gt;Figure&lt;/a&gt; 通用人形机器人.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.clonerobotics.com/&#34;&gt;Clone World&lt;/a&gt; 肌肉骨骼，智能机器人.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://zoo.dev/&#34;&gt;zoo.dev&lt;/a&gt; 硬件设计&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pollen-robotics.com/&#34;&gt;Reachy&lt;/a&gt; 开源机器人.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.videomimic.net/&#34;&gt;VideoMimic&lt;/a&gt;: 视频动作机器人迁移, 机器人看看视频就学习动作&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://prince687028.github.io/UAV-Flow/&#34;&gt;UAV-Flow&lt;/a&gt;: 语言控制无人机精准飞行&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
