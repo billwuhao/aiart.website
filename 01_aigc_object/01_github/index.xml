@@ -142,7 +142,8 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/Tongyi-Zhiwen/QwenLong-L1&#34;&gt;Tongyi-Zhiwen/QwenLong-L1&lt;/a&gt;: 阿里长上下文推理模型&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/google-ai-edge/gallery&#34;&gt;google-ai-edge/gallery&lt;/a&gt;: 手机上玩本地大模型&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://3dllm-mem.github.io/&#34;&gt;3DLLM-Mem&lt;/a&gt;: 让 AI 像人一样理解真实世界,长时记忆,空间感知&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/Multi-SpatialMLLM&#34;&gt;facebookresearch/Multi-SpatialMLLM&lt;/a&gt;: 多模态空间理解&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/Multi-SpatialMLLM&#34;&gt;facebookresearch/Multi-SpatialMLLM&lt;/a&gt;: 多模态空间理解&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Yuliang-Liu/MonkeyOCR&#34;&gt;Yuliang-Liu/MonkeyOCR&lt;/a&gt;: 最强小参数(3b)中英文文档解析模型&lt;/p&gt;</description>
     </item>
     <item>
       <title>3D</title>
@@ -298,7 +299,8 @@
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/12-git%E7%94%9F%E7%89%A9/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/arcinstitute/evo2&#34;&gt;evo2&lt;/a&gt; 生命所有领域的基因组建模和设计.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/SakanaAI/asal&#34;&gt;asal&lt;/a&gt; 自动搜索人工生命.&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/SakanaAI/asal&#34;&gt;asal&lt;/a&gt; 自动搜索人工生命.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bowang-lab/BioReason&#34;&gt;bowang-lab/BioReason&lt;/a&gt;: 生物 DNA 推理大模型&lt;/p&gt;</description>
     </item>
     <item>
       <title>数学</title>
@@ -338,7 +340,9 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Genesis-Embodied-AI/Genesis&#34;&gt;Genesis&lt;/a&gt; 通用机器人世界生成.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/LeCAR-Lab/ASAP&#34;&gt;LeCAR-Lab/ASAP&lt;/a&gt; 机器人敏捷技能学习.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/OpenDriveLab/agibot-world&#34;&gt;AgiBot-World&lt;/a&gt; 机器人世界操作智能化系统.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/roboterax/video-prediction-policy&#34;&gt;roboterax/video-prediction-policy&lt;/a&gt;: 通用机器人视觉预测&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/roboterax/video-prediction-policy&#34;&gt;roboterax/video-prediction-policy&lt;/a&gt;: 通用机器人视觉预测&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/vjepa2&#34;&gt;facebookresearch/vjepa2&lt;/a&gt;: 世界模型, 机器人通过视频进行自我监督学习&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/huggingface/lerobot&#34;&gt;huggingface/lerobot&lt;/a&gt;: 机器人开发&lt;/p&gt;</description>
     </item>
     <item>
       <title>编程开发</title>
