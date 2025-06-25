@@ -222,7 +222,10 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/Tencent-Hunyuan/HunyuanPortrait&#34;&gt;Tencent-Hunyuan/HunyuanPortrait&lt;/a&gt;: 混元肖像数字人&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar&#34;&gt;Tencent-Hunyuan/HunyuanVideo-Avatar&lt;/a&gt;: 混元数字人&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Tencent-Hunyuan/HunyuanPortrait&#34;&gt;Tencent-Hunyuan/HunyuanPortrait&lt;/a&gt;: 混元肖像数字人&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar&#34;&gt;Tencent-Hunyuan/HunyuanVideo-Avatar&lt;/a&gt;: 混元数字人&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar&#34;&gt;Tencent-Hunyuan/HunyuanVideo-Avatar&lt;/a&gt;: 混元数字人&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/alibaba/MNN&#34;&gt;alibaba/MNN&lt;/a&gt;: 阿里 3d 数字人&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://submit2025-dream.github.io/DreamActor-H1/&#34;&gt;DreamActor-H1&lt;/a&gt;: 数字人带货视频生成&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Omni-Avatar/OmniAvatar&#34;&gt;Omni-Avatar/OmniAvatar&lt;/a&gt;: 音频驱动全身数字人&lt;/p&gt;</description>
     </item>
     <item>
       <title>办公智能体</title>
@@ -284,7 +287,8 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/InternLM/xtuner&#34;&gt;xtuner&lt;/a&gt; 高效灵活模型训练.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/bghira/SimpleTuner&#34;&gt;SimpleTuner:&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/XueZeyue/DanceGRPO&#34;&gt;XueZeyue/DanceGRPO&lt;/a&gt;: 字节模型训练脚本&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/lodestone-rock/flow&#34;&gt;lodestone-rock/flow&lt;/a&gt;: 图像生成模型训练&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/lodestone-rock/flow&#34;&gt;lodestone-rock/flow&lt;/a&gt;: 图像生成模型训练&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/lrzjason/T2ITrainer&#34;&gt;lrzjason/T2ITrainer&lt;/a&gt;: 文生图训练脚本&lt;/p&gt;</description>
     </item>
     <item>
       <title>金融</title>
@@ -342,7 +346,8 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/OpenDriveLab/agibot-world&#34;&gt;AgiBot-World&lt;/a&gt; 机器人世界操作智能化系统.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/roboterax/video-prediction-policy&#34;&gt;roboterax/video-prediction-policy&lt;/a&gt;: 通用机器人视觉预测&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/vjepa2&#34;&gt;facebookresearch/vjepa2&lt;/a&gt;: 世界模型, 机器人通过视频进行自我监督学习&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/huggingface/lerobot&#34;&gt;huggingface/lerobot&lt;/a&gt;: 机器人开发&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/huggingface/lerobot&#34;&gt;huggingface/lerobot&lt;/a&gt;: 机器人开发&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Qi-Zhangyang/GPT4Scene-and-VLN-R1&#34;&gt;Qi-Zhangyang/GPT4Scene-and-VLN-R1&lt;/a&gt;: 用视觉模型理解 3D 场景&lt;/p&gt;</description>
     </item>
     <item>
       <title>编程开发</title>
