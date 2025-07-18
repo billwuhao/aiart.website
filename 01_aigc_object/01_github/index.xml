@@ -225,7 +225,8 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar&#34;&gt;Tencent-Hunyuan/HunyuanVideo-Avatar&lt;/a&gt;: 混元数字人&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/alibaba/MNN&#34;&gt;alibaba/MNN&lt;/a&gt;: 阿里 3d 数字人&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://submit2025-dream.github.io/DreamActor-H1/&#34;&gt;DreamActor-H1&lt;/a&gt;: 数字人带货视频生成&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Omni-Avatar/OmniAvatar&#34;&gt;Omni-Avatar/OmniAvatar&lt;/a&gt;: 音频驱动全身数字人&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/Omni-Avatar/OmniAvatar&#34;&gt;Omni-Avatar/OmniAvatar&lt;/a&gt;: 音频驱动全身数字人&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Jackywine/Bella&#34;&gt;Jackywine/Bella&lt;/a&gt;: 数字伴侣&lt;/p&gt;</description>
     </item>
     <item>
       <title>办公智能体</title>
@@ -269,7 +270,8 @@
 &lt;p&gt;&lt;a href=&#34;https://mcp.so/&#34;&gt;MCP Servers&lt;/a&gt; MCP 服务资源合集.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/github/github-mcp-server&#34;&gt;github-mcp-server&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/microsoft/playwright-mcp&#34;&gt;microsoft/playwright-mcp&lt;/a&gt; playwright 自动化 mcp 协议.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/luminati-io/brightdata-mcp&#34;&gt;luminati-io/brightdata-mcp&lt;/a&gt;: 强大的 MCP 服务器&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/luminati-io/brightdata-mcp&#34;&gt;luminati-io/brightdata-mcp&lt;/a&gt;: 强大的 MCP 服务器&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/czlonkowski/n8n-mcp&#34;&gt;czlonkowski/n8n-mcp&lt;/a&gt;: N8N-MCP 工作流构建&lt;/p&gt;</description>
     </item>
     <item>
       <title>脚本工具</title>
@@ -295,7 +297,8 @@
       <link>/01_aigc_object/01_github/11-git%E9%87%91%E8%9E%8D/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/11-git%E9%87%91%E8%9E%8D/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/OpenBB-finance/OpenBB&#34;&gt;OpenBB&lt;/a&gt; 为世界各地的每个人提供投资研究的免费且完全开源的金融平台.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/OpenBB-finance/OpenBB&#34;&gt;OpenBB&lt;/a&gt; 为世界各地的每个人提供投资研究的免费且完全开源的金融平台.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/TauricResearch/TradingAgents&#34;&gt;TauricResearch/TradingAgents&lt;/a&gt;: 多智能体金融交易框架&lt;/p&gt;</description>
     </item>
     <item>
       <title>生命科学</title>
@@ -347,7 +350,8 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/roboterax/video-prediction-policy&#34;&gt;roboterax/video-prediction-policy&lt;/a&gt;: 通用机器人视觉预测&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/vjepa2&#34;&gt;facebookresearch/vjepa2&lt;/a&gt;: 世界模型, 机器人通过视频进行自我监督学习&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/huggingface/lerobot&#34;&gt;huggingface/lerobot&lt;/a&gt;: 机器人开发&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Qi-Zhangyang/GPT4Scene-and-VLN-R1&#34;&gt;Qi-Zhangyang/GPT4Scene-and-VLN-R1&lt;/a&gt;: 用视觉模型理解 3D 场景&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/Qi-Zhangyang/GPT4Scene-and-VLN-R1&#34;&gt;Qi-Zhangyang/GPT4Scene-and-VLN-R1&lt;/a&gt;: 用视觉模型理解 3D 场景&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/alibaba-damo-academy/WorldVLA&#34;&gt;alibaba-damo-academy/WorldVLA&lt;/a&gt;: 动作世界模型&lt;/p&gt;</description>
     </item>
     <item>
       <title>编程开发</title>
@@ -365,7 +369,14 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/openai/codex&#34;&gt;codex&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/wandb/openui&#34;&gt;wandb/openui&lt;/a&gt; 自然语言构建 UI 交互.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/fuma-nama/fumadocs&#34;&gt;fuma-nama/fumadocs&lt;/a&gt; 为项目生成漂亮文档.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/pad-ws/pad.ws&#34;&gt;pad-ws/pad.ws&lt;/a&gt; 在浏览器中边画边开发.&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/pad-ws/pad.ws&#34;&gt;pad-ws/pad.ws&lt;/a&gt; 在浏览器中边画边开发.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/google-gemini/gemini-cli&#34;&gt;google-gemini/gemini-cli&lt;/a&gt;: 谷歌gemini终端智能体&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/getAsterisk/claudia&#34;&gt;getAsterisk/claudia&lt;/a&gt;: claude code 的开发工具&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/microsoft/vscode-copilot-chat&#34;&gt;microsoft/vscode-copilot-chat&lt;/a&gt;: 微软 vscode AI插件&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bytedance/trae-agent&#34;&gt;bytedance/trae-agent&lt;/a&gt;: 编程智能体&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/googleapis/genai-toolbox&#34;&gt;googleapis/genai-toolbox&lt;/a&gt;: 数据库mcp服务器&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/google-gemini/genai-processors&#34;&gt;google-gemini/genai-processors&lt;/a&gt;: 高效并行内容处理&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/universal-tool-calling-protocol&#34;&gt;Universal Tool Calling Protocol&lt;/a&gt;: 通用工具调用协议&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
