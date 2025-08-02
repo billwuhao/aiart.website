@@ -298,7 +298,8 @@
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/11-git%E9%87%91%E8%9E%8D/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/OpenBB-finance/OpenBB&#34;&gt;OpenBB&lt;/a&gt; 为世界各地的每个人提供投资研究的免费且完全开源的金融平台.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/TauricResearch/TradingAgents&#34;&gt;TauricResearch/TradingAgents&lt;/a&gt;: 多智能体金融交易框架&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/TauricResearch/TradingAgents&#34;&gt;TauricResearch/TradingAgents&lt;/a&gt;: 多智能体金融交易框架&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/sufe-aiflm-lab/fin-r1&#34;&gt;SUFE-AIFLM-Lab/Fin-R1&lt;/a&gt;: 金融推理大模型&lt;/p&gt;</description>
     </item>
     <item>
       <title>生命科学</title>
@@ -376,7 +377,9 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/bytedance/trae-agent&#34;&gt;bytedance/trae-agent&lt;/a&gt;: 编程智能体&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/googleapis/genai-toolbox&#34;&gt;googleapis/genai-toolbox&lt;/a&gt;: 数据库mcp服务器&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/google-gemini/genai-processors&#34;&gt;google-gemini/genai-processors&lt;/a&gt;: 高效并行内容处理&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/universal-tool-calling-protocol&#34;&gt;Universal Tool Calling Protocol&lt;/a&gt;: 通用工具调用协议&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/universal-tool-calling-protocol&#34;&gt;Universal Tool Calling Protocol&lt;/a&gt;: 通用工具调用协议&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/chaitin/MonkeyCode&#34;&gt;chaitin/MonkeyCode&lt;/a&gt;: 企业级 AI 编程助手，支持私有化离线部署&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/QwenLM/qwen-code&#34;&gt;QwenLM/qwen-code&lt;/a&gt;: 阿里编程智能体&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

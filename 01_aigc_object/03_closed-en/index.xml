@@ -56,7 +56,8 @@
 &lt;p&gt;&lt;a href=&#34;https://labs.google/fx/zh/tools/flow&#34;&gt;Flow&lt;/a&gt;: 谷歌电影制作应用&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://sparkify.withgoogle.com/explore&#34;&gt;Sparkify&lt;/a&gt;: 谷歌动画&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://experience.odyssey.world/&#34;&gt;Interactive Video&lt;/a&gt;: 毫秒级世界生成&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://about.decart.ai/&#34;&gt;Decart&lt;/a&gt;: 实时开放世界生成&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://about.decart.ai/&#34;&gt;Decart&lt;/a&gt;: 实时开放世界生成&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mirage.decart.ai/&#34;&gt;Mirage&lt;/a&gt;: 实时视频转绘&lt;/p&gt;</description>
     </item>
     <item>
       <title>语音</title>
@@ -84,7 +85,8 @@
 &lt;p&gt;&lt;a href=&#34;https://www.recraft.ai/&#34;&gt;recraft.ai&lt;/a&gt; 设计师的图像生成, 编辑工具.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://firefly.adobe.com/&#34;&gt;firefly.adobe&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.midjourney.com/explore?tab=top&#34;&gt;midjourney&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://bfl.ai/models/flux-kontext&#34;&gt;Black Forest Labs&lt;/a&gt;: Flux 图像编辑&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://bfl.ai/models/flux-kontext&#34;&gt;Black Forest Labs&lt;/a&gt;: Flux 图像编辑&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://supir.suppixel.ai/home&#34;&gt;SupPixel AI&lt;/a&gt;: 图像高清修复&lt;/p&gt;</description>
     </item>
     <item>
       <title>LLM</title>
@@ -154,7 +156,12 @@
 &lt;p&gt;&lt;a href=&#34;https://jules.google.com/task&#34;&gt;Jules&lt;/a&gt;: 谷歌开发助手&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.framer.com/&#34;&gt;Framer&lt;/a&gt;: 网站开发&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://rork.com/&#34;&gt;Rork&lt;/a&gt;: 手机应用开发&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youware.com/&#34;&gt;YouWare&lt;/a&gt;: 网站开发智能体&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://www.youware.com/&#34;&gt;YouWare&lt;/a&gt;: 网站开发智能体&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://opal.withgoogle.com/?mode=canvas&#34;&gt;Opal&lt;/a&gt;: 谷歌 AI 应用开发智能体&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://traycer.ai/&#34;&gt;Traycer&lt;/a&gt;: 高级编程助手&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.augment.new/&#34;&gt;Augment Code&lt;/a&gt;: CLI 开发智能体&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://kiro.dev/&#34;&gt;Kiro&lt;/a&gt;: The AI IDE for prototype to production&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/spark&#34;&gt;Spark&lt;/a&gt;: GitHub 编程助手&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
