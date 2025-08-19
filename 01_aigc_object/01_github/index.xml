@@ -329,7 +329,8 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/baichuan-inc/Baichuan-M1-14B&#34;&gt;Baichuan-M1-14B&lt;/a&gt; 百川医疗大模型.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/FreedomIntelligence/HuatuoGPT-o1&#34;&gt;HuatuoGPT-o1&lt;/a&gt; 复杂医学推理模型.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/google-health/medgemma&#34;&gt;Google-Health/medgemma&lt;/a&gt;: 谷歌医疗大模型&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/google-health/medgemma&#34;&gt;Google-Health/medgemma&lt;/a&gt;: 谷歌医疗大模型&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/google-health/medgemma&#34;&gt;Google-Health/medgemma&lt;/a&gt;: 谷歌医疗大模型&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/baichuan-inc/Baichuan-M2-32B&#34;&gt;baichuan-inc/Baichuan-M2-32B&lt;/a&gt;: 百川医疗增强推理模型&lt;/p&gt;</description>
     </item>
     <item>
       <title>化学</title>
@@ -352,7 +353,10 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/vjepa2&#34;&gt;facebookresearch/vjepa2&lt;/a&gt;: 世界模型, 机器人通过视频进行自我监督学习&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/huggingface/lerobot&#34;&gt;huggingface/lerobot&lt;/a&gt;: 机器人开发&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Qi-Zhangyang/GPT4Scene-and-VLN-R1&#34;&gt;Qi-Zhangyang/GPT4Scene-and-VLN-R1&lt;/a&gt;: 用视觉模型理解 3D 场景&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/alibaba-damo-academy/WorldVLA&#34;&gt;alibaba-damo-academy/WorldVLA&lt;/a&gt;: 动作世界模型&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/alibaba-damo-academy/WorldVLA&#34;&gt;alibaba-damo-academy/WorldVLA&lt;/a&gt;: 动作世界模型&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/OpenMind/OM1&#34;&gt;OpenMind/OM1&lt;/a&gt;: 机器人系统&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/alibaba-damo-academy/RynnRCP&#34;&gt;alibaba-damo-academy/RynnRCP&lt;/a&gt;: 机器人上下文协议&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/AgibotTech/Genie-Envisioner&#34;&gt;AgibotTech/Genie-Envisioner&lt;/a&gt;: 机器人操纵统一世界平台&lt;/p&gt;</description>
     </item>
     <item>
       <title>编程开发</title>
@@ -379,7 +383,8 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/google-gemini/genai-processors&#34;&gt;google-gemini/genai-processors&lt;/a&gt;: 高效并行内容处理&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/universal-tool-calling-protocol&#34;&gt;Universal Tool Calling Protocol&lt;/a&gt;: 通用工具调用协议&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/chaitin/MonkeyCode&#34;&gt;chaitin/MonkeyCode&lt;/a&gt;: 企业级 AI 编程助手，支持私有化离线部署&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/QwenLM/qwen-code&#34;&gt;QwenLM/qwen-code&lt;/a&gt;: 阿里编程智能体&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/QwenLM/qwen-code&#34;&gt;QwenLM/qwen-code&lt;/a&gt;: 阿里编程智能体&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/google/langextract&#34;&gt;google/langextract&lt;/a&gt;: 结构化信息精准提取python库&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
