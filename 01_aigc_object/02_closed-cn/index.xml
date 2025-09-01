@@ -26,7 +26,8 @@
 &lt;p&gt;&lt;a href=&#34;https://app.klingai.com/cn/&#34;&gt;可灵&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://jimeng.jianying.com/ai-tool/home&#34;&gt;即梦&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://chatglm.cn/main/alltoolsdetail?lang=zh&#34;&gt;智谱清言&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://agi.taobao.com/&#34;&gt;万象营造&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://agi.taobao.com/&#34;&gt;万象营造&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lab.klingai.com/cn/&#34;&gt;可灵 AI-灵动画布&lt;/a&gt;: 视频, 图像, 音频综合工作流&lt;/p&gt;</description>
     </item>
     <item>
       <title>视频</title>
@@ -35,7 +36,8 @@
       <guid>/01_aigc_object/02_closed-cn/02-cn%E8%A7%86%E9%A2%91/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://video.hunyuan.tencent.com/&#34;&gt;腾讯混元视频&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.vidu.cn/create&#34;&gt;vidu&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://huixiang.baidu.com/&#34;&gt;绘想&lt;/a&gt;: AI视频创作平台&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://huixiang.baidu.com/&#34;&gt;绘想&lt;/a&gt;: AI视频创作平台&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://video.luchentech.com/zh-CN&#34;&gt;Video Ocean视频大模型&lt;/a&gt;: 人人皆导演&lt;/p&gt;</description>
     </item>
     <item>
       <title>音频</title>
@@ -67,7 +69,10 @@
 &lt;p&gt;&lt;a href=&#34;https://zhida.zhihu.com/&#34;&gt;知乎直答&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.chatdlm.cn/&#34;&gt;ChatDLM&lt;/a&gt; 世界上最快的扩散大语言模型.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://chat.z.ai/&#34;&gt;Chat with Z.ai&lt;/a&gt;: Free AI for Presentations, Writing &amp;amp; Coding&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://studio.seed.ai/exp/seed_diffusion/&#34;&gt;Seed Diffusion Preview&lt;/a&gt;: 字节扩散大模型&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://studio.seed.ai/exp/seed_diffusion/&#34;&gt;Seed Diffusion Preview&lt;/a&gt;: 字节扩散大模型&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://longcat.chat/&#34;&gt;LongCat AI&lt;/a&gt;: 美团LLM&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://chat.intern-ai.org.cn/&#34;&gt;书生大模型&lt;/a&gt;: Intern&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.wenxiaobai.com/&#34;&gt;问小白&lt;/a&gt;: 搜得准，聊得嗨&lt;/p&gt;</description>
     </item>
     <item>
       <title>编程开发</title>
@@ -93,7 +98,9 @@
 &lt;p&gt;&lt;a href=&#34;https://www.codebuddy.ai/&#34;&gt;CodeBuddy IDE&lt;/a&gt;: 腾讯开发助手&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://platform.moonshot.cn/playground&#34;&gt;Moonshot AI 开放平台&lt;/a&gt;: Kimi 大模型 API 服务&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.aiyouthlab.com/&#34;&gt;Vinsoo&lt;/a&gt;: 全球首个搭载安全云端Agent编程团队的AI代码编辑器&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Tencent/WeKnora&#34;&gt;Tencent/WeKnora&lt;/a&gt;: 大模型文档理解检索框架&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/Tencent/WeKnora&#34;&gt;Tencent/WeKnora&lt;/a&gt;: 大模型文档理解检索框架&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://visvise.com/index&#34;&gt;visvise.com/index&lt;/a&gt;: 腾讯游戏开发工具集&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://qoder.com/&#34;&gt;Qoder&lt;/a&gt;: The Agentic Coding Platform 阿里智能体编程平台&lt;/p&gt;</description>
     </item>
     <item>
       <title>办公智能体</title>
@@ -114,7 +121,9 @@
 &lt;p&gt;&lt;a href=&#34;https://seed.bytedance.com/zh/seed_liveinterpret&#34;&gt;字节跳动Seed&lt;/a&gt;: 字节同声传译&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.doudou.fun/&#34;&gt;逗逗游戏伙伴&lt;/a&gt;: 陪你游戏，伴你生活&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.accio.com/&#34;&gt;Accio — AI智能采购&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.xiaobaogong.com/&#34;&gt;小包公&lt;/a&gt;: AI 法律服务平台&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://www.xiaobaogong.com/&#34;&gt;小包公&lt;/a&gt;: AI 法律服务平台&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.genspark.ai/&#34;&gt;Genspark&lt;/a&gt;: 一站式AI工作空间&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://autoglm.zhipuai.cn/guest&#34;&gt;AutoGLM&lt;/a&gt;: 智能体手机、电脑&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

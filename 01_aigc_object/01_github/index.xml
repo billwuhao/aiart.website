@@ -226,7 +226,10 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/alibaba/MNN&#34;&gt;alibaba/MNN&lt;/a&gt;: 阿里 3d 数字人&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://submit2025-dream.github.io/DreamActor-H1/&#34;&gt;DreamActor-H1&lt;/a&gt;: 数字人带货视频生成&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Omni-Avatar/OmniAvatar&#34;&gt;Omni-Avatar/OmniAvatar&lt;/a&gt;: 音频驱动全身数字人&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Jackywine/Bella&#34;&gt;Jackywine/Bella&lt;/a&gt;: 数字伴侣&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/Jackywine/Bella&#34;&gt;Jackywine/Bella&lt;/a&gt;: 数字伴侣&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/MeiGen-AI/InfiniteTalk&#34;&gt;MeiGen-AI/InfiniteTalk&lt;/a&gt;: 音频驱动数字人生成&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dynamic-face.github.io/&#34;&gt;DynamicFace&lt;/a&gt;: 高质量视频人脸替换&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Pixel-Talk/GUAVA&#34;&gt;Pixel-Talk/GUAVA&lt;/a&gt;: 上半身3D数字人&lt;/p&gt;</description>
     </item>
     <item>
       <title>办公智能体</title>
@@ -384,7 +387,10 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/universal-tool-calling-protocol&#34;&gt;Universal Tool Calling Protocol&lt;/a&gt;: 通用工具调用协议&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/chaitin/MonkeyCode&#34;&gt;chaitin/MonkeyCode&lt;/a&gt;: 企业级 AI 编程助手，支持私有化离线部署&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/QwenLM/qwen-code&#34;&gt;QwenLM/qwen-code&lt;/a&gt;: 阿里编程智能体&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/google/langextract&#34;&gt;google/langextract&lt;/a&gt;: 结构化信息精准提取python库&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/google/langextract&#34;&gt;google/langextract&lt;/a&gt;: 结构化信息精准提取python库&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/openai/agents.md&#34;&gt;openai/agents.md&lt;/a&gt;: 智能体编程指导&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Xuanwo/acp-claude-code&#34;&gt;Xuanwo/acp-claude-code&lt;/a&gt;: The ACP implementation for Claude Code&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/OpenBMB/UltraRAG&#34;&gt;OpenBMB/UltraRAG&lt;/a&gt;: 基于MCP低代码RAG框架&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
