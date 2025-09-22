@@ -10,18 +10,18 @@
     <title>2.6. 故事提示 - aiart.website</title>
     <link href="/03_prompt-engineering/02-prompt-engineering/daily-skills06/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1757663616" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1757663616" rel="stylesheet"></noscript>
-    <link href="/css/featherlight.min.css?1757663616" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1757663616" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1757663616" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1757663616" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1757663616" rel="stylesheet">
-    <link href="/css/nucleus.css?1757663616" rel="stylesheet">
-    <link href="/css/fonts.css?1757663616" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1757663616" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1757663616" rel="stylesheet">
-    <link href="/css/theme-black.css?1757663616" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1757663616" rel="stylesheet">
-    <link href="/css/variant.css?1757663616" rel="stylesheet">
-    <link href="/css/print.css?1757663616" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1757663616"></script>
+    <link href="/css/fontawesome-all.min.css?1758541708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1758541708" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1758541708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1758541708" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1758541708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1758541708" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1758541708" rel="stylesheet">
+    <link href="/css/nucleus.css?1758541708" rel="stylesheet">
+    <link href="/css/fonts.css?1758541708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1758541708" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1758541708" rel="stylesheet">
+    <link href="/css/theme-black.css?1758541708" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1758541708" rel="stylesheet">
+    <link href="/css/variant.css?1758541708" rel="stylesheet">
+    <link href="/css/print.css?1758541708" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1758541708"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -37,7 +37,7 @@
       var baseUriFull='/';
       window.variants && variants.init( [ 'black' ] );
     </script>
-    <script src="/js/jquery.min.js?1757663616" defer></script>
+    <script src="/js/jquery.min.js?1758541708" defer></script>
   </head>
   <body class="mobile-support html" data-url="/03_prompt-engineering/02-prompt-engineering/daily-skills06/">
     <div id="body" class="default-animation">
@@ -66,7 +66,102 @@
           <article class="default">
 <h1>2.6. 故事提示</h1>
 
+<!-- 
+零样本提示 (Zero-Shot Prompting)：
 
+1.1 零样本提示的基本原理
+
+1.2 零样本提示的优缺点
+
+1.3 如何构建有效的零样本提示
+
+1.4 零样本提示的常见应用场景
+
+1.5 零样本提示的局限性与应对策略
+
+少样本提示 (Few-Shot Prompting)：
+
+1.6 少样本提示的基本原理与示例
+
+1.7 少样本提示中样本选择的策略
+
+1.8 如何设计高质量的少样本提示
+
+1.9 少样本提示的常用模式与技巧
+
+1.10 少样本提示的实际案例分析
+
+思维链提示 (Chain-of-Thought Prompting)：
+
+1.11 思维链提示的基本概念和优势
+
+1.12 构建思维链提示的步骤与方法
+
+1.13 思维链提示在复杂问题求解中的应用
+
+1.14 思维链提示的变体与改进
+
+1.15 思维链提示的常见错误与修正
+
+指令提示 (Instruction Prompting):
+
+1.16 指令提示的核心要素：明确性、具体性、可执行性
+
+1.17 如何编写有效的指令提示
+
+1.18 不同类型的指令提示及其应用场景
+
+1.19 指令提示中的约束与限制
+
+1.20 指令提示的优化技巧
+
+角色扮演提示 (Role-Playing Prompting):
+
+1.21 角色扮演提示的概念与优势
+
+1.22 如何选择合适的角色
+
+1.23 角色扮演提示的技巧与策略
+
+1.24 角色扮演提示的应用场景
+
+1.25 如何避免角色扮演提示的负面影响
+
+自我一致性提示(Self-Consistency Prompting)
+
+1.26 自我一致性提示的基本概念
+
+1.27 如何利用自我一致性提高输出质量
+
+1.28 自我一致性提示的应用场景
+
+1.29 自我一致性提示与思维链提示的结合
+
+1.30 自我一致性提示的优缺点分析
+
+分解提示(Decomposition Prompting):
+
+1.31 分解提示的概念和意义
+
+1.32 将复杂任务分解为子任务的方法
+
+1.33 如何利用分解提示解决复杂问题
+
+1.34 分解提示与其他提示技巧的结合
+
+1.35 分解提示的案例分析
+
+其他常用提示技巧
+
+1.36 使用关键词进行提示
+
+1.37 使用约束条件进行提示
+
+1.38 使用反向提示
+
+1.39 使用提示模板
+
+1.40 提示技巧的组合运用 -->
             <footer class="footline">
             </footer>
           </article>
@@ -89,16 +184,21 @@
         <script>
           var contentLangs=['zh'];
         </script>
-        <script src="/js/auto-complete.js?1757663616" defer></script>
-        <script src="/js/lunr.min.js?1757663616" defer></script>
-        <script src="/js/lunr.stemmer.support.min.js?1757663616" defer></script>
-        <script src="/js/lunr.multi.min.js?1757663616" defer></script>
-        <script src="/js/lunr.zh.min.js?1757663616" defer></script>
-        <script src="/js/search.js?1757663616" defer></script>
+        <script src="/js/auto-complete.js?1758541708" defer></script>
+        <script src="/js/lunr.min.js?1758541708" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1758541708" defer></script>
+        <script src="/js/lunr.multi.min.js?1758541708" defer></script>
+        <script src="/js/lunr.zh.min.js?1758541708" defer></script>
+        <script src="/js/search.js?1758541708" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
-          <li data-nav-id="/01_aigc_object/" title="AI 项目资源集" class="dd-item"><input type="checkbox" id="section-6923aefeee137d3a1b22febe43e9c1b9" class="toggle"/><label for="section-6923aefeee137d3a1b22febe43e9c1b9" ></label><a href="/01_aigc_object/">AI 项目资源集</a><ul>
+          <li data-nav-id="/04_mwgc/" title="《明文AI观察》" class="dd-item"><input type="checkbox" id="section-6a42486e2cada4a0cf485f25f9ca3755" class="toggle"/><label for="section-6a42486e2cada4a0cf485f25f9ca3755" ></label><a href="/04_mwgc/">《明文AI观察》</a><ul>
+          <li data-nav-id="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1%E5%8D%87%E7%BA%A7/" title="环境将是帝国的疆土，智能体则是帝国的生态" class="dd-item"><a href="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1%E5%8D%87%E7%BA%A7/">环境将是帝国的疆土，智能体则是帝国的生态</a></li>
+          <li data-nav-id="/04_mwgc/ai%E9%A3%9F%E7%89%A9%E9%93%BE/" title="未来AI食物链的三个层级" class="dd-item"><a href="/04_mwgc/ai%E9%A3%9F%E7%89%A9%E9%93%BE/">未来AI食物链的三个层级</a></li>
+          <li data-nav-id="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1/" title="欢迎来到“环境即服务” (EaaS) 时代" class="dd-item"><a href="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1/">欢迎来到“环境即服务” (EaaS) 时代</a></li>
+          <li data-nav-id="/04_mwgc/%E5%8D%83%E5%B9%B4%E9%9A%BE%E9%81%87%E7%9A%84%E6%9C%BA%E9%81%87%E4%B8%8E%E5%8F%98%E9%9D%A9/" title="千年难遇的变革和机遇" class="dd-item"><a href="/04_mwgc/%E5%8D%83%E5%B9%B4%E9%9A%BE%E9%81%87%E7%9A%84%E6%9C%BA%E9%81%87%E4%B8%8E%E5%8F%98%E9%9D%A9/">千年难遇的变革和机遇</a></li></ul></li>
+          <li data-nav-id="/01_aigc_object/" title="已分类归档AI项目资源集" class="dd-item"><input type="checkbox" id="section-6923aefeee137d3a1b22febe43e9c1b9" class="toggle"/><label for="section-6923aefeee137d3a1b22febe43e9c1b9" ></label><a href="/01_aigc_object/">已分类归档AI项目资源集</a><ul>
           <li data-nav-id="/01_aigc_object/01_github/" title="GitHub 开源项目" class="dd-item"><input type="checkbox" id="section-4850e9adfca824729d998fcbfaa6581c" class="toggle"/><label for="section-4850e9adfca824729d998fcbfaa6581c" ></label><a href="/01_aigc_object/01_github/">GitHub 开源项目</a><ul>
           <li data-nav-id="/01_aigc_object/01_github/01-git%E8%A7%86%E9%A2%91/" title="视频" class="dd-item"><a href="/01_aigc_object/01_github/01-git%E8%A7%86%E9%A2%91/">视频</a></li>
           <li data-nav-id="/01_aigc_object/01_github/02-git%E8%AF%AD%E9%9F%B3/" title="语音" class="dd-item"><a href="/01_aigc_object/01_github/02-git%E8%AF%AD%E9%9F%B3/">语音</a></li>
@@ -197,16 +297,16 @@
             <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> 清理历史记录</a></li>
           </ul>
         </div>
-        <div id="footer" class="footerFooter showFooter">       <p><a href="https://aiart.website/">🏠明文视界 AI 资源站 </a></p>
+        <div id="footer" class="footerFooter showFooter">       <p><a href="https://aiart.website/">🏠明文视界</a></p>
       <p><a href="https://jupyter.fun/"> 🏠明文氛围编程</a></p>
-      <p><a href="https://wuhao.online/"> 🏠MWAI.Studio</a></p>
+      <p><a href="https://wuhao.online/"> 🏠明文作品集</a></p>
       <p>©2025 <img src="/MW.png" ></a> 明文</a></p>
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1757663616" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1757663616" defer></script>
-    <script src="/js/featherlight.min.js?1757663616" defer></script>
+    <script src="/js/clipboard.min.js?1758541708" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1758541708" defer></script>
+    <script src="/js/featherlight.min.js?1758541708" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -236,7 +336,7 @@
       useMathJax( JSON.parse("{}") );
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="/js/jquery.svg.pan.zoom.js?1757663616" defer></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1758541708" defer></script>
     <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
@@ -245,6 +345,6 @@
     <script>
       window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
     </script>
-    <script src="/js/theme.js?1757663616" defer></script>
+    <script src="/js/theme.js?1758541708" defer></script>
   </body>
 </html>

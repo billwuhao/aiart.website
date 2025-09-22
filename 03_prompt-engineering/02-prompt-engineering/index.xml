@@ -19,7 +19,7 @@
 &lt;p&gt;提问题的方式, 和我们使用搜索引擎的很像, 比如搜 &amp;ldquo;什么是什么&amp;rdquo;, &amp;ldquo;什么怎么做&amp;rdquo;, &amp;ldquo;什么最好&amp;rdquo;, &amp;ldquo;xx 方程怎么解&amp;rdquo; 等等, 但是有本质的区别是, AI 能给出传统搜索引擎搜不到的答案, 它会根据自己学习到的知识, 给你组织答案.&lt;/p&gt;
 &lt;p&gt;例如:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;目前最强的大语言模型有哪些? 列举 5 个, 简要说说强在哪里?
-&lt;/code&gt;&lt;/pre&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;details&gt;&lt;summary&gt;点击展开回答&lt;/summary&gt;
 &lt;blockquote&gt;
 &lt;p&gt;目前最强的大语言模型（LLMs）领域发展迅速，很难说有绝对的“最强”，因为不同的模型在不同任务和能力侧重上有所不同。 不过，以下列举 5 个目前被广泛认为是顶尖且具有代表性的 LLMs，并简要说明它们的优势所在：&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ol&gt;
@@ -152,7 +152,102 @@
       <link>/03_prompt-engineering/02-prompt-engineering/daily-skills06/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/03_prompt-engineering/02-prompt-engineering/daily-skills06/</guid>
-      <description></description>
+      <description>&lt;!-- 
+零样本提示 (Zero-Shot Prompting)：
+
+1.1 零样本提示的基本原理
+
+1.2 零样本提示的优缺点
+
+1.3 如何构建有效的零样本提示
+
+1.4 零样本提示的常见应用场景
+
+1.5 零样本提示的局限性与应对策略
+
+少样本提示 (Few-Shot Prompting)：
+
+1.6 少样本提示的基本原理与示例
+
+1.7 少样本提示中样本选择的策略
+
+1.8 如何设计高质量的少样本提示
+
+1.9 少样本提示的常用模式与技巧
+
+1.10 少样本提示的实际案例分析
+
+思维链提示 (Chain-of-Thought Prompting)：
+
+1.11 思维链提示的基本概念和优势
+
+1.12 构建思维链提示的步骤与方法
+
+1.13 思维链提示在复杂问题求解中的应用
+
+1.14 思维链提示的变体与改进
+
+1.15 思维链提示的常见错误与修正
+
+指令提示 (Instruction Prompting):
+
+1.16 指令提示的核心要素：明确性、具体性、可执行性
+
+1.17 如何编写有效的指令提示
+
+1.18 不同类型的指令提示及其应用场景
+
+1.19 指令提示中的约束与限制
+
+1.20 指令提示的优化技巧
+
+角色扮演提示 (Role-Playing Prompting):
+
+1.21 角色扮演提示的概念与优势
+
+1.22 如何选择合适的角色
+
+1.23 角色扮演提示的技巧与策略
+
+1.24 角色扮演提示的应用场景
+
+1.25 如何避免角色扮演提示的负面影响
+
+自我一致性提示(Self-Consistency Prompting)
+
+1.26 自我一致性提示的基本概念
+
+1.27 如何利用自我一致性提高输出质量
+
+1.28 自我一致性提示的应用场景
+
+1.29 自我一致性提示与思维链提示的结合
+
+1.30 自我一致性提示的优缺点分析
+
+分解提示(Decomposition Prompting):
+
+1.31 分解提示的概念和意义
+
+1.32 将复杂任务分解为子任务的方法
+
+1.33 如何利用分解提示解决复杂问题
+
+1.34 分解提示与其他提示技巧的结合
+
+1.35 分解提示的案例分析
+
+其他常用提示技巧
+
+1.36 使用关键词进行提示
+
+1.37 使用约束条件进行提示
+
+1.38 使用反向提示
+
+1.39 使用提示模板
+
+1.40 提示技巧的组合运用 --&gt;</description>
     </item>
   </channel>
 </rss>

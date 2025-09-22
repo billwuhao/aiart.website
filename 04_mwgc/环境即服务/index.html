@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.147.7">
+    <meta name="generator" content="Relearn 5.2.1+tip">
+    <meta name="description" content="">
+    <meta name="author" content="吴明文">
+    <title>欢迎来到“环境即服务” (EaaS) 时代 - aiart.website</title>
+    <link href="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1758541708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1758541708" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1758541708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1758541708" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1758541708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1758541708" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1758541708" rel="stylesheet">
+    <link href="/css/nucleus.css?1758541708" rel="stylesheet">
+    <link href="/css/fonts.css?1758541708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1758541708" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1758541708" rel="stylesheet">
+    <link href="/css/theme-black.css?1758541708" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1758541708" rel="stylesheet">
+    <link href="/css/variant.css?1758541708" rel="stylesheet">
+    <link href="/css/print.css?1758541708" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1758541708"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="/index.json";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = '复制到剪贴板';
+      window.T_Copied_to_clipboard = '复制到剪贴板！';
+      window.T_Copy_link_to_clipboard = '将链接复制到剪贴板';
+      window.T_Link_copied_to_clipboard = '链接复制到剪贴板！';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'black' ] );
+    </script>
+    <script src="/js/jquery.min.js?1758541708" defer></script>
+  </head>
+  <body class="mobile-support html" data-url="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='导航 (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='目录 (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="/"><span itemprop="name">aiart.website</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/04_mwgc/"><span itemprop="name">《明文AI观察》</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1/" aria-disabled="true"><span itemprop="name">欢迎来到“环境即服务” (EaaS) 时代</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#一-核心理念从人机交互到人机共生">一、 核心理念：从“人机交互”到“人机共生”</a></li>
+    <li><a href="#二-eaas-的技术架构推理">二、 EaaS 的技术架构推理</a></li>
+    <li><a href="#三-实现的可能性与发展阶段">三、 实现的可能性与发展阶段</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#结论">结论</a></li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>欢迎来到“环境即服务” (EaaS) 时代</h1>
+
+<p>我们花了太多时间去“使用工具”，而不是“完成任务”。</p>
+<p>现在，想象一下这个场景：</p>
+<p>你对着手机说，“下周末给我组织一次海边团建，预算5000，要好玩，顺便帮我生成一个酷炫的Vlog预告片。”</p>
+<p>你的手机屏幕没有跳转任何APP，只是平静地回答：“好的，方案和视频稍后给您。”</p>
+<p>几分钟后，一份包含地点、行程、预算和投票链接的完整方案，以及一条配乐、转场、文案都堪称专业的短视频，已经发送到了你的聊天窗口。</p>
+<p>这不是科幻电影，这就是 AI 发展的终极蓝图——“环境即服务” (EaaS)。一个我们不再需要软件，只需要提出“意图”的时代，正以前所未有的速度向我们冲来。</p>
+<p>环境即服务（Environment as a Service, EaaS）是我洞察的一个概念。它并非科幻，而是当前 AI 发展趋势下一个非常合乎逻辑的推演。我们可以将其理解为云计算从 IaaS、PaaS、SaaS 演进之后，由 AI 驱动的下一个形态：意图即服务（Intent as a Service, IaaS）或 结果即服务（Result as a Service, RaaS），而“环境”正是承载这一切的基础设施。</p>
+<p>下面，我将结合 AI 的发展趋势，对这个“环境即服务”的可能性进行详细的预言和推理。</p>
+<h2 id="一-核心理念从人机交互到人机共生">一、 核心理念：从“人机交互”到“人机共生”</h2>
+<p>核心变化是交互范式的根本性革命。</p>
+<p>传统模式（至今）： 人类是“指挥者”，软件/计算机是“工具”。我们需要通过精确的指令（代码、GUI点击、API调用）来告诉工具每一步该做什么。我们关心的是“过程”。</p>
+<p>EaaS 模式（未来）： 人类是“许愿者”或“目标设定者”，AI 智能体是“执行者”和“创造者”。我们只需要提出高层次的意图（&ldquo;我要办一个成功的线上营销活动&rdquo;），AI 系统会自主理解、规划、执行、反馈和优化。我们只关心“结果”。</p>
+<p>这个转变的背后，是 AI 从“工具”属性向“伙伴”属性的跃迁。</p>
+<h2 id="二-eaas-的技术架构推理">二、 EaaS 的技术架构推理</h2>
+<p>勾勒出的一个非常清晰的架构：</p>
+<ol>
+<li>云端大脑：统一智能模型中心（The Unified Intelligence Core）</li>
+</ol>
+<p>构成： 这不再是简单的云计算中心，而是一个由多个超巨型基础模型（Foundation Models）构成的认知中枢。它包括但不限于：</p>
+<ul>
+<li>
+<p>通用认知模型（LLM/VLM）： 负责理解人类的自然语言意图、图像、声音，进行逻辑推理和规划。</p>
+</li>
+<li>
+<p>世界模型（World Model）： 模拟和预测物理世界与数字世界的变化，为智能体的决策提供沙盘推演。</p>
+</li>
+<li>
+<p>代码生成与执行模型： 类似 Devin 的进化体，能够理解需求、编写、调试、部署和维护软件。</p>
+</li>
+<li>
+<p>专业领域模型： 金融、医疗、法律等垂直领域的精调模型，提供专业知识。</p>
+</li>
+<li>
+<p>长期记忆与知识图谱： 存储个人、组织乃至全球的知识、偏好和历史交互记录，形成个性化和上下文感知能力。</p>
+</li>
+</ul>
+<p>角色： 它是所有智能体的“大脑”和“灵魂”，负责最高层次的任务分解、策略规划和资源调度。</p>
+<ol start="2">
+<li>终端环境：无感知的执行单元（The Sentient Runtime Environment）</li>
+</ol>
+<p>构成： 无论是手机、电脑、汽车还是物联网设备，其操作系统（OS）将被一个轻量级的“智能体运行时（Agent Runtime）”所取代或包裹。这个运行时只做三件事：</p>
+<ul>
+<li>
+<p>感知（Perceive）： 收集本地数据（摄像头、麦克风、传感器、用户输入）。</p>
+</li>
+<li>
+<p>执行（Execute）： 运行从云端大脑下发的指令或即时生成的微型程序（JIT-App）。</p>
+</li>
+<li>
+<p>连接（Connect）： 与云端大脑保持高速、低延迟的通信。</p>
+</li>
+</ul>
+<p>特点：</p>
+<p>无固定 App： 用户的桌面或手机屏幕上不再有固定的 App 图标。界面是流动的、情境化的，根据当前任务动态生成。你想听音乐，一个简约的播放器界面就浮现出来；你想导航，地图就无缝呈现。</p>
+<p>简单软件即时生成（Just-in-Time Software）： 当你需要完成一个特定任务（比如“帮我把相册里的照片分类整理，并按拍摄地点重命名”）时，智能体会识别照片，生成脚本，然后直接在终端环境中完成任务，呈现结果。编写、执行、销毁一气呵成，对用户完全透明。</p>
+<ol start="3">
+<li>核心驱动力：自主智能体集群（The Autonomous Agent Swarm）</li>
+</ol>
+<p>这是连接“大脑”和“终端”的“神经系统”，是完成任务的主体。它们会形成一个复杂的分工协作体系：</p>
+<p>总指挥智能体（Orchestrator Agent）： 直接与用户对接，理解最终目标，将其拆解成一系列子任务，并组建一个“项目团队”。</p>
+<p>专家智能体（Specialist Agents）： 负责特定领域。例如：</p>
+<ul>
+<li>程序员智能体： 按需编写、测试和部署代码。</li>
+<li>UI/UX 设计师智能体： 动态生成交互界面。</li>
+<li>数据分析师智能体： 分析数据并提供洞察。</li>
+<li>营销策划智能体： 制定营销策略。</li>
+</ul>
+<p>执行智能体（Executor Agents）： 在终端或云端执行具体操作，如发送邮件、调用 API、控制硬件。</p>
+<p>一个工作流程示例：</p>
+<p>用户说：“下周末给我组织一次团队建设，预算 5000 元，地点在城市周边，要有趣，能增进团队协作。”</p>
+<p>总指挥智能体启动，理解了目标、预算、时间、地点和软性需求（有趣、协作）。</p>
+<p>任务分解：</p>
+<ul>
+<li>【任务A】调研符合条件的活动和地点 -&gt; 分配给“旅行策划智能体”。</li>
+<li>【任务B】根据团队成员历史偏好进行个性化推荐 -&gt; 分配给“数据分析师智能体”。</li>
+<li>【任务C】设计投票和信息收集界面 -&gt; 分配给“UI设计师智能体”和“程序员智能体”。</li>
+<li>【任务D】预定和支付 -&gt; 分配给“财务与执行智能体”。</li>
+</ul>
+<p>协同工作：</p>
+<ul>
+<li>各智能体开始并行工作，互相调用，共享信息。</li>
+<li>“程序员智能体”即时编写了一个投票小程序，通过企业通信工具推送给团队成员。</li>
+<li>“旅行策划智能体”根据投票结果，结合实时天气和交通数据，最终确定了方案。</li>
+</ul>
+<p>结果呈现： 总指挥智能体向用户汇报最终方案、行程单和预算明细，并请求最终确认。用户只需说“同意”。</p>
+<p>执行与反馈： 确认后，系统自动完成所有预定和支付，并将电子票据、地图导航等信息发送到每个团队成员的终端上。活动当天，它还会根据实时交通情况，动态提醒出发时间。</p>
+<p>在这个过程中，用户没有打开任何一个 App，没有进行一次搜索，没有填写一张表单。环境本身提供了所有服务。</p>
+<h2 id="三-实现的可能性与发展阶段">三、 实现的可能性与发展阶段</h2>
+<p>大致分为三个阶段演进：</p>
+<p>第一阶段：增强智能（Augmented Intelligence）- (现在 ~ 1-3年)</p>
+<p>特征： AI 作为强大助手，嵌入现有软件和工作流。</p>
+<p>表现： GitHub Copilot 辅助编程，ChatGPT 辅助文案，各种 AI Agent 帮助处理邮件、安排日程。人仍然是操作主体，但效率极大提升。软件形态依然存在，但内部被 AI 深度改造。</p>
+<p>第二阶段：半自主智能（Semi-Autonomous Intelligence）- (3-5年)</p>
+<p>特征： 领域级的“环境即服务”出现。AI 智能体接管特定、边界清晰的领域。</p>
+<p>表现：</p>
+<ul>
+<li>
+<p>“开发环境即服务”： 你只需要用自然语言描述需求，一个 AI 系统就能自主完成整个软件的开发、测试、部署和运维。人类程序员的角色转变为“AI 架构师”或“产品验收官”。</p>
+</li>
+<li>
+<p>“营销环境即服务”： 你设定营销目标和预算，AI 系统自动完成市场分析、内容创作、渠道投放、效果追踪和 A/B 测试的全链路工作。</p>
+</li>
+</ul>
+<p>第三阶段：全自主智能（Fully Autonomous Intelligence）- (5-10年)</p>
+<p>特征： 终极“环境即服务”成为现实。</p>
+<p>表现： 跨领域、通用、无处不在的智能环境。计算的边界彻底模糊，用户与数字世界的交互变得像呼吸一样自然。人从繁琐的执行工作中完全解放出来，专注于创造、情感体验和高层次的决策。</p>
+<h1 id="四-挑战与深远影响">四、 挑战与深远影响</h1>
+<p>这个未来虽然美好，但也伴随着巨大的挑战：</p>
+<p>技术挑战：</p>
+<ul>
+<li>可靠性与可控性： 如何确保 AI 不会“失控”或产生灾难性的“涌现”行为？</li>
+<li>资源消耗： 运行如此庞大的智能系统所需的计算和能源是天文数字。</li>
+<li>调试与纠错： 当一个由无数智能体自主协作的系统出错时，如何定位和修复问题？这会是一个“黑箱中的黑箱”。</li>
+</ul>
+<p>经济与社会影响：</p>
+<ul>
+<li>就业结构颠覆： 程序员、设计师、分析师、项目经理…… 大量白领工作将被重新定义，甚至消失。新的工作岗位（如 AI 训练师、伦理监督员、目标设定专家）将会出现。</li>
+<li>商业模式重塑： 软件公司可能不复存在，取而代之的是“模型即服务”或“智能即服务”的巨头。</li>
+</ul>
+<p>伦理与哲学问题：</p>
+<ul>
+<li>责任归属： AI 决策失误导致损失，谁来负责？是用户、AI 公司，还是 AI 本身？</li>
+<li>隐私边界： EaaS 需要对用户有极深的了解，个人隐私如何保障？</li>
+<li>人类价值： 当思考和创造都可以被 AI 代劳，人类的价值和目标是什么？</li>
+</ul>
+<h2 id="结论">结论</h2>
+<p>“环境即服务”是对计算资源和服务模式的更高抽象，将人类从复杂的“how”中解放出来，只需关注“what”。</p>
+<p>这个过程，就像我们从命令行到图形界面，再到触摸屏和语音助手一样，每一次交互的简化都带来了生产力的巨大飞跃。EaaS 将是下一次非常彻底的飞跃。它将把计算机从一个我们必须学习使用的“外部工具”，变成一个真正理解我们意图、与我们共生的“内在伙伴”。我们正在亲眼见证这个未来的序幕。</p>
+<p>所以，当AI开始为我们编写代码、设计界面、调度资源时，我们人类还剩下什么？</p>
+<p>这听起来像一个冰冷的技术预言，甚至有点令人不安。旧的岗位正在消失，新的秩序尚未建立。但这正是这场革命最激动人心的地方——它像一把锋利的刀，剔除了所有重复、繁琐的“执行”工作，将人类历史上最珍贵、最核心的东西推到了聚光灯下：</p>
+<p>那就是你的思想、你的创意、你的情感、你的梦想。</p>
+<p>在“环境即服务”的未来，计算能力和软件工具将像空气和水一样无处不在，且廉价到可以忽略不计。唯一的稀缺资源，是你独特的、天马行空的“想法”。</p>
+<p>那个时候，决定你价值的，不再是你掌握了多少工具，而是你能提出多么伟大的“愿望”。</p>
+<p>那么，面对这个即将到来的“许愿池”，你，准备好许下你的第一个愿望了吗？</p>
+<p>2025.06.27</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+          <a id="logo" href="/">
+            <img width="280px" src="/hb.png"></img>
+            <br><font face="serif" size="5" color="#FF0000"><b>明 文 视 界</b></font>
+          </a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="搜索...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['zh'];
+        </script>
+        <script src="/js/auto-complete.js?1758541708" defer></script>
+        <script src="/js/lunr.min.js?1758541708" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1758541708" defer></script>
+        <script src="/js/lunr.multi.min.js?1758541708" defer></script>
+        <script src="/js/lunr.zh.min.js?1758541708" defer></script>
+        <script src="/js/search.js?1758541708" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics">
+          <li data-nav-id="/04_mwgc/" title="《明文AI观察》" class="dd-item parent"><input type="checkbox" id="section-6a42486e2cada4a0cf485f25f9ca3755" class="toggle" checked/><label for="section-6a42486e2cada4a0cf485f25f9ca3755" ></label><a href="/04_mwgc/">《明文AI观察》</a><ul>
+          <li data-nav-id="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1%E5%8D%87%E7%BA%A7/" title="环境将是帝国的疆土，智能体则是帝国的生态" class="dd-item"><a href="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1%E5%8D%87%E7%BA%A7/">环境将是帝国的疆土，智能体则是帝国的生态</a></li>
+          <li data-nav-id="/04_mwgc/ai%E9%A3%9F%E7%89%A9%E9%93%BE/" title="未来AI食物链的三个层级" class="dd-item"><a href="/04_mwgc/ai%E9%A3%9F%E7%89%A9%E9%93%BE/">未来AI食物链的三个层级</a></li>
+          <li data-nav-id="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1/" title="欢迎来到“环境即服务” (EaaS) 时代" class="dd-item active"><a href="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1/">欢迎来到“环境即服务” (EaaS) 时代</a></li>
+          <li data-nav-id="/04_mwgc/%E5%8D%83%E5%B9%B4%E9%9A%BE%E9%81%87%E7%9A%84%E6%9C%BA%E9%81%87%E4%B8%8E%E5%8F%98%E9%9D%A9/" title="千年难遇的变革和机遇" class="dd-item"><a href="/04_mwgc/%E5%8D%83%E5%B9%B4%E9%9A%BE%E9%81%87%E7%9A%84%E6%9C%BA%E9%81%87%E4%B8%8E%E5%8F%98%E9%9D%A9/">千年难遇的变革和机遇</a></li></ul></li>
+          <li data-nav-id="/01_aigc_object/" title="已分类归档AI项目资源集" class="dd-item"><input type="checkbox" id="section-6923aefeee137d3a1b22febe43e9c1b9" class="toggle"/><label for="section-6923aefeee137d3a1b22febe43e9c1b9" ></label><a href="/01_aigc_object/">已分类归档AI项目资源集</a><ul>
+          <li data-nav-id="/01_aigc_object/01_github/" title="GitHub 开源项目" class="dd-item"><input type="checkbox" id="section-4850e9adfca824729d998fcbfaa6581c" class="toggle"/><label for="section-4850e9adfca824729d998fcbfaa6581c" ></label><a href="/01_aigc_object/01_github/">GitHub 开源项目</a><ul>
+          <li data-nav-id="/01_aigc_object/01_github/01-git%E8%A7%86%E9%A2%91/" title="视频" class="dd-item"><a href="/01_aigc_object/01_github/01-git%E8%A7%86%E9%A2%91/">视频</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/02-git%E8%AF%AD%E9%9F%B3/" title="语音" class="dd-item"><a href="/01_aigc_object/01_github/02-git%E8%AF%AD%E9%9F%B3/">语音</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/03-git%E5%9B%BE%E5%83%8F/" title="图像" class="dd-item"><a href="/01_aigc_object/01_github/03-git%E5%9B%BE%E5%83%8F/">图像</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/04-gitllm/" title="LLM" class="dd-item"><a href="/01_aigc_object/01_github/04-gitllm/">LLM</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/05-git3d/" title="3D" class="dd-item"><a href="/01_aigc_object/01_github/05-git3d/">3D</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/06-git%E6%8A%80%E6%9C%AF/" title="技术" class="dd-item"><a href="/01_aigc_object/01_github/06-git%E6%8A%80%E6%9C%AF/">技术</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/07-git%E6%95%B0%E5%AD%97%E4%BA%BA/" title="数字人" class="dd-item"><a href="/01_aigc_object/01_github/07-git%E6%95%B0%E5%AD%97%E4%BA%BA/">数字人</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/08-git%E5%8A%9E%E5%85%AC/" title="办公智能体" class="dd-item"><a href="/01_aigc_object/01_github/08-git%E5%8A%9E%E5%85%AC/">办公智能体</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/09-gitmcp/" title="MCP" class="dd-item"><a href="/01_aigc_object/01_github/09-gitmcp/">MCP</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/10-git%E8%84%9A%E6%9C%AC%E5%B7%A5%E5%85%B7/" title="脚本工具" class="dd-item"><a href="/01_aigc_object/01_github/10-git%E8%84%9A%E6%9C%AC%E5%B7%A5%E5%85%B7/">脚本工具</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/11-git%E9%87%91%E8%9E%8D/" title="金融" class="dd-item"><a href="/01_aigc_object/01_github/11-git%E9%87%91%E8%9E%8D/">金融</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/12-git%E7%94%9F%E7%89%A9/" title="生命科学" class="dd-item"><a href="/01_aigc_object/01_github/12-git%E7%94%9F%E7%89%A9/">生命科学</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/" title="数学" class="dd-item"><a href="/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/">数学</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/14-git%E5%8C%BB%E7%96%97/" title="医疗" class="dd-item"><a href="/01_aigc_object/01_github/14-git%E5%8C%BB%E7%96%97/">医疗</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/15-git%E5%8C%96%E5%AD%A6/" title="化学" class="dd-item"><a href="/01_aigc_object/01_github/15-git%E5%8C%96%E5%AD%A6/">化学</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/16-git%E6%9C%BA%E5%99%A8%E4%BA%BA/" title="机器人" class="dd-item"><a href="/01_aigc_object/01_github/16-git%E6%9C%BA%E5%99%A8%E4%BA%BA/">机器人</a></li>
+          <li data-nav-id="/01_aigc_object/01_github/17-git%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/" title="编程开发" class="dd-item"><a href="/01_aigc_object/01_github/17-git%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/">编程开发</a></li></ul></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/" title="国内项目" class="dd-item"><input type="checkbox" id="section-e31223ca567bcd81dc617b5a854df44d" class="toggle"/><label for="section-e31223ca567bcd81dc617b5a854df44d" ></label><a href="/01_aigc_object/02_closed-cn/">国内项目</a><ul>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/01-cn%E7%BB%BC%E5%90%88/" title="综合" class="dd-item"><a href="/01_aigc_object/02_closed-cn/01-cn%E7%BB%BC%E5%90%88/">综合</a></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/02-cn%E8%A7%86%E9%A2%91/" title="视频" class="dd-item"><a href="/01_aigc_object/02_closed-cn/02-cn%E8%A7%86%E9%A2%91/">视频</a></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/03-cn%E9%9F%B3%E9%A2%91/" title="音频" class="dd-item"><a href="/01_aigc_object/02_closed-cn/03-cn%E9%9F%B3%E9%A2%91/">音频</a></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/04-cn3d/" title="3D" class="dd-item"><a href="/01_aigc_object/02_closed-cn/04-cn3d/">3D</a></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/05-cnllm/" title="LLM" class="dd-item"><a href="/01_aigc_object/02_closed-cn/05-cnllm/">LLM</a></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/06-cn%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/" title="编程开发" class="dd-item"><a href="/01_aigc_object/02_closed-cn/06-cn%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/">编程开发</a></li>
+          <li data-nav-id="/01_aigc_object/02_closed-cn/07-cn%E5%8A%9E%E5%85%AC/" title="办公智能体" class="dd-item"><a href="/01_aigc_object/02_closed-cn/07-cn%E5%8A%9E%E5%85%AC/">办公智能体</a></li></ul></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/" title="国外项目" class="dd-item"><input type="checkbox" id="section-89a0ded1aec38a485fdfd5812f7ed880" class="toggle"/><label for="section-89a0ded1aec38a485fdfd5812f7ed880" ></label><a href="/01_aigc_object/03_closed-en/">国外项目</a><ul>
+          <li data-nav-id="/01_aigc_object/03_closed-en/01-en%E7%BB%BC%E5%90%88/" title="综合" class="dd-item"><a href="/01_aigc_object/03_closed-en/01-en%E7%BB%BC%E5%90%88/">综合</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/02-en%E8%A7%86%E9%A2%91/" title="视频" class="dd-item"><a href="/01_aigc_object/03_closed-en/02-en%E8%A7%86%E9%A2%91/">视频</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/03-en%E8%AF%AD%E9%9F%B3/" title="语音" class="dd-item"><a href="/01_aigc_object/03_closed-en/03-en%E8%AF%AD%E9%9F%B3/">语音</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/04-en%E5%9B%BE%E5%83%8F/" title="图像" class="dd-item"><a href="/01_aigc_object/03_closed-en/04-en%E5%9B%BE%E5%83%8F/">图像</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/05-enllm/" title="LLM" class="dd-item"><a href="/01_aigc_object/03_closed-en/05-enllm/">LLM</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/06-en3d/" title="3D" class="dd-item"><a href="/01_aigc_object/03_closed-en/06-en3d/">3D</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/07-en%E5%8A%9E%E5%85%AC/" title="办公智能体" class="dd-item"><a href="/01_aigc_object/03_closed-en/07-en%E5%8A%9E%E5%85%AC/">办公智能体</a></li>
+          <li data-nav-id="/01_aigc_object/03_closed-en/08-en%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/" title="编程开发" class="dd-item"><a href="/01_aigc_object/03_closed-en/08-en%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/">编程开发</a></li></ul></li>
+          <li data-nav-id="/01_aigc_object/04_models_sources/" title="模型资源平台" class="dd-item"><a href="/01_aigc_object/04_models_sources/">模型资源平台</a></li>
+          <li data-nav-id="/01_aigc_object/05_waiting/" title="预告项目" class="dd-item"><a href="/01_aigc_object/05_waiting/">预告项目</a></li>
+          <li data-nav-id="/01_aigc_object/06_sources/" title="项目合集,学习资源" class="dd-item"><a href="/01_aigc_object/06_sources/">项目合集,学习资源</a></li>
+          <li data-nav-id="/01_aigc_object/07_others/" title="其他" class="dd-item"><a href="/01_aigc_object/07_others/">其他</a></li>
+          <li data-nav-id="/01_aigc_object/08_robots/" title="机器人" class="dd-item"><a href="/01_aigc_object/08_robots/">机器人</a></li></ul></li>
+          <li data-nav-id="/02_comfyui/" title="ComfyUI 资源, 教程" class="dd-item"><input type="checkbox" id="section-297479c0a50f82c26178a9b2105b0d3b" class="toggle"/><label for="section-297479c0a50f82c26178a9b2105b0d3b" ></label><a href="/02_comfyui/">ComfyUI 资源, 教程</a><ul>
+          <li data-nav-id="/02_comfyui/01_interface/" title="界面介绍" class="dd-item"><a href="/02_comfyui/01_interface/">界面介绍</a></li>
+          <li data-nav-id="/02_comfyui/02_basic/" title="基本概念" class="dd-item"><a href="/02_comfyui/02_basic/">基本概念</a></li>
+          <li data-nav-id="/02_comfyui/03_built-in/" title="内置节点" class="dd-item"><input type="checkbox" id="section-fa2ab4935a19466c63d0ea96799ffe85" class="toggle"/><label for="section-fa2ab4935a19466c63d0ea96799ffe85" ></label><a href="/02_comfyui/03_built-in/">内置节点</a><ul>
+          <li data-nav-id="/02_comfyui/03_built-in/01-built-in/" title="内置节点 1" class="dd-item"><a href="/02_comfyui/03_built-in/01-built-in/">内置节点 1</a></li>
+          <li data-nav-id="/02_comfyui/03_built-in/02-built-in/" title="内置节点 2" class="dd-item"><a href="/02_comfyui/03_built-in/02-built-in/">内置节点 2</a></li>
+          <li data-nav-id="/02_comfyui/03_built-in/03-built-in/" title="内置节点 3" class="dd-item"><a href="/02_comfyui/03_built-in/03-built-in/">内置节点 3</a></li></ul></li></ul></li>
+          <li data-nav-id="/03_prompt-engineering/" title="提示工程归档" class="dd-item"><input type="checkbox" id="section-12d625156815aa71c293f67ec2af8bea" class="toggle"/><label for="section-12d625156815aa71c293f67ec2af8bea" ></label><a href="/03_prompt-engineering/">提示工程归档</a><ul>
+          <li data-nav-id="/03_prompt-engineering/01-prompt-engineering/" title="1. 开胃点心, 从几个案例开始" class="dd-item"><a href="/03_prompt-engineering/01-prompt-engineering/">1. 开胃点心, 从几个案例开始</a></li>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/" title="2. 提示工程日常使用技巧" class="dd-item"><input type="checkbox" id="section-eaaf74ee612e764c8d36f61de7dbd89f" class="toggle"/><label for="section-eaaf74ee612e764c8d36f61de7dbd89f" ></label><a href="/03_prompt-engineering/02-prompt-engineering/">2. 提示工程日常使用技巧</a><ul>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/daily-skills01/" title="2.1. 热身, 熟悉基本概念和编写要点" class="dd-item"><a href="/03_prompt-engineering/02-prompt-engineering/daily-skills01/">2.1. 热身, 熟悉基本概念和编写要点</a></li>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/daily-skills02/" title="2.2. 零样本和少样本提示" class="dd-item"><a href="/03_prompt-engineering/02-prompt-engineering/daily-skills02/">2.2. 零样本和少样本提示</a></li>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/daily-skills03/" title="2.3. 思维链与左右互搏" class="dd-item"><a href="/03_prompt-engineering/02-prompt-engineering/daily-skills03/">2.3. 思维链与左右互搏</a></li>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/daily-skills04/" title="2.4. 角色扮演提示" class="dd-item"><a href="/03_prompt-engineering/02-prompt-engineering/daily-skills04/">2.4. 角色扮演提示</a></li>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/daily-skills05/" title="2.5. 将提示拆分为提示链" class="dd-item"><a href="/03_prompt-engineering/02-prompt-engineering/daily-skills05/">2.5. 将提示拆分为提示链</a></li>
+          <li data-nav-id="/03_prompt-engineering/02-prompt-engineering/daily-skills06/" title="2.6. 故事提示" class="dd-item"><a href="/03_prompt-engineering/02-prompt-engineering/daily-skills06/">2.6. 故事提示</a></li></ul></li>
+          <li data-nav-id="/03_prompt-engineering/03-prompt-engineering/" title="3. 提示工程日常使用案例大全" class="dd-item"><a href="/03_prompt-engineering/03-prompt-engineering/">3. 提示工程日常使用案例大全</a></li>
+          <li data-nav-id="/03_prompt-engineering/04-prompt-engineering/" title="4. 高级提示工程概述" class="dd-item"><a href="/03_prompt-engineering/04-prompt-engineering/">4. 高级提示工程概述</a></li>
+          <li data-nav-id="/03_prompt-engineering/05_prompts/" title="提示工程资源, 案例集" class="dd-item"><a href="/03_prompt-engineering/05_prompts/">提示工程资源, 案例集</a></li></ul></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title"></div>
+          <ul>
+            <li><a class="padding" href="/about">关注我</a></li>
+          </ul>
+        </div>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                    <option id="zh-cn" value="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1/" selected></option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="black" value="black" selected>Black</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> 清理历史记录</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">       <p><a href="https://aiart.website/">🏠明文视界</a></p>
+      <p><a href="https://jupyter.fun/"> 🏠明文氛围编程</a></p>
+      <p><a href="https://wuhao.online/"> 🏠明文作品集</a></p>
+      <p>©2025 <img src="/MW.png" ></a> 明文</a></p>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1758541708" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1758541708" defer></script>
+    <script src="/js/featherlight.min.js?1758541708" defer></script>
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1758541708" defer></script>
+    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
+    </script>
+    <script src="https://unpkg.com/rapidoc/dist/rapidoc-min.js" defer></script>
+    <script>
+      window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
+    </script>
+    <script src="/js/theme.js?1758541708" defer></script>
+  </body>
+</html>

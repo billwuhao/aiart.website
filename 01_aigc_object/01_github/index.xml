@@ -66,15 +66,17 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/canopyai/Orpheus-TTS&#34;&gt;Orpheus-TTS&lt;/a&gt; 文本转语音生成, 克隆声音.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/QwenLM/Qwen2-Audio&#34;&gt;Qwen2-Audio&lt;/a&gt; 阿里语音对话模型.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/OpenGVLab/InternVL&#34;&gt;InternVL&lt;/a&gt; 接近 GPT-4o 表现的开源多模态对话模型&lt;/p&gt;
+&lt;!-- ------------------------------------------------------------------- --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/openai/whisper&#34;&gt;whisper&lt;/a&gt; 语音识别.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Plachtaa/seed-vc&#34;&gt;seed-vc&lt;/a&gt; 零样本声音转换, 歌唱.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/ZeyueT/AudioX&#34;&gt;AudioX&lt;/a&gt; 语音生成.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/bytedance/MegaTTS3&#34;&gt;MegaTTS3&lt;/a&gt; 声音克隆.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/edwko/OuteTTS&#34;&gt;OuteTTS&lt;/a&gt; 声音克隆, 情绪控制.&lt;/p&gt;
+&lt;!-- 20250430 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/nari-labs/dia&#34;&gt;nari-labs/dia&lt;/a&gt; 一次克隆生成超真实会话语音模型.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/MoonshotAI/Kimi-Audio&#34;&gt;MoonshotAI/Kimi-Audio&lt;/a&gt; Kimi 音频理解, 生成, 转换模型.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/ace-step/ACE-Step&#34;&gt;ACE-Step&lt;/a&gt;: 音乐生成基础模型, 高质量, 快速生成音乐, 编辑, 扩展等.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/gwx314/TechSinger&#34;&gt;TechSinger&lt;/a&gt;: 多语言歌唱声音合成&lt;/p&gt;</description>
+&lt;!-- 20250509 --&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ace-step/ACE-Step&#34;&gt;ACE-Step&lt;/a&gt;: 音乐生成基础模型, 高质量, 快速生成音乐, 编辑, 扩展等.&lt;/p&gt;</description>
     </item>
     <item>
       <title>图像</title>
@@ -122,28 +124,27 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/CherryHQ/cherry-studio&#34;&gt;cherry-studio&lt;/a&gt; 跨平台大模型聊天框架, 整合众多大模型, 支持 MCP.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/lobehub/lobe-chat&#34;&gt;lobe-chat&lt;/a&gt; 整合众多大模型的 AI 聊天框架.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/HiveNexus/hivechat&#34;&gt;hivechat&lt;/a&gt; 整合众多大模型的 AI 聊天框架.&lt;/p&gt;
+&lt;!-- ----------------------------------------------- --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/nickscamara/open-deep-research&#34;&gt;open-deep-research&lt;/a&gt; 深度研究开源实现.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/bytedance/pasa&#34;&gt;PaSa&lt;/a&gt; 文献综合检索智能体.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/OpenBMB/MiniCPM-o&#34;&gt;MiniCPM-o&lt;/a&gt; GPT-4o 级别的手机端大语言模型.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/VITA-MLLM/VITA&#34;&gt;VITA&lt;/a&gt; 手机端实时视频语音交互.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/krystalan/DRT&#34;&gt;DRT&lt;/a&gt; 基于大模型深度推理的翻译.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/HKUNLP/Dream&#34;&gt;Dream&lt;/a&gt; 扩散大语言模型.&lt;/p&gt;
+&lt;!-- 20250528 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/nvidia-cosmos/cosmos-reason1&#34;&gt;nvidia-cosmos/cosmos-reason1&lt;/a&gt;: 多模态模型理解物理世界&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/DMindAI/DMind-1&#34;&gt;DMindAI/DMind-1&lt;/a&gt;: 专为web3设计大语言模型&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/gen-verse/mmada&#34;&gt;Gen-Verse/MMaDA&lt;/a&gt;: 多模态扩散大语言模型&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/yix8/visualplanning&#34;&gt;yix8/VisualPlanning&lt;/a&gt;: 纯视觉推理模型&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/NetmanAIOps/ChatTS&#34;&gt;NetManAIOps/ChatTS&lt;/a&gt;: 时序大模型&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Tongyi-Zhiwen/QwenLong-L1&#34;&gt;Tongyi-Zhiwen/QwenLong-L1&lt;/a&gt;: 阿里长上下文推理模型&lt;/p&gt;
+&lt;!-- 20250528 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/nvidia-cosmos/cosmos-reason1&#34;&gt;nvidia-cosmos/cosmos-reason1&lt;/a&gt;: 多模态模型理解物理世界&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/DMindAI/DMind-1&#34;&gt;DMindAI/DMind-1&lt;/a&gt;: 专为web3设计大语言模型&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/gen-verse/mmada&#34;&gt;Gen-Verse/MMaDA&lt;/a&gt;: 多模态扩散大语言模型&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/yix8/visualplanning&#34;&gt;yix8/VisualPlanning&lt;/a&gt;: 纯视觉推理模型&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/NetmanAIOps/ChatTS&#34;&gt;NetManAIOps/ChatTS&lt;/a&gt;: 时序大模型&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Tongyi-Zhiwen/QwenLong-L1&#34;&gt;Tongyi-Zhiwen/QwenLong-L1&lt;/a&gt;: 阿里长上下文推理模型&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/google-ai-edge/gallery&#34;&gt;google-ai-edge/gallery&lt;/a&gt;: 手机上玩本地大模型&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://3dllm-mem.github.io/&#34;&gt;3DLLM-Mem&lt;/a&gt;: 让 AI 像人一样理解真实世界,长时记忆,空间感知&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/Multi-SpatialMLLM&#34;&gt;facebookresearch/Multi-SpatialMLLM&lt;/a&gt;: 多模态空间理解&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Yuliang-Liu/MonkeyOCR&#34;&gt;Yuliang-Liu/MonkeyOCR&lt;/a&gt;: 最强小参数(3b)中英文文档解析模型&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/Tongyi-Zhiwen/QwenLong-L1&#34;&gt;Tongyi-Zhiwen/QwenLong-L1&lt;/a&gt;: 阿里长上下文推理模型&lt;/p&gt;</description>
     </item>
     <item>
       <title>3D</title>
@@ -162,14 +163,13 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/Roblox/cube&#34;&gt;cube&lt;/a&gt; 3D 生成系统和模型.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/pippo&#34;&gt;pippo&lt;/a&gt; 单张图像生成人物多视角.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/a1600012888/PhysDreamer&#34;&gt;PhysDreamer&lt;/a&gt; 通过物理交互生成 3d.&lt;/p&gt;
+&lt;!-- -------------------------------------------------------- --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/fanegg/Feat2GS&#34;&gt;Feat2GS&lt;/a&gt; 3d 视图生成.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/hongsukchoi/HSfM_RELEASE&#34;&gt;HSfM&lt;/a&gt; 人物, 场景, 镜头三维重建.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://dualpm.github.io/&#34;&gt;DualPM&lt;/a&gt; 三维形状, 姿态重建.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/TencentARC/StereoCrafter&#34;&gt;StereoCrafter&lt;/a&gt; 2d 视频转沉浸式 3d.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/baaivision/See3D&#34;&gt;See3D&lt;/a&gt; 开放世界 3d 创建.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Stability-AI/stable-point-aware-3d&#34;&gt;stable-point-aware-3d&lt;/a&gt; 单图像 3d 物体重建.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/VAST-AI-Research/TripoSR&#34;&gt;TripoSR&lt;/a&gt; 单图像快速三维重建.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/microsoft/TRELLIS&#34;&gt;TRELLIS&lt;/a&gt; 图/文 生成 3d.&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/Stability-AI/stable-point-aware-3d&#34;&gt;stable-point-aware-3d&lt;/a&gt; 单图像 3d 物体重建.&lt;/p&gt;</description>
     </item>
     <item>
       <title>技术</title>
@@ -198,6 +198,7 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/thu-ml/SpargeAttn&#34;&gt;SpargeAttn&lt;/a&gt; 一种无需训练的稀疏注意力，可以加速任何模型推理.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/modelscope/DiffSynth-Studio&#34;&gt;DiffSynth-Studio&lt;/a&gt; 扩散模型优化技术.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/hustvl/LightningDiT&#34;&gt;LightningDiT&lt;/a&gt; 克服模型优化困境.&lt;/p&gt;
+&lt;!-- ------------------------------ --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/unslothai/unsloth&#34;&gt;unsloth&lt;/a&gt; 微调和量化大模型.&lt;/p&gt;</description>
     </item>
     <item>
@@ -213,23 +214,29 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/antgroup/echomimic_v2&#34;&gt;echomimic_v2&lt;/a&gt; 数字人.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/HelloVision/HelloMeme&#34;&gt;HelloMeme&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/CyberAgentAILab/TANGO&#34;&gt;TANGO&lt;/a&gt; 音频, 手势数字人.&lt;/p&gt;
+&lt;!-- ------------------------------------------------- --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/deepbrainai-research/float&#34;&gt;FLOAT&lt;/a&gt; 音频驱动头像说话.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://cangcz.github.io/Anchor-Crafter/&#34;&gt;AnchorCrafter&lt;/a&gt; 销售数字人生成.&lt;/p&gt;
+&lt;!-- 20250430 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Fantasy-AMAP/fantasy-talking&#34;&gt;Fantasy-AMAP/fantasy-talking&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/HumanAIGC-Engineering/OpenAvatarChat&#34;&gt;HumanAIGC-Engineering/OpenAvatarChat&lt;/a&gt; 阿里数字人框架.&lt;/p&gt;
+&lt;!-- 20250509 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/toto222/DICE-Talk&#34;&gt;DICE-Talk&lt;/a&gt;: 生动多样情感数字人&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/antonibigata/keysync&#34;&gt;KeySync&lt;/a&gt;: 高分辨率数字人&lt;/p&gt;
+&lt;!-- 20250528 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Tencent-Hunyuan/HunyuanPortrait&#34;&gt;Tencent-Hunyuan/HunyuanPortrait&lt;/a&gt;: 混元肖像数字人&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar&#34;&gt;Tencent-Hunyuan/HunyuanVideo-Avatar&lt;/a&gt;: 混元数字人&lt;/p&gt;
+&lt;!-- 20250528 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Tencent-Hunyuan/HunyuanPortrait&#34;&gt;Tencent-Hunyuan/HunyuanPortrait&lt;/a&gt;: 混元肖像数字人&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar&#34;&gt;Tencent-Hunyuan/HunyuanVideo-Avatar&lt;/a&gt;: 混元数字人&lt;/p&gt;
+&lt;!-- 20250625 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/alibaba/MNN&#34;&gt;alibaba/MNN&lt;/a&gt;: 阿里 3d 数字人&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://submit2025-dream.github.io/DreamActor-H1/&#34;&gt;DreamActor-H1&lt;/a&gt;: 数字人带货视频生成&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Omni-Avatar/OmniAvatar&#34;&gt;Omni-Avatar/OmniAvatar&lt;/a&gt;: 音频驱动全身数字人&lt;/p&gt;
+&lt;!-- 20250718 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Jackywine/Bella&#34;&gt;Jackywine/Bella&lt;/a&gt;: 数字伴侣&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/MeiGen-AI/InfiniteTalk&#34;&gt;MeiGen-AI/InfiniteTalk&lt;/a&gt;: 音频驱动数字人生成&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://dynamic-face.github.io/&#34;&gt;DynamicFace&lt;/a&gt;: 高质量视频人脸替换&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Pixel-Talk/GUAVA&#34;&gt;Pixel-Talk/GUAVA&lt;/a&gt;: 上半身3D数字人&lt;/p&gt;</description>
+&lt;!-- 20250901 --&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/MeiGen-AI/InfiniteTalk&#34;&gt;MeiGen-AI/InfiniteTalk&lt;/a&gt;: 音频驱动数字人生成&lt;/p&gt;</description>
     </item>
     <item>
       <title>办公智能体</title>
@@ -245,6 +252,7 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/camel-ai/owl&#34;&gt;owl&lt;/a&gt; 多 agent 实现世界任务自动化.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/AIDC-AI/ComfyUI-Copilot&#34;&gt;ComfyUI-Copilot&lt;/a&gt; ComfyUI 智能助手.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/hiroi-sora/Umi-OCR&#34;&gt;Umi-OCR&lt;/a&gt; 文字识别工具.&lt;/p&gt;
+&lt;!-- ---------------------------------------------- --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/AutoGPT&#34;&gt;AutoGPT&lt;/a&gt; 自动化任务执行, 办公.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/getomni-ai/zerox&#34;&gt;zerox&lt;/a&gt; 图像, pdf 文本识别转换.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/DAMO-NLP-SG/multimodal_textbook&#34;&gt;multimodal_textbook&lt;/a&gt; 多模态授课.&lt;/p&gt;
@@ -254,13 +262,11 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/AriaUI/Aria-UI&#34;&gt;Aria-UI&lt;/a&gt; 来自 GUI 说明的上下文感知.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/web-infra-dev/midscene&#34;&gt;midscene&lt;/a&gt; AI 操作浏览器.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/excalidraw/excalidraw&#34;&gt;excalidraw&lt;/a&gt; 虚拟手绘白板.&lt;/p&gt;
+&lt;!-- 20250430 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/microsoft/markitdown&#34;&gt;microsoft/markitdown&lt;/a&gt; 转换文件/文档为 markdown.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/browserbase/stagehand&#34;&gt;browserbase/stagehand&lt;/a&gt; 智能浏览器框架.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/kortix-ai/suna&#34;&gt;kortix-ai/suna&lt;/a&gt; 通用智能体.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/microsoft/UFO&#34;&gt;microsoft/UFO&lt;/a&gt; 桌面智能体系统.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/simular-ai/Agent-S&#34;&gt;simular-ai/Agent-S&lt;/a&gt; 操作计算机的智能体.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/bytedance/deer-flow&#34;&gt;bytedance/deer-flow&lt;/a&gt;: 深度搜索, 智能办公框架&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/CodePhiliaX/Chat2DB&#34;&gt;CodePhiliaX/Chat2DB&lt;/a&gt;: AI 驱动数据库工具&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/microsoft/UFO&#34;&gt;microsoft/UFO&lt;/a&gt; 桌面智能体系统.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MCP</title>
@@ -270,10 +276,14 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/modelcontextprotocol/servers&#34;&gt;Model Context Protocol Servers&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/ahujasid/ableton-mcp&#34;&gt;ableton-mcp&lt;/a&gt; Claude 与 Ableton Lives 交互并控制 Ableton, 实现了快速辅助音乐制作, 曲目创建和现场会话.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/punkpeye/awesome-mcp-servers&#34;&gt;awesome-mcp-servers&lt;/a&gt; 开源 MCP 服务资源合集.&lt;/p&gt;
+&lt;!-- ------------------------------ --&gt;
 &lt;p&gt;&lt;a href=&#34;https://mcp.so/&#34;&gt;MCP Servers&lt;/a&gt; MCP 服务资源合集.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/github/github-mcp-server&#34;&gt;github-mcp-server&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 20250430 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/microsoft/playwright-mcp&#34;&gt;microsoft/playwright-mcp&lt;/a&gt; playwright 自动化 mcp 协议.&lt;/p&gt;
+&lt;!-- 20250520 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/luminati-io/brightdata-mcp&#34;&gt;luminati-io/brightdata-mcp&lt;/a&gt;: 强大的 MCP 服务器&lt;/p&gt;
+&lt;!-- 20250718 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/czlonkowski/n8n-mcp&#34;&gt;czlonkowski/n8n-mcp&lt;/a&gt;: N8N-MCP 工作流构建&lt;/p&gt;</description>
     </item>
     <item>
@@ -283,6 +293,7 @@
       <guid>/01_aigc_object/01_github/10-git%E8%84%9A%E6%9C%AC%E5%B7%A5%E5%85%B7/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/tdrussell/diffusion-pipe&#34;&gt;diffusion-pipe&lt;/a&gt; 视频, 图像模型训练脚本.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/kohya-ss/musubi-tuner&#34;&gt;musubi-tuner&lt;/a&gt; 模型 lora 训练脚本.&lt;/p&gt;
+&lt;!-- ----------------------------------------------------------- --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/ostris/ai-toolkit&#34;&gt;ai-toolkit&lt;/a&gt; 模型训练脚本.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Nerogar/OneTrainer&#34;&gt;OneTrainer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Akegarasu/lora-scripts&#34;&gt;lora-scripts&lt;/a&gt; 秋叶训练器.&lt;/p&gt;
@@ -291,8 +302,11 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/hiyouga/LLaMA-Factory&#34;&gt;LLaMA-Factory&lt;/a&gt; 高效统一的大模型训练工具.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/InternLM/xtuner&#34;&gt;xtuner&lt;/a&gt; 高效灵活模型训练.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/bghira/SimpleTuner&#34;&gt;SimpleTuner:&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 20250514 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/XueZeyue/DanceGRPO&#34;&gt;XueZeyue/DanceGRPO&lt;/a&gt;: 字节模型训练脚本&lt;/p&gt;
+&lt;!-- 20250520 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/lodestone-rock/flow&#34;&gt;lodestone-rock/flow&lt;/a&gt;: 图像生成模型训练&lt;/p&gt;
+&lt;!-- 20250625 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/lrzjason/T2ITrainer&#34;&gt;lrzjason/T2ITrainer&lt;/a&gt;: 文生图训练脚本&lt;/p&gt;</description>
     </item>
     <item>
@@ -301,7 +315,9 @@
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/11-git%E9%87%91%E8%9E%8D/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/OpenBB-finance/OpenBB&#34;&gt;OpenBB&lt;/a&gt; 为世界各地的每个人提供投资研究的免费且完全开源的金融平台.&lt;/p&gt;
+&lt;!-- 20250718 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/TauricResearch/TradingAgents&#34;&gt;TauricResearch/TradingAgents&lt;/a&gt;: 多智能体金融交易框架&lt;/p&gt;
+&lt;!-- 20250802 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/sufe-aiflm-lab/fin-r1&#34;&gt;SUFE-AIFLM-Lab/Fin-R1&lt;/a&gt;: 金融推理大模型&lt;/p&gt;</description>
     </item>
     <item>
@@ -311,6 +327,7 @@
       <guid>/01_aigc_object/01_github/12-git%E7%94%9F%E7%89%A9/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/arcinstitute/evo2&#34;&gt;evo2&lt;/a&gt; 生命所有领域的基因组建模和设计.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/SakanaAI/asal&#34;&gt;asal&lt;/a&gt; 自动搜索人工生命.&lt;/p&gt;
+&lt;!-- 20250613 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/bowang-lab/BioReason&#34;&gt;bowang-lab/BioReason&lt;/a&gt;: 生物 DNA 推理大模型&lt;/p&gt;</description>
     </item>
     <item>
@@ -319,8 +336,11 @@
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/13-git%E6%95%B0%E5%AD%A6/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/TIGER-AI-Lab/TheoremExplainAgent&#34;&gt;TheoremExplainAgent&lt;/a&gt; 数学定理的自动可视化多模态理解.&lt;/p&gt;
+&lt;!-- 20250509 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Sphere-AI-Lab/FormalMATH-Bench&#34;&gt;Sphere-AI-Lab/FormalMATH-Bench&lt;/a&gt;: 大规模形式化数学基准&lt;/p&gt;
+&lt;!-- 20250520 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/jihe520/MathModelAgent&#34;&gt;jihe520/MathModelAgent&lt;/a&gt;: 专为数学建模设计的 Agent&lt;/p&gt;
+&lt;!-- 20250604 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/google-deepmind/formal-conjectures&#34;&gt;google-deepmind/formal-conjectures&lt;/a&gt;: 谷歌形式化数学猜想库&lt;/p&gt;</description>
     </item>
     <item>
@@ -329,10 +349,14 @@
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/14-git%E5%8C%BB%E7%96%97/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/bowang-lab/MedRAX&#34;&gt;MedRAX&lt;/a&gt; X 光胸片医学推理.&lt;/p&gt;
+&lt;!-- ----------------------------------- --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/baichuan-inc/Baichuan-M1-14B&#34;&gt;Baichuan-M1-14B&lt;/a&gt; 百川医疗大模型.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/FreedomIntelligence/HuatuoGPT-o1&#34;&gt;HuatuoGPT-o1&lt;/a&gt; 复杂医学推理模型.&lt;/p&gt;
+&lt;!-- 20250528 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/google-health/medgemma&#34;&gt;Google-Health/medgemma&lt;/a&gt;: 谷歌医疗大模型&lt;/p&gt;
+&lt;!-- 20250528 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/google-health/medgemma&#34;&gt;Google-Health/medgemma&lt;/a&gt;: 谷歌医疗大模型&lt;/p&gt;
+&lt;!-- 20250819 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/baichuan-inc/Baichuan-M2-32B&#34;&gt;baichuan-inc/Baichuan-M2-32B&lt;/a&gt;: 百川医疗增强推理模型&lt;/p&gt;</description>
     </item>
     <item>
@@ -341,7 +365,9 @@
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/15-git%E5%8C%96%E5%AD%A6/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/microsoft/mattergen&#34;&gt;MatterGen&lt;/a&gt; 微软开源, 无机化学材料生成模型.&lt;/p&gt;
+&lt;!-- ----------------------------------- --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/IBM/materials&#34;&gt;materials&lt;/a&gt; 材料科学基础模型.&lt;/p&gt;
+&lt;!-- 20250520 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/fairchem&#34;&gt;facebookresearch/fairchem&lt;/a&gt;: 化学机器学习方法库&lt;/p&gt;</description>
     </item>
     <item>
@@ -350,13 +376,19 @@
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/01_github/16-git%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Genesis-Embodied-AI/Genesis&#34;&gt;Genesis&lt;/a&gt; 通用机器人世界生成.&lt;/p&gt;
+&lt;!-- ---------------------------------------------- --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/LeCAR-Lab/ASAP&#34;&gt;LeCAR-Lab/ASAP&lt;/a&gt; 机器人敏捷技能学习.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/OpenDriveLab/agibot-world&#34;&gt;AgiBot-World&lt;/a&gt; 机器人世界操作智能化系统.&lt;/p&gt;
+&lt;!-- 20250509 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/roboterax/video-prediction-policy&#34;&gt;roboterax/video-prediction-policy&lt;/a&gt;: 通用机器人视觉预测&lt;/p&gt;
+&lt;!-- 20250613 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/vjepa2&#34;&gt;facebookresearch/vjepa2&lt;/a&gt;: 世界模型, 机器人通过视频进行自我监督学习&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/huggingface/lerobot&#34;&gt;huggingface/lerobot&lt;/a&gt;: 机器人开发&lt;/p&gt;
+&lt;!-- 20250625 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Qi-Zhangyang/GPT4Scene-and-VLN-R1&#34;&gt;Qi-Zhangyang/GPT4Scene-and-VLN-R1&lt;/a&gt;: 用视觉模型理解 3D 场景&lt;/p&gt;
+&lt;!-- 20250718 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/alibaba-damo-academy/WorldVLA&#34;&gt;alibaba-damo-academy/WorldVLA&lt;/a&gt;: 动作世界模型&lt;/p&gt;
+&lt;!-- 20250819 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/OpenMind/OM1&#34;&gt;OpenMind/OM1&lt;/a&gt;: 机器人系统&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/alibaba-damo-academy/RynnRCP&#34;&gt;alibaba-damo-academy/RynnRCP&lt;/a&gt;: 机器人上下文协议&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/AgibotTech/Genie-Envisioner&#34;&gt;AgibotTech/Genie-Envisioner&lt;/a&gt;: 机器人操纵统一世界平台&lt;/p&gt;</description>
@@ -375,9 +407,11 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/abi/screenshot-to-code&#34;&gt;screenshot-to-code&lt;/a&gt; 屏幕截图转代码.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/google/adk-python&#34;&gt;google/adk-python&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/openai/codex&#34;&gt;codex&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 20250430 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/wandb/openui&#34;&gt;wandb/openui&lt;/a&gt; 自然语言构建 UI 交互.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/fuma-nama/fumadocs&#34;&gt;fuma-nama/fumadocs&lt;/a&gt; 为项目生成漂亮文档.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/pad-ws/pad.ws&#34;&gt;pad-ws/pad.ws&lt;/a&gt; 在浏览器中边画边开发.&lt;/p&gt;
+&lt;!-- 20250718 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/google-gemini/gemini-cli&#34;&gt;google-gemini/gemini-cli&lt;/a&gt;: 谷歌gemini终端智能体&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/getAsterisk/claudia&#34;&gt;getAsterisk/claudia&lt;/a&gt;: claude code 的开发工具&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/microsoft/vscode-copilot-chat&#34;&gt;microsoft/vscode-copilot-chat&lt;/a&gt;: 微软 vscode AI插件&lt;/p&gt;
@@ -385,14 +419,13 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/googleapis/genai-toolbox&#34;&gt;googleapis/genai-toolbox&lt;/a&gt;: 数据库mcp服务器&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/google-gemini/genai-processors&#34;&gt;google-gemini/genai-processors&lt;/a&gt;: 高效并行内容处理&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/universal-tool-calling-protocol&#34;&gt;Universal Tool Calling Protocol&lt;/a&gt;: 通用工具调用协议&lt;/p&gt;
+&lt;!-- 20250802 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/chaitin/MonkeyCode&#34;&gt;chaitin/MonkeyCode&lt;/a&gt;: 企业级 AI 编程助手，支持私有化离线部署&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/QwenLM/qwen-code&#34;&gt;QwenLM/qwen-code&lt;/a&gt;: 阿里编程智能体&lt;/p&gt;
+&lt;!-- 20250819 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/google/langextract&#34;&gt;google/langextract&lt;/a&gt;: 结构化信息精准提取python库&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/openai/agents.md&#34;&gt;openai/agents.md&lt;/a&gt;: 智能体编程指导&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Xuanwo/acp-claude-code&#34;&gt;Xuanwo/acp-claude-code&lt;/a&gt;: The ACP implementation for Claude Code&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/OpenBMB/UltraRAG&#34;&gt;OpenBMB/UltraRAG&lt;/a&gt;: 基于MCP低代码RAG框架&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/agentscope-ai/agentscope&#34;&gt;agentscope-ai/agentscope&lt;/a&gt;: 多智能体开发框架&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/tanghaom/AppEvalPilot&#34;&gt;tanghaom/AppEvalPilot&lt;/a&gt;: 自动化测试工具&lt;/p&gt;</description>
+&lt;!-- 20250901 --&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/openai/agents.md&#34;&gt;openai/agents.md&lt;/a&gt;: 智能体编程指导&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

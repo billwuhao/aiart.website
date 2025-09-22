@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI 项目资源集 on aiart.website</title>
+    <title>已分类归档AI项目资源集 on aiart.website</title>
     <link>/01_aigc_object/</link>
-    <description>Recent content in AI 项目资源集 on aiart.website</description>
+    <description>Recent content in 已分类归档AI项目资源集 on aiart.website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/01_aigc_object/index.xml" rel="self" type="application/rss+xml" />
@@ -82,11 +82,17 @@
 &lt;p&gt;&lt;a href=&#34;https://tensor.art/&#34;&gt;tensor.art&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://cephalon.cloud/aigc&#34;&gt;端脑云&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://marketplace.dify.ai/&#34;&gt;Dify 市场&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 20250430 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://onethingai.com/&#34;&gt;OneThingAI算力云, GPU算力平台&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 20250509 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://modelers.cn/&#34;&gt;魔乐社区&lt;/a&gt;:&lt;/p&gt;
+&lt;!-- 20250613 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.waytoagi.com/zh&#34;&gt;WaytoAGI&lt;/a&gt;: 通往AGI之路，最好的 AI 知识库和工具站&lt;/p&gt;
+&lt;!-- 20250625 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.chenyu.cn/console/shop&#34;&gt;晨羽智云&lt;/a&gt;: 零门槛使用AI技术，独占显卡、稳定高速、按分钟计费&lt;/p&gt;
+&lt;!-- 20250901 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.autodl.com/home&#34;&gt;AutoDL算力云&lt;/a&gt;: 弹性、好用、省钱，GPU算力零售价格新标杆&lt;/p&gt;
+&lt;!-- 20250910 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.gpufree.cn/home&#34;&gt;算力自由&lt;/a&gt;: 算力租用，提供各种镜像仓库&lt;/p&gt;</description>
     </item>
     <item>
@@ -117,12 +123,12 @@
 &lt;p&gt;&lt;a href=&#34;https://humanaigc.github.io/animate-anyone-2/&#34;&gt;animate-anyone-2&lt;/a&gt; 人物高保真视频生成.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://cinemaster-dev.github.io/&#34;&gt;cinemaster&lt;/a&gt; 3d 感知和控制电影级视频生成框架.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/SagiPolaczek/NeuralSVG&#34;&gt;NeuralSVG&lt;/a&gt; 文本到矢量图生成.&lt;/p&gt;
+&lt;!-- ------------------------------------------------------------------- --&gt;
 &lt;p&gt;&lt;a href=&#34;https://omnihuman-lab.github.io/&#34;&gt;omnihuman-lab.github.io&lt;/a&gt; 口型同步.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://text2edit.github.io/&#34;&gt;Text-to-Edit&lt;/a&gt; 广告视频生成.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://yuzhou914.github.io/ConceptMaster/&#34;&gt;ConceptMaster&lt;/a&gt; 多人物一致性视频生成.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.wlyu.me/FaceLift/&#34;&gt;FaceLift&lt;/a&gt; 单张图像生成 3d 头像.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/IceClear/SeedVR&#34;&gt;SeedVR&lt;/a&gt; 任何分辨率视频高清修复.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://videoanydoor.github.io/&#34;&gt;VideoAnydoor&lt;/a&gt; 视频中可控插入对象.&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/IceClear/SeedVR&#34;&gt;SeedVR&lt;/a&gt; 任何分辨率视频高清修复.&lt;/p&gt;</description>
     </item>
     <item>
       <title>项目合集,学习资源</title>
@@ -140,6 +146,7 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/huggingface/agents-course&#34;&gt;agents-course&lt;/a&gt; hugging face 开源智能体开发课程.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/vectara/hallucination-leaderboard&#34;&gt;hallucination-leaderboard&lt;/a&gt; 各大模型总结文档时产生幻觉概率排行榜.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://learn.deeplearning.ai/&#34;&gt;learn.deeplearning&lt;/a&gt;&lt;/p&gt;
+&lt;!-- ---------------------------------------------------- --&gt;
 &lt;p&gt;&lt;a href=&#34;https://artificialanalysis.ai/&#34;&gt;Artificial Analysis&lt;/a&gt; 模型可视化分析比较.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/rasbt/LLMs-from-scratch&#34;&gt;LLMs-from-scratch&lt;/a&gt; 从头实现大语言模型书籍.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/jingyaogong/minimind&#34;&gt;minimind&lt;/a&gt; 3 小时从零训练小参数大模型.&lt;/p&gt;
@@ -150,8 +157,7 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/promptslab/Awesome-Prompt-Engineering&#34;&gt;Awesome-Prompt-Engineering&lt;/a&gt; 提示工程资源集合.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;Prompt-Engineering-Guide&lt;/a&gt; 提示工程指南.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Hannibal046/Awesome-LLM&#34;&gt;Awesome-LLM&lt;/a&gt; 大语言模型资源集合.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/HqWu-HITCS/Awesome-Chinese-LLM&#34;&gt;Awesome-Chinese-LLM&lt;/a&gt; 中文大语言模型资源集合.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/meta-llama/llama-recipes&#34;&gt;llama-recipes&lt;/a&gt; Llama 构建：推理、微调、RAG的入门指南&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/HqWu-HITCS/Awesome-Chinese-LLM&#34;&gt;Awesome-Chinese-LLM&lt;/a&gt; 中文大语言模型资源集合.&lt;/p&gt;</description>
     </item>
     <item>
       <title>其他</title>
@@ -161,6 +167,7 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://matrix.tencent.com/ai-detect/ai_gen&#34;&gt;AI 生成检测&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://huggingface.co/spaces/lllyasviel/iclight-v2-vary&#34;&gt;iclight-v2-vary&lt;/a&gt; IC Light 免费在线体验.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://huggingface.co/spaces/lllyasviel/iclight-v2&#34;&gt;iclight-v2&lt;/a&gt; IC Light 免费在线体验.&lt;/p&gt;
+&lt;!-- 20250901 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://aivilization.ai/&#34;&gt;Aivilization&lt;/a&gt;: 多智能体人类社会模拟沙盒&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://yupp.ai/get-started&#34;&gt;Get Started | Yupp&lt;/a&gt;: 前言大模型对比体验&lt;/p&gt;</description>
     </item>
@@ -176,13 +183,20 @@
 &lt;p&gt;&lt;a href=&#34;https://www.figure.ai/&#34;&gt;Figure&lt;/a&gt; 通用人形机器人.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.clonerobotics.com/&#34;&gt;Clone World&lt;/a&gt; 肌肉骨骼，智能机器人.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://zoo.dev/&#34;&gt;zoo.dev&lt;/a&gt; 硬件设计&lt;/p&gt;
+&lt;!-- 20250430 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.pollen-robotics.com/&#34;&gt;Reachy&lt;/a&gt; 开源机器人.&lt;/p&gt;
+&lt;!-- 20250509 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.videomimic.net/&#34;&gt;VideoMimic&lt;/a&gt;: 视频动作机器人迁移, 机器人看看视频就学习动作&lt;/p&gt;
+&lt;!-- 20250528 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://prince687028.github.io/UAV-Flow/&#34;&gt;UAV-Flow&lt;/a&gt;: 语言控制无人机精准飞行&lt;/p&gt;
+&lt;!-- 20250718 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://orbbec.com.cn/&#34;&gt;奥比中光&lt;/a&gt;: 机器人视觉及AI视觉科技公司&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://deepmind.google/discover/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/&#34;&gt;Gemini Robotics On&lt;/a&gt;: Device brings AI to local robotic devices - Google DeepMind&lt;/p&gt;
+&lt;!-- 20250802 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://seed.bytedance.com/zh/GR3&#34;&gt;字节跳动Seed&lt;/a&gt;: 机器人操作大模型&lt;/p&gt;
+&lt;!-- 20250901 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://robomart.ai/&#34;&gt;Robomart&lt;/a&gt;: 世界最先进送货机器人&lt;/p&gt;
+&lt;!-- 20250910 --&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.tesla.com/&#34;&gt;Tesla&lt;/a&gt;: 特斯拉&lt;/p&gt;</description>
     </item>
   </channel>

@@ -8,11 +8,28 @@
     <language>zh-cn</language>
     <lastBuildDate>Sat, 23 Nov 2024 16:07:59 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI 项目资源集</title>
+      <title>《明文AI观察》</title>
+      <link>/04_mwgc/</link>
+      <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
+      <guid>/04_mwgc/</guid>
+      <description>&lt;h2 id=&#34;目录&#34;&gt;目录&lt;/h2&gt;
+
+&lt;ul class=&#34;children children-li children-sort-weight&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1%E5%8D%87%E7%BA%A7/&#34; &gt;环境将是帝国的疆土，智能体则是帝国的生态&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/04_mwgc/ai%E9%A3%9F%E7%89%A9%E9%93%BE/&#34; &gt;未来AI食物链的三个层级&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1/&#34; &gt;欢迎来到“环境即服务” (EaaS) 时代&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;/04_mwgc/%E5%8D%83%E5%B9%B4%E9%9A%BE%E9%81%87%E7%9A%84%E6%9C%BA%E9%81%87%E4%B8%8E%E5%8F%98%E9%9D%A9/&#34; &gt;千年难遇的变革和机遇&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>已分类归档AI项目资源集</title>
       <link>/01_aigc_object/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/01_aigc_object/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;picture&gt;
+  &lt;source srcset=&#34;https://fonts.gstatic.com/s/e/notoemoji/latest/1f30f/512.webp&#34; type=&#34;image/webp&#34;&gt;
+  &lt;img src=&#34;https://fonts.gstatic.com/s/e/notoemoji/latest/1f30f/512.gif&#34; alt=&#34;🌏&#34; width=&#34;32&#34; height=&#34;32&#34;&gt;
+&lt;/picture&gt;
 &lt;p&gt;“AI 一天，人间一年”，恰如其分地描绘了人工智能领域的飞速发展。短短一天，AI 世界可能就诞生了无数令人瞠目结舌的项目、应用、工具和资源，从开源到闭源，百花齐放，让人目不暇接。开源社区里，开发者们激情碰撞，新模型, 新技术, 层出不穷；而闭源领域，科技巨头们则暗自角力，每次更新都拍案叫绝, 每次突破都像在科技的画布上泼洒浓墨，令人兴奋不已。&lt;/p&gt;
 &lt;p&gt;这些 “宝贝”，有提升效率的智能助手，有让人脑洞大开的创意工具，还有深入行业变革的垂直应用。为了不错过这些瑰宝，我把正使用非常棒的, 或非常前沿的, 或接触到待进一步了解的等等, 分类整理，随时翻阅、使用。AI 发展从通用智能到专业化落地，从技术实验到生活渗透，速度之快，堪称 “人间一年难追 AI 一日”。未来，AI 不仅是我们手中的工具，更可能是思想的延伸、创造的火花。这样的时代，你我怎能不雀跃？快来一起探索吧！&lt;/p&gt;
 
@@ -64,53 +81,37 @@
       <link>/02_comfyui/</link>
       <pubDate>Sat, 23 Nov 2024 16:07:59 +0800</pubDate>
       <guid>/02_comfyui/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;ComfyUI 的特色&lt;/strong&gt;:&lt;/p&gt;
+      <description>&lt;h2 id=&#34;明文视界-github-comfyui-节点项目&#34;&gt;明文视界 GitHub ComfyUI 节点项目:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;节点化工作流程: ComfyUI 允许用户通过节点构建复杂的图像生成流程，每个节点执行特定的功能，例如加载模型、处理图像、应用效果等。这种方式提供了高度的灵活性和自定义能力。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/billwuhao/ComfyUI_SOME&#34;&gt;ComfyUI_SOME&lt;/a&gt;: &lt;strong&gt;歌声转可编辑 midi.&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;低显存需求: 与其他类似工具相比，ComfyUI 对显存的要求较低，可以在较低配置的设备上运行。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/billwuhao/ComfyUI_Seed-VC&#34;&gt;ComfyUI_Seed-VC&lt;/a&gt;: &lt;strong&gt;变声, 将说话, 唱歌换成任意声音, 而不改变内容, 节奏.&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;快速生成: 优化后的内部流程使其生成图片的速度较快，性能优于一些传统的 WebUI。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/billwuhao/Comfyui_HeyGem&#34;&gt;Comfyui_HeyGem&lt;/a&gt;: 硅基流动&lt;strong&gt;快速, 高质量数字人生成. 支持全身, 任意长度, 任意分辨率生成.&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;插件支持: ComfyUI 支持丰富的插件生态，用户可以通过插件扩展功能。活跃的开源社区提供了丰富的插件和资源，提升了 ComfyUI 的功能性和适用性。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/billwuhao/ComfyUI_IndexTTS&#34;&gt;ComfyUI_IndexTTS&lt;/a&gt;: B站声音克隆. &lt;strong&gt;快速, 高质量, 自定义音色, 支持双人对话, 中英文混合等.&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;适用于复杂场景: 特别擅长处理长期复杂的大型项目，能够将多步骤操作简化为连贯的工作流。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/billwuhao/ComfyUI_ACE-Step&#34;&gt;ComfyUI_ACE-Step&lt;/a&gt;: 音乐生成基础模型, &lt;strong&gt;支持 19 种语言, 快速, 高质量音乐生成, 可编辑, 重绘, 扩展, LoRA.&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;跨平台支持: ComfyUI 不仅支持 NVIDIA GPU，还能在 CPU 上运行，提供了更广泛的设备兼容性。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/billwuhao/ComfyUI_ASR-zh&#34;&gt;ComfyUI_ASR-zh&lt;/a&gt;: &lt;strong&gt;快速准确的中文语音识别, 可识别带背景音乐的歌声, 带时间戳.&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;创意自由: 为艺术家、设计师和 AI 研究人员提供了强大的工具，使他们能够实现更精细的图像生成控制和实验。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/billwuhao/ComfyUI_parakeet-tdt&#34;&gt;ComfyUI_parakeet-tdt&lt;/a&gt;: 英伟达高质量英文语音识别, &lt;strong&gt;3 秒准确识别 1 分钟音频, 带时间戳&lt;/strong&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;学习与教育: 尽管有一定的学习曲线，ComfyUI 为教育和培训提供了良好的平台，可以帮助学生理解图像处理和生成的原理。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/billwuhao/ComfyUI_MegaTTS3&#34;&gt;ComfyUI_MegaTTS3&lt;/a&gt;: 字节非常强的声音克隆节点, 速度快, 中英文(可跨语言克隆), 克隆声音几乎一模一样. &lt;strong&gt;支持自定义音色; 支持双人对话.&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;效率提升: 通过简化和自动化复杂的工作流程，ComfyUI 能够显著提升工作效率，特别是在需要频繁生成或修改图像的场景中。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/billwuhao/ComfyUI_PortraitTools&#34;&gt;ComfyUI_PortraitTools&lt;/a&gt;: 肖像, 图片处理工具节点, 包括自定义路径加载图片(包括子目录); 图片, 视频上水印; 图片按面部矫正; 面部检测裁剪; 证件照生成; 图片简单美化等.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;comfyui-学习资源集合&#34;&gt;ComfyUI 学习资源集合&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;官网 &lt;a href=&#34;https://www.comfy.org/&#34;&gt;ComfyUI&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;官方桌面版新手指南 &lt;a href=&#34;https://comfyorg.notion.site/ComfyUI-Desktop-User-Guide-1146d73d365080a49058e8d629772f0a&#34;&gt;ComfyUI Desktop User Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;所有节点信息 &lt;a href=&#34;https://ltdrdata.github.io/&#34;&gt;ComfyUI Nodes Info&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;另一个非常非常棒的节点信息站 &lt;a href=&#34;https://docs.getsalt.ai/md/Comfy/&#34;&gt;ComfyUI Node Documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blenderneko.github.io/ComfyUI-docs/&#34;&gt;ComfyUI Community Manual&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul class=&#34;children children-li children-sort-weight&#34;&gt;
-&lt;li&gt;&lt;a href=&#34;/02_comfyui/01_interface/&#34; &gt;界面介绍&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
-&lt;li&gt;&lt;a href=&#34;/02_comfyui/02_basic/&#34; &gt;基本概念&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
-&lt;li&gt;&lt;a href=&#34;/02_comfyui/03_built-in/&#34; &gt;内置节点&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;/02_comfyui/03_built-in/01-built-in/&#34; &gt;内置节点 1&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
-&lt;li&gt;&lt;a href=&#34;/02_comfyui/03_built-in/02-built-in/&#34; &gt;内置节点 2&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;
-&lt;li&gt;&lt;a href=&#34;/02_comfyui/03_built-in/03-built-in/&#34; &gt;内置节点 3&lt;/a&gt;&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/ul&gt;
-&lt;/ul&gt;</description>
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/billwuhao/ComfyUI_Prompt-All-In-One&#34;&gt;ComfyUI_Prompt-All-In-One&lt;/a&gt;: 为所有影,音,图,文创作生成提示的 ComfyUI 节点. &lt;strong&gt;高质量音频反推打标; 支持所有 ollama 模型, 高质量 Flux 提示自动生成; joy 反推; 谷歌 Gemini; DeepSeek; Qwen 等&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>提示工程归档</title>

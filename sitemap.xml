@@ -9,10 +9,6 @@
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/01_aigc_object/</loc>
-    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
-  </url>
-  <url>
     <loc>/01_aigc_object/01_github/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
@@ -53,10 +49,6 @@
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
-    <loc>/02_comfyui/</loc>
-    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
-  </url>
-  <url>
     <loc>/01_aigc_object/02_closed-cn/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
@@ -90,10 +82,6 @@
   </url>
   <url>
     <loc>/02_comfyui/03_built-in/</loc>
-    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
-  </url>
-  <url>
-    <loc>/03_prompt-engineering/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
   </url>
   <url>
@@ -239,6 +227,38 @@
   <url>
     <loc>/01_aigc_object/01_github/17-git%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/04_mwgc/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/01_aigc_object/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/02_comfyui/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/03_prompt-engineering/</loc>
+    <lastmod>2024-11-23T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1%E5%8D%87%E7%BA%A7/</loc>
+    <lastmod>2025-04-15T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/04_mwgc/ai%E9%A3%9F%E7%89%A9%E9%93%BE/</loc>
+    <lastmod>2025-04-15T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1/</loc>
+    <lastmod>2025-04-15T16:07:59+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/04_mwgc/%E5%8D%83%E5%B9%B4%E9%9A%BE%E9%81%87%E7%9A%84%E6%9C%BA%E9%81%87%E4%B8%8E%E5%8F%98%E9%9D%A9/</loc>
+    <lastmod>2025-04-15T16:07:59+08:00</lastmod>
   </url>
   <url>
     <loc>/about/</loc>

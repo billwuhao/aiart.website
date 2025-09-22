@@ -10,18 +10,18 @@
     <title>3. 提示工程日常使用案例大全 - aiart.website</title>
     <link href="/03_prompt-engineering/03-prompt-engineering/index.xml" rel="alternate" type="application/rss+xml" title="aiart.website"><link rel="icon" href="/favicon.png" type="image/png" />
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1757663616" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1757663616" rel="stylesheet"></noscript>
-    <link href="/css/featherlight.min.css?1757663616" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1757663616" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1757663616" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1757663616" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1757663616" rel="stylesheet">
-    <link href="/css/nucleus.css?1757663616" rel="stylesheet">
-    <link href="/css/fonts.css?1757663616" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1757663616" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1757663616" rel="stylesheet">
-    <link href="/css/theme-black.css?1757663616" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1757663616" rel="stylesheet">
-    <link href="/css/variant.css?1757663616" rel="stylesheet">
-    <link href="/css/print.css?1757663616" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1757663616"></script>
+    <link href="/css/fontawesome-all.min.css?1758541708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1758541708" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1758541708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1758541708" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1758541708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1758541708" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1758541708" rel="stylesheet">
+    <link href="/css/nucleus.css?1758541708" rel="stylesheet">
+    <link href="/css/fonts.css?1758541708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1758541708" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1758541708" rel="stylesheet">
+    <link href="/css/theme-black.css?1758541708" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1758541708" rel="stylesheet">
+    <link href="/css/variant.css?1758541708" rel="stylesheet">
+    <link href="/css/print.css?1758541708" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1758541708"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -37,7 +37,7 @@
       var baseUriFull='/';
       window.variants && variants.init( [ 'black' ] );
     </script>
-    <script src="/js/jquery.min.js?1757663616" defer></script>
+    <script src="/js/jquery.min.js?1758541708" defer></script>
   </head>
   <body class="mobile-support html" data-url="/03_prompt-engineering/03-prompt-engineering/">
     <div id="body" class="default-animation">
@@ -65,7 +65,107 @@
           <article class="default">
 <h1>3. 提示工程日常使用案例大全</h1>
 
-
+<!-- 
+2.1 文章写作：生成文章草稿、大纲、润色、改写
+2.2 文案创作：广告文案、社交媒体文案、营销文案
+2.3 故事创作：小说、短篇故事、剧本
+2.4 诗歌创作：现代诗、古诗词
+2.5 邮件写作：商务邮件、个人邮件、邀请函
+2.6 报告撰写：工作报告、研究报告
+2.7 新闻稿撰写
+2.8 学术论文写作辅助
+2.9 简历和求职信撰写
+2.10 演讲稿写作
+2.11 代码生成：生成各种编程语言的代码片段
+2.12 代码解释：解释现有代码的功能和逻辑
+2.13 代码调试：找出代码中的错误并给出修改建议
+2.14 代码优化：提升代码的性能和可读性
+2.15 代码文档生成
+2.16 不同编程语言的提示策略
+2.17 自动化测试代码生成
+2.18 数据库操作代码生成
+2.19 Web 开发相关代码生成
+2.20 移动应用相关代码生成
+2.21 文本翻译：不同语言之间的文本翻译
+2.22 句子翻译：句子和短语的精准翻译
+2.23 文档翻译：完整文档的翻译
+2.24 专业领域翻译：科技、法律、医学等领域的翻译
+2.25 口语翻译：语音翻译和实时翻译
+2.26 多语言文本生成
+2.27 翻译质量评估和改进
+2.28 翻译中的文化差异处理
+2.29 翻译风格选择
+2.30 翻译工具的提示技巧
+2.31 知识问答：回答各种问题
+2.32 资料检索：搜索互联网信息
+2.33 概念解释：解释抽象概念
+2.34 论文解读：解读学术论文
+2.35 学习计划制定：根据个人情况制定学习计划
+2.36 笔记整理和总结
+2.37 辅助研究和数据分析
+2.38 多语言学习辅助
+2.39 概念对比和分析
+2.40 跨学科研究辅助
+2.41 图片描述生成
+2.42 音乐创作辅助
+2.43 艺术风格转换
+2.44 创意文案生成
+2.45 故事灵感生成
+2.46 游戏设计辅助
+2.47 建筑设计辅助
+2.48 服装设计辅助
+2.49 产品原型设计
+2.50 创意方案评估和改进
+2.51 日程管理
+2.52 购物清单生成
+2.53 菜谱推荐
+2.54 旅行计划制定
+2.55 健康管理建议
+2.56 个人理财助手
+2.57 社交媒体内容生成
+2.58 娱乐活动推荐
+2.59 本地服务信息查询
+2.60 客户服务助手
+2.61 数据清洗
+2.62 数据可视化
+2.63 统计分析
+2.64 数据挖掘
+2.65 报告生成
+2.66 趋势预测
+2.67 异常检测
+2.68 商业智能分析
+2.69 风险评估
+2.70 决策支持
+2.71 会议纪要生成
+2.72 演示文稿制作
+2.73 流程图绘制
+2.74 项目管理辅助
+2.75 任务分配
+2.76 文件格式转换
+2.77 邮件内容摘要
+2.78 合同审查辅助
+2.79 知识库管理
+2.80 自动化报告生成
+2.81 辅助教学内容生成
+2.82 个性化学习方案
+2.83 学生作业批改辅助
+2.84 考试试题生成
+2.85 学习内容总结
+2.86 学习资料检索
+2.87 虚拟辅导
+2.88 教学反馈分析
+2.89 教学资源推荐
+2.90 创新教学方法
+2.91 医疗健康
+2.92 金融行业
+2.93 法律行业
+2.94 零售行业
+2.95 制造业
+2.96 农业
+2.97 环保
+2.98 交通运输
+2.99 政府部门
+2.100 娱乐行业 -->
             <footer class="footline">
             </footer>
           </article>
@@ -88,16 +188,21 @@
         <script>
           var contentLangs=['zh'];
         </script>
-        <script src="/js/auto-complete.js?1757663616" defer></script>
-        <script src="/js/lunr.min.js?1757663616" defer></script>
-        <script src="/js/lunr.stemmer.support.min.js?1757663616" defer></script>
-        <script src="/js/lunr.multi.min.js?1757663616" defer></script>
-        <script src="/js/lunr.zh.min.js?1757663616" defer></script>
-        <script src="/js/search.js?1757663616" defer></script>
+        <script src="/js/auto-complete.js?1758541708" defer></script>
+        <script src="/js/lunr.min.js?1758541708" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1758541708" defer></script>
+        <script src="/js/lunr.multi.min.js?1758541708" defer></script>
+        <script src="/js/lunr.zh.min.js?1758541708" defer></script>
+        <script src="/js/search.js?1758541708" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
-          <li data-nav-id="/01_aigc_object/" title="AI 项目资源集" class="dd-item"><input type="checkbox" id="section-6923aefeee137d3a1b22febe43e9c1b9" class="toggle"/><label for="section-6923aefeee137d3a1b22febe43e9c1b9" ></label><a href="/01_aigc_object/">AI 项目资源集</a><ul>
+          <li data-nav-id="/04_mwgc/" title="《明文AI观察》" class="dd-item"><input type="checkbox" id="section-6a42486e2cada4a0cf485f25f9ca3755" class="toggle"/><label for="section-6a42486e2cada4a0cf485f25f9ca3755" ></label><a href="/04_mwgc/">《明文AI观察》</a><ul>
+          <li data-nav-id="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1%E5%8D%87%E7%BA%A7/" title="环境将是帝国的疆土，智能体则是帝国的生态" class="dd-item"><a href="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1%E5%8D%87%E7%BA%A7/">环境将是帝国的疆土，智能体则是帝国的生态</a></li>
+          <li data-nav-id="/04_mwgc/ai%E9%A3%9F%E7%89%A9%E9%93%BE/" title="未来AI食物链的三个层级" class="dd-item"><a href="/04_mwgc/ai%E9%A3%9F%E7%89%A9%E9%93%BE/">未来AI食物链的三个层级</a></li>
+          <li data-nav-id="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1/" title="欢迎来到“环境即服务” (EaaS) 时代" class="dd-item"><a href="/04_mwgc/%E7%8E%AF%E5%A2%83%E5%8D%B3%E6%9C%8D%E5%8A%A1/">欢迎来到“环境即服务” (EaaS) 时代</a></li>
+          <li data-nav-id="/04_mwgc/%E5%8D%83%E5%B9%B4%E9%9A%BE%E9%81%87%E7%9A%84%E6%9C%BA%E9%81%87%E4%B8%8E%E5%8F%98%E9%9D%A9/" title="千年难遇的变革和机遇" class="dd-item"><a href="/04_mwgc/%E5%8D%83%E5%B9%B4%E9%9A%BE%E9%81%87%E7%9A%84%E6%9C%BA%E9%81%87%E4%B8%8E%E5%8F%98%E9%9D%A9/">千年难遇的变革和机遇</a></li></ul></li>
+          <li data-nav-id="/01_aigc_object/" title="已分类归档AI项目资源集" class="dd-item"><input type="checkbox" id="section-6923aefeee137d3a1b22febe43e9c1b9" class="toggle"/><label for="section-6923aefeee137d3a1b22febe43e9c1b9" ></label><a href="/01_aigc_object/">已分类归档AI项目资源集</a><ul>
           <li data-nav-id="/01_aigc_object/01_github/" title="GitHub 开源项目" class="dd-item"><input type="checkbox" id="section-4850e9adfca824729d998fcbfaa6581c" class="toggle"/><label for="section-4850e9adfca824729d998fcbfaa6581c" ></label><a href="/01_aigc_object/01_github/">GitHub 开源项目</a><ul>
           <li data-nav-id="/01_aigc_object/01_github/01-git%E8%A7%86%E9%A2%91/" title="视频" class="dd-item"><a href="/01_aigc_object/01_github/01-git%E8%A7%86%E9%A2%91/">视频</a></li>
           <li data-nav-id="/01_aigc_object/01_github/02-git%E8%AF%AD%E9%9F%B3/" title="语音" class="dd-item"><a href="/01_aigc_object/01_github/02-git%E8%AF%AD%E9%9F%B3/">语音</a></li>
@@ -196,16 +301,16 @@
             <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> 清理历史记录</a></li>
           </ul>
         </div>
-        <div id="footer" class="footerFooter showFooter">       <p><a href="https://aiart.website/">🏠明文视界 AI 资源站 </a></p>
+        <div id="footer" class="footerFooter showFooter">       <p><a href="https://aiart.website/">🏠明文视界</a></p>
       <p><a href="https://jupyter.fun/"> 🏠明文氛围编程</a></p>
-      <p><a href="https://wuhao.online/"> 🏠MWAI.Studio</a></p>
+      <p><a href="https://wuhao.online/"> 🏠明文作品集</a></p>
       <p>©2025 <img src="/MW.png" ></a> 明文</a></p>
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1757663616" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1757663616" defer></script>
-    <script src="/js/featherlight.min.js?1757663616" defer></script>
+    <script src="/js/clipboard.min.js?1758541708" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1758541708" defer></script>
+    <script src="/js/featherlight.min.js?1758541708" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -235,7 +340,7 @@
       useMathJax( JSON.parse("{}") );
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="/js/jquery.svg.pan.zoom.js?1757663616" defer></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1758541708" defer></script>
     <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
@@ -244,6 +349,6 @@
     <script>
       window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
     </script>
-    <script src="/js/theme.js?1757663616" defer></script>
+    <script src="/js/theme.js?1758541708" defer></script>
   </body>
 </html>
